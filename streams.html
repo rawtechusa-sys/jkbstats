@@ -660,10 +660,13 @@ const TYPE_COLORS = {
   'superchat-tts':  '#e88a20',
   membership:       '#6bd48a',
   giftmembership:   '#1d6b3a',
+  gift:             '#c77dff',
   _other:           '#909090',
 };
 // Display name for a type key, where the key itself isn't presentable.
-const TYPE_LABELS = { 'superchat-tts': 'superchat (TTS)' };
+// 'gift' is a YouTube Gift (paid with Jewels): the chat feed gives its NAME but
+// no price, so it has no USD value -- it shows in the log, never in the pies.
+const TYPE_LABELS = { 'superchat-tts': 'superchat (TTS)', gift: 'gift (Jewels)' };
 
 // ── TTS superchat classification ────────────────────────────────────────────
 // Superchats split into plain and TTS-command ones. Kept in parity with
@@ -1417,9 +1420,9 @@ async function loadStream(streamId, refresh = false) {
     // so its donations are UNKNOWN. "$0.00 / 0 donations" would be a false claim.
     const chatRecorded = meta.chat_replay !== false;
     if (chatRecorded) {
-      cards += card('Hoard', '$' + totalUSD.toFixed(2), `${donCount} donation${donCount !== 1 ? 's' : ''}`);
+      cards += card('Hoard', '$' + fmtMoney(totalUSD), `${donCount} donation${donCount !== 1 ? 's' : ''}`);
       cards += card('Hourly Wage',
-        duration ? '$' + (totalUSD / (duration / 3600)).toFixed(2) : '—', 'per hour');
+        duration ? '$' + fmtMoney(totalUSD / (duration / 3600)) : '—', 'per hour');
     } else {
       cards += card('Hoard', 'N/A', 'not recorded');
       cards += card('Hourly Wage', 'N/A', 'not recorded');
@@ -1593,7 +1596,11 @@ async function loadStream(streamId, refresh = false) {
         const evType  = `don:${typeKey}`;
         const color   = TYPE_COLORS[typeKey] || TYPE_COLORS._other;
         if (!logTypes.has(evType)) logTypes.set(evType, { label: TYPE_LABELS[typeKey] || typeKey, color });
-        const usd     = d.amount_usd != null ? `<span class="amount-usd">$${d.amount_usd.toFixed(2)}</span>` : '<span class="amount-usd">—</span>';
+        // A YouTube Gift has no known USD value; show which gift it was instead.
+        const usd     = d.amount_usd != null ? `<span class="amount-usd">$${fmtMoney(d.amount_usd)}</span>`
+          : (String(d.type).toLowerCase() === 'gift' && d.amount_raw
+              ? `<span class="amount-usd" title="YouTube Gift: value not published">${escHtml(d.amount_raw)}</span>`
+              : '<span class="amount-usd">—</span>');
         const msg     = d.message ? `<span class="msg-cell" title="${d.message.replace(/"/g,'&quot;')}">${escHtml(d.message)}</span>` : '';
         // One chip per whitelisted TTS sound effect in the message: "(bonk)".
         const sfx     = soundsIn(d.message).map(code =>
@@ -2193,7 +2200,7 @@ function buildPie(canvasId, labels, dataArr, colors, opts) {
             label: (ctx) => {
               const v = ctx.parsed || 0;
               const pct = total ? (v / total * 100).toFixed(1) : '0.0';
-              return `${ctx.label}: $${v.toFixed(2)} (${pct}%)`;
+              return `${ctx.label}: $${fmtMoney(v)} (${pct}%)`;
             },
           },
         },
@@ -2513,7 +2520,7 @@ function buildChart(snapshots, donations, hasYTViewers, hasActiveYT, hasYTChat, 
               }
               if (y == null || Number.isNaN(y)) return null;
               switch (item.dataset.label) {
-                case DS.DONATIONS:          return ` $${y.toFixed(2)} raised so far`;
+                case DS.DONATIONS:          return ` $${fmtMoney(y)} raised so far`;
                 case DS.MEMBERS:            return ` ${Math.round(y).toLocaleString()} members`;
                 case DS.YT_CHAT:            return ` chat: ${y.toFixed(1)} mpm`;
                 case DS.YT_ACTIVE_CHATTERS: return ` active chatters: ${Math.round(y).toLocaleString()}`;

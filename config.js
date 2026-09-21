@@ -28,6 +28,13 @@ const DATA_BASE = IS_LOCAL_PREVIEW
 // ~5 minute raw.githubusercontent.com cache. 0 disables.
 const LIVE_REFRESH_SECONDS = 300;
 
+// ── Money ────────────────────────────────────────────────────────────────────────
+// Two decimals WITH thousands separators: 150994.24 -> "150,994.24". Shared by
+// every page, so a dollar figure reads the same on each tab. No "$": callers add it.
+function fmtMoney(n) {
+  return Number(n || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
 // ── Timezone ─────────────────────────────────────────────────────────────────────
 // Shared by every page. The header dropdown (index.html) writes localStorage
 // 'goblin-tz'; date helpers call getTimeZone()/withTZ() at render time, so any

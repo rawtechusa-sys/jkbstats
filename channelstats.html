@@ -620,8 +620,8 @@ function buildPage(channelStats, subsData) {
   let cards = '';
   cards += card('Subscribers', latestSubs != null ? latestSubs.toLocaleString() : '—',
                 latestSubs != null ? 'latest tracked' : 'no data yet');
-  cards += card('Lifetime Raised', '$' + lifetimeUSD.toFixed(2), `${streams.length} stream${streams.length !== 1 ? 's' : ''}`);
-  cards += card('Avg $/hr', avgRate != null ? '$' + (avgRate * 60).toFixed(2) : '—', 'per-stream average');
+  cards += card('Lifetime Raised', '$' + fmtMoney(lifetimeUSD), `${streams.length} stream${streams.length !== 1 ? 's' : ''}`);
+  cards += card('Avg $/hr', avgRate != null ? '$' + fmtMoney(avgRate * 60) : '—', 'per-stream average');
   cards += card('Peak Reach', peakReach ? peakReach.toLocaleString() : '—',
                 peakReach ? 'best concurrent viewers' : 'not recorded yet');
 
@@ -811,9 +811,9 @@ function buildChart(streams, subs) {
               }
               switch (item.dataset.label) {
                 case DS.SUBSCRIBERS:     return ` ${Math.round(y).toLocaleString()} subscribers`;
-                case DS.DON_PER_STREAM:  return ` $${y.toFixed(2)} raised`;
+                case DS.DON_PER_STREAM:  return ` $${fmtMoney(y)} raised`;
                 case DS.DON_CUMULATIVE:  return ` ${fmtMoney(y)} all-time`;
-                case DS.DON_PER_HR:      return ` $${y.toFixed(2)} / hr`;
+                case DS.DON_PER_HR:      return ` $${fmtMoney(y)} / hr`;
                 case DS.PEAK_VIEWERS:    return ` peak ${Math.round(y).toLocaleString()} viewers`;
                 case DS.AVG_VIEWERS:     return ` avg ${Math.round(y).toLocaleString()} viewers`;
                 case DS.CHAT_MPM:        return ` ${y.toFixed(1)} msg/min`;

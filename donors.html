@@ -347,6 +347,8 @@
   .type-superchat      { color: #80c8a0; border-color: rgba(80,180,120,0.35); background: rgba(40,120,70,0.2); }
   .type-membership     { color: #80c8a0; border-color: rgba(80,180,120,0.25); background: rgba(30,100,60,0.15); }
   .type-giftmembership { color: #80c8a0; border-color: rgba(80,180,120,0.25); background: rgba(30,100,60,0.15); }
+  /* YouTube Gift (Jewels): named, but with no published USD value. */
+  .type-gift           { color: #c9a0f0; border-color: rgba(170,110,230,0.30); background: rgba(110,60,170,0.15); }
 
   /* White (The Shire) theme: darker text on lighter fills for legibility. */
   html[data-theme="white"] .donations-table td {
@@ -355,6 +357,7 @@
   html[data-theme="white"] .type-superchat,
   html[data-theme="white"] .type-membership,
   html[data-theme="white"] .type-giftmembership { color: #237046; border-color: rgba(35,112,70,0.45); background: rgba(35,112,70,0.13); }
+  html[data-theme="white"] .type-gift           { color: #6a2fa0; border-color: rgba(106,47,160,0.45); background: rgba(106,47,160,0.12); }
 
   /* A donor's TTS favourites: voices "name:" keep the accent box, sound effects
      "(code)" read as a dashed pill (same split as tts.html). */
@@ -553,7 +556,7 @@ function refreshOpenPanels() {
 }
 
 function fmtUSD(n) {
-  return n > 0 ? '$' + n.toFixed(2) : '—';
+  return n > 0 ? '$' + fmtMoney(n) : '—';
 }
 
 function fmtDateTime(ts) {
