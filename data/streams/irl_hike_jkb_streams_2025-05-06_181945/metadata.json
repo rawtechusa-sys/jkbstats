@@ -1,0 +1,15 @@
+{
+  "stream_id": "irl_hike_jkb_streams_2025-05-06_181945",
+  "slug": "irl_hike_jkb_streams",
+  "title": "IRL HIKE! | JKB Streams",
+  "start_ts": 1746555585,
+  "end_ts": 1746565803,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "j6XNJG8Fnvg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

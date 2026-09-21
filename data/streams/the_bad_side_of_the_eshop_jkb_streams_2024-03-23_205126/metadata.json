@@ -1,0 +1,16 @@
+{
+  "stream_id": "the_bad_side_of_the_eshop_jkb_streams_2024-03-23_205126",
+  "slug": "the_bad_side_of_the_eshop_jkb_streams",
+  "title": "The Bad Side Of The eShop - JKB Streams",
+  "start_ts": 1711227086,
+  "end_ts": 1711245968,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "7Av2ICYb5l0",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

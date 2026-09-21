@@ -1,0 +1,15 @@
+{
+  "stream_id": "wednesday_low_support_stream_jkb_streams_2024-05-29_200525",
+  "slug": "wednesday_low_support_stream_jkb_streams",
+  "title": "Wednesday Low Support Stream | JKB Streams",
+  "start_ts": 1717013125,
+  "end_ts": 1717020375,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "1gi9LBSztYk",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

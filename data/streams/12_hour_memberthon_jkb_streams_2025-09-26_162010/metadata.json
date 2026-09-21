@@ -1,0 +1,15 @@
+{
+  "stream_id": "12_hour_memberthon_jkb_streams_2025-09-26_162010",
+  "slug": "12_hour_memberthon_jkb_streams",
+  "title": "12 HOUR MEMBERTHON! | JKB Streams",
+  "start_ts": 1758903610,
+  "end_ts": 1758946509,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "xarxIwl9wmU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

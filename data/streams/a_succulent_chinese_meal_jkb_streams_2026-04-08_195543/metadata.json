@@ -1,0 +1,16 @@
+{
+  "stream_id": "a_succulent_chinese_meal_jkb_streams_2026-04-08_195543",
+  "slug": "a_succulent_chinese_meal_jkb_streams",
+  "title": "A SUCCULENT CHINESE MEAL | JKB Streams",
+  "start_ts": 1775678143,
+  "end_ts": 1775689972,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "8lj1H7ZDu_g",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

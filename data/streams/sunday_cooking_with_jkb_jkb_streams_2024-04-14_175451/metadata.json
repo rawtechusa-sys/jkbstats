@@ -1,0 +1,15 @@
+{
+  "stream_id": "sunday_cooking_with_jkb_jkb_streams_2024-04-14_175451",
+  "slug": "sunday_cooking_with_jkb_jkb_streams",
+  "title": "Sunday Cooking With JKB - JKB Streams",
+  "start_ts": 1713117291,
+  "end_ts": 1713127107,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "GqPHBR5lljM",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

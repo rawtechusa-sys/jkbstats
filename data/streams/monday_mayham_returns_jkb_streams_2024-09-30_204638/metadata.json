@@ -1,0 +1,15 @@
+{
+  "stream_id": "monday_mayham_returns_jkb_streams_2024-09-30_204638",
+  "slug": "monday_mayham_returns_jkb_streams",
+  "title": "MONDAY MAYHAM RETURNS - JKB Streams",
+  "start_ts": 1727729198,
+  "end_ts": 1727740817,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "87c0DybvU-Q",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

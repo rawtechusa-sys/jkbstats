@@ -1,0 +1,15 @@
+{
+  "stream_id": "streaming_from_the_new_pc_jkb_streams_2024-06-12_203744",
+  "slug": "streaming_from_the_new_pc_jkb_streams",
+  "title": "Streaming From The New PC - JKB Streams",
+  "start_ts": 1718224664,
+  "end_ts": 1718238438,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "N2TAVo3Tm5g",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

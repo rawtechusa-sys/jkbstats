@@ -1,0 +1,16 @@
+{
+  "stream_id": "gamescom_2024_reaction_jkb_streams_2024-08-20_165441",
+  "slug": "gamescom_2024_reaction_jkb_streams",
+  "title": "GAMESCOM 2024 REACTION - JKB Streams",
+  "start_ts": 1724172881,
+  "end_ts": 1724185455,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "a9e40JIoZOA",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

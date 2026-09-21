@@ -1,0 +1,15 @@
+{
+  "stream_id": "its_friday_lets_hangout_jkb_streams_2025-10-10_222749",
+  "slug": "its_friday_lets_hangout_jkb_streams",
+  "title": "IT'S FRIDAY! LET'S HANGOUT! | JKB Streams",
+  "start_ts": 1760135269,
+  "end_ts": 1760138314,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "mWDJ9HYBykw",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

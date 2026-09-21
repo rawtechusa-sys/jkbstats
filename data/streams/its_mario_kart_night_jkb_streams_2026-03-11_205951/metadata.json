@@ -1,0 +1,15 @@
+{
+  "stream_id": "its_mario_kart_night_jkb_streams_2026-03-11_205951",
+  "slug": "its_mario_kart_night_jkb_streams",
+  "title": "IT'S MARIO KART NIGHT! | JKB Streams",
+  "start_ts": 1773262791,
+  "end_ts": 1773283399,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "OaF7oGXnei4",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "sunday_hangout_jkb_streams_2024-05-05_173259",
+  "slug": "sunday_hangout_jkb_streams",
+  "title": "SUNDAY HANGOUT - JKB Streams",
+  "start_ts": 1714930379,
+  "end_ts": 1714941381,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "r4T3iM89ufg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

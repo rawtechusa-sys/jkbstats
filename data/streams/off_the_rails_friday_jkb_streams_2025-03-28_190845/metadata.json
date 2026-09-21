@@ -1,0 +1,15 @@
+{
+  "stream_id": "off_the_rails_friday_jkb_streams_2025-03-28_190845",
+  "slug": "off_the_rails_friday_jkb_streams",
+  "title": "OFF THE RAILS FRIDAY | JKB Streams",
+  "start_ts": 1743188925,
+  "end_ts": 1743201650,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "ploWWDeWdLk",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

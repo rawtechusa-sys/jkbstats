@@ -1,0 +1,15 @@
+{
+  "stream_id": "shrimp_chill_thursday_jkb_streams_2025-08-07_231731",
+  "slug": "shrimp_chill_thursday_jkb_streams",
+  "title": "Shrimp & Chill Thursday | JKB Streams",
+  "start_ts": 1754608651,
+  "end_ts": 1754619086,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "eYJ2kwTsod4",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

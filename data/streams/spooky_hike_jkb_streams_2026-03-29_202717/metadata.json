@@ -1,0 +1,15 @@
+{
+  "stream_id": "spooky_hike_jkb_streams_2026-03-29_202717",
+  "slug": "spooky_hike_jkb_streams",
+  "title": "SPOOKY HIKE! | JKB Streams",
+  "start_ts": 1774816037,
+  "end_ts": 1774829365,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "pK3XBEBjT0A",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "friday_late_night_super_show_jkb_2024-04-06_013555",
+  "slug": "friday_late_night_super_show_jkb",
+  "title": "Friday Late Night Super Show | JKB",
+  "start_ts": 1712367355,
+  "end_ts": 1712373920,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "RysGdpMpwgs",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

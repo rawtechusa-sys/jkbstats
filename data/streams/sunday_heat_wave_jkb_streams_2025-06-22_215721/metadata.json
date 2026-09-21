@@ -1,0 +1,15 @@
+{
+  "stream_id": "sunday_heat_wave_jkb_streams_2025-06-22_215721",
+  "slug": "sunday_heat_wave_jkb_streams",
+  "title": "SUNDAY HEAT WAVE! | JKB Streams",
+  "start_ts": 1750629441,
+  "end_ts": 1750644147,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "zhqur2fmatg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

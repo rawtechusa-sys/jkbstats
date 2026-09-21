@@ -1,0 +1,15 @@
+{
+  "stream_id": "live_with_rerez_jkb_streams_2024-07-12_204634",
+  "slug": "live_with_rerez_jkb_streams",
+  "title": "Live With Rerez - JKB Streams",
+  "start_ts": 1720817194,
+  "end_ts": 1720827482,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "POho8voWIW0",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

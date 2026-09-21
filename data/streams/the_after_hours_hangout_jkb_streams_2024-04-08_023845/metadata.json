@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_after_hours_hangout_jkb_streams_2024-04-08_023845",
+  "slug": "the_after_hours_hangout_jkb_streams",
+  "title": "The After Hours Hangout | JKB Streams",
+  "start_ts": 1712543925,
+  "end_ts": 1712567125,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "F2bbiQLyz-o",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

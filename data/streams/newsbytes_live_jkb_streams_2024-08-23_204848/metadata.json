@@ -1,0 +1,15 @@
+{
+  "stream_id": "newsbytes_live_jkb_streams_2024-08-23_204848",
+  "slug": "newsbytes_live_jkb_streams",
+  "title": "NEWSBYTES LIVE - JKB Streams",
+  "start_ts": 1724446128,
+  "end_ts": 1724463944,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "PoSLSspjK_s",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

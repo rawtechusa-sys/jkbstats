@@ -1,0 +1,15 @@
+{
+  "stream_id": "saturday_night_hangout_jkb_streams_2024-04-27_231802",
+  "slug": "saturday_night_hangout_jkb_streams",
+  "title": "Saturday Night Hangout - JKB Streams",
+  "start_ts": 1714259882,
+  "end_ts": 1714270447,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "uA4wrLK5CJw",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

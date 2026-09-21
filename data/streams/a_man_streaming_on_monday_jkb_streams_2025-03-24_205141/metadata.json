@@ -1,0 +1,15 @@
+{
+  "stream_id": "a_man_streaming_on_monday_jkb_streams_2025-03-24_205141",
+  "slug": "a_man_streaming_on_monday_jkb_streams",
+  "title": "A Man Streaming On Monday | JKB Streams",
+  "start_ts": 1742849501,
+  "end_ts": 1742857057,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "LK4a3r2e0SQ",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,16 @@
+{
+  "stream_id": "lets_try_a_few_new_games_jkb_streams_2024-03-22_204955",
+  "slug": "lets_try_a_few_new_games_jkb_streams",
+  "title": "Let's Try A Few New Games! - JKB Streams",
+  "start_ts": 1711140595,
+  "end_ts": 1711160736,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "kYCuR3a08eE",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

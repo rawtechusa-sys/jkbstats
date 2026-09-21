@@ -1,0 +1,15 @@
+{
+  "stream_id": "murray_manipulation_jkb_streams_2024-09-07_213130",
+  "slug": "murray_manipulation_jkb_streams",
+  "title": "MURRAY MANIPULATION  - JKB Streams",
+  "start_ts": 1725744690,
+  "end_ts": 1725757026,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "sTQP_QSAsxY",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

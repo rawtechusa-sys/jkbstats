@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_secret_monday_stream_jkb_streams_2025-11-17_204218",
+  "slug": "the_secret_monday_stream_jkb_streams",
+  "title": "THE SECRET MONDAY STREAM! | JKB Streams",
+  "start_ts": 1763412138,
+  "end_ts": 1763420089,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "8cHV3uIiCv0",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

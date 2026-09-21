@@ -1,0 +1,15 @@
+{
+  "stream_id": "monday_mayham_jkb_streams_2025-12-15_212923",
+  "slug": "monday_mayham_jkb_streams",
+  "title": "MONDAY MAYHAM! | JKB Streams",
+  "start_ts": 1765834163,
+  "end_ts": 1765844315,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "w9YnC-W2-GM",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "haunted_ghost_tour_jkb_streams_2024-04-27_204833",
+  "slug": "haunted_ghost_tour_jkb_streams",
+  "title": "Haunted Ghost Tour | JKB Streams",
+  "start_ts": 1714250913,
+  "end_ts": 1714257694,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "TGApmeezl0M",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

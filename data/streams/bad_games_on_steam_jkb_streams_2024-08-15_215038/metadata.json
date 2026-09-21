@@ -1,0 +1,16 @@
+{
+  "stream_id": "bad_games_on_steam_jkb_streams_2024-08-15_215038",
+  "slug": "bad_games_on_steam_jkb_streams",
+  "title": "BAD GAMES ON STEAM - JKB Streams",
+  "start_ts": 1723758638,
+  "end_ts": 1723769696,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "WnZ9MCB6_ko",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

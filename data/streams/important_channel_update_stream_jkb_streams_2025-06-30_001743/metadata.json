@@ -1,0 +1,16 @@
+{
+  "stream_id": "important_channel_update_stream_jkb_streams_2025-06-30_001743",
+  "slug": "important_channel_update_stream_jkb_streams",
+  "title": "IMPORTANT CHANNEL UPDATE STREAM | JKB Streams",
+  "start_ts": 1751242663,
+  "end_ts": 1751254500,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "pfxOZFYt0V4",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

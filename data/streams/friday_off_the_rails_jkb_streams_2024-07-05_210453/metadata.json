@@ -1,0 +1,16 @@
+{
+  "stream_id": "friday_off_the_rails_jkb_streams_2024-07-05_210453",
+  "slug": "friday_off_the_rails_jkb_streams",
+  "title": "FRIDAY OFF THE RAILS - JKB Streams",
+  "start_ts": 1720213493,
+  "end_ts": 1720232926,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "28DPuZeP65U",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

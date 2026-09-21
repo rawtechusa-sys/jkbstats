@@ -1,0 +1,15 @@
+{
+  "stream_id": "vapist_helps_everyone_jkb_streams_2026-02-07_215725",
+  "slug": "vapist_helps_everyone_jkb_streams",
+  "title": "VAPIST HELPS EVERYONE! | JKB Streams",
+  "start_ts": 1770501445,
+  "end_ts": 1770516693,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "LbdxkvnYo3U",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "sunday_with_jaysus_jkb_streams_2024-12-01_220449",
+  "slug": "sunday_with_jaysus_jkb_streams",
+  "title": "SUNDAY WITH JAYSUS - JKB Streams",
+  "start_ts": 1733090689,
+  "end_ts": 1733105079,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "ygYhOPL2Nk8",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

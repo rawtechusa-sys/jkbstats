@@ -1,0 +1,15 @@
+{
+  "stream_id": "live_from_north_carolina_jkb_streams_2024-05-17_005220",
+  "slug": "live_from_north_carolina_jkb_streams",
+  "title": "LIVE FROM NORTH CAROLINA | JKB Streams",
+  "start_ts": 1715907140,
+  "end_ts": 1715915315,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "fnwM2eD7mAY",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

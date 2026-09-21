@@ -1,0 +1,15 @@
+{
+  "stream_id": "meet_my_best_friend_jkb_streams_2024-04-28_190032",
+  "slug": "meet_my_best_friend_jkb_streams",
+  "title": "Meet My Best Friend - JKB Streams",
+  "start_ts": 1714330832,
+  "end_ts": 1714339550,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "DFsDsqxYlYQ",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

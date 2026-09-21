@@ -1,0 +1,16 @@
+{
+  "stream_id": "game_night_chat_jkb_streams_2024-11-02_205709",
+  "slug": "game_night_chat_jkb_streams",
+  "title": "GAME NIGHT & CHAT - JKB Streams",
+  "start_ts": 1730581029,
+  "end_ts": 1730614026,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "cr2__b7BIvo",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

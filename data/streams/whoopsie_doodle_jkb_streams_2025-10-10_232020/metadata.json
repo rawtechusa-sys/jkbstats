@@ -1,0 +1,15 @@
+{
+  "stream_id": "whoopsie_doodle_jkb_streams_2025-10-10_232020",
+  "slug": "whoopsie_doodle_jkb_streams",
+  "title": "WHOOPSIE DOODLE! | JKB Streams",
+  "start_ts": 1760138420,
+  "end_ts": 1760146447,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "723gbD-oYJg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

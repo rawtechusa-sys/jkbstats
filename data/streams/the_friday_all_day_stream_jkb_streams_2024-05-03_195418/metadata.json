@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_friday_all_day_stream_jkb_streams_2024-05-03_195418",
+  "slug": "the_friday_all_day_stream_jkb_streams",
+  "title": "THE FRIDAY ALL DAY STREAM - JKB Streams",
+  "start_ts": 1714766058,
+  "end_ts": 1714784226,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "9hCYe4kHWBo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "irl_taco_adventure_jkb_streams_2024-05-09_184557",
+  "slug": "irl_taco_adventure_jkb_streams",
+  "title": "IRL TACO ADVENTURE | JKB Streams",
+  "start_ts": 1715280357,
+  "end_ts": 1715292721,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "BDJxr-h93KE",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

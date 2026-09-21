@@ -1,0 +1,15 @@
+{
+  "stream_id": "thursday_late_night_hangout_jkb_streams_2025-01-17_004428",
+  "slug": "thursday_late_night_hangout_jkb_streams",
+  "title": "THURSDAY LATE NIGHT HANGOUT - JKB Streams",
+  "start_ts": 1737074668,
+  "end_ts": 1737081849,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "wqC6mbz_l20",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

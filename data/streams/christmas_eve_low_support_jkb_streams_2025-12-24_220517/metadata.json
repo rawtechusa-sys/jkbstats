@@ -1,0 +1,15 @@
+{
+  "stream_id": "christmas_eve_low_support_jkb_streams_2025-12-24_220517",
+  "slug": "christmas_eve_low_support_jkb_streams",
+  "title": "CHRISTMAS EVE LOW SUPPORT | JKB Streams",
+  "start_ts": 1766613917,
+  "end_ts": 1766628181,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "GVpsELc1G2k",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

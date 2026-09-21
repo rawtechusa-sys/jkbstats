@@ -1,0 +1,15 @@
+{
+  "stream_id": "his_channel_is_gone_jkb_streams_2024-10-18_210724",
+  "slug": "his_channel_is_gone_jkb_streams",
+  "title": "HIS CHANNEL IS GONE? - JKB Streams",
+  "start_ts": 1729285644,
+  "end_ts": 1729298857,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "5tmcBaKH5hU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

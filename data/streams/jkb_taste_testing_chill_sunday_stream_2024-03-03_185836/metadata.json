@@ -1,0 +1,15 @@
+{
+  "stream_id": "jkb_taste_testing_chill_sunday_stream_2024-03-03_185836",
+  "slug": "jkb_taste_testing_chill_sunday_stream",
+  "title": "JKB Taste Testing - Chill Sunday Stream",
+  "start_ts": 1709492316,
+  "end_ts": 1709504899,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "YMGv39-j_aU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

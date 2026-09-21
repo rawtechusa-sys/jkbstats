@@ -1,0 +1,15 @@
+{
+  "stream_id": "low_support_friday_jkb_streams_2024-11-08_215839",
+  "slug": "low_support_friday_jkb_streams",
+  "title": "LOW SUPPORT FRIDAY - JKB Streams",
+  "start_ts": 1731103119,
+  "end_ts": 1731119824,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "Nqe07Oct7QE",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

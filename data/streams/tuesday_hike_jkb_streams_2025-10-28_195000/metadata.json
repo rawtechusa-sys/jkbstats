@@ -1,0 +1,15 @@
+{
+  "stream_id": "tuesday_hike_jkb_streams_2025-10-28_195000",
+  "slug": "tuesday_hike_jkb_streams",
+  "title": "TUESDAY HIKE! | JKB Streams",
+  "start_ts": 1761681000,
+  "end_ts": 1761690456,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "rTUu6nziJpU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

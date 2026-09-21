@@ -1,0 +1,15 @@
+{
+  "stream_id": "saturday_gout_live_jkb_streams_2024-08-10_204540",
+  "slug": "saturday_gout_live_jkb_streams",
+  "title": "SATURDAY GOUT LIVE - JKB Streams",
+  "start_ts": 1723322740,
+  "end_ts": 1723337446,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "HfoA3GyN2og",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

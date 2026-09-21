@@ -1,0 +1,15 @@
+{
+  "stream_id": "sunday_game_day_jkb_streams_2024-12-15_212103",
+  "slug": "sunday_game_day_jkb_streams",
+  "title": "SUNDAY GAME DAY - JKB Streams",
+  "start_ts": 1734297663,
+  "end_ts": 1734307944,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "UdRuUTcyWi0",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

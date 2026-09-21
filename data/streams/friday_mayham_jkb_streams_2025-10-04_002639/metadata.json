@@ -1,0 +1,15 @@
+{
+  "stream_id": "friday_mayham_jkb_streams_2025-10-04_002639",
+  "slug": "friday_mayham_jkb_streams",
+  "title": "FRIDAY MAYHAM | JKB Streams",
+  "start_ts": 1759537599,
+  "end_ts": 1759549227,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "IvKndBk1Alg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "epic_baking_fail_stream_jkb_streams_2024-04-21_174758",
+  "slug": "epic_baking_fail_stream_jkb_streams",
+  "title": "EPIC BAKING FAIL STREAM - JKB Streams",
+  "start_ts": 1713721678,
+  "end_ts": 1713729603,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "0wlqY2h6woM",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

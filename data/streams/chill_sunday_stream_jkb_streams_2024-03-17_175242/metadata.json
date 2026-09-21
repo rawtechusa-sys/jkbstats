@@ -1,0 +1,15 @@
+{
+  "stream_id": "chill_sunday_stream_jkb_streams_2024-03-17_175242",
+  "slug": "chill_sunday_stream_jkb_streams",
+  "title": "Chill Sunday Stream - JKB Streams",
+  "start_ts": 1710697962,
+  "end_ts": 1710707133,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "QCWVFSNlIDI",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

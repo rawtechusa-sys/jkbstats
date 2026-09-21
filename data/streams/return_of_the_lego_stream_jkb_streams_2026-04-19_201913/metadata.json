@@ -1,0 +1,15 @@
+{
+  "stream_id": "return_of_the_lego_stream_jkb_streams_2026-04-19_201913",
+  "slug": "return_of_the_lego_stream_jkb_streams",
+  "title": "RETURN OF THE LEGO STREAM! | JKB Streams",
+  "start_ts": 1776629953,
+  "end_ts": 1776652165,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "5PPb7OEIv5c",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

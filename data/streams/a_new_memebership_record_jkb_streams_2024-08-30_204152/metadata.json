@@ -1,0 +1,16 @@
+{
+  "stream_id": "a_new_memebership_record_jkb_streams_2024-08-30_204152",
+  "slug": "a_new_memebership_record_jkb_streams",
+  "title": "A NEW MEMEBERSHIP RECORD? - JKB Streams",
+  "start_ts": 1725050512,
+  "end_ts": 1725067419,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "1UOSKvIRBL4",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

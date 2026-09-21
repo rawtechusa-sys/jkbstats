@@ -1,0 +1,15 @@
+{
+  "stream_id": "xbox_partner_preview_live_reaction_jkb_streams_2024-10-17_161828",
+  "slug": "xbox_partner_preview_live_reaction_jkb_streams",
+  "title": "Xbox Partner Preview Live Reaction - JKB Streams",
+  "start_ts": 1729181908,
+  "end_ts": 1729190781,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "AgLozMpwFqU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

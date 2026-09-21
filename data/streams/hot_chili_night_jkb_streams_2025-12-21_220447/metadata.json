@@ -1,0 +1,15 @@
+{
+  "stream_id": "hot_chili_night_jkb_streams_2025-12-21_220447",
+  "slug": "hot_chili_night_jkb_streams",
+  "title": "HOT CHILI NIGHT! | JKB Streams",
+  "start_ts": 1766354687,
+  "end_ts": 1766363322,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "GO-quQqLpZo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

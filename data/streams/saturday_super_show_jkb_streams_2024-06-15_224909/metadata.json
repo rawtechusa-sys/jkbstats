@@ -1,0 +1,15 @@
+{
+  "stream_id": "saturday_super_show_jkb_streams_2024-06-15_224909",
+  "slug": "saturday_super_show_jkb_streams",
+  "title": "SATURDAY SUPER SHOW - JKB Streams",
+  "start_ts": 1718491749,
+  "end_ts": 1718504400,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "SCCfT4z8Mfo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

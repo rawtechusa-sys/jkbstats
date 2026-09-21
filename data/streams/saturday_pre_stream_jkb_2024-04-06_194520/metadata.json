@@ -1,0 +1,15 @@
+{
+  "stream_id": "saturday_pre_stream_jkb_2024-04-06_194520",
+  "slug": "saturday_pre_stream_jkb",
+  "title": "Saturday Pre-Stream | JKB",
+  "start_ts": 1712432720,
+  "end_ts": 1712436240,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "-alelJ9CHp8",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

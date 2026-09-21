@@ -1,0 +1,15 @@
+{
+  "stream_id": "technology_curse_jkb_streams_2024-12-28_222627",
+  "slug": "technology_curse_jkb_streams",
+  "title": "TECHNOLOGY CURSE - JKB Streams",
+  "start_ts": 1735424787,
+  "end_ts": 1735434975,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "tiHNI6nLYT8",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

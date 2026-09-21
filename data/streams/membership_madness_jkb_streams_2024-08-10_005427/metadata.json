@@ -1,0 +1,15 @@
+{
+  "stream_id": "membership_madness_jkb_streams_2024-08-10_005427",
+  "slug": "membership_madness_jkb_streams",
+  "title": "MEMBERSHIP MADNESS! - JKB Streams",
+  "start_ts": 1723251267,
+  "end_ts": 1723263055,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "3Whzvr7aSr4",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

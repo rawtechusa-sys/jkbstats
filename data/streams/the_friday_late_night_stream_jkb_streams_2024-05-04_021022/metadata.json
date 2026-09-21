@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_friday_late_night_stream_jkb_streams_2024-05-04_021022",
+  "slug": "the_friday_late_night_stream_jkb_streams",
+  "title": "THE FRIDAY LATE NIGHT STREAM | JKB Streams",
+  "start_ts": 1714788622,
+  "end_ts": 1714794755,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "3kfjVdPZCWI",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

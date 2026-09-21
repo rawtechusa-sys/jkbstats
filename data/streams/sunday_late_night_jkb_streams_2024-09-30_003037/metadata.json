@@ -1,0 +1,15 @@
+{
+  "stream_id": "sunday_late_night_jkb_streams_2024-09-30_003037",
+  "slug": "sunday_late_night_jkb_streams",
+  "title": "SUNDAY LATE NIGHT - JKB Streams",
+  "start_ts": 1727656237,
+  "end_ts": 1727669374,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "qMIEJc7t-zY",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

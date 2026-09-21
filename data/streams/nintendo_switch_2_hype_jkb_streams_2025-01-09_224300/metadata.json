@@ -1,0 +1,15 @@
+{
+  "stream_id": "nintendo_switch_2_hype_jkb_streams_2025-01-09_224300",
+  "slug": "nintendo_switch_2_hype_jkb_streams",
+  "title": "Nintendo Switch 2 Hype! - JKB Streams",
+  "start_ts": 1736462580,
+  "end_ts": 1736481133,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "GCZmxrhBTzc",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

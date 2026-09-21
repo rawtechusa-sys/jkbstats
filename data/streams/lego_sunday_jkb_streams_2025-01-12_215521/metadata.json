@@ -1,0 +1,15 @@
+{
+  "stream_id": "lego_sunday_jkb_streams_2025-01-12_215521",
+  "slug": "lego_sunday_jkb_streams",
+  "title": "LEGO SUNDAY - JKB Streams",
+  "start_ts": 1736718921,
+  "end_ts": 1736734962,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "k_feD9aDCe0",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

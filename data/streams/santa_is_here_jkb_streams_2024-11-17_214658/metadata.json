@@ -1,0 +1,15 @@
+{
+  "stream_id": "santa_is_here_jkb_streams_2024-11-17_214658",
+  "slug": "santa_is_here_jkb_streams",
+  "title": "SANTA IS HERE! - JKB Streams",
+  "start_ts": 1731880018,
+  "end_ts": 1731889342,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "izqVonns6ec",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

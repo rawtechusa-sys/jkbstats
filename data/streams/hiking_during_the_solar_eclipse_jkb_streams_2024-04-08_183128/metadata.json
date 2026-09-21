@@ -1,0 +1,15 @@
+{
+  "stream_id": "hiking_during_the_solar_eclipse_jkb_streams_2024-04-08_183128",
+  "slug": "hiking_during_the_solar_eclipse_jkb_streams",
+  "title": "Hiking During The Solar Eclipse | JKB Streams",
+  "start_ts": 1712601088,
+  "end_ts": 1712611437,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "BEmIZI0ZlFA",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

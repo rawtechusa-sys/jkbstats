@@ -1,0 +1,15 @@
+{
+  "stream_id": "i_am_oprah_now_jkb_streams_2024-09-27_204918",
+  "slug": "i_am_oprah_now_jkb_streams",
+  "title": "I AM OPRAH NOW - JKB Streams",
+  "start_ts": 1727470158,
+  "end_ts": 1727486393,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "_kMktEghOWE",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

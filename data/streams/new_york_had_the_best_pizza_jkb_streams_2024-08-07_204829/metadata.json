@@ -1,0 +1,15 @@
+{
+  "stream_id": "new_york_had_the_best_pizza_jkb_streams_2024-08-07_204829",
+  "slug": "new_york_had_the_best_pizza_jkb_streams",
+  "title": "NEW YORK HAD THE BEST PIZZA - JKB Streams",
+  "start_ts": 1723063709,
+  "end_ts": 1723073117,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "2MO1DOO17t0",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

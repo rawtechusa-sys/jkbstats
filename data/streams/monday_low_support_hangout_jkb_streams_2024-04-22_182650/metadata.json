@@ -1,0 +1,15 @@
+{
+  "stream_id": "monday_low_support_hangout_jkb_streams_2024-04-22_182650",
+  "slug": "monday_low_support_hangout_jkb_streams",
+  "title": "Monday Low Support Hangout | JKB Streams",
+  "start_ts": 1713810410,
+  "end_ts": 1713820875,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "fEnHyqA0eAo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

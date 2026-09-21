@@ -1,0 +1,16 @@
+{
+  "stream_id": "irl_friday_prestream_jkb_streams_2024-04-19_170101",
+  "slug": "irl_friday_prestream_jkb_streams",
+  "title": "IRL Friday Prestream | JKB Streams",
+  "start_ts": 1713546061,
+  "end_ts": 1713553318,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "E0r-5npvfu8",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

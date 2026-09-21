@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_haunted_hinsdale_house_jkb_streams_2026-07-02_002042",
+  "slug": "the_haunted_hinsdale_house_jkb_streams",
+  "title": "THE HAUNTED HINSDALE HOUSE! | JKB Streams",
+  "start_ts": 1782951642,
+  "end_ts": 1782972853,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "cpVbjQb-f10",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

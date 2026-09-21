@@ -1,0 +1,16 @@
+{
+  "stream_id": "more_switch_2_testing_jkb_streams_2025-06-07_225526",
+  "slug": "more_switch_2_testing_jkb_streams",
+  "title": "MORE SWITCH 2 TESTING! | JKB Streams",
+  "start_ts": 1749336926,
+  "end_ts": 1749356592,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "8PJqmcbm1k0",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

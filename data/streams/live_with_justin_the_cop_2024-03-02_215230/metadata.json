@@ -1,0 +1,15 @@
+{
+  "stream_id": "live_with_justin_the_cop_2024-03-02_215230",
+  "slug": "live_with_justin_the_cop",
+  "title": "Live WIth Justin The Cop!",
+  "start_ts": 1709416350,
+  "end_ts": 1709428402,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "1a1amB166zo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

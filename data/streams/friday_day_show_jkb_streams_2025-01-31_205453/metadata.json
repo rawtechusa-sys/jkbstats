@@ -1,0 +1,15 @@
+{
+  "stream_id": "friday_day_show_jkb_streams_2025-01-31_205453",
+  "slug": "friday_day_show_jkb_streams",
+  "title": "FRIDAY DAY SHOW! - JKB Streams",
+  "start_ts": 1738356893,
+  "end_ts": 1738368825,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "7JdFR9xIRVU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

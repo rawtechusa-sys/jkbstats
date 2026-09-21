@@ -1,0 +1,15 @@
+{
+  "stream_id": "i_met_jamie_kennedy_jkb_streams_2024-06-08_223143",
+  "slug": "i_met_jamie_kennedy_jkb_streams",
+  "title": "I Met Jamie Kennedy - JKB Streams",
+  "start_ts": 1717885903,
+  "end_ts": 1717894918,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "y9wloziRLy4",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

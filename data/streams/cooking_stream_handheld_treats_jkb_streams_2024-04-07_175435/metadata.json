@@ -1,0 +1,15 @@
+{
+  "stream_id": "cooking_stream_handheld_treats_jkb_streams_2024-04-07_175435",
+  "slug": "cooking_stream_handheld_treats_jkb_streams",
+  "title": "Cooking Stream Handheld Treats  - JKB Streams",
+  "start_ts": 1712512475,
+  "end_ts": 1712528871,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "VHAQmwoWiYo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

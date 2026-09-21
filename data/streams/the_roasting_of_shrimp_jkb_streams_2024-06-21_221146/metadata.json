@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_roasting_of_shrimp_jkb_streams_2024-06-21_221146",
+  "slug": "the_roasting_of_shrimp_jkb_streams",
+  "title": "THE ROASTING OF SHRIMP - JKB Streams",
+  "start_ts": 1719007906,
+  "end_ts": 1719034764,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "HkiCmbf_CL0",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

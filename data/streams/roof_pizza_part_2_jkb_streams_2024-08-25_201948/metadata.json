@@ -1,0 +1,15 @@
+{
+  "stream_id": "roof_pizza_part_2_jkb_streams_2024-08-25_201948",
+  "slug": "roof_pizza_part_2_jkb_streams",
+  "title": "ROOF PIZZA PART 2 - JKB Streams",
+  "start_ts": 1724617188,
+  "end_ts": 1724629981,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "PXXi-JQ-f6E",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

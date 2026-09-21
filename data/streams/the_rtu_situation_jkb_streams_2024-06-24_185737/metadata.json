@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_rtu_situation_jkb_streams_2024-06-24_185737",
+  "slug": "the_rtu_situation_jkb_streams",
+  "title": "The RTU Situation - JKB Streams",
+  "start_ts": 1719255457,
+  "end_ts": 1719269028,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "VdtlmiPOKHk",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

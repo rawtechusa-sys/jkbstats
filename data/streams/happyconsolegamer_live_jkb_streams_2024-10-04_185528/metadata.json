@@ -1,0 +1,15 @@
+{
+  "stream_id": "happyconsolegamer_live_jkb_streams_2024-10-04_185528",
+  "slug": "happyconsolegamer_live_jkb_streams",
+  "title": "HappyConsoleGamer Live - JKB Streams",
+  "start_ts": 1728068128,
+  "end_ts": 1728082984,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "bX7yY2QMEoo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

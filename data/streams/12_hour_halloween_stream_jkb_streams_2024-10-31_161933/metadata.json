@@ -1,0 +1,15 @@
+{
+  "stream_id": "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
+  "slug": "12_hour_halloween_stream_jkb_streams",
+  "title": "12 HOUR HALLOWEEN STREAM - JKB Streams",
+  "start_ts": 1730391573,
+  "end_ts": 1730434472,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "7a1PuNRyr6Q",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

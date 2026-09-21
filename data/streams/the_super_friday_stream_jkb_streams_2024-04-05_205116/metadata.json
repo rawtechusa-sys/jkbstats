@@ -1,0 +1,16 @@
+{
+  "stream_id": "the_super_friday_stream_jkb_streams_2024-04-05_205116",
+  "slug": "the_super_friday_stream_jkb_streams",
+  "title": "The Super Friday Stream  - JKB Streams",
+  "start_ts": 1712350276,
+  "end_ts": 1712367333,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "esiKBtPQP8I",
+  "start_ts_aligned": true,
+  "origin": "backfill",
+  "chat_replay": false
+}

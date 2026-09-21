@@ -1,0 +1,15 @@
+{
+  "stream_id": "meet_my_mom_jkb_streams_2024-03-30_204650",
+  "slug": "meet_my_mom_jkb_streams",
+  "title": "Meet My Mom  - JKB Streams",
+  "start_ts": 1711831610,
+  "end_ts": 1711840066,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "Wi_Cn_61i3U",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

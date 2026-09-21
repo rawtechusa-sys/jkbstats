@@ -1,0 +1,15 @@
+{
+  "stream_id": "no_rails_friday_jkb_streams_2024-05-10_195605",
+  "slug": "no_rails_friday_jkb_streams",
+  "title": "NO RAILS FRIDAY - JKB Streams",
+  "start_ts": 1715370965,
+  "end_ts": 1715380822,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "sz5oClH-tJE",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

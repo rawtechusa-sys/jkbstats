@@ -1,0 +1,15 @@
+{
+  "stream_id": "good_bye_jkb_streams_2024-12-27_220851",
+  "slug": "good_bye_jkb_streams",
+  "title": "GOOD BYE - JKB Streams",
+  "start_ts": 1735337331,
+  "end_ts": 1735353731,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "XCmsITPgDSs",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

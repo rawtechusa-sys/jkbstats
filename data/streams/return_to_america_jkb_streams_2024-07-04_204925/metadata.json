@@ -1,0 +1,15 @@
+{
+  "stream_id": "return_to_america_jkb_streams_2024-07-04_204925",
+  "slug": "return_to_america_jkb_streams",
+  "title": "RETURN TO AMERICA - JKB Streams",
+  "start_ts": 1720126165,
+  "end_ts": 1720136035,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "xQLIN3EWrrc",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

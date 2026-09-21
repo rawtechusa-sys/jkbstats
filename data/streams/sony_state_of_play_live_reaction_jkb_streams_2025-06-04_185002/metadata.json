@@ -1,0 +1,15 @@
+{
+  "stream_id": "sony_state_of_play_live_reaction_jkb_streams_2025-06-04_185002",
+  "slug": "sony_state_of_play_live_reaction_jkb_streams",
+  "title": "Sony State Of Play Live Reaction | JKB Streams",
+  "start_ts": 1749063002,
+  "end_ts": 1749075146,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "WAf8f70SMTc",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

@@ -1,0 +1,15 @@
+{
+  "stream_id": "fall_hiking_jkb_streams_2025-10-20_193324",
+  "slug": "fall_hiking_jkb_streams",
+  "title": "FALL HIKING \ud83d\uded1 | JKB Streams",
+  "start_ts": 1760988804,
+  "end_ts": 1760999682,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "osazjpUjysA",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

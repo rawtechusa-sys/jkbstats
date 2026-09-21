@@ -1,0 +1,15 @@
+{
+  "stream_id": "friday_on_the_rails_jkb_streams_2026-03-06_215557",
+  "slug": "friday_on_the_rails_jkb_streams",
+  "title": "FRIDAY ON THE RAILS! | JKB Streams",
+  "start_ts": 1772834157,
+  "end_ts": 1772847523,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "ePQtmxun8Us",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

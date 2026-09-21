@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_last_stream_of_2024_jkb_streams_2024-12-31_224627",
+  "slug": "the_last_stream_of_2024_jkb_streams",
+  "title": "THE LAST STREAM OF 2024 - JKB Streams",
+  "start_ts": 1735685187,
+  "end_ts": 1735704713,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "Mdku32_3YaU",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

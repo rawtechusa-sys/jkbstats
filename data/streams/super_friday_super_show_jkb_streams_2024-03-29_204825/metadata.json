@@ -1,0 +1,15 @@
+{
+  "stream_id": "super_friday_super_show_jkb_streams_2024-03-29_204825",
+  "slug": "super_friday_super_show_jkb_streams",
+  "title": "Super Friday Super Show!  - JKB Streams",
+  "start_ts": 1711745305,
+  "end_ts": 1711771809,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "tULy9SY-HMg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

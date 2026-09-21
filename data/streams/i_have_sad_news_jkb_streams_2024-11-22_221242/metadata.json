@@ -1,0 +1,15 @@
+{
+  "stream_id": "i_have_sad_news_jkb_streams_2024-11-22_221242",
+  "slug": "i_have_sad_news_jkb_streams",
+  "title": "I HAVE SAD NEWS - JKB Streams",
+  "start_ts": 1732313562,
+  "end_ts": 1732321626,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "yVKgfeem5q4",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

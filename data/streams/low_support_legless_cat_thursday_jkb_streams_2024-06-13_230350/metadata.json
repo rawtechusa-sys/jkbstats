@@ -1,0 +1,15 @@
+{
+  "stream_id": "low_support_legless_cat_thursday_jkb_streams_2024-06-13_230350",
+  "slug": "low_support_legless_cat_thursday_jkb_streams",
+  "title": "LOW SUPPORT LEGLESS CAT THURSDAY - JKB Streams",
+  "start_ts": 1718319830,
+  "end_ts": 1718337390,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "OP_KYYYYZc8",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

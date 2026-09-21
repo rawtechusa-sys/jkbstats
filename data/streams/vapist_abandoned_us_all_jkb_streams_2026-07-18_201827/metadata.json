@@ -1,0 +1,15 @@
+{
+  "stream_id": "vapist_abandoned_us_all_jkb_streams_2026-07-18_201827",
+  "slug": "vapist_abandoned_us_all_jkb_streams",
+  "title": "VAPIST ABANDONED US ALL | JKB Streams",
+  "start_ts": 1784405907,
+  "end_ts": 1784424166,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "eqLv_o1pwGo",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

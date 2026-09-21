@@ -1,0 +1,15 @@
+{
+  "stream_id": "the_super_friday_hangout_pre_stream_2024-04-05_191920",
+  "slug": "the_super_friday_hangout_pre_stream",
+  "title": "The Super Friday Hangout Pre-Stream",
+  "start_ts": 1712344760,
+  "end_ts": 1712349950,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "ghWrE1wFyzM",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}

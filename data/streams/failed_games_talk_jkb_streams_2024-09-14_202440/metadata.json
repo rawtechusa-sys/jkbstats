@@ -1,0 +1,15 @@
+{
+  "stream_id": "failed_games_talk_jkb_streams_2024-09-14_202440",
+  "slug": "failed_games_talk_jkb_streams",
+  "title": "FAILED GAMES TALK - JKB Streams",
+  "start_ts": 1726345480,
+  "end_ts": 1726358248,
+  "platforms": [
+    "youtube"
+  ],
+  "source_channel": "@Jayhooft",
+  "source_platform": "youtube",
+  "source_vod_id": "ikU-3dmJNlg",
+  "start_ts_aligned": true,
+  "origin": "backfill"
+}
