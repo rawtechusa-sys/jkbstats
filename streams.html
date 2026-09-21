@@ -1,0 +1,3060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Standalone guard: these pages are meant to live inside the index.html shell
+     (which owns the tabs, theme and background). If loaded top-level, bounce into
+     the shell at this page's tab, carrying any deep-link sub-slug (a stream slug
+     here) so streams.html#<slug> -> index.html#streams/<slug> stays shareable. -->
+<script>(function(){
+  if (window.self !== window.top) return;            // embedded in the shell -> normal
+  var slug = 'streams';
+  var sub  = location.hash.replace(/^#/, '');
+  location.replace('index.html#' + slug + (sub ? '/' + sub : ''));
+})();</script>
+<title>Streams</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Lora:ital,wght@0,400;0,500;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
+<script>
+  // The UMD zoom plugin auto-registers, but register explicitly as a fallback
+  // (re-registering the same plugin is a no-op in Chart.js).
+  if (window.Chart && window.ChartZoom) { try { Chart.register(window.ChartZoom); } catch (e) {} }
+</script>
+<link id="theme-css" rel="stylesheet" href="themes/goblin-cave.css">
+<style>
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: transparent;
+    color: var(--text-primary);
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    height: 100vh;
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    background: var(--bg-surface);
+    border-right: 1px solid var(--border-default);
+    overflow-y: auto;
+    padding: 0 0;
+    position: relative;
+  }
+
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-track { background: var(--bg-surface); }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bg-raised); border-radius: 2px; }
+
+  .sidebar-label {
+    font-family: 'Rye', serif;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    padding: 4px 16px 8px;
+    text-transform: uppercase;
+  }
+
+  /* ── Sidebar search (floats at top of the list while it scrolls) ── */
+  .sidebar-search {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--bg-surface);
+    padding: 10px 12px 8px;
+    border-bottom: 1px solid var(--border-default);
+  }
+
+  .sidebar-search input {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-primary);
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 4px;
+    padding: 7px 9px;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .sidebar-search input::placeholder { color: var(--text-muted); opacity: 0.7; }
+
+  .sidebar-search input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.35);
+  }
+
+  .search-noresults {
+    padding: 16px;
+    font-size: 14px;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .stream-item {
+    padding: 7px 16px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: all 0.15s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  /* First line of an item: Date | Time | Length */
+  .stream-item-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* Second line: the stream title (ellipsised) */
+  .stream-item-title {
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+  }
+  .stream-item.active .stream-item-title { color: var(--text-primary); }
+
+  .stream-item:hover {
+    background: rgba(100,180,60,0.07);
+    border-left-color: rgba(100,180,60,0.3);
+  }
+
+  .stream-item.active {
+    background: rgba(100,180,60,0.12);
+    border-left-color: var(--accent);
+  }
+
+  /* White (The Shire) theme: replace the hardcoded green highlight with the
+     theme's warm amber so the selection doesn't clash with the parchment. */
+  html[data-theme="white"] .stream-item:hover {
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.10);
+    border-left-color: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.45);
+  }
+  html[data-theme="white"] .stream-item.active {
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.16);
+  }
+
+  /* Single-line entry: Date | Time | Length */
+  .stream-item-date {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--accent);
+  }
+
+  .stream-item-time {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .stream-item-length {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .stream-item-sep {
+    font-size: 12px;
+    color: var(--border-default);
+  }
+
+  .sidebar-empty {
+    padding: 16px;
+    font-size: 15px;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* ── Content area ── */
+  .content-area {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* Stream title bar -- sits between tab bar and stats */
+  .stream-title-bar {
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-default);
+    padding: 10px 24px;
+    flex-shrink: 0;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .stream-title-text {
+    font-family: 'Rye', serif;
+    font-size: 16px;
+    color: var(--accent-bright);
+    letter-spacing: 0.03em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.9;
+  }
+
+  /* "LIVE · updated HH:MM" -- shown only while the displayed stream is still
+     live and being re-fetched (see startLiveRefresh). */
+  .live-badge {
+    margin-left: auto;
+    padding-left: 16px;
+    flex-shrink: 0;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+  .live-badge[hidden] { display: none; }
+  .live-badge .live-dot { color: #e84040; animation: flicker 2s ease-in-out infinite; }
+
+  /* ── Main content ── */
+  .main {
+    overflow-y: auto;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .main::-webkit-scrollbar { width: 4px; }
+  .main::-webkit-scrollbar-track { background: transparent; }
+  .main::-webkit-scrollbar-thumb { background: var(--bg-raised); border-radius: 2px; }
+
+  /* ── Stat cards ── */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+  }
+
+  .stat-card {
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    padding: 14px 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-bright), transparent);
+    opacity: 0.4;
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-family: 'Share Tech Mono', monospace;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .stat-value {
+    font-family: 'Rye', serif;
+    font-size: 24px;
+    color: var(--accent-bright);
+    display: block;
+    line-height: 1.1;
+    text-shadow: 0 0 12px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.3);
+  }
+
+  .stat-sub {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 3px;
+    display: block;
+    font-style: italic;
+  }
+
+  .vod-row { display: block; margin-top: 6px; font-size: 15px; }
+  .vod-missing { color: var(--text-muted); font-style: italic; opacity: 0.7; }
+
+  /* ── Chart panel ── */
+  .chart-panel {
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    padding: 16px 20px;
+  }
+
+  .chart-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  .chart-title-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .chart-title {
+    font-family: 'Rye', serif;
+    font-size: 14px;
+    color: var(--text-primary);
+    letter-spacing: 0.04em;
+  }
+
+  .chart-hint {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+    opacity: 0.7;
+    letter-spacing: 0.02em;
+  }
+
+  /* Narrow panel: the centred legend would run under the absolutely-placed
+     title block, so fitChartHeader() stacks the title above the legend. */
+  .chart-header.stacked {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .chart-header.stacked .chart-title-wrap {
+    position: static;
+    align-self: flex-start;
+  }
+
+  /* One-line caveat under the chart header (e.g. a backfilled stream has no
+     viewer counts, so the viewers line is absent rather than flat at zero). */
+  .chart-note {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .chart-legend {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  /* Each metric category is a vertical column; columns sit side-by-side. */
+  .legend-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .legend-group-title {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    opacity: 0.8;
+    margin-bottom: 1px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--text-muted);
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+  .legend-line   { width: 16px; height: 2px;  border-radius: 1px; flex-shrink: 0; }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--text-muted);
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.15s ease;
+  }
+
+  .legend-item:hover { color: var(--accent); }
+  .legend-item.hidden { opacity: 0.35; }
+
+  .chart-wrap { position: relative; width: 100%; height: 400px; }
+
+  .pie-row { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+  .pie-cell { flex: 0 0 auto; }
+  .pie-title { display: block; margin-bottom: 10px; text-align: center; }
+  /* .pie-wrap width/height are set per-pie in JS (buildPie) to hug the chart. */
+  .pie-wrap { position: relative; }
+
+  /* ── Scrub-and-zoom scrollbar ── */
+  .chart-scrollbar {
+    position: relative;
+    width: 100%;
+    height: 16px;
+    margin-top: 10px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    touch-action: none;
+  }
+  .chart-scrollbar-thumb {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(var(--accent-glow-r), var(--accent-glow-g), var(--accent-glow-b), 0.22);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    cursor: grab;
+  }
+  .chart-scrollbar-thumb:active { cursor: grabbing; }
+  .chart-scrollbar-handle {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    width: 9px;
+    cursor: ew-resize;
+  }
+  .chart-scrollbar-handle.left  { left: -1px; }
+  .chart-scrollbar-handle.right { right: -1px; }
+  .chart-scrollbar-handle::after {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px; height: 9px;
+    background: var(--accent);
+    border-radius: 1px;
+    opacity: 0.85;
+  }
+
+  /* ── Donation table ── */
+  .donations-panel {
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    padding: 16px 20px;
+  }
+
+  .donations-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .donations-title {
+    font-family: 'Rye', serif;
+    font-size: 14px;
+    color: var(--text-primary);
+    letter-spacing: 0.04em;
+  }
+
+  .log-type-badges { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
+
+  .log-filter-badge { cursor: pointer; user-select: none; }
+  .log-filter-badge.off { opacity: 0.35; }
+
+  .donations-table tr.row-hidden { display: none; }
+
+  /* Quiet pill matching .type-badge's metrics, but neutral so it doesn't read
+     as one of the type filters. */
+  .log-toggle-all {
+    margin-left: auto;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    border: 1px solid var(--border-default);
+    background: var(--bg-subtle);
+    color: var(--text-muted);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.15s ease;
+  }
+
+  .log-toggle-all:hover { color: var(--accent); }
+
+  .donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+
+  .donations-table th {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: left;
+    padding: 4px 8px 8px;
+    border-bottom: 1px solid var(--border-default);
+  }
+
+  .donations-table td {
+    padding: 8px 8px;
+    border-bottom: 1px solid rgba(100,180,60,0.07);
+    vertical-align: top;
+  }
+
+  .donations-table tr:last-child td { border-bottom: none; }
+
+  .donations-table tr:hover td {
+    background: rgba(100,180,60,0.05);
+  }
+
+  html[data-theme="white"] .donations-table td {
+    border-bottom-color: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.16);
+  }
+  html[data-theme="white"] .donations-table tr:hover td {
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.07);
+  }
+
+  /* Badge hue comes from --type-color, set inline per row from the same
+     TYPE_COLORS map the "By Type" pie uses, so a badge and its slice match.
+     Border and fill are derived from it rather than listed per type. */
+  .type-badge {
+    display: inline-block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    border: 1px solid;
+    white-space: nowrap;
+    color: var(--type-color);
+    border-color: color-mix(in srgb, var(--type-color) 40%, transparent);
+    background: color-mix(in srgb, var(--type-color) 18%, transparent);
+  }
+
+  /* White (The Shire) theme: the pie's hue, darkened to stay legible on a
+     light background. */
+  html[data-theme="white"] .type-badge {
+    color: color-mix(in srgb, var(--type-color) 72%, #000);
+    border-color: color-mix(in srgb, var(--type-color) 50%, transparent);
+    background: color-mix(in srgb, var(--type-color) 14%, transparent);
+  }
+
+  /* TTS sound-effect chip ("(bonk)") appended to a donation message. */
+  .sfx-badge { margin-left: 6px; font-size: 11px; padding: 1px 5px; }
+
+  .amount-usd { font-family: 'Share Tech Mono', monospace; color: var(--accent); font-size: 14px; }
+  .username   { color: var(--text-primary); }
+  .ts-cell    { font-family: 'Share Tech Mono', monospace; font-size: 13px; color: var(--text-muted); white-space: nowrap; }
+  .ts-link    { color: var(--accent); text-decoration: none; border-bottom: 1px dotted rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4); transition: color 0.15s ease, border-color 0.15s ease; }
+  .ts-link:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); text-shadow: 0 0 8px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4); }
+  .msg-cell   { font-family: 'Lora', serif; color: var(--text-muted); font-size: 14px; word-break: break-word; }
+
+  /* ── States ── */
+  .loading-state, .empty-state, .error-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .loading-glyph {
+    font-family: 'Rye', serif;
+    font-size: 32px;
+    color: var(--accent);
+    animation: flicker 2s ease-in-out infinite;
+  }
+
+  @keyframes flicker {
+    0%, 100% { opacity: 1; text-shadow: 0 0 20px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.6); }
+    50%       { opacity: 0.7; text-shadow: 0 0 8px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.2); }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-search">
+      <input id="streamSearch" type="search" placeholder="search streams…"
+             autocomplete="off" spellcheck="false" aria-label="Search streams">
+    </div>
+    <div id="streamList">
+      <div class="loading-state" style="height:200px;">
+        <span class="loading-glyph">~</span>
+        <span>digging in...</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-area">
+    <div class="stream-title-bar">
+      <span class="stream-title-text" id="streamTitle"></span>
+      <span class="live-badge" id="liveBadge" hidden></span>
+    </div>
+    <main class="main" id="main">
+      <div class="empty-state">
+        <span class="loading-glyph" style="font-size:40px;">☽</span>
+        <span>select a stream from the list</span>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+const RAW = DATA_BASE;   // config.js: raw.githubusercontent in production, local files on localhost
+
+let currentChart = null;
+let contributorPie = null;
+let typePie = null;
+
+// Distinct hue per donation type for the "By Type" pie; the log badges reuse it.
+const TYPE_COLORS = {
+  superchat:        '#e8c020',
+  'superchat-tts':  '#e88a20',
+  membership:       '#6bd48a',
+  giftmembership:   '#1d6b3a',
+  _other:           '#909090',
+};
+// Display name for a type key, where the key itself isn't presentable.
+const TYPE_LABELS = { 'superchat-tts': 'superchat (TTS)' };
+
+// ── TTS superchat classification ────────────────────────────────────────────
+// Superchats split into plain and TTS-command ones. Kept in parity with
+// tts.html: the regexes mirror the collector's tts_stats.py. A voice command
+// ("pooh: hello") only counts if it names a voice in tts-voices.txt; a sound
+// effect ("(bonk)") only counts if its code is in tts-sounds.txt.
+const EMOTE_RE = /:[A-Za-z0-9_-]+:/g;   // YouTube emote shortcodes (":pig:")
+const TTS_RE   = /(?<![A-Za-z0-9_])([A-Za-z0-9_]+):(?=\s|$)/g;
+const SFX_RE   = /\(([A-Za-z0-9_]+)\)/g;
+
+let VOICE_NAMES    = {};      // { lowercasedVoice: canonicalName }
+let VOICES_PROMISE = null;    // fetched once, reused across stream selections
+let SOUND_CODES    = null;    // Set of lowercase sound codes; null = list unavailable
+let SOUNDS_PROMISE = null;
+
+// Parse tts-voices.txt / tts-sounds.txt (one name per line) into { lowercased: canonical }.
+function parseVoices(text) {
+  const map = {};
+  for (const raw of (text || '').split(/\r?\n/)) {
+    const name = raw.trim();
+    if (!name || name.startsWith('#')) continue;
+    map[name.toLowerCase()] = name;
+  }
+  return map;
+}
+
+// Load the voice whitelist once. A failed fetch leaves it empty, which makes
+// isVoice permissive rather than hiding the category entirely.
+function ensureVoices() {
+  if (!VOICES_PROMISE) {
+    VOICES_PROMISE = fetchText(`${RAW}/tts-voices.txt`)
+      .then(t => { VOICE_NAMES = parseVoices(t); })
+      .catch(() => { VOICE_NAMES = {}; });
+  }
+  return VOICES_PROMISE;
+}
+
+// Load the sound whitelist once. Unlike voices, a failed fetch is NOT
+// permissive: parentheticals like "(lol)" are everywhere, so with no list there
+// are no sound badges at all.
+function ensureSounds() {
+  if (!SOUNDS_PROMISE) {
+    SOUNDS_PROMISE = fetchText(`${RAW}/tts-sounds.txt`)
+      .then(t => { SOUND_CODES = new Set(Object.keys(parseVoices(t))); })
+      .catch(() => { SOUND_CODES = null; });
+  }
+  return SOUNDS_PROMISE;
+}
+
+// A voice token needs at least one letter ("12:" in "at 12: 30" is not a voice).
+function isVoice(c) {
+  if (!/[A-Za-z]/.test(c)) return false;
+  return !Object.keys(VOICE_NAMES).length
+      || Object.prototype.hasOwnProperty.call(VOICE_NAMES, String(c).toLowerCase());
+}
+
+// Whitelisted sound codes in a message, lowercased, first-seen order, no repeats.
+function soundsIn(msg) {
+  if (!msg || !SOUND_CODES || !SOUND_CODES.size) return [];
+  const cleaned = String(msg).replace(EMOTE_RE, ' ');
+  const found = [...cleaned.matchAll(SFX_RE)].map(m => m[1].toLowerCase())
+    .filter(code => SOUND_CODES.has(code));
+  return [...new Set(found)];
+}
+
+// Replace emotes with a space (not "") so adjacent ones like ":pig::pig:" can't
+// fuse neighbouring text into a spurious match. A sound-only message counts as
+// TTS too, as it does in the collector.
+function isTtsMessage(msg) {
+  if (!msg) return false;
+  const cleaned = String(msg).replace(EMOTE_RE, ' ');
+  return [...cleaned.matchAll(TTS_RE)].some(m => isVoice(m[1])) || soundsIn(msg).length > 0;
+}
+
+// The display bucket for a donation. Only superchats split; the stored event
+// type is untouched. Single source of truth for both the pie and the log badge.
+function typeKeyFor(d) {
+  return (d.type === 'superchat' && isTtsMessage(d.message)) ? 'superchat-tts' : (d.type || '');
+}
+// Cycled categorical palette for the contributor pie ("Other" slice is grey).
+// Muted / desaturated tones so the many slices read calmly.
+const CONTRIB_PALETTE = ['#c96a6a', '#6a9bc0', '#c9b06a', '#9080c0', '#7bbf7b', '#c98f5e', '#b07fb0', '#5ea89a', '#b06a80', '#8a9bc0'];
+
+// Parallel array to the rendered sidebar rows, used by the search filter:
+// [{ el, id, startTs, title /* lowercased */ }]. Rebuilt by loadStreamList.
+let searchIndex = [];
+
+// ── Theme ─────────────────────────────────────────────────────────────────────
+const THEMES = {
+  green: { file: 'themes/goblin-cave.css',      chartGrid: 'rgba(100,180,60,0.08)',   chartTick: '#4a7038', donBar: 'rgba(100,180,60,0.75)',   donBorder: '#96d45a', tooltipBg: '#0e160e', tooltipTitle: '#7ab84a', tooltipBody: '#b8c9a0', donTick: '#4a7038',  tooltipBorder: 'rgba(100,180,60,0.4)' },
+  amber: { file: 'themes/hearth-fire.css',        chartGrid: 'rgba(196,125,42,0.08)',   chartTick: '#7a6045', donBar: 'rgba(196,125,42,0.75)',   donBorder: '#e8952a', tooltipBg: '#1c150a', tooltipTitle: '#c47d2a', tooltipBody: '#c8a97a', donTick: '#8a6030',  tooltipBorder: 'rgba(196,125,42,0.4)' },
+  grey:  { file: 'themes/misty-mountain.css',     chartGrid: 'rgba(160,160,148,0.08)',  chartTick: '#606058', donBar: 'rgba(140,140,130,0.75)',  donBorder: '#b0b0a8', tooltipBg: '#141414', tooltipTitle: '#909088', tooltipBody: '#c0c0b8', donTick: '#606058',  tooltipBorder: 'rgba(160,160,148,0.4)' },
+  void:  { file: 'themes/deep-mine.css',       chartGrid: 'rgba(255,255,255,0.08)',  chartTick: '#a0a0a0', donBar: 'rgba(200,200,200,0.75)',  donBorder: '#ffffff', tooltipBg: '#0a0a0a', tooltipTitle: '#ffffff', tooltipBody: '#f0f0f0', donTick: '#a0a0a0',  tooltipBorder: 'rgba(255,255,255,0.45)' },
+  white: { file: 'themes/the-shire.css',   chartGrid: 'rgba(120,92,38,0.14)',    chartTick: '#6a5731', donBar: 'rgba(160,109,28,0.80)',  donBorder: '#8a4d08', tooltipBg: '#fbf7ee', tooltipTitle: '#8a4d08', tooltipBody: '#2a2316', donTick: '#6a5731',  tooltipBorder: 'rgba(120,92,38,0.5)' },
+};
+
+function applyTheme(key) {
+  const t = THEMES[key] || THEMES.green;
+  document.getElementById('theme-css').href = t.file;
+  document.documentElement.setAttribute('data-theme', key);
+  if (currentChart) {
+    currentChart.options.scales.yViewers.grid.color = t.chartGrid;
+    // The chatters axis owns the grid when there is no viewer line (see chattersGrid).
+    if (currentChart.options.scales.yActiveChatters.grid.drawOnChartArea !== false)
+      currentChart.options.scales.yActiveChatters.grid.color = t.chartGrid;
+    currentChart.options.scales.x.grid.color = t.chartGrid;
+    currentChart.options.scales.x.ticks.color = t.chartTick;
+    currentChart.options.plugins.tooltip.backgroundColor = t.tooltipBg;
+    currentChart.options.plugins.tooltip.titleColor = t.tooltipTitle;
+    currentChart.options.plugins.tooltip.bodyColor = t.tooltipBody;
+    currentChart.options.plugins.tooltip.borderColor = t.tooltipBorder;
+    currentChart.update('none');
+  }
+  // Pie slice colors are fixed; re-theme the tooltip. update('none') re-runs the
+  // around-pie label plugin, which re-reads the theme for its text color.
+  for (const pie of [contributorPie, typePie]) {
+    if (!pie) continue;
+    pie.options.plugins.tooltip.backgroundColor = t.tooltipBg;
+    pie.options.plugins.tooltip.titleColor = t.tooltipTitle;
+    pie.options.plugins.tooltip.bodyColor = t.tooltipBody;
+    pie.options.plugins.tooltip.borderColor = t.tooltipBorder;
+    pie.update('none');
+  }
+}
+
+// Apply theme from localStorage on load, then listen for live updates from parent
+applyTheme(localStorage.getItem('goblin-theme') || 'green');
+window.addEventListener('message', e => {
+  if (e.data && e.data.type === 'theme') applyTheme(e.data.key);
+  // Live timezone switch: rebuild the sidebar dates and reload the selected stream.
+  else if (e.data && e.data.type === 'timezone') loadStreamList();
+  // Shell deep-link: select a stream by slug (e.g. index.html#streams/<slug>).
+  // Stash it too, so it also works if the sidebar hasn't rendered yet.
+  else if (e.data && e.data.type === 'selectstream' && e.data.slug) {
+    try { sessionStorage.setItem('selected-stream', e.data.slug); } catch (err) {}
+    selectStreamById(e.data.slug);
+  }
+});
+
+// Forward mouse position to the shell for cursor-following decorations (the
+// shell ignores these messages today; kept so it can add them back without
+// touching the pages).
+document.addEventListener('mousemove', e => {
+  try { window.parent.postMessage({ type: 'mousemove', x: e.clientX, y: e.clientY }, '*'); } catch(err) {}
+});
+document.addEventListener('mouseleave', () => {
+  try { window.parent.postMessage({ type: 'mouseleave' }, '*'); } catch(err) {}
+});
+
+// ── Utilities ──────────────────────────────────────────────────────────────────
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} ${r.statusText} — ${url}`);
+  return r.json();
+}
+
+async function fetchText(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} — ${url}`);
+  return r.text();
+}
+
+function parseJSONL(text) {
+  return text.trim().split('\n').filter(Boolean).map(l => {
+    try { return JSON.parse(l); } catch { return null; }
+  }).filter(Boolean);
+}
+
+function fmtDate(ts) {
+  return new Date(ts * 1000).toLocaleDateString('en-US', withTZ({ month:'short', day:'numeric', year:'numeric' }));
+}
+
+function fmtTime(ts) {
+  return new Date(ts * 1000).toLocaleTimeString('en-US', withTZ({ hour:'2-digit', minute:'2-digit' }));
+}
+
+function fmtDuration(secs) {
+  const h = Math.floor(secs / 3600);
+  const m = Math.floor((secs % 3600) / 60);
+  return h > 0 ? `${h}h ${m}m` : `${m}m`;
+}
+
+function elapsedSeconds(startTs, ts) {
+  return Math.max(0, Math.floor(ts - startTs));
+}
+
+function fmtElapsed(startTs, ts) {
+  const s = elapsedSeconds(startTs, ts);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  return h > 0
+    ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+    : `${m}:${String(sec).padStart(2,'0')}`;
+}
+
+function escHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Stream list ────────────────────────────────────────────────────────────────
+async function loadStreamList() {
+  const listEl = document.getElementById('streamList');
+  try {
+    // Fat index entries carry title, but legacy/pre-backfill entries may not;
+    // channel_stats.json (a dict keyed by stream_id) has them for every stream in
+    // one fetch, so fetch both in parallel and build an id->title fallback map. A
+    // failed/blocked channel_stats must not break the list -- titles just degrade
+    // to de-slugified ids.
+    const [index, titleMap] = await Promise.all([
+      fetchJSON(`${RAW}/data/streams/index.json`),
+      fetchJSON(`${RAW}/data/channel_stats.json`)
+        .then(data => {
+          // channel_stats.json is { ..., streams: { <stream_id>: {title, ...} } } --
+          // a dict keyed by stream_id, not a bare array (see channelstats.html).
+          const m = new Map();
+          for (const r of Object.values(data?.streams || {})) {
+            if (r && r.stream_id && r.title) m.set(r.stream_id, String(r.title));
+          }
+          return m;
+        })
+        .catch(() => new Map()),
+    ]);
+
+    if (index.length === 0) {
+      listEl.innerHTML = `<div class="sidebar-empty">no streams yet — check back after ${escHtml(CHANNEL_NAME)}'s next broadcast</div>`;
+      return;
+    }
+
+    let streams;
+    if (typeof index[0] === 'object' && index[0] !== null) {
+      // Fat index: each entry is {id, start_ts, end_ts, platforms} — everything
+      // the sidebar renders is already here, so no per-stream metadata fetch.
+      // The full metadata.json + events.jsonl load lazily on click (loadStream).
+      streams = index.map(e => ({ id: e.id, meta: e }));
+    } else {
+      // Legacy string-array index: fall back to fetching each metadata.json.
+      const metaResults = await Promise.allSettled(
+        index.map(id => fetchJSON(`${RAW}/data/streams/${id}/metadata.json`))
+      );
+      streams = index.map((id, i) => ({
+        id,
+        meta: metaResults[i].status === 'fulfilled' ? metaResults[i].value : null,
+      }));
+    }
+
+    // Newest-first by start_ts.
+    streams.sort((a, b) => (b.meta?.start_ts ?? 0) - (a.meta?.start_ts ?? 0));
+
+    listEl.innerHTML = '<div class="sidebar-label">Streams</div>';
+    searchIndex = [];
+
+    for (const [idx, { id, meta }] of streams.entries()) {
+      const div = document.createElement('div');
+      div.className = 'stream-item' + (idx === 0 ? ' active' : '');
+      div.dataset.id = id;
+
+      let datePart = '—';
+      let timePart = '';
+
+      if (meta?.start_ts) {
+        const utcDate = new Date(meta.start_ts * 1000);
+        // MM/DD/YY (month/day/year), in the active timezone (see config.js withTZ).
+        datePart = utcDate.toLocaleDateString('en-US', withTZ({
+          month: '2-digit', day: '2-digit', year: '2-digit'
+        }));
+        // Time only, no timezone label.
+        timePart = utcDate.toLocaleTimeString('en-US', withTZ({
+          hour: 'numeric', minute: '2-digit'
+        }));
+      }
+
+      const lengthPart = (meta?.end_ts && meta?.start_ts)
+        ? fmtDuration(meta.end_ts - meta.start_ts) : '';
+
+      // Fat index entries carry title; fall back to channel_stats.json (legacy
+      // entries / pre-backfill), then a de-slugified id (lossy, but better than nothing).
+      const title = (meta && meta.title) || titleMap.get(id) || id.replace(/_/g, ' ');
+
+      div.innerHTML = `
+        <div class="stream-item-meta">
+          <span class="stream-item-date">${datePart}</span>
+          <span class="stream-item-sep">|</span>
+          <span class="stream-item-time">${timePart}</span>
+          ${lengthPart ? `<span class="stream-item-sep">|</span><span class="stream-item-length">${lengthPart}</span>` : ''}
+        </div>
+        <div class="stream-item-title" title="${escHtml(title)}">${escHtml(title)}</div>
+      `;
+
+      div.addEventListener('click', () => {
+        document.querySelectorAll('.stream-item').forEach(el => el.classList.remove('active'));
+        div.classList.add('active');
+        sessionStorage.setItem('selected-stream', id);
+        // Tell the shell so it can reflect the selection in the parent URL as
+        // index.html#streams/<id> -- keeping the view shareable/deep-linkable.
+        if (window.parent !== window) {
+          try { window.parent.postMessage({ type: 'streamselected', slug: id }, '*'); } catch (err) {}
+        }
+        loadStream(id);
+      });
+
+      listEl.appendChild(div);
+      searchIndex.push({
+        el: div,
+        id,
+        startTs: meta?.start_ts || null,
+        title: title.toLowerCase(),
+      });
+    }
+
+    // A timezone switch re-runs loadStreamList; re-apply any active filter so date
+    // matching reflects the newly-formatted dates and the list isn't reset.
+    const searchInput = document.getElementById('streamSearch');
+    if (searchInput && searchInput.value.trim()) applyFilter(searchInput.value);
+
+    if (streams.length > 0) {
+      // Selection priority: the stream stashed by the shell / last session, else
+      // the newest. Deep links (streams.html#<slug>) arrive via the shell, which
+      // stashes the slug into sessionStorage and/or posts a 'selectstream' message
+      // (see the message handler), so we don't read location.hash here directly.
+      const selected = sessionStorage.getItem('selected-stream');
+      if (!selectStreamById(selected)) {
+        loadStream(streams[0].id);
+      }
+    }
+
+  } catch (e) {
+    listEl.innerHTML = `<div class="sidebar-empty">couldn't reach the burrow<br><small>${e.message}</small></div>`;
+  }
+}
+
+// ── Sidebar search ───────────────────────────────────────────────────────────
+// Self-contained (no fuzzy-search library): a subsequence title matcher plus a
+// multi-format/partial date parser, combined so "smash jt march 2022" requires
+// both the title fuzzy-match and the date to hold.
+
+// Order-preserving subsequence: every char of `n` appears in `h` in order.
+function isSubseq(n, h) {
+  let i = 0;
+  for (let j = 0; j < h.length && i < n.length; j++) if (h[j] === n[i]) i++;
+  return i === n.length;
+}
+function fuzzyTitleMatch(tokens, title) {
+  return tokens.every(t => isSubseq(t, title));
+}
+
+// A stream's tz-local Y/M/D, via en-CA's stable YYYY-MM-DD, so date matching agrees
+// with the MM/DD/YY shown on each row (both go through withTZ).
+function tsParts(ts) {
+  const [y, m, d] = new Date(ts * 1000)
+    .toLocaleDateString('en-CA', withTZ({ year: 'numeric', month: '2-digit', day: '2-digit' }))
+    .split('-').map(Number);
+  return { y, m, d };
+}
+
+const MONTHS = ['january','february','march','april','may','june','july',
+                'august','september','october','november','december'];
+function monthNum(w) {
+  w = w.toLowerCase().replace(/,$/, '');
+  let i = MONTHS.indexOf(w);
+  if (i >= 0) return i + 1;
+  if (w.length >= 3) { i = MONTHS.findIndex(m => m.slice(0, 3) === w.slice(0, 3)); if (i >= 0) return i + 1; }
+  return null;
+}
+
+// Expand a 2-digit year to a 4-digit one (all real data is 2000s).
+function expandYear(yy) { return yy < 70 ? 2000 + yy : 1900 + yy; }
+
+// Choose {m,d} from a numeric pair. Default US MM/DD (matches the row display);
+// switch to DD/MM only when the first number can't be a month but the second can.
+// Both > 12 -> null (no valid date).
+function monthDay(a, b) {
+  if (a >= 1 && a <= 12 && b >= 1 && b <= 31) return { m: a, d: b };   // MM/DD
+  if (a > 12 && a <= 31 && b >= 1 && b <= 12) return { m: b, d: a };   // DD/MM
+  return null;
+}
+
+// Parse one date-ish token -> partial {y?,m?,d?} or null.
+function parseDateFragment(str) {
+  // ISO-ish: 2022 | 2022-03 | 2022-03-22
+  let m = /^(\d{4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$/.exec(str);
+  if (m) {
+    const out = { y: +m[1] };
+    if (m[2] != null) out.m = +m[2];
+    if (m[3] != null) out.d = +m[3];
+    if (out.m != null && (out.m < 1 || out.m > 12)) return null;
+    if (out.d != null && (out.d < 1 || out.d > 31)) return null;
+    return out;
+  }
+  // Slash/dot numeric: A/B/C, A.B.C, A/B, A.B (year may be 4-digit anywhere, or 2-digit last)
+  const parts = str.split(/[/.]/);
+  if (parts.length === 2 || parts.length === 3) {
+    if (!parts.every(p => /^\d{1,4}$/.test(p) && p.length > 0)) return null;
+    const nums = parts.map(Number);
+    let year = null, md = null;
+    if (parts.length === 3) {
+      const yi = parts.findIndex(p => p.length === 4);
+      if (yi === 0) { year = nums[0]; md = monthDay(nums[1], nums[2]); }       // YYYY/MM/DD-ish
+      else { year = parts[2].length === 4 ? nums[2] : expandYear(nums[2]); md = monthDay(nums[0], nums[1]); }
+    } else {
+      md = monthDay(nums[0], nums[1]);                                          // A/B, no year
+    }
+    if (!md) return null;
+    const out = { m: md.m, d: md.d };
+    if (year != null) out.y = year;
+    return out;
+  }
+  return null;
+}
+
+// Split a raw query into date fragment(s) + title tokens.
+// Lone 1-2 digit numbers stay as title tokens (so titles like "top 10" aren't hijacked).
+function parseQuery(raw) {
+  const q = raw.trim().toLowerCase();
+  if (!q) return { empty: true };
+  const tokens = q.split(/\s+/);
+  const dateParts = [], titleTokens = [];
+  let i = 0;
+  while (i < tokens.length) {
+    const tok = tokens[i];
+    if (/^\d{4}$/.test(tok)
+        || /^\d{4}-\d{1,2}(-\d{1,2})?$/.test(tok)
+        || /^\d{1,4}[/.]\d{1,4}([/.]\d{1,4})?$/.test(tok)) {
+      const p = parseDateFragment(tok);
+      if (p) { dateParts.push(p); i++; continue; }
+    }
+    const mn = monthNum(tok);
+    if (mn != null) {
+      // Month name, optionally followed by a day and/or a 4-digit year.
+      let j = i + 1, day = null, year = null;
+      while (j < tokens.length) {
+        const nxt = tokens[j].replace(/,$/, '');
+        if (/^\d{4}$/.test(nxt) && year == null) { year = +nxt; j++; continue; }
+        if (/^\d{1,2}$/.test(nxt) && +nxt >= 1 && +nxt <= 31 && day == null) { day = +nxt; j++; continue; }
+        break;
+      }
+      const p = { m: mn };
+      if (day != null) p.d = day;
+      if (year != null) p.y = year;
+      dateParts.push(p);
+      i = j;
+      continue;
+    }
+    titleTokens.push(tok);
+    i++;
+  }
+  return { empty: false, dateParts, titleTokens };
+}
+
+function buildDatePredicate(parts) {
+  return (ts) => {
+    if (!ts) return false;
+    const p = tsParts(ts);
+    if (parts.y != null && p.y !== parts.y) return false;
+    if (parts.m != null && p.m !== parts.m) return false;
+    if (parts.d != null && p.d !== parts.d) return false;
+    return true;
+  };
+}
+
+function showNoResults(listEl) {
+  if (listEl.querySelector('.search-noresults')) return;
+  const div = document.createElement('div');
+  div.className = 'search-noresults';
+  div.textContent = 'no streams match…';
+  listEl.appendChild(div);
+}
+function removeNoResults(listEl) {
+  const el = listEl.querySelector('.search-noresults');
+  if (el) el.remove();
+}
+
+function applyFilter(raw) {
+  const listEl = document.getElementById('streamList');
+  const labelEl = listEl.querySelector('.sidebar-label');
+  const parsed = parseQuery(raw);
+
+  if (parsed.empty) {
+    for (const e of searchIndex) e.el.style.display = '';
+    removeNoResults(listEl);
+    if (labelEl) labelEl.textContent = 'Streams';
+    return;
+  }
+
+  const datePreds = parsed.dateParts.map(buildDatePredicate);
+  // Month names ("may", "march") are ambiguous: a date filter OR a literal title
+  // word. So besides the date-aware interpretation, also try matching the WHOLE
+  // raw query as title text -- a stream matches if EITHER holds. This is why a
+  // stream titled "may 1st part 2..." is found by "may 1st" even though it wasn't
+  // streamed in May.
+  const literalTokens = raw.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  let shown = 0;
+  for (const e of searchIndex) {
+    const dateOk    = datePreds.every(fn => fn(e.startTs));
+    const titleOk   = parsed.titleTokens.length === 0 || fuzzyTitleMatch(parsed.titleTokens, e.title);
+    const literalOk = fuzzyTitleMatch(literalTokens, e.title);
+    const ok = literalOk || (dateOk && titleOk);
+    e.el.style.display = ok ? '' : 'none';
+    if (ok) shown++;
+  }
+  if (labelEl) labelEl.textContent = shown + (shown === 1 ? ' Stream' : ' Streams');
+  if (shown === 0) showNoResults(listEl); else removeNoResults(listEl);
+}
+
+// Select a stream in the sidebar by id (mark active, scroll into view, persist,
+// load). Returns true if the stream exists in the current list, false otherwise.
+function selectStreamById(id) {
+  if (!id) return false;
+  const item = document.querySelector(`.stream-item[data-id="${CSS.escape(id)}"]`);
+  if (!item) return false;
+  document.querySelectorAll('.stream-item').forEach(el => el.classList.remove('active'));
+  item.classList.add('active');
+  item.scrollIntoView({ block: 'nearest' });
+  sessionStorage.setItem('selected-stream', id);
+  loadStream(id);
+  return true;
+}
+
+// ── Moderation events ──────────────────────────────────────────────────────────
+// Rows the collector wrote into the stream's events.jsonl. YouTube can only say
+// a moderator removed the user -- hence `removed`. `unban` rows are inferred by
+// the collector, never reported by the platform.
+const MOD_ACCENT = '255,82,82';
+const MOD_TYPE_LABELS = { ban: 'Ban', timeout: 'Timeout', unban: 'Unban', removed: 'Removed' };
+
+function modTypeLabel(type) {
+  const key = String(type == null ? '' : type).trim().toLowerCase();
+  return MOD_TYPE_LABELS[key] || (key ? key : 'Moderation');
+}
+
+// Compact duration for a timeout label: 45s / 10m / 2h / 1d.
+function modDuration(seconds) {
+  const s = Math.floor(Number(seconds));
+  if (!Number.isFinite(s) || s <= 0) return '';
+  if (s < 60) return `${s}s`;
+  if (s < 3600) return `${Math.round(s / 60)}m`;
+  if (s < 86400) return `${Math.round(s / 3600)}h`;
+  return `${Math.round(s / 86400)}d`;
+}
+
+// "Removed: someone", or "Timeout: someone (10m)" when a duration is known.
+function modLabel(ev) {
+  const dur = modDuration(ev && ev.duration);
+  return `${modTypeLabel(ev && ev.type)}: ${(ev && ev.username) || ''}` + (dur ? ` (${dur})` : '');
+}
+
+// Pull the moderation rows out of a parsed events.jsonl. A row with no username
+// is dropped: that is a removal whose channel id never appeared in chat, so
+// there is no name to put on the marker. The raw event still lives in the file.
+function normalizeModeration(events) {
+  const out = [];
+  for (const ev of (Array.isArray(events) ? events : [])) {
+    if (!ev || typeof ev !== 'object' || ev.event !== 'moderation') continue;
+    if (!Number.isFinite(ev.ts)) continue;
+    if (typeof ev.username !== 'string' || !ev.username.trim()) continue;
+    out.push(ev);
+  }
+  out.sort((a, b) => a.ts - b.ts);
+  return out;
+}
+
+// Members contributed by one donation event: 1 per membership, N per gift
+// ("5 gifted memberships"), 0 for everything else.
+// TRAP: only the gift type carries a count. A `membership` row's amount_raw is a
+// MILESTONE ("Member for 12 months"), so parsing it would turn one into twelve.
+function memberCount(ev) {
+  const type = String((ev && ev.type) || '').toLowerCase();
+  if (type === 'membership') return 1;
+  if (type === 'giftmembership') {
+    const n = parseInt(String(ev.amount_raw == null ? '' : ev.amount_raw).trim(), 10);
+    return (Number.isFinite(n) && n > 0) ? n : 1;
+  }
+  return 0;
+}
+
+// ── VOD links ──────────────────────────────────────────────────────────────────
+// The only video is the streamer's own YouTube VOD (metadata.source_vod_id), and
+// start_ts is aligned to it, so `ts - start_ts` is an exact offset. ts == null
+// links the VOD from its start. Returns null when the stream has no video.
+function vodLink(meta, ts) {
+  if (!meta || !meta.source_vod_id) return null;
+  const base = `https://www.youtube.com/watch?v=${encodeURIComponent(meta.source_vod_id)}`;
+  if (ts == null || meta.start_ts == null) return base;
+  return `${base}&t=${Math.max(0, Math.floor(ts - meta.start_ts))}s`;
+}
+
+// ── Live refresh ───────────────────────────────────────────────────────────────
+// While the displayed stream is still live (metadata.end_ts == null) its
+// metadata.json + events.jsonl are re-fetched every LIVE_REFRESH_SECONDS
+// (config.js; 0 disables) and the page re-rendered in place, keeping the chart's
+// zoom/pan, the series toggles, the log filter and the scroll position. There is
+// only ever one timer: loadStream stops it on every stream switch and again once
+// end_ts arrives. Ticks are skipped while the tab is hidden; coming back to a
+// stale view refreshes at once.
+const LIVE_REFRESH_MS = (typeof LIVE_REFRESH_SECONDS === 'number' && LIVE_REFRESH_SECONDS > 0)
+  ? LIVE_REFRESH_SECONDS * 1000 : 0;
+let liveTimer  = null;    // the single setInterval handle; null when idle
+let liveBusy   = false;   // a refresh is in flight -- don't start another
+let liveLastMs = 0;       // Date.now() of the last successful load of the live stream
+
+function setLiveBadge(on) {
+  const el = document.getElementById('liveBadge');
+  if (!el) return;
+  el.hidden = !on;
+  el.innerHTML = on
+    ? `<span class="live-dot">&#9679;</span> LIVE &middot; updated ${fmtTime(Date.now() / 1000)}`
+    : '';
+}
+
+function stopLiveRefresh() {
+  if (liveTimer != null) { clearInterval(liveTimer); liveTimer = null; }
+  setLiveBadge(false);
+}
+
+function startLiveRefresh() {
+  if (liveTimer != null || !LIVE_REFRESH_MS) return;
+  liveTimer = setInterval(liveTick, LIVE_REFRESH_MS);
+}
+
+function liveTick() {
+  if (liveTimer == null || liveBusy || document.hidden || !activeStreamId) return;
+  liveBusy = true;
+  loadStream(activeStreamId, true).finally(() => { liveBusy = false; });
+}
+
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && liveTimer != null && Date.now() - liveLastMs >= LIVE_REFRESH_MS) liveTick();
+});
+
+// What a live refresh must not reset. Series toggles need no capture: they live
+// in hiddenDatasets / localStorage and buildChart re-reads them.
+function captureView(main) {
+  const view = { scrollTop: main.scrollTop, xWindow: null };
+  if (currentChart && currentChart.scales && currentChart.scales.x && currentChart.$xFull) {
+    if (currentChart.$stopZoomAnim) currentChart.$stopZoomAnim();
+    const x = currentChart.scales.x, full = currentChart.$xFull;
+    const eps = (full.max - full.min) * 0.001;
+    // Only a zoomed/panned window is pinned; an untouched chart grows with the stream.
+    if (x.min > full.min + eps || x.max < full.max - eps) view.xWindow = { min: x.min, max: x.max };
+  }
+  return view;
+}
+
+function restoreView(main, view) {
+  if (currentChart) {
+    if (view.xWindow && currentChart.$applyRange) currentChart.$applyRange(view.xWindow.min, view.xWindow.max);
+    // The refresh drew without the intro animation (quietRender); later updates animate as usual.
+    currentChart.options.animation = { duration: 400 };
+  }
+  main.scrollTop = view.scrollTop;
+}
+
+// ── Stream detail ──────────────────────────────────────────────────────────────
+// Tracks the stream currently being viewed, so async work (e.g. the VOD
+// liveness probe) can bail if the user has since switched streams.
+let activeStreamId = null;
+// Bumped by every user-initiated load; a fetch that resolves under an older
+// number belongs to a view the user already left, and is dropped.
+let loadSeq = 0;
+// True while a live refresh re-renders: charts draw without their intro animation.
+let quietRender = false;
+// Event Log types the user filtered out. Reset per stream, kept across live refreshes.
+const logHiddenTypes = new Set();
+
+// refresh=true is the live-refresh path (liveTick): cache-busted fetches, no
+// loading state, and the view (zoom/pan, scroll, filters) carried over.
+async function loadStream(streamId, refresh = false) {
+  const main = document.getElementById('main');
+  if (!refresh) {
+    stopLiveRefresh();
+    activeStreamId = streamId;
+    loadSeq++;
+    logHiddenTypes.clear();
+    main.innerHTML = `<div class="loading-state"><span class="loading-glyph">~</span><span>digging in...</span></div>`;
+    document.getElementById('streamTitle').textContent = '';
+    // main.innerHTML above removed the pie canvases; drop their orphaned Chart instances.
+    if (contributorPie) { contributorPie.destroy(); contributorPie = null; }
+    if (typePie) { typePie.destroy(); typePie = null; }
+  }
+  const seq  = loadSeq;
+  const bust = refresh ? `?t=${Date.now()}` : '';
+  let rendering = false;
+
+  try {
+    const [meta, eventsText] = await Promise.all([
+      fetchJSON(`${RAW}/data/streams/${streamId}/metadata.json${bust}`),
+      fetchText(`${RAW}/data/streams/${streamId}/events.jsonl${bust}`),
+      ensureVoices(),   // both lists are needed before any donation is bucketed;
+      ensureSounds(),   // cached after the first stream
+    ]);
+    if (seq !== loadSeq) return;   // the user moved on while this was in flight
+
+    const view = refresh ? captureView(main) : null;
+    rendering = true;
+    quietRender = refresh;
+    if (refresh) {
+      if (contributorPie) { contributorPie.destroy(); contributorPie = null; }
+      if (typePie) { typePie.destroy(); typePie = null; }
+    }
+
+    if (meta.title) {
+      document.getElementById('streamTitle').textContent = meta.title;
+    }
+
+    const events    = parseJSONL(eventsText);
+    const snapshots = events.filter(e => e.event === 'viewer_snapshot');
+    const donations = events.filter(e => e.event === 'donation');
+    // Removals / timeouts / inferred unbans the collector recorded. Same file, no
+    // extra fetch; drops rows with no username (see normalizeModeration).
+    const moderation = normalizeModeration(events);
+
+    const startTs   = meta.start_ts;
+    const endTs     = meta.end_ts;
+    const isLive    = endTs == null;
+    // A live stream has no end yet: measure up to the newest recorded event.
+    const lastTs    = events.reduce((m, e) => Math.max(m, e.ts || 0), 0);
+    const duration  = (endTs && startTs) ? endTs - startTs
+                    : (isLive && startTs && lastTs > startTs) ? lastTs - startTs : null;
+    const peakYT    = snapshots.reduce((m, s) => Math.max(m, s.youtube || 0), 0);
+    const totalUSD  = donations.reduce((s, d) => s + (d.amount_usd || 0), 0);
+    const donCount  = donations.length;
+
+    // Viewer-data availability: a backfilled stream is rebuilt from the chat
+    // replay, and viewer counts are unrecoverable from a VOD, so every snapshot
+    // stores youtube as null. Treat that as "no data" (N/A, no viewer line, a
+    // note on the chart) rather than 0.
+    const hasYTViewers = snapshots.some(s => s.youtube);
+    const viewersNote  = 'Viewer counts were not recorded for this stream'
+      + (meta.origin === 'backfill' ? ' (rebuilt from the chat replay)' : '');
+
+    main.innerHTML = '';
+
+    // ── Stat cards ──
+    const grid = document.createElement('div');
+    grid.className = 'stat-grid';
+
+    function card(label, value, sub) {
+      return `<div class="stat-card">
+        <span class="stat-label">${label}</span>
+        <span class="stat-value">${value}</span>
+        ${sub ? `<span class="stat-sub">${sub}</span>` : ''}
+      </div>`;
+    }
+
+    let cards = '';
+    cards += card('Duration',     duration ? fmtDuration(duration) : '—',
+      fmtDate(startTs) + (isLive ? ' · live now' : ''));
+    cards += card('Peak Viewers',
+      hasYTViewers ? peakYT.toLocaleString() : 'N/A', hasYTViewers ? '' : 'not recorded');
+    cards += card('Hoard', '$' + totalUSD.toFixed(2), `${donCount} donation${donCount !== 1 ? 's' : ''}`);
+    cards += card('Hourly Wage',
+      duration ? '$' + (totalUSD / (duration / 3600)).toFixed(2) : '—', 'per hour');
+
+    // Average over the samples that exist -- a null snapshot is a collector
+    // gap, not zero viewers, and counting it would drag the average down.
+    const viewerVals = snapshots.map(s => s.youtube).filter(v => v != null);
+    const avgYT = viewerVals.length
+      ? Math.round(viewerVals.reduce((a, b) => a + b, 0) / viewerVals.length) : 0;
+    cards += card('Avg Viewers',
+      hasYTViewers ? avgYT.toLocaleString() : 'N/A', hasYTViewers ? '' : 'not recorded');
+
+    const peakActiveYT = snapshots.reduce((m, s) => Math.max(m, s.active_youtube_chatters || 0), 0);
+    if (snapshots.some(s => s.active_youtube_chatters != null)) {
+      cards += card('Peak Active Chatters', peakActiveYT.toLocaleString());
+    }
+
+    // ── VOD card ──
+    // One row: the streamer's own VOD, or a plain "no video" state without one.
+    const vodHref = vodLink(meta, null);
+    cards += `<div class="stat-card">
+      <span class="stat-label">VOD</span>
+      <span class="vod-row" id="vodRow">${vodHref
+        ? `<a class="ts-link" href="${escHtml(vodHref)}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>`
+        : `<span class="vod-missing">No video</span>`}</span>
+    </div>`;
+
+    grid.innerHTML = cards;
+    main.appendChild(grid);
+
+    // Liveness check on the VOD: if it has been taken down, swap its link for a
+    // note. A static page can't read YouTube's 404 status, but a deleted/private
+    // video serves a 120x90 placeholder thumbnail (a live one is 480x360), so
+    // naturalWidth <= 120 means it's gone. Only act on this positive signal --
+    // onerror (transient) leaves the link intact.
+    if (vodHref) {
+      const probe = new Image();
+      probe.onload = () => {
+        if (streamId !== activeStreamId) return;   // stream switched
+        if (probe.naturalWidth > 120) return;      // still up
+        const row = document.getElementById('vodRow');
+        if (row) row.innerHTML = '<span class="vod-missing">Lost in the burrow</span>';
+      };
+      probe.src = `https://i.ytimg.com/vi/${encodeURIComponent(meta.source_vod_id)}/hqdefault.jpg`;
+    }
+
+    // ── Combined chart ──
+    // A stream with neither snapshots nor donations: say so rather than leaving
+    // the page to trail off into nothing.
+    if (snapshots.length === 0 && donations.length === 0) {
+      const note = document.createElement('div');
+      note.className = 'chart-panel';
+      note.innerHTML = `<div class="empty-state" style="height:auto;padding:28px 16px;text-align:center">`
+        + (isLive
+            ? 'the burrow is still quiet — nothing recorded for this stream yet'
+            : 'an empty hoard — no chat or donation data was recorded for this stream')
+        + `</div>`;
+      main.appendChild(note);
+    }
+    if (snapshots.length > 0 || donations.length > 0) {
+      const panel = document.createElement('div');
+      panel.className = 'chart-panel';
+
+      // Gate each line on a truthy value, not != null: a metric that is 0 (or
+      // null) across every snapshot has no real activity, so its line is never
+      // drawn and its legend toggle never appears.
+      const hasActiveYT = snapshots.some(s => s.active_youtube_chatters);
+      const hasYTChat   = snapshots.some(s => s.youtube_messages_per_minute);
+
+      panel.innerHTML = `
+        <div class="chart-header">
+          <div class="chart-title-wrap">
+            <span class="chart-title">${hasYTViewers ? 'Viewers &amp; Donations' : 'Chat &amp; Donations'}</span>
+            <span class="chart-hint">scroll to zoom &middot; drag to pan &middot; double-click to reset</span>
+          </div>
+          <div class="chart-legend" id="chartLegend"></div>
+        </div>
+        ${(!hasYTViewers && snapshots.length > 0) ? `<div class="chart-note">${viewersNote}</div>` : ''}
+        <div class="chart-wrap">
+          <canvas id="streamChart" role="img" aria-label="Viewer counts, donations and chat rate over stream duration"></canvas>
+        </div>
+        <div class="chart-scrollbar" id="chartScrollbar">
+          <div class="chart-scrollbar-thumb" id="chartScrollbarThumb">
+            <div class="chart-scrollbar-handle left"></div>
+            <div class="chart-scrollbar-handle right"></div>
+          </div>
+        </div>`;
+      main.appendChild(panel);
+
+      buildChart(snapshots, donations, hasYTViewers, hasActiveYT, hasYTChat, moderation);
+      buildLegend(hasYTViewers, donations.length > 0, hasActiveYT, hasYTChat);
+      watchChartHeader(panel.querySelector('.chart-header'));
+    }
+
+    // ── Contributor & type breakdown pies ──
+    if (donations.length > 0 && totalUSD > 0) {
+      // Top contributors by total USD: top 10 named slices + one "Other" bucket.
+      const byUser = new Map();
+      for (const d of donations) {
+        if (d.amount_usd == null) continue;
+        const u = (d.username || '').replace(/^@+/, '') || '(anonymous)';
+        byUser.set(u, (byUser.get(u) || 0) + d.amount_usd);
+      }
+      const userRanked = [...byUser.entries()].sort((a, b) => b[1] - a[1]);
+      const topUsers = userRanked.slice(0, 10);
+      const otherSum = userRanked.slice(10).reduce((s, e) => s + e[1], 0);
+      const contribLabels = topUsers.map(e => e[0]);
+      const contribData   = topUsers.map(e => e[1]);
+      const contribColors = topUsers.map((_, i) => CONTRIB_PALETTE[i % CONTRIB_PALETTE.length]);
+      if (otherSum > 0) { contribLabels.push('Other'); contribData.push(otherSum); contribColors.push('#808080'); }
+
+      // Donation dollars grouped by type.
+      const byType = new Map();
+      for (const d of donations) {
+        if (d.amount_usd == null) continue;
+        const key = typeKeyFor(d);
+        byType.set(key, (byType.get(key) || 0) + d.amount_usd);
+      }
+      const typeRanked = [...byType.entries()].sort((a, b) => b[1] - a[1]);
+      const typeLabels = typeRanked.map(e => TYPE_LABELS[e[0]] || e[0]);
+      const typeData   = typeRanked.map(e => e[1]);
+      const typeColors = typeRanked.map(e => TYPE_COLORS[e[0]] || TYPE_COLORS._other);
+
+      const panel = document.createElement('div');
+      panel.className = 'pie-row';
+      panel.innerHTML = `
+        <div class="chart-panel pie-cell">
+          <span class="chart-title pie-title">Top Contributors</span>
+          <div class="pie-wrap"><canvas id="contributorPie" role="img" aria-label="Top contributors by total donation amount"></canvas></div>
+        </div>
+        <div class="chart-panel pie-cell">
+          <span class="chart-title pie-title">By Type</span>
+          <div class="pie-wrap"><canvas id="typePie" role="img" aria-label="Donation totals by type"></canvas></div>
+        </div>`;
+      main.appendChild(panel);
+
+      contributorPie = buildPie('contributorPie', contribLabels, contribData, contribColors, {
+        linkable: new Set(contribLabels.filter(l => l !== 'Other' && l !== '(anonymous)')),
+        onLabelClick: jumpToDonor,
+      });
+      typePie = buildPie('typePie', typeLabels, typeData, typeColors);
+    }
+
+    // ── Event log ──
+    // Donations and moderation events share one table.
+    if (donations.length > 0 || moderation.length > 0) {
+      const panel = document.createElement('div');
+      panel.className = 'donations-panel';
+
+      const elapsedText = ts => startTs ? fmtElapsed(startTs, ts) : fmtTime(ts);
+
+      // A row's time deep-links into the VOD at that moment (see vodLink); plain
+      // text when the stream has no video.
+      function tsLink(ts, text) {
+        const href = vodLink(meta, ts);
+        return href
+          ? `<a class="ts-link" href="${escHtml(href)}" target="_blank" rel="noopener noreferrer">${text}</a>`
+          : text;
+      }
+
+      // Filter key space for the header badges, populated as rows are built so the
+      // strip lists exactly the types this stream contains, in encounter order.
+      // Donation and moderation keys are namespaced apart.
+      const logTypes = new Map();   // key -> { label, color }
+
+      function donationRow(d) {
+        const typeKey = typeKeyFor(d);
+        const evType  = `don:${typeKey}`;
+        const color   = TYPE_COLORS[typeKey] || TYPE_COLORS._other;
+        if (!logTypes.has(evType)) logTypes.set(evType, { label: TYPE_LABELS[typeKey] || typeKey, color });
+        const usd     = d.amount_usd != null ? `<span class="amount-usd">$${d.amount_usd.toFixed(2)}</span>` : '<span class="amount-usd">—</span>';
+        const msg     = d.message ? `<span class="msg-cell" title="${d.message.replace(/"/g,'&quot;')}">${escHtml(d.message)}</span>` : '';
+        // One chip per whitelisted TTS sound effect in the message: "(bonk)".
+        const sfx     = soundsIn(d.message).map(code =>
+          `<span class="type-badge sfx-badge" style="--type-color:${TYPE_COLORS['superchat-tts']}" title="TTS sound effect">(${escHtml(code)})</span>`).join('');
+        return `<tr data-evtype="${escHtml(evType)}">
+          <td class="ts-cell">${tsLink(d.ts, elapsedText(d.ts))}</td>
+          <td><span class="username">${escHtml((d.username || '').replace(/^@+/, ''))}</span></td>
+          <td><span class="type-badge" style="--type-color:${color}">${escHtml(TYPE_LABELS[typeKey] || typeKey)}</span></td>
+          <td>${usd}</td>
+          <td>${msg}${sfx}</td>
+        </tr>`;
+      }
+
+      // A moderation event reads as a donation-shaped row: the red the chart
+      // draws its markers in, the timeout duration in the Amount column, and
+      // whatever context the collector got (a moderator, a reason -- usually
+      // neither) as the message.
+      function moderationRow(ev) {
+        const label  = modTypeLabel(ev.type);
+        const evType = `mod:${String(ev.type || '').trim().toLowerCase()}`;
+        const color  = `rgb(${MOD_ACCENT})`;
+        if (!logTypes.has(evType)) logTypes.set(evType, { label, color });
+        const dur    = modDuration(ev.duration);
+        const amount = dur ? `<span class="amount-usd">${escHtml(dur)}</span>` : '<span class="amount-usd">—</span>';
+        const parts  = [];
+        if (ev.moderator) parts.push(`by ${ev.moderator}`);
+        if (ev.reason)    parts.push(ev.reason);
+        const note   = parts.join(' · ');
+        const msg    = note ? `<span class="msg-cell" title="${note.replace(/"/g,'&quot;')}">${escHtml(note)}</span>` : '';
+        return `<tr data-evtype="${escHtml(evType)}">
+          <td class="ts-cell">${tsLink(ev.ts, elapsedText(ev.ts))}</td>
+          <td><span class="username">${escHtml(String(ev.username || '').replace(/^@+/, ''))}</span></td>
+          <td><span class="type-badge" style="--type-color:${color}">${escHtml(label)}</span></td>
+          <td>${amount}</td>
+          <td>${msg}</td>
+        </tr>`;
+      }
+
+      // Interleave by ts. The sort is stable, so a moderation event sharing a
+      // donation's second follows it.
+      const timeline = [
+        ...donations.map(d => ({ ts: d.ts, html: donationRow(d) })),
+        ...moderation.map(ev => ({ ts: ev.ts, html: moderationRow(ev) })),
+      ].sort((a, b) => a.ts - b.ts);
+      const rows = timeline.map(r => r.html).join('');
+
+      // logTypes is populated by the row builders above, so the strip is only
+      // meaningful once the rows exist. A single-type log needs no filter.
+      const badges = logTypes.size > 1
+        ? [...logTypes].map(([key, t]) =>
+            `<span class="type-badge log-filter-badge" data-evtype="${escHtml(key)}" style="--type-color:${t.color}">${escHtml(t.label)}</span>`).join('')
+        : '';
+
+      panel.innerHTML = `
+        <div class="donations-header">
+          <div class="donations-title">Event Log</div>
+          <div class="log-type-badges">${badges}</div>
+          <button class="log-toggle-all" type="button">Toggle All</button>
+        </div>
+        <table class="donations-table">
+          <thead><tr>
+            <th>Time</th><th>User</th><th>Type</th><th>Amount</th><th>Message</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+      main.appendChild(panel);
+
+      // Filter state is logHiddenTypes: loadStream clears it on every stream
+      // switch, and a live refresh re-applies it to the rebuilt rows.
+      const hiddenTypes = logHiddenTypes;
+      const badgeStrip  = panel.querySelector('.log-type-badges');
+
+      function applyLogFilter() {
+        for (const tr of panel.querySelectorAll('.donations-table tbody tr'))
+          tr.classList.toggle('row-hidden', hiddenTypes.has(tr.dataset.evtype));
+        for (const b of badgeStrip.querySelectorAll('.log-filter-badge'))
+          b.classList.toggle('off', hiddenTypes.has(b.dataset.evtype));
+      }
+
+      badgeStrip.addEventListener('click', e => {
+        const badge = e.target.closest('.log-filter-badge');
+        if (!badge) return;
+        const key = badge.dataset.evtype;
+        if (hiddenTypes.has(key)) hiddenTypes.delete(key); else hiddenTypes.add(key);
+        applyLogFilter();
+      });
+
+      panel.querySelector('.log-toggle-all').addEventListener('click', () => {
+        if (hiddenTypes.size < logTypes.size) for (const key of logTypes.keys()) hiddenTypes.add(key);
+        else hiddenTypes.clear();
+        applyLogFilter();
+      });
+
+      if (hiddenTypes.size) applyLogFilter();
+    }
+
+    if (view) restoreView(main, view);
+
+    // Keep a live stream fresh; settle (and stop the timer) once it has ended.
+    if (isLive && LIVE_REFRESH_MS) {
+      liveLastMs = Date.now();
+      setLiveBadge(true);
+      startLiveRefresh();
+    } else {
+      stopLiveRefresh();
+    }
+
+  } catch (e) {
+    // A refresh that failed to FETCH keeps the current view; the next tick retries.
+    if (refresh && !rendering) return;
+    main.innerHTML = `<div class="error-state"><span class="loading-glyph">✕</span><span>failed to load stream<br><small>${e.message}</small></span></div>`;
+  } finally {
+    quietRender = false;
+  }
+}
+
+// ── Chart ──────────────────────────────────────────────────────────────────────
+
+// Dataset label constants -- used to match datasets in legend toggle and theme update
+const DS = {
+  YT_VIEWERS:         'Viewers',
+  DONATIONS:          'Donations',
+  MEMBERS:            'Members',
+  YT_CHAT:            'Chat',
+  YT_ACTIVE_CHATTERS: 'Active Chatters',
+};
+
+// Canonical ordering for tooltip rows -- mirrors the legend columns in
+// buildLegend (Donations, Members | Viewers, Active Chatters, Msg/Min).
+const LEGEND_ORDER = [
+  DS.DONATIONS, DS.MEMBERS,
+  DS.YT_VIEWERS, DS.YT_ACTIVE_CHATTERS, DS.YT_CHAT,
+];
+
+// Tooltip keys: Chart.js can't dash its built-in line glyph, but pointStyle
+// accepts a canvas (drawPoint renders it verbatim). So we draw a small line
+// with the dataset's exact color + dash pattern and use it as the key. Cached
+// by color+dash so we don't rebuild one every tooltip render.
+const _lineKeyCache = {};
+function lineKeyCanvas(color, dash) {
+  const pattern = (dash && dash.length) ? dash.join(',') : 'solid';
+  const cacheKey = color + '|' + pattern;
+  if (_lineKeyCache[cacheKey]) return _lineKeyCache[cacheKey];
+  const w = 26, h = 10;
+  const cv = document.createElement('canvas');
+  cv.width = w; cv.height = h;
+  const cx = cv.getContext('2d');
+  cx.strokeStyle = color;
+  cx.lineWidth = 2;
+  cx.setLineDash((dash && dash.length) ? dash : []);
+  cx.beginPath();
+  cx.moveTo(1, h / 2);
+  cx.lineTo(w - 1, h / 2);
+  cx.stroke();
+  _lineKeyCache[cacheKey] = cv;
+  return cv;
+}
+
+// Persisted set of dataset labels the user has toggled off; survives stream changes.
+const hiddenDatasets = new Set(
+  JSON.parse(localStorage.getItem('stream-chart-hidden') || '[]')
+);
+
+// Show/hide each y-axis based on whether any of its datasets are currently visible.
+function syncAxisDisplay() {
+  if (!currentChart) return;
+  const axisMap = {
+    yViewers:        [DS.YT_VIEWERS],
+    yActiveChatters: [DS.YT_ACTIVE_CHATTERS],
+    yDonations:      [DS.DONATIONS],
+    yMembers:        [DS.MEMBERS],
+    yChatRate:       [DS.YT_CHAT],
+  };
+  for (const [axisId, labels] of Object.entries(axisMap)) {
+    const anyVisible = labels.some(label => {
+      const idx = currentChart.data.datasets.findIndex(d => d.label === label);
+      return idx !== -1 && currentChart.isDatasetVisible(idx);
+    });
+    currentChart.options.scales[axisId].display = anyVisible;
+  }
+  currentChart.update('none');
+}
+
+// ── Smooth (non-snapping) y-axis auto-fit ───────────────────────────────────
+// When the x-axis is zoomed/panned, Chart.js fits each y-axis to ONLY the points
+// inside the visible x-window. That inclusion is binary, so the y-scale snaps the
+// instant a tall/short point crosses the visible edge. To make the scale move
+// continuously, smoothYExtent() computes each axis's min/max itself, letting
+// off-screen points still contribute with a weight that decays with distance past
+// the edge -- so a peak's influence fades in/out instead of popping. The plugin
+// that applies this lives inline in the Chart config (see "smoothYFit").
+const MARGIN_FRAC = 0.6;       // off-screen influence band, as a fraction of the visible range
+const Y_HEADROOM = 0.05;       // top padding, mirroring Chart.js's auto headroom
+const ANCHOR_MIN_ZERO = false; // keep the floating min (set true to floor every axis at 0)
+
+// Smoothstep falloff: 1 at the visible edge (u<=0), 0 beyond the band (u>=1), with a
+// continuous slope between. w=1 exactly at the edge so an off-screen point matches its
+// own value the moment it scrolls into view -- that equality at the crossing is what
+// removes the snap.
+function falloff(u) {
+  if (u <= 0) return 1;
+  if (u >= 1) return 0;
+  return 1 - (3 * u * u - 2 * u * u * u);
+}
+
+// Pin the smoothYFit x-window to the live x-scale. The scrollbar paths set $xWindow
+// explicitly before each instant zoomScale; the zoom plugin's chart-body pan/pinch
+// instead move the live x-scale directly, so call this from their onPan/onZoom so the
+// y-axes refit to the new region instead of staying pinned to the old window.
+function syncXWindow(chart) {
+  const x = chart.scales && chart.scales.x;
+  if (!x || !isFinite(x.min) || !isFinite(x.max)) return;
+  chart.$xWindow = { min: x.min, max: x.max };
+}
+
+// Set true (or `currentChart.$smoothYDebug = true` from devtools) to cross-check
+// the bounded fast path against the linear reference on every call and warn on any
+// divergence. Off in production -- the bounded path is proven equivalent below.
+const SMOOTH_Y_DEBUG = false;
+
+// First index i with xs[i] >= target (in [0, xs.length]). xs is sorted ascending.
+function lowerBound(xs, target) {
+  let lo = 0, hi = xs.length;
+  while (lo < hi) { const mid = (lo + hi) >> 1; if (xs[mid] < target) lo = mid + 1; else hi = mid; }
+  return lo;
+}
+// First index i with xs[i] > target (in [0, xs.length]).
+function upperBound(xs, target) {
+  let lo = 0, hi = xs.length;
+  while (lo < hi) { const mid = (lo + hi) >> 1; if (xs[mid] <= target) lo = mid + 1; else hi = mid; }
+  return lo;
+}
+
+// Reference implementation: a full linear scan of every point of every visible set.
+// O(N x datasets). Used as the fallback when sets don't share the chart's x-grid,
+// and as the oracle for SMOOTH_Y_DEBUG. The bounded path returns identical results.
+function windowExtentLinear(sets, xmin, xmax) {
+  const R = xmax - xmin;
+  const M = MARGIN_FRAC * R;
+
+  // Pass 1: extent of points strictly inside the window.
+  let visMin = Infinity, visMax = -Infinity, haveInterior = false;
+  // Track the nearest bracketing point on each side for the empty-interior fallback.
+  let leftPt = null, leftDist = Infinity, rightPt = null, rightDist = Infinity;
+  for (const data of sets) for (const p of data) {
+    if (p.y == null || Number.isNaN(p.y)) continue;
+    if (p.x >= xmin && p.x <= xmax) {
+      haveInterior = true;
+      if (p.y < visMin) visMin = p.y;
+      if (p.y > visMax) visMax = p.y;
+    } else if (p.x < xmin) {
+      const d = xmin - p.x;
+      if (d < leftDist) { leftDist = d; leftPt = p; }
+    } else {
+      const d = p.x - xmax;
+      if (d < rightDist) { rightDist = d; rightPt = p; }
+    }
+  }
+
+  if (!haveInterior) {
+    // Window sits between samples: seed the extent from the nearest bracketing
+    // point(s) at full value so the axis stays meaningful (it can't fade to a
+    // collapsed range). It meets the interior case continuously: the instant such
+    // a point scrolls in it becomes visMin/visMax directly.
+    const seeds = [];
+    if (leftPt)  seeds.push(leftPt.y);
+    if (rightPt) seeds.push(rightPt.y);
+    if (seeds.length === 0) return null;
+    visMin = Math.min(...seeds);
+    visMax = Math.max(...seeds);
+  }
+
+  // Pass 2: let off-screen points pull the envelope outward, fading with distance.
+  // Each point's faded candidate is measured from the interior extent (visMin/visMax),
+  // and we keep the most extreme candidate -- a nearer, lower peak must not overwrite a
+  // farther, taller one, so compare candidates, not raw values.
+  let yMin = visMin, yMax = visMax;
+  for (const data of sets) for (const p of data) {
+    if (p.y == null || Number.isNaN(p.y)) continue;
+    if (p.x >= xmin && p.x <= xmax) continue;
+    const d = p.x < xmin ? xmin - p.x : p.x - xmax;
+    const w = M > 0 ? falloff(d / M) : 0;
+    if (w === 0) continue;
+    if (p.y > visMax) {
+      const cand = visMax + w * (p.y - visMax);
+      if (cand > yMax) yMax = cand;
+    } else if (p.y < visMin) {
+      const cand = visMin + w * (p.y - visMin);
+      if (cand < yMin) yMin = cand;
+    }
+  }
+
+  return padExtent(yMin, yMax);
+}
+
+// Bounded fast path: identical result to windowExtentLinear, but binary-searches the
+// shared x-grid `xs` (data[i].x === xs[i] for every set) so it only touches the visible
+// window plus the off-screen margin band [edge-M, edge]. Points beyond M have falloff
+// weight 0 (skipped today too), so excluding them changes nothing; min/max are
+// order-independent, so scanning point-major instead of dataset-major is equivalent.
+function windowExtentBounded(sets, xs, xmin, xmax) {
+  const n = xs.length;
+  const R = xmax - xmin;
+  const M = MARGIN_FRAC * R;
+
+  const iLo   = lowerBound(xs, xmin);   // first index inside the window (x >= xmin)
+  const iHiEx = upperBound(xs, xmax);   // one past the window (first x > xmax)
+
+  // Pass 1: interior extent, scanning only [iLo, iHiEx). haveInterior tracks a real
+  // non-null sample (an all-null interior must still fall through to the bracket seed).
+  let visMin = Infinity, visMax = -Infinity, haveInterior = false;
+  for (const data of sets) {
+    for (let i = iLo; i < iHiEx; i++) {
+      const y = data[i].y;
+      if (y == null || Number.isNaN(y)) continue;
+      haveInterior = true;
+      if (y < visMin) visMin = y;
+      if (y > visMax) visMax = y;
+    }
+  }
+
+  if (!haveInterior) {
+    // Nearest non-null sample just left, then just right, of the window. Walking
+    // outward from the boundary and taking the first set with a value at that index
+    // reproduces the linear scan's nearest-by-distance, iteration-order tiebreak.
+    let leftY = null, rightY = null;
+    for (let i = iLo - 1; i >= 0 && leftY === null; i--) {
+      for (const data of sets) {
+        const y = data[i].y;
+        if (y != null && !Number.isNaN(y)) { leftY = y; break; }
+      }
+    }
+    for (let i = iHiEx; i < n && rightY === null; i++) {
+      for (const data of sets) {
+        const y = data[i].y;
+        if (y != null && !Number.isNaN(y)) { rightY = y; break; }
+      }
+    }
+    const seeds = [];
+    if (leftY !== null)  seeds.push(leftY);
+    if (rightY !== null) seeds.push(rightY);
+    if (seeds.length === 0) return null;
+    visMin = Math.min(...seeds);
+    visMax = Math.max(...seeds);
+  }
+
+  // Pass 2: off-screen falloff, restricted to the margin bands. leftStart/rightEnd
+  // bound the scan to x within M of the edge; the w === 0 guard still drops the exact
+  // boundary, so the band may be a harmless superset of the contributing points.
+  let yMin = visMin, yMax = visMax;
+  const apply = (i, d) => {
+    const w = M > 0 ? falloff(d / M) : 0;
+    if (w === 0) return;
+    for (const data of sets) {
+      const y = data[i].y;
+      if (y == null || Number.isNaN(y)) continue;
+      if (y > visMax) {
+        const cand = visMax + w * (y - visMax);
+        if (cand > yMax) yMax = cand;
+      } else if (y < visMin) {
+        const cand = visMin + w * (y - visMin);
+        if (cand < yMin) yMin = cand;
+      }
+    }
+  };
+  const leftStart = lowerBound(xs, xmin - M);
+  for (let i = leftStart; i < iLo; i++) apply(i, xmin - xs[i]);
+  const rightEnd = upperBound(xs, xmax + M);
+  for (let i = iHiEx; i < rightEnd; i++) apply(i, xs[i] - xmax);
+
+  return padExtent(yMin, yMax);
+}
+
+// Distance-weighted [min,max] for one y-axis over its currently-visible datasets.
+// Returns null when the axis has no usable data (caller then leaves Chart's default).
+function smoothYExtent(chart, axisId) {
+  // Resolve the intended x-window. $xWindow is stashed wherever the window is driven
+  // (pan/zoom/reset); fall back to the live x-scale, then to the full data extent so
+  // the very first render (before the scrollbar is wired) matches today's full fit.
+  let xmin, xmax;
+  if (chart.$xWindow) { xmin = chart.$xWindow.min; xmax = chart.$xWindow.max; }
+  else if (chart.scales.x && isFinite(chart.scales.x.min)) { xmin = chart.scales.x.min; xmax = chart.scales.x.max; }
+
+  const sets = [];
+  chart.data.datasets.forEach((ds, i) => {
+    if (ds.yAxisID === axisId && chart.isDatasetVisible(i)) sets.push(ds.data);
+  });
+  if (sets.length === 0) return null;
+
+  // If we still have no x-window, fit the full extent of the visible data.
+  if (xmin == null || !isFinite(xmin) || !isFinite(xmax)) {
+    let lo = Infinity, hi = -Infinity;
+    for (const data of sets) for (const p of data) {
+      if (p.y == null || Number.isNaN(p.y)) continue;
+      if (p.y < lo) lo = p.y;
+      if (p.y > hi) hi = p.y;
+    }
+    if (lo > hi) return null;
+    return padExtent(lo, hi);
+  }
+
+  // Fast path requires the shared x-grid with every visible set aligned to it.
+  const xs = chart.$xs;
+  let aligned = Array.isArray(xs) && xs.length > 0;
+  if (aligned) for (const data of sets) { if (data.length !== xs.length) { aligned = false; break; } }
+  if (!aligned) return windowExtentLinear(sets, xmin, xmax);
+
+  const result = windowExtentBounded(sets, xs, xmin, xmax);
+
+  if (SMOOTH_Y_DEBUG || chart.$smoothYDebug) {
+    const ref = windowExtentLinear(sets, xmin, xmax);
+    const close = (a, b) => (a == null && b == null) ||
+      (a != null && b != null && Math.abs(a.min - b.min) < 1e-9 && Math.abs(a.max - b.max) < 1e-9);
+    if (!close(result, ref)) console.warn('[smoothYExtent] bounded != linear', { axisId, xmin, xmax, result, ref });
+  }
+
+  return result;
+}
+
+// Add headroom and guarantee min < max for a finite [lo,hi] pair.
+function padExtent(lo, hi) {
+  let range = hi - lo;
+  if (range <= 0) range = Math.max(Math.abs(hi), 1) * 0.1;
+  hi += Y_HEADROOM * range;
+  if (ANCHOR_MIN_ZERO) lo = Math.min(lo, 0);
+  if (hi <= lo) hi = lo + (Math.max(Math.abs(lo), 1) * 0.1);
+  return { min: lo, max: hi };
+}
+
+// Tick label callback that clamps tick values to whole numbers. With bounds:'data'
+// the axis edges (and thus the first/last tick) sit at the exact smooth min/max,
+// which are fractional -- so round every tick to an integer and drop a label that
+// repeats the previous tick's rounded value (the fractional edge tick can collide
+// with its neighbour in tight ranges). `fmt` renders the final integer.
+function intTick(fmt) {
+  return (v, i, ticks) => {
+    const r = Math.round(v);
+    if (i > 0 && Math.round(ticks[i - 1].value) === r) return null;
+    return fmt(r);
+  };
+}
+
+// Pie label geometry. Labels are laid out in a vertical column on each side and
+// joined to their slice by an elbowed leader line; the canvas is sized (buildPie)
+// to fit the widest label so nothing is truncated or clipped.
+const PIE_LABEL_FONT = "12px 'Share Tech Mono', monospace";
+const PIE_LEADER = 26, PIE_STUB = 8, PIE_GAP = 6, PIE_LINE_H = 24, PIE_DIAM = 190, PIE_TOP_PAD = 64, PIE_BOT_PAD = 32;
+let _pieMeasureCtx = null;
+function measurePieLabel(text) {
+  if (!_pieMeasureCtx) _pieMeasureCtx = document.createElement('canvas').getContext('2d');
+  _pieMeasureCtx.font = PIE_LABEL_FONT;
+  return _pieMeasureCtx.measureText(text).width;
+}
+
+// Relax label slot y's into non-overlapping positions within [top, bottom],
+// keeping >= PIE_LINE_H between neighbours. items must be sorted by idealY.
+// After packing, the block is re-centered on the labels' ideal centroid so a
+// cluster of slices spreads both above and below (using the headroom) instead
+// of piling downward from the topmost slice.
+function layoutPieColumn(items, top, bottom) {
+  const n = items.length;
+  if (!n) return;
+  for (const it of items) it.y = it.idealY;
+  for (let i = 1; i < n; i++) if (items[i].y < items[i - 1].y + PIE_LINE_H) items[i].y = items[i - 1].y + PIE_LINE_H;
+  let idealSum = 0, curSum = 0;
+  for (const it of items) { idealSum += it.idealY; curSum += it.y; }
+  const shift = (idealSum - curSum) / n;   // <= 0 (packing only pushed down)
+  for (const it of items) it.y += shift;
+  if (items[0].y < top) { const d = top - items[0].y; for (const it of items) it.y += d; }
+  if (items[n - 1].y > bottom) {
+    items[n - 1].y = bottom;
+    for (let i = n - 2; i >= 0; i--) if (items[i].y > items[i + 1].y - PIE_LINE_H) items[i].y = items[i + 1].y - PIE_LINE_H;
+  }
+}
+
+// Lays out each slice's label in a vertical column on its side with an elbowed
+// leader line to the slice — no overlap even when small slices cluster at one
+// angle. Reads the live theme each draw so label color follows a theme switch
+// on the next update('none').
+const pieOutLabels = {
+  id: 'pieOutLabels',
+  afterDraw(chart) {
+    const meta = chart.getDatasetMeta(0);
+    if (!meta || !meta.data.length) return;
+    const ds = chart.data.datasets[0];
+    const { ctx } = chart;
+    const theme = THEMES[localStorage.getItem('goblin-theme') || 'green'] || THEMES.green;
+
+    // Group slices into a left / right column by which way they face.
+    const left = [], right = [];
+    meta.data.forEach((arc, i) => {
+      if (!ds.data[i]) return;
+      const p = arc.getProps(['x', 'y', 'outerRadius', 'startAngle', 'endAngle'], true);
+      const mid = (p.startAngle + p.endAngle) / 2;
+      const cos = Math.cos(mid), sin = Math.sin(mid);
+      const rightSide = cos >= 0;
+      (rightSide ? right : left).push({
+        edgeX: p.x + cos * p.outerRadius, edgeY: p.y + sin * p.outerRadius,
+        elbowX: p.x + cos * (p.outerRadius + PIE_STUB), elbowY: p.y + sin * (p.outerRadius + PIE_STUB),
+        idealY: p.y + sin * p.outerRadius, rightSide,
+        labelX: rightSide ? p.x + p.outerRadius + PIE_LEADER : p.x - p.outerRadius - PIE_LEADER,
+        label: String(chart.data.labels[i] ?? ''),
+      });
+    });
+
+    const top = 8, bottom = chart.height - 8;
+    left.sort((a, b) => a.idealY - b.idealY);
+    right.sort((a, b) => a.idealY - b.idealY);
+    layoutPieColumn(left, top, bottom);
+    layoutPieColumn(right, top, bottom);
+
+    ctx.save();
+    ctx.font = PIE_LABEL_FONT;
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = theme.chartTick;
+    ctx.strokeStyle = theme.chartTick;   // one theme color for every leader line
+    ctx.lineWidth = 1;
+    // Rebuilt each draw; the canvas click/hover handlers (buildPie) hit-test it.
+    chart._labelBoxes = [];
+    for (const o of left.concat(right)) {
+      ctx.beginPath();
+      ctx.moveTo(o.edgeX, o.edgeY);
+      ctx.lineTo(o.elbowX, o.elbowY);
+      ctx.lineTo(o.labelX + (o.rightSide ? -PIE_GAP : PIE_GAP), o.y);
+      ctx.stroke();
+      ctx.textAlign = o.rightSide ? 'left' : 'right';
+      ctx.fillText(o.label, o.labelX, o.y);
+      const w = ctx.measureText(o.label).width;
+      const x0 = o.rightSide ? o.labelX : o.labelX - w;
+      const linkable = !!(chart.$linkable && chart.$linkable.has(o.label));
+      if (linkable) { ctx.beginPath(); ctx.moveTo(x0, o.y + 8); ctx.lineTo(x0 + w, o.y + 8); ctx.stroke(); }
+      chart._labelBoxes.push({ label: o.label, x0, y0: o.y - 8, x1: x0 + w, y1: o.y + 8, linkable });
+    }
+    ctx.restore();
+  },
+};
+
+// Which label box (if any) a pointer event falls on, in canvas CSS pixels.
+function hitPieLabel(chart, ev) {
+  const boxes = chart._labelBoxes;
+  if (!boxes) return null;
+  const x = ev.offsetX, y = ev.offsetY;
+  for (const b of boxes) if (x >= b.x0 && x <= b.x1 && y >= b.y0 && y <= b.y1) return b;
+  return null;
+}
+
+// Navigate the shell to the Donors tab focused on a given donor, in the SAME page
+// (mirrors donors.html's jumpToStream): stash the user, ask the shell to switch
+// tabs; the donors iframe reloads and reads 'selected-donor' on load (that
+// sessionStorage key is donors.html's contract -- rename both together).
+function jumpToDonor(user) {
+  if (!user) return;
+  try { sessionStorage.setItem('selected-donor', user); } catch (e) {}
+  if (window.parent && window.parent !== window) {
+    try { window.parent.postMessage({ type: 'navigate', slug: 'donors' }, '*'); return; } catch (e) {}
+  }
+  window.location.href = 'index.html#donors';
+}
+
+// A themed doughnut for the contributor / type breakdowns. dataArr values are USD;
+// the tooltip shows "<label>: $<amount> (<pct>%)". Returns the Chart (or null).
+// opts (optional): { linkable: Set<label>, onLabelClick: fn(label) } makes the
+// listed labels clickable (used to link contributor usernames to their donors page).
+function buildPie(canvasId, labels, dataArr, colors, opts) {
+  const el = document.getElementById(canvasId);
+  if (!el) return null;
+  const t = THEMES[localStorage.getItem('goblin-theme') || 'green'] || THEMES.green;
+  const total = dataArr.reduce((s, v) => s + v, 0);
+
+  // Size the canvas to its content: pad each side for the leader plus the widest
+  // (untruncated) label so the fit-content card hugs the chart and nothing clips.
+  let maxLabel = 0;
+  labels.forEach((l, i) => { if (dataArr[i]) maxLabel = Math.max(maxLabel, measurePieLabel(String(l))); });
+  const sidePad = Math.ceil(PIE_LEADER + maxLabel + PIE_GAP + 2);
+  const wrap = el.parentElement;
+  if (wrap) {
+    wrap.style.width = (PIE_DIAM + 2 * sidePad) + 'px';
+    wrap.style.height = (PIE_DIAM + PIE_TOP_PAD + PIE_BOT_PAD) + 'px';
+  }
+
+  const chart = new Chart(el, {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: dataArr, backgroundColor: colors, borderWidth: 0 }] },
+    plugins: [pieOutLabels],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      // A live refresh redraws in place: no spin-in (see quietRender).
+      animation: quietRender ? false : { duration: 1000 },
+      layout: { padding: { left: sidePad, right: sidePad, top: PIE_TOP_PAD, bottom: PIE_BOT_PAD } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: t.tooltipBg, titleColor: t.tooltipTitle, bodyColor: t.tooltipBody,
+          borderColor: t.tooltipBorder, borderWidth: 1,
+          callbacks: {
+            label: (ctx) => {
+              const v = ctx.parsed || 0;
+              const pct = total ? (v / total * 100).toFixed(1) : '0.0';
+              return `${ctx.label}: $${v.toFixed(2)} (${pct}%)`;
+            },
+          },
+        },
+      },
+    },
+  });
+
+  // Clickable labels: the plugin underlines linkable ones and records hitboxes.
+  if (opts && opts.onLabelClick) {
+    chart.$linkable = opts.linkable || null;
+    el.addEventListener('mousemove', (ev) => {
+      const b = hitPieLabel(chart, ev);
+      el.style.cursor = (b && b.linkable) ? 'pointer' : 'default';
+    });
+    el.addEventListener('mouseleave', () => { el.style.cursor = 'default'; });
+    el.addEventListener('click', (ev) => {
+      const b = hitPieLabel(chart, ev);
+      if (b && b.linkable) opts.onLabelClick(b.label);
+    });
+  }
+  return chart;
+}
+
+function buildChart(snapshots, donations, hasYTViewers, hasActiveYT, hasYTChat, moderation = []) {
+  if (currentChart) {
+    if (currentChart.$stopZoomAnim) currentChart.$stopZoomAnim();   // no easing frame may outlive its chart
+    currentChart.destroy();
+    currentChart = null;
+  }
+
+  const ctx = document.getElementById('streamChart');
+  if (!ctx) return;
+
+  const snapshotData = snapshots.map(s => ({
+    x:          s.ts * 1000,
+    yt:         s.youtube ?? null,
+    ytMpm:      s.youtube_messages_per_minute ?? null,
+    ytActive:   s.active_youtube_chatters     ?? null,
+  }));
+
+  // Bucket donations onto the snapshot index grid so the bar dataset shares the
+  // same index space as the line series. This keeps mode:'index' tooltips
+  // coherent (every dataset's index i is the same timestamp) and prevents a
+  // sparse donation bar from hijacking the nearest-index lookup. Per-donation
+  // detail is preserved in the donation log table below.
+  const donationByIndex = new Array(snapshotData.length).fill(0);
+  if (snapshotData.length > 0) {
+    for (const d of donations) {
+      const dx = d.ts * 1000;
+      let nearest = 0, best = Infinity;
+      for (let i = 0; i < snapshotData.length; i++) {
+        const dist = Math.abs(snapshotData[i].x - dx);
+        if (dist < best) { best = dist; nearest = i; }
+        else if (dist > best) break;  // x is sorted ascending; distance is convex
+      }
+      donationByIndex[nearest] += (d.amount_usd || 0);
+    }
+  }
+  // Running total across the snapshot grid: the donation line is the cumulative
+  // money raised up to each point, so it climbs with each donation and plateaus
+  // at the stream total. Every index carries a value, making the line solid.
+  const donationCumByIndex = new Array(snapshotData.length).fill(0);
+  {
+    let running = 0;
+    for (let i = 0; i < snapshotData.length; i++) {
+      running += donationByIndex[i];
+      donationCumByIndex[i] = running;
+    }
+  }
+  const hasDonations = donations.length > 0 && snapshotData.length > 0;
+
+  // Members: the same nearest-index bucketing and running total as the donation
+  // series, but counting heads instead of money (memberCount: 1 per membership,
+  // N per gift, 0 for everything else).
+  const memberByIndex = new Array(snapshotData.length).fill(0);
+  if (snapshotData.length > 0) {
+    for (const d of donations) {
+      const count = memberCount(d);
+      if (count <= 0) continue;
+      const dx = d.ts * 1000;
+      let nearest = 0, best = Infinity;
+      for (let i = 0; i < snapshotData.length; i++) {
+        const dist = Math.abs(snapshotData[i].x - dx);
+        if (dist < best) { best = dist; nearest = i; }
+        else if (dist > best) break;  // x is sorted ascending; distance is convex
+      }
+      memberByIndex[nearest] += count;
+    }
+  }
+  const memberCumByIndex = new Array(snapshotData.length).fill(0);
+  {
+    let running = 0;
+    for (let i = 0; i < snapshotData.length; i++) {
+      running += memberByIndex[i];
+      memberCumByIndex[i] = running;
+    }
+  }
+  const hasMembers = memberCumByIndex.length > 0 && memberCumByIndex[memberCumByIndex.length - 1] > 0;
+
+  // Time label for the chart x-axis ticks and tooltip, in the active timezone
+  // (Goblin/Local/UTC -- see config.js withTZ). Chart.js reformats every tick on every
+  // pan/zoom frame, so cache the Intl formatter (rebuilt only when the TZ changes) and
+  // memoize per millisecond rather than constructing a formatter on each call.
+  let _dtfTz = false, _dtf = null;
+  const _dtMemo = new Map();
+  function fmtET(ms) {
+    const tz = getTimeZone();
+    if (tz !== _dtfTz) {
+      _dtfTz = tz;
+      _dtf = new Intl.DateTimeFormat('en-US', withTZ({ hour: 'numeric', minute: '2-digit' }));
+      _dtMemo.clear();
+    }
+    let s = _dtMemo.get(ms);
+    if (s === undefined) { s = _dtf.format(new Date(ms)); _dtMemo.set(ms, s); }
+    return s;
+  }
+
+  // Cached + memoized integer tick formatters for the y-axes. Same reason as fmtET:
+  // ticks are reformatted every frame, and a fresh Intl.NumberFormat per call (which is
+  // what Number.toLocaleString() does) dominated the pan profile. One shared formatter
+  // (default locale, matching the old toLocaleString) plus a per-value memo.
+  const _tickNumFmt = new Intl.NumberFormat();
+  const _numMemo = new Map();
+  const fmtTickInt = v => { let s = _numMemo.get(v); if (s === undefined) { s = _tickNumFmt.format(v); _numMemo.set(v, s); } return s; };
+  const _dollarMemo = new Map();
+  const fmtTickDollar = v => { let s = _dollarMemo.get(v); if (s === undefined) { s = '$' + _tickNumFmt.format(v); _dollarMemo.set(v, s); } return s; };
+
+  const t = THEMES[localStorage.getItem('goblin-theme') || 'green'] || THEMES.green;
+  const datasets = [];
+
+  // ── Viewer series ──
+  // A null viewer sample means the collector had no data for that minute, not
+  // zero viewers. Nulls stay null and spanGaps bridges them; the bridged
+  // segment is drawn dashed (gapDash) so interpolation is visible as such.
+  const gapDash = { borderDash: c => (c.p0.skip || c.p1.skip) ? [5, 5] : undefined };
+
+  // One platform, so colour encodes the METRIC (and matches that metric's axis):
+  // viewers cyan, active chatters grey dotted, msg/min blue dashed.
+  if (hasYTViewers && snapshotData.length > 0) {
+    datasets.push({
+      label: DS.YT_VIEWERS,
+      hidden: hiddenDatasets.has(DS.YT_VIEWERS),
+      data: snapshotData.map(s => ({ x: s.x, y: s.yt })),
+      type: 'line',
+      borderColor: '#40c4ff',
+      backgroundColor: 'rgba(64,196,255,0.08)',
+      borderWidth: 2, pointRadius: 0, pointHoverRadius: 4,
+      tension: 0.3, fill: true, spanGaps: true, segment: gapDash,
+      yAxisID: 'yViewers',
+    });
+  }
+
+  // ── Active chatter series ──
+  // Built from the full snapshotData (null where missing) so indices stay
+  // aligned with the viewer series; spanGaps bridges the nulls visually.
+  if (hasActiveYT) {
+    datasets.push({
+      label: DS.YT_ACTIVE_CHATTERS,
+      hidden: hiddenDatasets.has(DS.YT_ACTIVE_CHATTERS),
+      data: snapshotData.map(s => ({ x: s.x, y: s.ytActive })),
+      type: 'line',
+      borderColor: '#909090',
+      backgroundColor: 'transparent',
+      borderWidth: 2, borderDash: [2, 2],
+      pointRadius: 0, pointHoverRadius: 4,
+      tension: 0.3, fill: false, spanGaps: true,
+      yAxisID: 'yActiveChatters',
+    });
+  }
+
+  // ── Donations (cumulative) ──
+  if (hasDonations) {
+    datasets.push({
+      label: DS.DONATIONS,
+      hidden: hiddenDatasets.has(DS.DONATIONS),
+      data: snapshotData.map((s, i) => ({
+        x: s.x,
+        y: donationCumByIndex[i],
+      })),
+      type: 'line',
+      borderColor: '#e8c020',
+      backgroundColor: 'rgba(232,192,32,0.12)',
+      borderWidth: 2,
+      pointRadius: 0, pointHoverRadius: 4,
+      // Stepped, not interpolated: the total is flat between donations and jumps
+      // at the snapshot that first includes the money ('after' puts the riser at
+      // that snapshot's x, where the donation was bucketed).
+      tension: 0,
+      stepped: 'after',
+      fill: true,
+      yAxisID: 'yDonations',
+    });
+  }
+
+  // ── Members (cumulative count) ──
+  // Stepped like the donation total, on its own count axis -- it is heads, not
+  // dollars, and the two scales have nothing to do with each other.
+  if (hasMembers) {
+    datasets.push({
+      label: DS.MEMBERS,
+      hidden: hiddenDatasets.has(DS.MEMBERS),
+      data: snapshotData.map((s, i) => ({
+        x: s.x,
+        y: memberCumByIndex[i],
+      })),
+      type: 'line',
+      borderColor: 'rgb(255,120,200)',
+      backgroundColor: 'transparent',
+      borderWidth: 2,
+      pointRadius: 0, pointHoverRadius: 4,
+      tension: 0,
+      stepped: 'after',
+      fill: false,
+      yAxisID: 'yMembers',
+    });
+  }
+
+  // ── Chat rate series ──
+  // Built from the full snapshotData so indices align with the other series
+  // (mode:'index' tooltips match by index, not by x). Missing samples map to
+  // null and are bridged with spanGaps; the tooltip label fills them in.
+  if (hasYTChat && snapshotData.length > 0) {
+    datasets.push({
+      label: DS.YT_CHAT,
+      hidden: hiddenDatasets.has(DS.YT_CHAT),
+      data: snapshotData.map(s => ({ x: s.x, y: s.ytMpm })),
+      type: 'line',
+      borderColor: '#82b1ff',
+      backgroundColor: 'transparent',
+      borderWidth: 2, borderDash: [8, 3],
+      pointRadius: 0, pointHoverRadius: 4,
+      tension: 0.3, fill: false, spanGaps: true,
+      yAxisID: 'yChatRate',
+    });
+  }
+
+  // For a series with gaps (null y at some indices), return the value at idx,
+  // or the nearest non-null value by index distance. Lets the tooltip show every
+  // stat at the hovered position even where that stat has no exact sample.
+  function nearestValue(dataArr, idx) {
+    const at = dataArr[idx];
+    if (at && at.y != null && !Number.isNaN(at.y)) return at.y;
+    for (let d = 1; d < dataArr.length; d++) {
+      const lo = dataArr[idx - d];
+      if (lo && lo.y != null && !Number.isNaN(lo.y)) return lo.y;
+      const hi = dataArr[idx + d];
+      if (hi && hi.y != null && !Number.isNaN(hi.y)) return hi.y;
+    }
+    return null;
+  }
+
+  // Is at least one dataset for this axis group present in this stream AND not hidden by the user?
+  function axisHasVisibleDs(labels) {
+    return labels.some(l => datasets.some(d => d.label === l) && !hiddenDatasets.has(l));
+  }
+
+  // Moderation marker visibility (persisted; default on). Closed over by the
+  // moderationMarks plugin below and toggled from the legend.
+  let showModeration = localStorage.getItem('stream-chart-moderation') !== '0';
+
+  // With no viewer line (backfilled stream) the chatters axis carries the
+  // horizontal grid instead, so the plot is never left without one.
+  const chattersGrid = hasYTViewers ? { drawOnChartArea: false } : { color: t.chartGrid };
+
+  currentChart = new Chart(ctx, {
+    type: 'bar',
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      // Data is already pre-sorted, unique-by-x {x,y} (the shared snapshot grid),
+      // so skip Chart.js's per-update parse/sort pass entirely.
+      parsing: false,
+      normalized: true,
+      interaction: { mode: 'index', intersect: false },
+      // A live refresh redraws in place: no intro animation (see restoreView).
+      animation: quietRender ? false : { duration: 400 },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: t.tooltipBg,
+          borderColor: t.tooltipBorder,
+          borderWidth: 1,
+          titleColor: t.tooltipTitle,
+          bodyColor: t.tooltipBody,
+          titleFont: { family: "'Share Tech Mono', monospace", size: 11 },
+          bodyFont:  { family: "'Lora', serif", size: 13 },
+          // Draw each row's key as a line matching the dataset's color AND dash
+          // pattern (see lineKeyCanvas) so the tooltip key mirrors the chart line.
+          usePointStyle: true,
+          boxWidth: 26,
+          boxHeight: 10,
+          boxPadding: 6,
+          // Order tooltip rows to match the legend on top of the chart.
+          itemSort: (a, b) => LEGEND_ORDER.indexOf(a.dataset.label) - LEGEND_ORDER.indexOf(b.dataset.label),
+          // Donations only show when that bucket actually has a donation.
+          // Continuous series always show -- the label callback fills gaps with
+          // the nearest sample, so every stat appears whenever the tooltip is up.
+          filter: item => {
+            if (item.dataset.yAxisID === 'yDonations') {
+              return item.parsed.y != null && !Number.isNaN(item.parsed.y);
+            }
+            return true;
+          },
+          callbacks: {
+            title: items => fmtET(items[0].parsed.x),
+            // Key = a short line in the dataset's color + dash pattern.
+            labelPointStyle: item => ({
+              pointStyle: lineKeyCanvas(item.dataset.borderColor, item.dataset.borderDash),
+              rotation: 0,
+            }),
+            label: item => {
+              const isDon = item.dataset.yAxisID === 'yDonations';
+              let y = item.parsed.y;
+              if (!isDon && (y == null || Number.isNaN(y))) {
+                y = nearestValue(item.dataset.data, item.dataIndex);
+              }
+              if (y == null || Number.isNaN(y)) return null;
+              switch (item.dataset.label) {
+                case DS.DONATIONS:          return ` $${y.toFixed(2)} raised so far`;
+                case DS.MEMBERS:            return ` ${Math.round(y).toLocaleString()} members`;
+                case DS.YT_CHAT:            return ` chat: ${y.toFixed(1)} mpm`;
+                case DS.YT_ACTIVE_CHATTERS: return ` active chatters: ${Math.round(y).toLocaleString()}`;
+                default:                    return ` ${Math.round(y).toLocaleString()} viewers`;
+              }
+            }
+          }
+        },
+        // X-axis zoom/pan. Wheel + pinch zoom and drag-to-pan, clamped to the
+        // stream's own time range. Double-click the chart to reset (see below).
+        zoom: {
+          pan: {
+            enabled: true, mode: 'x',
+            // Sync $xWindow to the live x-scale so smoothYFit refits the y-axes to the
+            // panned region (the scrollbar drag does the same at line ~1560). Without
+            // this the y-scale stays pinned to the pre-drag window.
+            onPan: ({ chart }) => { syncXWindow(chart); chart.$updateScrollbar && chart.$updateScrollbar(); },
+          },
+          zoom: {
+            // Wheel zoom is handled manually in setupScrollbar so it can be eased
+            // and less sensitive; pinch stays on the plugin for touch devices.
+            wheel: { enabled: false },
+            pinch: { enabled: true },
+            mode: 'x',
+            onZoom: ({ chart }) => { syncXWindow(chart); chart.$updateScrollbar && chart.$updateScrollbar(); },
+          },
+          limits: { x: { min: 'original', max: 'original' } },
+        },
+      },
+      scales: {
+        x: {
+          type: 'linear',
+          offset: false, // override the bar-chart default so lines span edge-to-edge (no slot padding that grows when zoomed)
+          grid: { color: t.chartGrid },
+          ticks: {
+            color: t.chartTick,
+            font: { family: "'Share Tech Mono', monospace", size: 15 },
+            callback: v => fmtET(v),
+            maxTicksLimit: 10,
+          }
+        },
+        yViewers: {
+          type: 'linear',
+          position: 'left',
+          display: axisHasVisibleDs([DS.YT_VIEWERS]),
+          bounds: 'data', // keep smoothYFit's exact min/max; 'ticks' (default) would round them to tick steps and re-snap the scale
+          grid: { color: t.chartGrid },
+          ticks: {
+            color: '#40c4ff',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+            callback: intTick(fmtTickInt),
+            precision: 0,
+            maxTicksLimit: 6,
+          },
+          title: {
+            display: true,
+            text: 'viewers',
+            color: '#40c4ff',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+          },
+        },
+        yActiveChatters: {
+          type: 'linear',
+          position: 'left',
+          display: axisHasVisibleDs([DS.YT_ACTIVE_CHATTERS]),
+          bounds: 'data',
+          grid: chattersGrid,
+          ticks: {
+            color: '#909090',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+            callback: intTick(fmtTickInt),
+            precision: 0,
+            maxTicksLimit: 5,
+          },
+          title: {
+            display: true,
+            text: 'chatters',
+            color: '#909090',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+          },
+        },
+        yDonations: {
+          type: 'linear',
+          position: 'right',
+          display: axisHasVisibleDs([DS.DONATIONS]),
+          bounds: 'data',
+          grid: { drawOnChartArea: false },
+          ticks: {
+            color: '#e8c020',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+            callback: intTick(fmtTickDollar),
+            precision: 0,
+            maxTicksLimit: 5,
+          },
+          title: { display: false },
+        },
+        yMembers: {
+          type: 'linear',
+          position: 'right',
+          display: axisHasVisibleDs([DS.MEMBERS]),
+          bounds: 'data',
+          grid: { drawOnChartArea: false },
+          ticks: {
+            color: 'rgb(255,120,200)',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+            callback: intTick(fmtTickInt),
+            precision: 0,
+            maxTicksLimit: 5,
+          },
+          title: {
+            display: true,
+            text: 'members',
+            color: 'rgb(255,120,200)',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+          },
+        },
+        yChatRate: {
+          type: 'linear',
+          position: 'right',
+          display: axisHasVisibleDs([DS.YT_CHAT]),
+          bounds: 'data',
+          grid: { drawOnChartArea: false },
+          ticks: {
+            color: '#82b1ff',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+            callback: intTick(fmtTickInt),
+            precision: 0,
+            maxTicksLimit: 5,
+          },
+          title: {
+            display: true,
+            text: 'msg / min',
+            color: '#82b1ff',
+            font: { family: "'Share Tech Mono', monospace", size: 14 },
+          },
+        },
+      }
+    },
+    plugins: [{
+      // Override each y-axis's auto-fit with the distance-weighted envelope so the
+      // scale moves continuously during x zoom/pan instead of snapping. Runs on every
+      // update (incl. the 'none'-mode zoomScale frames), reads state and writes
+      // scale.min/max in place -- no re-entrant update(), so no animation loop.
+      id: 'smoothYFit',
+      afterDataLimits(chart, args) {
+        const scale = args.scale;
+        if (!scale || scale.axis !== 'y') return;       // leave the x-axis to the zoom plugin
+        if (scale.options.display === false) return;     // skip hidden axes
+        const ext = smoothYExtent(chart, scale.id);      // scale.id === 'yViewers', etc.
+        if (!ext) return;
+        scale.min = ext.min;
+        scale.max = ext.max;
+      },
+    }, {
+      // Moderation markers, drawn ON TOP of the data: a dotted red line per
+      // event with a square head on the bottom edge, and a "Removed: name"
+      // label beside it. Labels stack left to right into the first of three
+      // bottom rows with horizontal space; one that collides in every row is
+      // dropped (its line is already drawn). A dark plate backs each label --
+      // the foot of the chart is where the data lines are busiest.
+      id: 'moderationMarks',
+      afterDatasetsDraw(chart) {
+        if (!showModeration || !moderation.length) return;
+        const xs = chart.scales.x;
+        const { left, right, top, bottom } = chart.chartArea;
+        const ctx = chart.ctx;
+        const HEAD = 6, ROWS = [6, 20, 34], GAP = 4, LINE_H = 11;
+        ctx.save();
+        ctx.beginPath();
+        ctx.rect(left, top, right - left, bottom - top);
+        ctx.clip();
+
+        for (const ev of moderation) {
+          const x = xs.getPixelForValue(ev.ts * 1000);
+          if (x < left || x > right) continue;
+          ctx.strokeStyle = `rgba(${MOD_ACCENT},0.8)`;
+          ctx.lineWidth = 2;
+          ctx.setLineDash([2, 3]);
+          ctx.beginPath();
+          ctx.moveTo(x, top);
+          ctx.lineTo(x, bottom);
+          ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.fillStyle = `rgba(${MOD_ACCENT},0.9)`;
+          ctx.fillRect(x - HEAD / 2, bottom - HEAD, HEAD, HEAD);
+          ctx.strokeStyle = 'rgba(0,0,0,0.55)';
+          ctx.lineWidth = 1;
+          ctx.strokeRect(x - HEAD / 2, bottom - HEAD, HEAD, HEAD);
+        }
+
+        ctx.font = '11px "Share Tech Mono", monospace';
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'bottom';
+        const rows = ROWS.map(() => []);
+        for (const ev of moderation) {
+          const at = xs.getPixelForValue(ev.ts * 1000);
+          if (at < left || at > right) continue;
+          const text = modLabel(ev);
+          const width = ctx.measureText(text).width;
+          const x = (at + 4 + width > right) ? at - 4 - width : at + 4;
+          const rowIndex = rows.findIndex(row =>
+            row.every(p => x + width + GAP <= p.x || x >= p.x + p.width + GAP));
+          if (rowIndex === -1) continue;
+          rows[rowIndex].push({ x, width });
+          const y = bottom - ROWS[rowIndex];
+          ctx.fillStyle = 'rgba(0,0,0,0.62)';
+          ctx.fillRect(x - 3, y - LINE_H, width + 6, LINE_H + 3);
+          ctx.fillStyle = `rgba(${MOD_ACCENT},1)`;
+          ctx.fillText(text, x, y);
+        }
+        ctx.restore();
+      },
+    }],
+  });
+
+  // Shared sorted x-grid for the whole chart: every dataset is built from
+  // snapshotData.map(s => ({x: s.x, ...})), so all data arrays share these x
+  // values index-for-index. smoothYExtent binary-searches this once per frame to
+  // bound its scan to the visible window instead of walking every series in full.
+  currentChart.$xs = snapshotData.map(s => s.x);
+
+  // Legend hook for the members line: the legend is built separately, so it
+  // reads the same gate the dataset did.
+  currentChart.$hasMembers = hasMembers;
+
+  // Legend hooks for the (non-dataset) moderation overlay.
+  currentChart.$hasModeration = moderation.length > 0;
+  currentChart.$moderationVisible = () => showModeration;
+  currentChart.$toggleModeration = () => {
+    showModeration = !showModeration;
+    try { localStorage.setItem('stream-chart-moderation', showModeration ? '1' : '0'); } catch (e) {}
+    currentChart.draw();
+    return showModeration;
+  };
+
+  // Double-click anywhere on the chart to reset an x-axis zoom/pan.
+  ctx.ondblclick = () => {
+    if (currentChart && currentChart.resetZoom) {
+      if (currentChart.$stopZoomAnim) currentChart.$stopZoomAnim();
+      currentChart.resetZoom('none');  // instant reset; afterDataLimits fits y to the (stale) window here
+      currentChart.$xWindow = { min: currentChart.scales.x.min, max: currentChart.scales.x.max };
+      currentChart.update('none');     // re-run smoothYFit against the restored full window so y refits too
+      if (currentChart.$updateScrollbar) currentChart.$updateScrollbar();
+    }
+  };
+
+  setupScrollbar();
+}
+
+// ── Scrub-and-zoom scrollbar ───────────────────────────────────────────────────
+// A track under the chart whose thumb shows the visible x-window: drag the thumb
+// body to scroll/pan, drag a handle to resize (zoom). Stays in sync with wheel
+// zoom and chart panning via the zoom plugin's onZoom/onPan callbacks.
+function setupScrollbar() {
+  const track = document.getElementById('chartScrollbar');
+  const thumb = document.getElementById('chartScrollbarThumb');
+  if (!track || !thumb || !currentChart) return;
+
+  const fullMin = currentChart.scales.x.min;
+  const fullMax = currentChart.scales.x.max;
+  const fullRange = (fullMax - fullMin) || 1;
+  const minRange = fullRange * 0.02; // smallest window the thumb can shrink to
+  currentChart.$xWindow = { min: fullMin, max: fullMax }; // smoothYFit reads this for the y-fit
+  currentChart.$xFull = { min: fullMin, max: fullMax };   // captureView compares against this to detect a zoom
+
+
+  function updateScrollbar() {
+    const xs = currentChart.scales.x;
+    let lo = Math.max(0, Math.min(1, (xs.min - fullMin) / fullRange));
+    let hi = Math.max(0, Math.min(1, (xs.max - fullMin) / fullRange));
+    thumb.style.left = (lo * 100) + '%';
+    thumb.style.width = Math.max(0, (hi - lo) * 100) + '%';
+  }
+
+  function clampRange(min, max) {
+    if (max - min < minRange) max = min + minRange;
+    if (min < fullMin) { max += (fullMin - min); min = fullMin; }
+    if (max > fullMax) { min -= (max - fullMax); max = fullMax; }
+    return { min: Math.max(fullMin, min), max: Math.min(fullMax, max) };
+  }
+
+  // Instant apply -- used for resize (zoom) where immediate feedback feels best.
+  function applyRange(min, max) {
+    const r = clampRange(min, max);
+    currentChart.$xWindow = { min: r.min, max: r.max };
+    currentChart.zoomScale('x', r, 'none');
+    updateScrollbar();
+  }
+
+  // Smoothed apply -- used for scrolling/panning. Drags are damped (less
+  // sensitive) and the view eases toward the target instead of snapping.
+  const PAN_SENSITIVITY = 0.6; // < 1 => view moves less than the cursor
+  const PAN_SMOOTH = 0.5;      // fraction eased toward target per frame (higher => snappier, fewer full updates per gesture)
+  const ZOOM_STEP = 0.0007;    // wheel-zoom sensitivity (smaller => less sensitive)
+  let targetMin = null, targetMax = null, rafId = null;
+
+  function animateToward() {
+    if (!currentChart || !currentChart.scales || !currentChart.scales.x) { rafId = null; return; }
+    const xs = currentChart.scales.x;
+    let min = xs.min + (targetMin - xs.min) * PAN_SMOOTH;
+    let max = xs.max + (targetMax - xs.max) * PAN_SMOOTH;
+    const eps = fullRange * 0.0004;
+    if (Math.abs(targetMin - min) < eps && Math.abs(targetMax - max) < eps) {
+      min = targetMin; max = targetMax; rafId = null;
+    } else {
+      rafId = requestAnimationFrame(animateToward);
+    }
+    currentChart.$xWindow = { min, max };
+    currentChart.zoomScale('x', { min, max }, 'none');
+    updateScrollbar();
+  }
+
+  function smoothTo(min, max) {
+    const r = clampRange(min, max);
+    targetMin = r.min; targetMax = r.max;
+    if (rafId == null) rafId = requestAnimationFrame(animateToward);
+  }
+
+  // Let the zoom plugin's callbacks refresh the thumb during wheel/drag on the chart.
+  currentChart.$updateScrollbar = updateScrollbar;
+  // Lets a live refresh put the user's zoom/pan window back (see restoreView).
+  currentChart.$applyRange = applyRange;
+  // Cancel any in-flight easing so a reset isn't fought by a pending animation.
+  currentChart.$stopZoomAnim = () => {
+    if (rafId != null) { cancelAnimationFrame(rafId); rafId = null; }
+    targetMin = targetMax = null;
+  };
+
+  function startDrag(e, mode) {
+    e.preventDefault();
+    e.stopPropagation();
+    const trackW = track.clientWidth || 1;
+    const startX = e.touches ? e.touches[0].clientX : e.clientX;
+    const startMin = currentChart.scales.x.min;
+    const startMax = currentChart.scales.x.max;
+    function onMove(ev) {
+      const cx = ev.touches ? ev.touches[0].clientX : ev.clientX;
+      const dxVal = ((cx - startX) / trackW) * fullRange;
+      if (mode === 'pan')        smoothTo(startMin + dxVal * PAN_SENSITIVITY, startMax + dxVal * PAN_SENSITIVITY);
+      else if (mode === 'left')  applyRange(Math.min(startMin + dxVal, startMax - minRange), startMax);
+      else if (mode === 'right') applyRange(startMin, Math.max(startMax + dxVal, startMin + minRange));
+    }
+    function onUp() {
+      document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('mouseup', onUp);
+      document.removeEventListener('touchmove', onMove);
+      document.removeEventListener('touchend', onUp);
+    }
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', onUp);
+    document.addEventListener('touchmove', onMove, { passive: false });
+    document.addEventListener('touchend', onUp);
+  }
+
+  thumb.addEventListener('mousedown', e => startDrag(e, 'pan'));
+  thumb.addEventListener('touchstart', e => startDrag(e, 'pan'), { passive: false });
+  const hLeft = thumb.querySelector('.chart-scrollbar-handle.left');
+  const hRight = thumb.querySelector('.chart-scrollbar-handle.right');
+  if (hLeft)  { hLeft.addEventListener('mousedown', e => startDrag(e, 'left'));   hLeft.addEventListener('touchstart', e => startDrag(e, 'left'), { passive: false }); }
+  if (hRight) { hRight.addEventListener('mousedown', e => startDrag(e, 'right')); hRight.addEventListener('touchstart', e => startDrag(e, 'right'), { passive: false }); }
+
+  // Click empty track to recenter the current window where you clicked.
+  track.addEventListener('mousedown', e => {
+    if (e.target !== track) return; // ignore clicks that land on the thumb/handles
+    const rect = track.getBoundingClientRect();
+    const frac = (e.clientX - rect.left) / (rect.width || 1);
+    const xs = currentChart.scales.x;
+    const half = (xs.max - xs.min) / 2;
+    const center = fullMin + frac * fullRange;
+    smoothTo(center - half, center + half);
+  });
+
+  // Eased, less-sensitive wheel zoom toward the cursor (replaces the plugin's
+  // built-in wheel zoom, which is instant and steppy). Normalizes wheel delta
+  // across devices, caps each step, then eases toward the target via smoothTo.
+  const canvas = currentChart.canvas;
+  if (canvas) {
+    canvas.addEventListener('wheel', e => {
+      e.preventDefault();
+      let d = e.deltaY;
+      if (e.deltaMode === 1) d *= 16;        // line units -> approx pixels
+      else if (e.deltaMode === 2) d *= 400;  // page units -> approx pixels
+      d = Math.max(-80, Math.min(80, d));    // cap the per-event zoom step
+      const factor = Math.exp(d * ZOOM_STEP); // >1 zoom out, <1 zoom in
+      // Build on the in-flight target while animating so fast scrolls accumulate.
+      const animating = rafId != null && targetMin != null;
+      const baseMin = animating ? targetMin : currentChart.scales.x.min;
+      const baseMax = animating ? targetMax : currentChart.scales.x.max;
+      const area = currentChart.chartArea;
+      const rect = canvas.getBoundingClientRect();
+      const frac = Math.max(0, Math.min(1, (e.clientX - rect.left - area.left) / ((area.right - area.left) || 1)));
+      const cursor = baseMin + frac * (baseMax - baseMin);
+      smoothTo(cursor - (cursor - baseMin) * factor, cursor + (baseMax - cursor) * factor);
+    }, { passive: false });
+  }
+
+  updateScrollbar();
+}
+
+// ── Interactive legend ─────────────────────────────────────────────────────────
+function buildLegend(hasYTViewers, hasDonations, hasActiveYT, hasYTChat) {
+  const container = document.getElementById('chartLegend');
+  if (!container || !currentChart) return;
+
+  // Each entry of `groups` is one header-less column of items; empty columns are
+  // dropped. An item appears only when buildChart drew its dataset.
+  // Item: { label, type ('line'|'dashed'|'dotted'|'bar'), color, ds } or
+  // { special:'moderation' }.
+  const groups = [];
+
+  // Money and heads. $hasMembers mirrors buildChart's dataset gate.
+  const gMoney = [];
+  if (hasDonations) gMoney.push({ label: 'Donations', type: 'line', color: '#e8c020', ds: DS.DONATIONS });
+  if (currentChart.$hasMembers)
+    gMoney.push({ label: 'Members', type: 'line', color: 'rgb(255,120,200)', ds: DS.MEMBERS });
+  groups.push({ items: gMoney });
+
+  // Audience.
+  const gAudience = [];
+  if (hasYTViewers) gAudience.push({ label: 'Viewers',         type: 'line',   color: '#40c4ff', ds: DS.YT_VIEWERS });
+  if (hasActiveYT)  gAudience.push({ label: 'Active Chatters', type: 'dotted', color: '#909090', ds: DS.YT_ACTIVE_CHATTERS });
+  if (hasYTChat)    gAudience.push({ label: 'Msg/Min',         type: 'dashed', color: '#82b1ff', ds: DS.YT_CHAT });
+  groups.push({ items: gAudience });
+
+  // The non-dataset moderation overlay toggle.
+  const gOverlays = [];
+  if (currentChart.$hasModeration) gOverlays.push({ special: 'moderation' });
+  groups.push({ items: gOverlays });
+
+  container.innerHTML = '';
+
+  // One dataset toggle element (indicator + label + click-to-hide/persist).
+  function makeItem(item) {
+    const span = document.createElement('span');
+    span.className = 'legend-item';
+    span.dataset.ds = item.ds;
+
+    let indicator;
+    if (item.type === 'bar') {
+      indicator = `<span class="legend-swatch" style="background:${item.color};"></span>`;
+    } else if (item.type === 'dashed') {
+      // Dashed line indicator: two short segments with a gap
+      indicator = `<svg width="20" height="8" style="flex-shrink:0;"><line x1="0" y1="4" x2="7" y2="4" stroke="${item.color}" stroke-width="2"/><line x1="11" y1="4" x2="20" y2="4" stroke="${item.color}" stroke-width="2"/></svg>`;
+    } else if (item.type === 'dotted') {
+      // Dotted line indicator: matches the [2,2] dash on the active-chatter lines
+      indicator = `<svg width="20" height="8" style="flex-shrink:0;"><line x1="0" y1="4" x2="20" y2="4" stroke="${item.color}" stroke-width="2" stroke-dasharray="2 2"/></svg>`;
+    } else {
+      indicator = `<span class="legend-line" style="background:${item.color};"></span>`;
+    }
+
+    span.innerHTML = `${indicator}${item.label}`;
+    if (hiddenDatasets.has(item.ds)) span.classList.add('hidden');
+
+    span.addEventListener('click', () => {
+      const dsIndex = currentChart.data.datasets.findIndex(d => d.label === item.ds);
+      if (dsIndex === -1) return;
+      const nowVisible = currentChart.isDatasetVisible(dsIndex);
+      currentChart.setDatasetVisibility(dsIndex, !nowVisible);
+      span.classList.toggle('hidden', nowVisible);
+      if (nowVisible) hiddenDatasets.add(item.ds);
+      else hiddenDatasets.delete(item.ds);
+      localStorage.setItem('stream-chart-hidden', JSON.stringify([...hiddenDatasets]));
+      syncAxisDisplay();
+    });
+
+    return span;
+  }
+
+  // Non-dataset moderation overlay toggle: the same red as the marks.
+  function makeModerationToggle() {
+    const span = document.createElement('span');
+    span.className = 'legend-item';
+    // Square glyph, matching the square marker head the plugin draws.
+    span.innerHTML = `Moderation <span style="color:rgba(${MOD_ACCENT},0.95);font-weight:bold;">&#9642;</span>`;
+    if (!currentChart.$moderationVisible()) span.classList.add('hidden');
+    span.addEventListener('click', () => {
+      const visible = currentChart.$toggleModeration();
+      span.classList.toggle('hidden', !visible);
+    });
+    return span;
+  }
+
+  // Render each non-empty category as a vertical column; columns sit side-by-side.
+  for (const group of groups) {
+    if (group.items.length === 0) continue;
+    const col = document.createElement('div');
+    col.className = 'legend-group';
+    for (const item of group.items) {
+      if (item.special === 'moderation') col.appendChild(makeModerationToggle());
+      else                               col.appendChild(makeItem(item));
+    }
+    container.appendChild(col);
+  }
+}
+
+// ── Chart header fit ───────────────────────────────────────────────────────────
+// The title block sits absolutely at the header's top-left while the legend is
+// centred, so a narrow panel slides the legend's first column under the title.
+// When the two would meet, the header switches to a stacked layout (title row
+// above the legend). The check measures the legend's columns rather than its
+// container: column positions are identical in both layouts, so the result
+// never flip-flops between them.
+const CHART_HEADER_GAP = 16;
+let chartHeaderWidth = -1;
+
+function fitChartHeader(header, force) {
+  if (!header || !header.isConnected) return;
+  const width = header.clientWidth;
+  if (!force && width === chartHeaderWidth) return;
+  chartHeaderWidth = width;
+  const titleWrap = header.querySelector('.chart-title-wrap');
+  const groups = header.querySelectorAll('.legend-group');
+  if (!titleWrap || groups.length === 0) return;
+  const titleRight = titleWrap.getBoundingClientRect().right;
+  let legendLeft = Infinity;
+  groups.forEach(g => { legendLeft = Math.min(legendLeft, g.getBoundingClientRect().left); });
+  header.classList.toggle('stacked', titleRight + CHART_HEADER_GAP > legendLeft);
+}
+
+// One observer, re-pointed at each newly rendered header. Toggling the class
+// changes only the header's height, and the width guard above ignores that.
+const chartHeaderObserver = (typeof ResizeObserver === 'function')
+  ? new ResizeObserver(entries => fitChartHeader(entries[0].target, false))
+  : null;
+
+function watchChartHeader(header) {
+  if (!header) return;
+  fitChartHeader(header, true);
+  if (chartHeaderObserver) {
+    chartHeaderObserver.disconnect();
+    chartHeaderObserver.observe(header);
+  }
+  // The Rye title font can land after the first measurement.
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => fitChartHeader(header, true));
+  }
+}
+
+// ── Wire up the sidebar search box (the input lives outside the rebuilt list, so
+// this binds once and its value/focus survive timezone-switch rebuilds). ──
+(function () {
+  const searchInput = document.getElementById('streamSearch');
+  if (!searchInput) return;
+  let searchDebounce = null;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(searchDebounce);
+    searchDebounce = setTimeout(() => applyFilter(searchInput.value), 120);
+  });
+})();
+
+loadStreamList();
+</script>
+</body>
+</html>

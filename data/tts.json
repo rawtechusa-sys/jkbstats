@@ -1,0 +1,386 @@
+{
+  "version": 2,
+  "updated_ts": 1789871108,
+  "counted_streams": [
+    "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+    "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+    "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+  ],
+  "commands": {
+    "pooh": 2,
+    "dsp": 2,
+    "bob": 13,
+    "listen": 1,
+    "zerotwo": 2,
+    "phil": 1,
+    "xijinping": 1,
+    "knuckles": 2,
+    "narrator": 2,
+    "beauty": 1
+  },
+  "sounds": {
+    "fart": 3,
+    "burp": 1,
+    "bong": 1,
+    "clown_horn": 1
+  },
+  "streams": {
+    "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631": {
+      "title": "I BOUGHT A CRT TO PLAY OCARINA OF TIME! | JKB Streams",
+      "start_ts": 1789587991,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "4m_sBzXBXk4",
+      "source_platform": "youtube"
+    },
+    "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615": {
+      "title": "WHY SONY CANCELLED KOJIMA'S NEXT GAME! | JKB Streams",
+      "start_ts": 1789159575,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "Sh3jA2SPt6E",
+      "source_platform": "youtube"
+    },
+    "will_resident_evil_be_good_jkb_streams_2026-09-18_205716": {
+      "title": "WILL RESIDENT EVIL BE GOOD? | JKB Streams",
+      "start_ts": 1789765036,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "JHkbplzCCtw",
+      "source_platform": "youtube"
+    }
+  },
+  "messages": [
+    {
+      "ts": 1789776613,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "beauty: wanna C my pussie walk? walk & squirt babe",
+      "commands": [
+        "beauty"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789775884,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "bob: this is a paid sponsorship. Jay's a sellout",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789773073,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "BOB: I gave Big Foot a Blowie and Wallet Guy watched in a chair he made... He let me live because of it... Man the Hair. Picking teeth for weeks now",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789770966,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "Narrator: Ladies and gentlemen, what bacon wrapped Jay isn\u2019t telling you is that he\u2019s rubbing one out under that suit while Zelda licks his feet. Aaa!",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789768370,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "bob: my big hairy ass is getting phucked. Aaaaaaa!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789768058,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "Narrator: The views and opinions expressed by viewers of the JKB show are in no way endorsed by JKB himself. Please forward your complaints to Rich.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789768019,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "Cum (burp) Phuck (bong) Uhhh Nipples (clown_horn)",
+      "commands": [],
+      "sounds": [
+        "burp",
+        "bong",
+        "clown_horn"
+      ]
+    },
+    {
+      "ts": 1789767881,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "Pirate:chats extra salty with see men today (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1789765682,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "Knuckles: I survived an 8 day mega flu for that.",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789765160,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "message": "Knuckles: People are still watching this show?",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789597301,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Bob: That just made my breasts tender and leaky",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789597214,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "zerotwo: breasts breasts breasts",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789597083,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Bob: Come here jay, I'll shave your back",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789596071,
+      "username": "@DeportedSicilianGamer",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Listen: we need you to stream from Rich's house that he lives in with his parents. Stepbrothers style. From race car bunkbeds. Together.",
+      "commands": [
+        "listen"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789593767,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Bob: Yes boys there is plenty of me to go around the Dock. maybe I'll get the nickname Dock Lizard Rich after.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789593564,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Bob: I will be offering free blowies at the christening and weed seltzers for everyone. alot of sea men for this boat",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789593438,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Bob: I feel so honored to have a Boat named 4 me",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789592802,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "drummer should be banned from this challenge hes already won twicesomeone else should get a chance to win also dsp: don't be poor in chat",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789591327,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789591206,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "message": "Pooh::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789170320,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "Bob: My last client was drunk so now I am too after his service. here have some money",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789167309,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "Bob: That was the Lot Lizard Summoning ritual",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789163335,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "zerotwo: Breasts breasts breasts \u30d0\u30ca\u30ca\u30d0\u30ca\u30ca\u30d0\u30ca\u30ca\u3000\u30d4\u30fc\u30cd\u30c3\u30b9",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789163194,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "bob: Listen, take my money motherfucker (fart)",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1789162931,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "xijinping: Listen, unsheathe your asshole (fart)",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1789162842,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "Bob: is your sword sheathed or unsheathed?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789161991,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "DSP: My voice came back. That story is true btw.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789161892,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "Phil: Kat said I look like Curly Howard. So I said she looks like a black slave. She then threw me out.",
+      "commands": [
+        "phil"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1789159815,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "message": "Bob: You heard it here. 8bit Eric is the October 1st co-host on JKB. With special guest Andrew Werski. First topic, is RTU gay for Jay?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    }
+  ]
+}

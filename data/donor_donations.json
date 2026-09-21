@@ -1,0 +1,2321 @@
+{
+  "version": 1,
+  "updated_ts": 1789871109,
+  "counted_streams": [
+    "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+    "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+    "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+  ],
+  "streams": {
+    "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631": {
+      "title": "I BOUGHT A CRT TO PLAY OCARINA OF TIME! | JKB Streams",
+      "start_ts": 1789587991,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "4m_sBzXBXk4",
+      "source_platform": "youtube"
+    },
+    "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615": {
+      "title": "WHY SONY CANCELLED KOJIMA'S NEXT GAME! | JKB Streams",
+      "start_ts": 1789159575,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "Sh3jA2SPt6E",
+      "source_platform": "youtube"
+    },
+    "will_resident_evil_be_good_jkb_streams_2026-09-18_205716": {
+      "title": "WILL RESIDENT EVIL BE GOOD? | JKB Streams",
+      "start_ts": 1789765036,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "JHkbplzCCtw",
+      "source_platform": "youtube"
+    }
+  },
+  "donors": {
+    "DrummerCream": [
+      {
+        "ts": 1789776549,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vapist tomorrow \u201c I\u2019m drunk with my ass out\u201d",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773320,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m poor but here\u2019s money",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789592710,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can today's entry's count for next week this time?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592413,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "ReviewTechUsa Career.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592345,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "cool system, clean the cum for once vapist!",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789588415,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Glad you're skin bump ended being nothing. MONEY~!",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789169320,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "orange pussies hug more i agree.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789167993,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Minecraft",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789166617,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "How much for you to stream onimusha on stream",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789166044,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "A. helps with productivity at work for me but it\u2019s also retarted atm. I won\u2019t be using it to do normal tasks. It takes out what being human means.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789165890,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019ll fuck to death before that happens",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160869,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "people in the industry all have a ego to be good.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789159788,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I was cohoused by jay, fuck i have no autonomy!",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789159738,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "artgrant1142": [
+      {
+        "ts": 1789588739,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 28 months",
+        "message": "had a lump on my nuts and dr said fatty deposit",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "KayNubbs": [
+      {
+        "ts": 1789769640,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I find it hard to play games when I\u2019m depressed because I feel guilty like I\u2019m just wasting time instead of improving myself to feel better.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768019,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Cum (burp) Phuck (bong) Uhhh Nipples (clown_horn)",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767676,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Listen blow me then blow the cum back inside me",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789596986,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Making me afraid to shave my balls",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789588799,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "It\u2019s Rich\u2019s career. Ever since you helped him out and he deleted his channel his career has been regrowing inside of you. Don\u2019t get it removed.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789169639,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m not drinking today. So you only get 2 bucks",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "jacobcrowley8968": [
+      {
+        "ts": 1789766303,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Listen my bedroom is an adult theatre",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789589075,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "You\u2019re a tough nut for showing up today jay!",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789167647,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "If you could only play 1 game for the rest of your life what would it be",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "TacoDan34": [
+      {
+        "ts": 1789589082,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I will have my mom pray for you!! Praise Him.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "violationentertainment": [
+      {
+        "ts": 1789770794,
+        "type": "superchat",
+        "amount_usd": 1.41,
+        "amount_raw": "A$2.00",
+        "message": ":hole::hole::hole: :hole::hole::hole: :hole::hole::hole::hole::hole: , :hole::hole::hole: :hole::hole: :hole::hole:, :hole::hole:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789589122,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "SwaggBae": [
+      {
+        "ts": 1789589193,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Been in and out of streams for a bit as I\u2019m writing a horror project based on a childhood nightmare regarding my ornithophobia. Congrats on the crt!",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "dan_evilrobot": [
+      {
+        "ts": 1789770830,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789770703,
+        "type": "superchat",
+        "amount_usd": 35.9,
+        "amount_raw": "CA$50.00",
+        "message": "That's hard for me to say this.. Because I've been gaming since as a kid, I didn't play every game or I couldn't afford it. I guess in my mind, Shovel Knight, Breath of the wild, Red Dead Redemption 2, Helldivers 2. are my greatest gaming experience.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768202,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Boy, Rich has always something going on in his life. :face_with_tears_of_joy:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766165,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Which is feels weird looking up the reviews of the new Resident Evil movie. Out of all the movies in the past gets panned by critics and somewhat audiences, depending you like those movies or not.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765702,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Oh yeah, I'm gonna go see Resident Evil tonight.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789591049,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Here's a question, I'm gonna ask you. Since you're getting the FPGA PlayStation, are you gonna buy some Japanese PS1 games in the future..?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789590361,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789589287,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "That's sad to hear. I never like going to doctors. One time I had really bad shoulder pain for literally two weeks and I refuse to go to the doctors because the last thing they're gonna tell me is \"ohhh you need surgery.\"",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "Ryft7": [
+      {
+        "ts": 1789766787,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "What\u2019s a game for looking forward on superstation",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789589573,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Will there be an vhs release and an evercade cart",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789160627,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Why are games so expensive to make nowadays",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160118,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "The playon situation gets worse",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "mist_letumgothmommy": [
+      {
+        "ts": 1789595821,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "when will we play Halloween together?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789589766,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "do you need us to help fund your film? I'll upgrad",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789170295,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "prey on me daddy my husband says",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Destruktor1111": [
+      {
+        "ts": 1789591310,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "draining it might be worst pain youll ever feel",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789590185,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "your becoming a lot lizard?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "ArcadeIntelligence": [
+      {
+        "ts": 1789771256,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789590309,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "niallwilliamson3540": [
+      {
+        "ts": 1789765592,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "I\u2019m seeing Resident Evil tomorrow. Hope I don\u2019t do a Paul Reubens and jerk off in the theatre.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789592340,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Will Jay do an OnlyUseMeBlade? Get that gout.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789590597,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Hope you\u2019re doing ok Jay. Canada cock.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789161991,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "DSP: My voice came back. That story is true btw.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161892,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Phil: Kat said I look like Curly Howard. So I said she looks like a black slave. She then threw me out.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "theshinynickell": [
+      {
+        "ts": 1789590729,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 13 months",
+        "message": "Ill come in my Xmas present for the DK oldie video",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "rtusburritoeattingbrother": [
+      {
+        "ts": 1789592108,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Resident Evil movie looks awesome. It's as an original resident evil story that is being told as a movie. The director is a big RE fan! Get well :face_blowing_a_kiss:",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789590750,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Just bought the transparent blue Super Station LFG",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "TimothyCulhane": [
+      {
+        "ts": 1789772698,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay,what do you think of Smash JT?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789590793,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay,bigger ropes:DSP or Rich????",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "jasonjenkins5067": [
+      {
+        "ts": 1789775932,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Do U have 2 prove you're gay before you can order?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789775005,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Do you ever give stuff 2 blacks? Asking 4 a friend",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774154,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Worst case ontario they just have to reorder them.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768289,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "blah blah blah me me me. Suck it up buttercup.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768054,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "FYI Walmart won't let U return used womens panties",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767782,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "When this woman took her draws off she blew her nose on them before she tossed them aside. No way she's going to gag me out with them draws after that",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767630,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I accidentally messed up her digestive track. Now she has to wear 2 pair of draws so she doesn't catch a cold in her crack. I'm a health hazard.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767388,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "This chick i dated sounded like a German shepherd trying 2 clear it's throat when she farted. It smelled like spoiled navel lent & old chewing tobacco",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789591855,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Sounds like you might be growing an armpit vagina",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789590963,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "If u cant download B B C porn onto it nobody cares",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789166489,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Confirmed",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789166246,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Mailsman. Start kicking them bitches n they bootys and pointing out they duties. Let yo bitches do the walking and yo pimp hand do the talking. Pimpin",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789165445,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I heard Wolverine doesn't get B Jay's anymore after he ended up putting a blade threw the back of this chicks throat. He's the throat goat assassin.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789165028,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Confirmed",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789162350,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Your money is best spent supporting your local ho",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160515,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "If U R watching this as a V O D question your life",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160101,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Sir this isn't no damn V O D. Are you drinking?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "timmarcoux": [
+      {
+        "ts": 1789593062,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Oh Christopher, I know I sound like a junkie version of myself, but please give me that honey right now or else",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592725,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Oh Christopher!",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789591327,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789591206,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken:",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "ChefBezos12": [
+      {
+        "ts": 1789591851,
+        "type": "superchat",
+        "amount_usd": 99.99,
+        "amount_raw": "$99.99",
+        "message": "Hope you feel better, also the resident evil movie drops this weekend\u2026thoughts?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789591724,
+        "type": "superchat",
+        "amount_usd": 99.99,
+        "amount_raw": "$99.99",
+        "message": "Hey what\u2019s up",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "towerdragon4487": [
+      {
+        "ts": 1789769821,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I restarted Crimson Desert just for the new storyline changes and I'm taking it slow.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769730,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Huge games like Red Dead Redemption 2 and The Witcher do that to me I end up starting them but never finishing them. Or if I do it takes a long time.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768749,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight: :flashlight:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766344,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Not that I really care about what critics say, but it is actually 96% on rotten tomatoes.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766183,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns: :smiling_face_with_horns:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765921,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse::horse:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765610,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "That music at the end was very sensual",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765221,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Is a jkb stream you know what that means :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789592113,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana: :banana:",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789168531,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I come back and you are talking about your balls",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161635,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "did you see that someone was trying to sell a picture of a legend of Zelda switch box for $400",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "DougSavona": [
+      {
+        "ts": 1789592447,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I say lets call it Mike hunt",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "DamienGuyton": [
+      {
+        "ts": 1789767592,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Choo Choo let the come train begin",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767150,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "\u2026 drinking Diet Coke",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767100,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m drinking",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789595921,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Is one of the themes Jay going to the Backrooms",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789595490,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "If they go back to simple we get less buggy games",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593457,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Call the boat sea men dreamin",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593264,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Let the cyst do the work",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593164,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Oh Christopher, it\u2019s time to start a come train",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592464,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Can we name cyst that mad guy in India since it\u2019s a pain in your side",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789167612,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "The loophole is we gift it to you",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789167236,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "\u092f\u0947 \u0930\u0939\u0947 \u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u0906\u092a\u0915\u0947 \u0926\u094b\u0938\u094d\u0924 \u0915\u0940 \u0924\u0930\u092b\u093c \u0938\u0947 2 \u0921\u0949\u0932\u0930\u0964",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "woody4077": [
+      {
+        "ts": 1789774220,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "a while ago you asked what is our retro holy grail for me its this i can't remember the name there is an snes game that is basically simcity in space",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789592802,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "drummer should be banned from this challenge hes already won twicesomeone else should get a chance to win also dsp: don't be poor in chat",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592619,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "that system use a chip called a field programable array a k a an f p g a to replicate the original hardware. also i made that pot roast in croc pot",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789169941,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "chicken karate the chicken that fights back",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163406,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "also on a subject covered in a previous stream if you think Canada is magical just look at their history of treating indigenous people its horrendous",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161645,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen haven't gotten my money's worth so i'm gonna do charge bcks for the rebellion also jay is not a shelf collector he actrually plays his games",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Comrade_Biff": [
+      {
+        "ts": 1789592697,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 30 months",
+        "message": "Me & Jay are Cyst Bros. I named mine Terrance",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "SpooksterVibes": [
+      {
+        "ts": 1789592853,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Oh Christopher I am late where is my come cup lol",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "DemolitionDaddy": [
+      {
+        "ts": 1789776198,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate:I\u2019m a Goonie, wanna see One Eyed Willy?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767881,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate:chats extra salty with see men today (fart)",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789593645,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate:all aboard the Lot Lizard sea man cruise!",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592956,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate:I\u2019ve got some salty sea men for your cup, R",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "RawrDakota": [
+      {
+        "ts": 1789773547,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Donate to me new gate fund",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769308,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765684,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The city sent me a nasty gram about having the boat in my driveway. Now I have to make a bigger gate for my fence to get it into my back yard.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789593659,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I will put the Lot Lizard Express sticker on the side and I'll get another sticker with SS Jaysus on the stern. Will that make you happy?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593373,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I blame Ones and Vapist for the name",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593312,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Come sail with me on the Lot Lizard Express",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789592967,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789167622,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "MOVIE SHIT HOW DARE YOU!!!!",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163780,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If we get 1k by Hinsdale, I will shave my beard on stream there.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163595,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How many memberships are we at total?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163335,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163226,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163036,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You're normally 1 day old when it gets done.....",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789162939,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm hard knowing Jay is cut, is anyone else?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "ReviewLotLizardsUSA": [
+      {
+        "ts": 1789775802,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob:Lot Detractor money goes to you",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773073,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "BOB: I gave Big Foot a Blowie and Wallet Guy watched in a chair he made... He let me live because of it... Man the Hair. Picking teeth for weeks now",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789597301,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: That just made my breasts tender and leaky",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789597083,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: Come here jay, I'll shave your back",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593767,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Bob: Yes boys there is plenty of me to go around the Dock. maybe I'll get the nickname Dock Lizard Rich after.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593564,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Bob: I will be offering free blowies at the christening and weed seltzers for everyone. alot of sea men for this boat",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789593438,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: I feel so honored to have a Boat named 4 me",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789170320,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Bob: My last client was drunk so now I am too after his service. here have some money",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789167309,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: That was the Lot Lizard Summoning ritual",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789162842,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: is your sword sheathed or unsheathed?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "FoilGrimTimmy": [
+      {
+        "ts": 1789766499,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay I feel like you live in a Ginger Bread house",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789593669,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How much to make fart noised with ur right arm pit",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789170391,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I loves Bigfoot u moomcha, have some mondy",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789170238,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, I'm foking hammered time have money",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "DeportedSicilianGamer": [
+      {
+        "ts": 1789597029,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "just have Review Tech USA shave you, live",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789596937,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "we need u on a 6 day a week DSP \"schedule\"",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789596071,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen: we need you to stream from Rich's house that he lives in with his parents. Stepbrothers style. From race car bunkbeds. Together.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789595331,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen I'm done Jay. Just have a mod ban me.",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789595141,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen Jay-instead of all that, just start banning",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "freshhotline696": [
+      {
+        "ts": 1789595246,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I\u2019m very dissatisfied in the lack of Bigfoot content on the channel could you address that immediately",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "VintendoVaultz": [
+      {
+        "ts": 1789595296,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Please ban me too!Heres some cartridge n CRT funds",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "Night_Breaker": [
+      {
+        "ts": 1789776613,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "beauty: wanna C my pussie walk? walk & squirt babe",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789775884,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: this is a paid sponsorship. Jay's a sellout",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789775113,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Also, do U let black men phuck u with their BBC's?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774751,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "how much to open your ass & pump a load inside it?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768370,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: my big hairy ass is getting phucked. Aaaaaaa!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789597153,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "take 1 cawk daily until all the come is drained",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789596470,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I hav cyst on my dik. its loaded with extra seamen",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789596180,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm loaded with come. may I deposit it in yor ass?",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      }
+    ],
+    "oni5498": [
+      {
+        "ts": 1789597214,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: breasts breasts breasts",
+        "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631"
+      },
+      {
+        "ts": 1789163335,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: Breasts breasts breasts \u30d0\u30ca\u30ca\u30d0\u30ca\u30ca\u30d0\u30ca\u30ca\u3000\u30d4\u30fc\u30cd\u30c3\u30b9",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789163194,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "bob: Listen, take my money motherfucker (fart)",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789162931,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: Listen, unsheathe your asshole (fart)",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Mysterr_E": [
+      {
+        "ts": 1789159815,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Bob: You heard it here. 8bit Eric is the October 1st co-host on JKB. With special guest Andrew Werski. First topic, is RTU gay for Jay?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "evanpietrone9742": [
+      {
+        "ts": 1789169235,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "There better be a lot lizard refrence in your next movie",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789168176,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "If you play for 666 hours straight tom nook murders you",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161333,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Doody fell off.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789159821,
+        "type": "superchat",
+        "amount_usd": 9.99,
+        "amount_raw": "$9.99",
+        "message": "Metal queer solid 6: buns of steel is an Xbox excuslive",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Ciph3r_nu11": [
+      {
+        "ts": 1789162595,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "is this practice for you and ones? at hinsdale?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160052,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Listen getting a 12 pack will tell you off shortly",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "My_Paradoxical_Me": [
+      {
+        "ts": 1789770325,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Also If I find a game I love I go all in and play it exclusively like I am now with Wardogs. Am I \"good\"? Eh kinda lol But having fun with friends or even solo matters way more to me than being \u201cgood\u201d",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769670,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "I enjoy modern games like RE9 and Crimson Desert and Wardogs Gaming isn't something I do just because I did it as a kid it's my main form of entertainment I barely watch TV or movies maybe that's why?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769217,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Ultimate Legend!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789160404,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hey Jay, what's the name of that intro song?",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "seales8414": [
+      {
+        "ts": 1789775612,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Why he have so many things close to his face",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774499,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Did you see the new cat species it look cool",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773370,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I heard that the resin evil got ninety in rotten tomatoes, but I refuse to see it unless I know. If there's any major zombies in the movies",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789772990,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How is that new resident evil movie",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789162092,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I canceled my preodor for a Wolverine because of bad review. I was going to get the physical copy on amazon. But I heard it 12 hrs to beat the game",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161124,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Sounds like a lawsuit's gonna happen",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160441,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I want to see your new games system show us",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Blaqk_Sheep": [
+      {
+        "ts": 1789160523,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160496,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160478,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "HappyConsoleGamer": [
+      {
+        "ts": 1789765559,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "BONERS FOR BILLY!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789160680,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Hi everyone!",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "GlamerousFrog": [
+      {
+        "ts": 1789160692,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "They dropped it cause Physint looks like physical",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Enraged-Gecko": [
+      {
+        "ts": 1789769350,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Any dopamine-releasing activity can be addicting. If addiction is a mental illness, so is dependency on other dopamine highs",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769222,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Chasing the dragon. Like an addict trying to recapture the experience of their first high, gamers are always trying to have a similar reaction.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769102,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The experiences are a league apart. Early AAA games are more akin to indie titles in the modern era.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768073,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Amoxicillin isn\u2019t that powerful. Could be much, much worse. Some of the antibiotics they use for Methicillin Resistant Staphylococcus Aureus are bad",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767877,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "What antibiotic are you on?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767775,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Post-Nut Clarity must be an existential crisis for someone with chronic depression\u2026",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767515,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Did she fart like that after you dumped a load of knuckle children in her colon?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789767070,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I can navigate stairs just fine on the return trip. Gravity helps\u2026",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766987,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "No, but I own my home and don\u2019t have to split a haunted church with a roommate:rolling_on_the_floor_laughing:",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766913,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "You fucking show-off.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766716,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Hope he burned those pants afterwards. No amount of washing that\u2019s gonna get the dried cum out of those cheeks.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766616,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Talking bout the earlier reference to Paul Reubens",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766418,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Greek yogurt, dude. Just don\u2019t get the pasteurized shit; that doesn\u2019t have probiotics.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766183,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Never understood how anyone could feel compelled to visit an adult theater. How many gunslingers have shot in that seat you\u2019re buying a ticket for?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789163520,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The Canadians didn\u2019t treat Imperial German and Austro-Hungarian soldiers much better in World War I\u2026",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789162807,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "You do have a shield. Deploy the DS!",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789162113,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I\u2019m just getting into Neo Geo games, but I\u2019ve lived 40 years without them. In a world centered around instant gratification, patience is a commodity.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161818,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Would giving a shit appreciably enrich my life? No? Then why give a shit. Doesn\u2019t help.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161697,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I really don\u2019t give a shit, honestly.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161538,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Neo Geo AES+ Ultimate Edition, AES+ Anniversary Edition (White), Arcade Stick (White), Memory Card (White) = $1584.94 USD :man_shrugging:",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789161040,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I preordered an anniversary edition and ultimate edition bundle, plus an extra arcade pad and game pad for each.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789160798,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I\u2019m not surprised. Konami dropped him because of skyrocketing development costs and schedule overruns, then they rushed MGS V out unfinished.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "doodystreams": [
+      {
+        "ts": 1789161263,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "tie their P nos 2 a rock & throw them off a :bridge_at_night:",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "JQR0666": [
+      {
+        "ts": 1789163955,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "1,500 subs and Jay donates all his hair for Cancer",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "sauerballz": [
+      {
+        "ts": 1789164207,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "PortableHamSandwich": [
+      {
+        "ts": 1789165045,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay wants a racist Wolverine game. Got it!",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "marihdimitri7219": [
+      {
+        "ts": 1789165810,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "There is a chance AI can go terminator route.",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Mailmansson": [
+      {
+        "ts": 1789765943,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "SegaDC runs like :pile_of_poo: so far on mistersuperstation",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789165955,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "theses hoes aint loyal",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "pixelboy83": [
+      {
+        "ts": 1789775255,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I just finished putting that together last night",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789775067,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "jay your so rude and mean to ones I will take him on and treat him with love",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774783,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I have the map,poster showing the master sword, the nintendo power sign up and manual and warranty card is mine cib?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774571,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I got mine for around $100 back then has map,manual,poster,etc and now worth close to $500 cib",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774483,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "lmao I have the same game as you thats my grail to",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774438,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay can i trade you a game for your cat",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774358,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "i have many holy grails in my collection and one of them id like to share today i have last of us firefly edition for ps5 that was sold exclusively threw playstation store in the US",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789774164,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "why did they cancel it? im going to C RE tomorrow",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773992,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "n64 version over hyped no difference ps1 better",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789169540,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "one day me and my gf cos play Zelda she was zelda and i was link and we did zelda fantasy in bed I tell ya link got lucky",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789168371,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "my grandfather died of bone cancer",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789167839,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "so I guess ur not friends with him lol",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789167702,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "wood tweet wants to drive to \ud83c\udde8\ud83c\udde6 for a slip cover",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Jayhooft": [
+      {
+        "ts": 1789168818,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Ares_EMS": [
+      {
+        "ts": 1789168839,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "michaelpiatkowski5010": [
+      {
+        "ts": 1789169086,
+        "type": "superchat",
+        "amount_usd": 3.53,
+        "amount_raw": "A$5.00",
+        "message": "what a week for PlayStation fanboys Wolverine is garbage Hideo Kojima to xbox all we need now is GTA 6 to run 30FPS on the pro",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Juicyb00ch": [
+      {
+        "ts": 1789775395,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789169890,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      },
+      {
+        "ts": 1789169853,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "Gamermeetsworld": [
+      {
+        "ts": 1789169981,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I bought a desk",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "qb3540": [
+      {
+        "ts": 1789170523,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Roses are red, Irish Bells are green. Jet fuel can't melt steel beams",
+        "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615"
+      }
+    ],
+    "unclemike84": [
+      {
+        "ts": 1789774050,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Isn\u2019t your stream just you telling us crazy shit?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773583,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Ur pussy looks bloated. I think she eats too much.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789770966,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Narrator: Ladies and gentlemen, what bacon wrapped Jay isn\u2019t telling you is that he\u2019s rubbing one out under that suit while Zelda licks his feet. Aaa!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769972,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "You win at having the most entertaining stream!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768058,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Narrator: The views and opinions expressed by viewers of the JKB show are in no way endorsed by JKB himself. Please forward your complaints to Rich.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765832,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "So when does filming wrap for the Lot Lizard show?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765682,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 7 months",
+        "message": "Knuckles: I survived an 8 day mega flu for that.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765160,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Knuckles: People are still watching this show?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "RyuDaBurninator": [
+      {
+        "ts": 1789771316,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768816,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 3 months",
+        "message": "Did ya see the food porn I sent ya? lol",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789765607,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Super Legend!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "BansheeTK": [
+      {
+        "ts": 1789773966,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Do I look like vapist to you? Recheck that message",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789768235,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Fawkin ' Christ, if it ain't an acid trip, it's a gawd damn session of fackin ass play gone wrong here, or white rain",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789766364,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Im not sure I could get into it. Nothing against Zach Cregger, just unsure of it given his work with WKUK, he's always seemed more comedy oriented",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "xanderskullion": [
+      {
+        "ts": 1789767159,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I found a 3d print template for the zelda switch 2 dock. it looks bad ass. you guys made mr crave a Ruben, gout beware",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "MikeMcc85": [
+      {
+        "ts": 1789767445,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "I like you, but at this point I feel I have been kidnapped for 20 years... #metoo",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "ianhunter8405": [
+      {
+        "ts": 1789769534,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "RE 2 is my fave aslo. Getting the shirt Next week",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789769389,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "whats your all time Fave Resident Evil game?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "TheRomanVictor": [
+      {
+        "ts": 1789770321,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 25 months",
+        "message": "gay 4 Jay",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "Dad_Brad": [
+      {
+        "ts": 1789771065,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 6 months",
+        "message": "Jay did you like Zelda TOTG more than BOTW?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "TechHeadTenore": [
+      {
+        "ts": 1789772351,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I really do want to see more of Canada. I've only been to Montreal.",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789771910,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Despite serial killers racking up numbers did you know your statically more likely to be killed by someone you know than someone you dont?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "Volk_Pack": [
+      {
+        "ts": 1789772269,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I live very close to where you were in NC and you found a bubble in the south. It's nice here but much of the state is sketchy. I know I grew up there",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "TheJostler": [
+      {
+        "ts": 1789774153,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I get ghost ball occasionally. Not joking lol",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773627,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 29 months",
+        "message": "Dyk when you lift a lot your cock gets more veins?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773548,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "jaieroc": [
+      {
+        "ts": 1789773680,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      },
+      {
+        "ts": 1789773659,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Took me 3 Ads to get here. Lets go!",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "astrozombies751": [
+      {
+        "ts": 1789773856,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hey I had a boxed copy of RE2 N64, Had to sell it",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "Mr.Substantial": [
+      {
+        "ts": 1789774881,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 19 months",
+        "message": "have a good weekend! my son and I have tix to RE tomorrow",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ],
+    "FreddyKruegerIsTheName": [
+      {
+        "ts": 1789775438,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Did you call the # posted on the official silent hill twitter account?",
+        "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "updated_ts": 1789871109,
+  "counted_streams": [
+    "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+    "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+    "will_resident_evil_be_good_jkb_streams_2026-09-18_205716"
+  ],
+  "streams": {
+    "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631": {
+      "stream_id": "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
+      "title": "I BOUGHT A CRT TO PLAY OCARINA OF TIME! | JKB Streams",
+      "start_ts": 1789587991,
+      "end_ts": 1789597364,
+      "duration_sec": 9373,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "total_donations_usd": 419.23,
+      "donation_count": 69,
+      "donations_per_min": 2.6836,
+      "peak_viewers": null,
+      "avg_viewers": null,
+      "avg_chat_mpm": 10.87,
+      "avg_active_chatters": 23.32,
+      "percent_paused": null
+    },
+    "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615": {
+      "stream_id": "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
+      "title": "WHY SONY CANCELLED KOJIMA'S NEXT GAME! | JKB Streams",
+      "start_ts": 1789159575,
+      "end_ts": 1789170877,
+      "duration_sec": 11302,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "total_donations_usd": 270.97,
+      "donation_count": 85,
+      "donations_per_min": 1.4385,
+      "peak_viewers": null,
+      "avg_viewers": null,
+      "avg_chat_mpm": 11.0,
+      "avg_active_chatters": 22.52,
+      "percent_paused": null
+    },
+    "will_resident_evil_be_good_jkb_streams_2026-09-18_205716": {
+      "stream_id": "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
+      "title": "WILL RESIDENT EVIL BE GOOD? | JKB Streams",
+      "start_ts": 1789765036,
+      "end_ts": 1789776870,
+      "duration_sec": 11834,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "total_donations_usd": 438.72,
+      "donation_count": 113,
+      "donations_per_min": 2.2244,
+      "peak_viewers": null,
+      "avg_viewers": null,
+      "avg_chat_mpm": 9.52,
+      "avg_active_chatters": 20.14,
+      "percent_paused": null
+    }
+  }
+}

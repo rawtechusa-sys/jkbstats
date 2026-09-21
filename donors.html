@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Standalone guard: these pages are meant to live inside the index.html shell
+     (which owns the tabs, theme and background). If loaded top-level, bounce into
+     the shell at this page's tab, carrying any deep-link sub-slug. -->
+<script>(function(){
+  if (window.self !== window.top) return;            // embedded in the shell -> normal
+  var slug = 'donors';
+  var sub  = location.hash.replace(/^#/, '');
+  location.replace('index.html#' + slug + (sub ? '/' + sub : ''));
+})();</script>
+<title>Donors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Lora:ital,wght@0,400;0,500;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link id="theme-css" rel="stylesheet" href="themes/goblin-cave.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: transparent;
+    color: var(--text-primary);
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+
+  .page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 24px;
+    gap: 16px;
+  }
+
+  .page-title {
+    font-family: 'Rye', serif;
+    font-size: 20px;
+    color: var(--accent-bright);
+    letter-spacing: 0.06em;
+    flex-shrink: 0;
+  }
+
+  .donor-search {
+    flex-shrink: 0;
+    width: 100%;
+    padding: 9px 14px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-primary);
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .donor-search::placeholder { color: var(--text-muted); }
+  .donor-search:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.3);
+  }
+  /* Tidy the native clear (×) button so it picks up the accent on hover. */
+  .donor-search::-webkit-search-cancel-button { cursor: pointer; }
+
+  .table-wrap {
+    flex: 1;
+    overflow-y: auto;
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+  }
+
+  .table-wrap::-webkit-scrollbar { width: 4px; }
+  .table-wrap::-webkit-scrollbar-track { background: transparent; }
+  .table-wrap::-webkit-scrollbar-thumb { background: var(--bg-raised); border-radius: 2px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  /* Scope the sticky header to the OUTER table only — the nested per-donor
+     donations sub-table has its own <thead> that must scroll with its panel,
+     not stick at the top. */
+  .table-wrap > table > thead {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    /* Composite the (translucent) theme surface over the opaque base so rows
+       scrolling underneath can't bleed through the header. */
+    background: linear-gradient(var(--bg-surface), var(--bg-surface)), var(--bg-base);
+  }
+
+  .table-wrap > table > thead::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: var(--border-default);
+  }
+
+  th {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: left;
+    padding: 10px 14px;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  th:hover { color: var(--accent); }
+
+  th.sorted { color: var(--accent-bright); }
+
+  .sort-arrow {
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 0.7;
+    font-style: normal;
+  }
+
+  td {
+    padding: 9px 14px;
+    border-bottom: 1px solid rgba(100,180,60,0.06);
+    vertical-align: middle;
+  }
+
+  /* Donors are now each their own <tbody>; only drop the border on the very
+     last row of the table, not the last row of every section. */
+  tbody:last-child tr:last-child td { border-bottom: none; }
+
+  tr:hover td { background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.04); }
+
+  /* An expanded donor's row pins just below the sticky header so it stays
+     visible and clickable (to collapse) while scrolling its donation log.
+     Constrained to its own <tbody>, so it releases as the next donor arrives. */
+  tr.donor-row.sticky-donor > td {
+    position: sticky;
+    /* Pull up 1px so the row tucks under the header (which paints on top at a
+       higher z-index), closing the sub-pixel gap left by rounded measurement. */
+    top: calc(var(--thead-h, 38px) - 1px);
+    z-index: 2;
+    /* Opaque so the scrolling donation list can't show through the pinned row. */
+    background: linear-gradient(var(--bg-panel), var(--bg-panel)), var(--bg-base);
+  }
+  /* `.zero` cells normally dim via opacity, which would also make the pinned
+     row's background translucent and let donations bleed through — keep them
+     fully opaque while pinned. */
+  tr.donor-row.sticky-donor > td.zero { opacity: 1; }
+
+  .rank {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: right;
+    width: 36px;
+  }
+
+  .username {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-primary);
+  }
+
+  .amount-total {
+    font-family: 'Rye', serif;
+    font-size: 16px;
+    color: var(--accent-bright);
+    text-shadow: 0 0 10px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.3);
+    white-space: nowrap;
+  }
+
+  .amount-type {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  .amount-type.zero { opacity: 0.2; }
+
+  .loading-state, .empty-state, .error-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .loading-glyph {
+    font-family: 'Rye', serif;
+    font-size: 32px;
+    color: var(--accent);
+    animation: flicker 2s ease-in-out infinite;
+  }
+
+  @keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.6; }
+  }
+
+  /* ── Expandable donor rows ── */
+  tr.donor-row { cursor: pointer; }
+
+  .caret {
+    display: inline-block;
+    width: 1em;
+    margin-right: 6px;
+    color: var(--text-muted);
+    transition: color 0.15s ease;
+  }
+  tr.donor-row:hover .caret { color: var(--accent-bright); }
+
+  /* The detail row that holds a donor's itemized donations. */
+  .donations-row > td {
+    padding: 0;
+    background: var(--bg-base);
+    border-bottom: 1px solid var(--border-default);
+  }
+  /* Don't apply the generic row-hover accent wash to the panel cell. */
+  .donations-row:hover > td { background: var(--bg-base); }
+
+  .donor-panel { padding: 6px 14px 14px 46px; }
+
+  .donor-loading, .donor-empty {
+    padding: 14px 0 6px;
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  /* Section headers inside a donor panel (timing histogram, then donation log). */
+  .panel-section + .panel-section { margin-top: 18px; }
+  .panel-subtitle {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 10px 0 8px;
+  }
+  .panel-hint {
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: none;
+    opacity: 0.7;
+  }
+
+  .hist-toggle { margin-left: auto; display: flex; gap: 4px; }
+  .hist-mode {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--border-default-strong);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .hist-mode:hover { color: var(--accent-bright); }
+  .hist-mode.is-on { color: var(--accent); border-color: var(--accent); }
+
+  /* Donation-timing histogram: one .hist-bar per 10-minute bucket, heights as a
+     percentage of the busiest bucket. The axis is a sibling row with matching
+     flex/gap so its labels line up under their bars. */
+  .donor-hist {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 110px;
+    border-bottom: 1px solid var(--border-default);
+  }
+  .hist-bar { flex: 1; min-width: 3px; height: 100%; display: flex; align-items: flex-end; }
+  .hist-fill {
+    width: 100%;
+    background: var(--accent);
+    opacity: 0.75;
+    transition: opacity 0.15s ease, background-color 0.15s ease;
+  }
+  .hist-bar:hover .hist-fill { background: var(--accent-bright); opacity: 1; }
+
+  .hist-axis {
+    display: flex;
+    gap: 2px;
+    padding-top: 5px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+  }
+  .hist-axis span { flex: 1; min-width: 3px; white-space: nowrap; }
+
+  /* Itemized donations sub-table (ported from streams.html). */
+  .donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .donations-table th {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: left;
+    padding: 4px 8px 8px;
+    border-bottom: 1px solid var(--border-default);
+  }
+  .donations-table td {
+    padding: 7px 8px;
+    border-bottom: 1px solid rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.07);
+    vertical-align: top;
+  }
+  .donations-table tr:last-child td { border-bottom: none; }
+  .donations-table tr:hover td {
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.05);
+  }
+
+  .type-badge {
+    display: inline-block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+  .type-superchat      { color: #80c8a0; border-color: rgba(80,180,120,0.35); background: rgba(40,120,70,0.2); }
+  .type-membership     { color: #80c8a0; border-color: rgba(80,180,120,0.25); background: rgba(30,100,60,0.15); }
+  .type-giftmembership { color: #80c8a0; border-color: rgba(80,180,120,0.25); background: rgba(30,100,60,0.15); }
+
+  /* White (The Shire) theme: darker text on lighter fills for legibility. */
+  html[data-theme="white"] .donations-table td {
+    border-bottom-color: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.16);
+  }
+  html[data-theme="white"] .type-superchat,
+  html[data-theme="white"] .type-membership,
+  html[data-theme="white"] .type-giftmembership { color: #237046; border-color: rgba(35,112,70,0.45); background: rgba(35,112,70,0.13); }
+
+  /* A donor's TTS favourites: voices "name:" keep the accent box, sound effects
+     "(code)" read as a dashed pill (same split as tts.html). */
+  .tts-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tts-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    padding: 1px 7px;
+    border-radius: 3px;
+    border: 1px solid rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.35);
+    color: var(--accent-bright);
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.12);
+    white-space: nowrap;
+  }
+  .tts-badge.snd {
+    border-radius: 10px;
+    border: 1px dashed var(--border-default-strong);
+    color: var(--text-primary);
+    background: var(--bg-subtle);
+  }
+  .tts-badge .n { color: var(--text-muted); margin-left: 4px; }
+
+  .donations-table .ts-cell  { font-family: 'Share Tech Mono', monospace; font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+  .donations-table .amount-usd { font-family: 'Share Tech Mono', monospace; color: var(--accent); font-size: 13px; white-space: nowrap; }
+  .donations-table .msg-cell { font-family: 'Lora', serif; color: var(--text-muted); font-size: 13px; word-break: break-word; }
+  .stream-link {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4);
+    transition: color 0.15s ease, border-color 0.15s ease;
+    /* Truncate long stream titles; full name shown via the title tooltip. */
+    display: inline-block;
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+  }
+  .stream-link:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); }
+
+  .ts-link {
+    color: var(--accent);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 1px dotted rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4);
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .ts-link:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); }
+
+  .tts-link {
+    color: var(--accent);
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4);
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .tts-link:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="page-title">The Goblin Hoard</div>
+  <input id="donorSearch" class="donor-search" type="search"
+         placeholder="search donors…" autocomplete="off" spellcheck="false">
+  <div class="table-wrap" id="tableWrap">
+    <div class="loading-state">
+      <span class="loading-glyph">~</span>
+      <span>counting the hoard...</span>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+
+<script>
+const RAW = DATA_BASE;   // config.js: raw.githubusercontent in production, local files on localhost
+
+// Donation types we track (YouTube only) and their display labels
+const TYPES = [
+  { key: 'superchat',      label: 'Superchat'  },
+  { key: 'membership',     label: 'Membership' },
+  { key: 'giftmembership', label: 'Gift Mem'   },
+];
+
+// Theme
+function applyTheme(key) {
+  const themes = {
+    green: 'themes/goblin-cave.css',
+    amber: 'themes/hearth-fire.css',
+    grey:  'themes/misty-mountain.css',
+    void:  'themes/deep-mine.css',
+    white: 'themes/the-shire.css',
+  };
+  document.getElementById('theme-css').href = themes[key] || themes.green;
+  document.documentElement.setAttribute('data-theme', key);
+}
+applyTheme(localStorage.getItem('goblin-theme') || 'green');
+window.addEventListener('message', e => { if (e.data?.type === 'theme') applyTheme(e.data.key); });
+
+// Mouse forwarding
+document.addEventListener('mousemove', e => {
+  try { window.parent.postMessage({ type: 'mousemove', x: e.clientX, y: e.clientY }, '*'); } catch(err) {}
+});
+document.addEventListener('mouseleave', () => {
+  try { window.parent.postMessage({ type: 'mouseleave' }, '*'); } catch(err) {}
+});
+
+// Fetch helpers
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} — ${url}`);
+  return r.json();
+}
+async function fetchText(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} — ${url}`);
+  return r.text();
+}
+// Parse a TTS whitelist (tts-voices.txt / tts-sounds.txt, one name per line) into
+// { lowercased: canonical }. Mirrors tts.html's parseNames so the counts match.
+function parseNames(text) {
+  const map = {};
+  for (const raw of (text || '').split(/\r?\n/)) {
+    const name = raw.trim();
+    if (!name || name.startsWith('#')) continue;
+    map[name.toLowerCase()] = name;
+  }
+  return map;
+}
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+// Escape a username for use inside an [data-user="…"] attribute selector
+// (usernames can contain quotes/brackets). CSS.escape is in all current browsers.
+function cssEscape(s) {
+  return (window.CSS && CSS.escape) ? CSS.escape(s) : String(s).replace(/["\\\]]/g, '\\$&');
+}
+
+// Sort state
+let sortKey   = 'total';
+let sortAsc   = false;
+let tableData = [];
+
+// Search state: case-insensitive substring filter on the donor username.
+let searchQuery = '';
+
+// Total column count of the outer table, used for the expanded detail row's
+// colspan. Static (TYPES is fixed) so it lives at module scope — toggleDonor
+// needs it to build a detail row without a full re-render.
+const COLS = 6 + TYPES.length;   // rank, donor, total, streams, donations, TTS messages + one per type
+
+// ── Windowed rendering ───────────────────────────────────────────────────────
+// There are 4000+ donors. Putting every row in the DOM at once costs ~4s of
+// style & layout on load (CSS containment can't help here — `content-visibility`
+// is ignored on table-internal display types). So we render the sorted list in
+// chunks: an initial batch big enough to fill the viewport, then more appended
+// as the user scrolls toward the bottom. Sorting rebuilds from the first chunk.
+const CHUNK = 100;          // donor rows appended per batch
+let sortedRows    = [];     // the full sorted donor list (all rows live here…)
+let renderedCount = 0;      // …but only this many are currently in the DOM
+
+// ── Expandable per-donor donations ───────────────────────────────────────────
+// This page loads only leaderboard.json (aggregates) on page load. The individual
+// donations behind each donor live in data/donor_donations.json (built by the
+// backend, keyed by the same normalized username as leaderboard.json). That file
+// is large, so we lazy-load it once -- only when the first row is expanded -- and
+// cache it for the session.
+const expanded   = new Set();   // usernames whose detail panel is open
+let donorData    = null;        // the parsed donor_donations.json, once fetched
+let donorPromise = null;        // in-flight fetch (dedupes concurrent expands)
+let donorError   = null;        // message if the fetch failed
+
+function ensureDonorData() {
+  if (donorData) return Promise.resolve(donorData);
+  if (!donorPromise) {
+    donorPromise = fetchJSON(`${RAW}/data/donor_donations.json`)
+      .then(d => { donorData = d; donorError = null; refreshOpenPanels(); return d; })
+      .catch(e => { donorError = e.message; donorPromise = null; refreshOpenPanels(); });
+  }
+  return donorPromise;
+}
+
+// Re-render the inner panel of every currently-open donor in place. Called once
+// after donor_donations.json finishes loading (the panels were showing a
+// "loading…" placeholder) — far cheaper than rebuilding the whole 4000-row table.
+function refreshOpenPanels() {
+  const wrap = document.getElementById('tableWrap');
+  wrap.querySelectorAll('tbody.donor-group > tr.donations-row .donor-panel').forEach(panel => {
+    const tb = panel.closest('tbody.donor-group');
+    if (tb && tb.dataset.user != null) {
+      panel.innerHTML = donorPanelInner(tb.dataset.user);
+      fillDonorPanel(panel, tb.dataset.user);
+    }
+  });
+}
+
+function fmtUSD(n) {
+  return n > 0 ? '$' + n.toFixed(2) : '—';
+}
+
+function fmtDateTime(ts) {
+  if (!ts) return '—';
+  const d = new Date(ts * 1000);
+  const opts = { month: '2-digit', day: '2-digit', year: '2-digit' };
+  const tOpts = { hour: 'numeric', minute: '2-digit' };
+  // Honor the dashboard's timezone config if config.js provides withTZ.
+  const tz = (typeof withTZ === 'function') ? withTZ : (o => o);
+  return d.toLocaleDateString('en-US', tz(opts)) + ' ' + d.toLocaleTimeString('en-US', tz(tOpts));
+}
+
+// ── VOD timestamp deep links ─────────────────────────────────────────────────
+// Each donation links to the moment it happened in the stream's own YouTube VOD
+// (streams[stream_id].source_vod_id), using ts - start_ts as the offset.
+function fmtElapsed(startTs, ts) {
+  const s = Math.max(0, Math.floor(ts - startTs));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  return h > 0
+    ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+    : `${m}:${String(sec).padStart(2,'0')}`;
+}
+
+// The Timestamp cell: elapsed H:MM:SS into the stream, linking into the VOD when
+// the stream has one; plain text otherwise.
+function timestampCell(smeta, ts) {
+  const startTs = smeta && smeta.start_ts;
+  const label = startTs ? fmtElapsed(startTs, ts) : '—';
+  if (!startTs || !smeta.source_vod_id) return label;
+  const tSec = Math.max(0, Math.floor(ts - startTs));
+  const href = `https://www.youtube.com/watch?v=${encodeURIComponent(smeta.source_vod_id)}&amp;t=${tSec}s`;
+  return `<a class="ts-link" href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+}
+
+// Navigate the shell to the Streams tab focused on a given stream, in the SAME
+// page (links that stay within the site never open a new tab). Mirrors
+// channelstats.html's jumpToStream. The stream rides in the navigate slug as the
+// #streams/<slug> sub-hash so the shell updates its own pendingStreamSlug -- a
+// bare 'streams' slug would leave a stale one, and the shell re-posts that into
+// the iframe on load, overriding the sessionStorage stash below.
+function jumpToStream(streamId) {
+  if (!streamId) return;
+  try { sessionStorage.setItem('selected-stream', streamId); } catch (e) {}
+  if (window.parent && window.parent !== window) {
+    try { window.parent.postMessage({ type: 'navigate', slug: 'streams/' + encodeURIComponent(streamId) }, '*'); return; } catch (e) {}
+  }
+  window.location.href = 'index.html#streams/' + encodeURIComponent(streamId);
+}
+
+// Navigate the shell to the TTS tab with this donor pre-selected in the donor
+// dropdown (same page). Mirrors jumpToStream; tts.html reads 'selected-tts-user'
+// on load.
+function jumpToTts(user) {
+  if (!user) return;
+  try { sessionStorage.setItem('selected-tts-user', user); } catch (e) {}
+  if (window.parent && window.parent !== window) {
+    try { window.parent.postMessage({ type: 'navigate', slug: 'tts' }, '*'); return; } catch (e) {}
+  }
+  window.location.href = 'index.html#tts';
+}
+
+// One donation's <tr> for the itemized sub-table.
+function donationRowHTML(d, streams) {
+  const sid   = d.stream_id;
+  const smeta = sid && streams[sid];
+  const label = (smeta && smeta.title) ? smeta.title : (sid || '—');
+  // Real href (deep-links to the stream when opened standalone / via new tab),
+  // but a plain left-click is intercepted in setupDelegation to navigate the
+  // shell in the same page rather than opening a new tab.
+  const streamCell = sid
+    ? `<a class="stream-link" href="index.html#streams/${encodeURIComponent(sid)}" data-sid="${escHtml(sid)}" title="${escHtml(label)}">${escHtml(label)}</a>`
+    : '—';
+  const tsCell = smeta ? timestampCell(smeta, d.ts) : '—';
+  const type = d.type || '';
+  const amt  = (d.amount_usd != null && d.amount_usd > 0)
+    ? fmtUSD(d.amount_usd)
+    : (d.amount_raw ? escHtml(String(d.amount_raw)) : '—');
+  const msg  = d.message ? escHtml(d.message) : '';
+  return `<tr>
+      <td class="ts-cell">${fmtDateTime(d.ts)}</td>
+      <td>${streamCell}</td>
+      <td class="ts-cell">${tsCell}</td>
+      <td><span class="type-badge type-${escHtml(type)}">${escHtml(type) || '—'}</span></td>
+      <td class="amount-usd">${amt}</td>
+      <td class="msg-cell">${msg}</td>
+    </tr>`;
+}
+
+// ── Donation-timing histogram ────────────────────────────────────────────────
+// A donor's donations pooled into 10-minute windows of stream-elapsed time,
+// across every stream at once: a tip 43 minutes into one stream shares a bucket
+// with one 47 minutes into another. Uses the stream's start_ts, the same anchor
+// timestampCell uses above.
+const HIST_BUCKET_SEC  = 600;         // 10 minutes
+const HIST_MAX_ELAPSED = 24 * 3600;   // keeps one bad start_ts from stretching the axis
+const HIST_LABEL_EVERY = 6;           // axis label every 6th bucket, i.e. hourly
+
+let histMode = 'count';   // 'count' | 'usd' — one shared preference, not per panel
+
+// Bucket a donor's donations by elapsed time. Donations on a stream with no
+// usable start_ts can't be placed and are left out. Array length is the last
+// occupied bucket, so the axis fits the data rather than a fixed range.
+function histBuckets(recs, streams) {
+  const buckets = [];
+  let placed = 0;
+  for (const d of recs) {
+    const smeta = d.stream_id && streams[d.stream_id];
+    const start = smeta && smeta.start_ts;
+    if (!start || d.ts == null) continue;
+    const elapsed = d.ts - start;
+    if (elapsed < 0 || elapsed > HIST_MAX_ELAPSED) continue;
+    const i = Math.floor(elapsed / HIST_BUCKET_SEC);
+    while (buckets.length <= i) buckets.push({ count: 0, usd: 0 });
+    buckets[i].count++;
+    if (d.amount_usd > 0) buckets[i].usd += d.amount_usd;
+    placed++;
+  }
+  return { buckets, placed };
+}
+
+function histClock(mins) {
+  return `${Math.floor(mins / 60)}:${String(mins % 60).padStart(2, '0')}`;
+}
+
+// The histogram section, or '' when nothing could be placed (the donation log
+// then renders on its own).
+function histHTML(recs, streams) {
+  const { buckets, placed } = histBuckets(recs, streams);
+  if (!placed) return '';
+  const value = b => (histMode === 'usd' ? b.usd : b.count);
+  const max = buckets.reduce((m, b) => Math.max(m, value(b)), 0);
+  const bars = buckets.map((b, i) => {
+    const v = value(b);
+    // A nonzero bucket floors at 2% so a lone donation still draws something.
+    const pct = (max > 0 && v > 0) ? Math.max(2, (v / max) * 100) : 0;
+    const tip = `${histClock(i * 10)}–${histClock((i + 1) * 10)} · `
+      + `${b.count} donation${b.count === 1 ? '' : 's'} · ${fmtUSD(b.usd)}`;
+    return `<div class="hist-bar" title="${escHtml(tip)}"><div class="hist-fill" style="height:${pct.toFixed(1)}%"></div></div>`;
+  }).join('');
+  const axis = buckets.map((b, i) =>
+    `<span>${i % HIST_LABEL_EVERY === 0 ? histClock(i * 10) : ''}</span>`).join('');
+  const unit = histMode === 'usd' ? 'donation totals in USD' : 'donation counts';
+  return `<div class="panel-section">
+    <div class="panel-subtitle">Donation Timing
+      <span class="panel-hint">10-minute buckets · time into stream</span>
+      <span class="hist-toggle">
+        <button class="hist-mode${histMode === 'count' ? ' is-on' : ''}" data-mode="count">count</button>
+        <button class="hist-mode${histMode === 'usd'   ? ' is-on' : ''}" data-mode="usd">$</button>
+      </span>
+    </div>
+    <div class="donor-hist" role="img" aria-label="Histogram of ${unit} by 10-minute window of stream-elapsed time">${bars}</div>
+    <div class="hist-axis">${axis}</div>
+  </div>`;
+}
+
+// A heavy donor can have 1800+ donations; rendering them all in one synchronous
+// pass is the lag you see on expand. So a panel renders only its first batch up
+// front (instant), tags the sub-table with the full count, and the rest are
+// appended across animation frames by fillDonorPanel() — no single long task.
+const SUB_FIRST = 60;   // rows rendered synchronously when a panel opens
+const SUB_MORE  = 200;  // rows appended per animation frame thereafter
+
+// Inner HTML of a donor's `.donor-panel`: a load/empty status, or the donations
+// sub-table seeded with up to SUB_FIRST rows (data-total carries the real count
+// so fillDonorPanel knows there's more to append).
+function donorPanelInner(username) {
+  if (!donorData) {
+    if (donorError) return `<div class="donor-empty">couldn't load donations — ${escHtml(donorError)}</div>`;
+    return `<div class="donor-loading"><span class="loading-glyph" style="font-size:18px;">~</span> loading donations…</div>`;
+  }
+  const recs = (donorData.donors && donorData.donors[username]) || [];
+  if (!recs.length) return `<div class="donor-empty">No itemized donations recorded.</div>`;
+
+  const streams = donorData.streams || {};
+  const first = recs.slice(0, SUB_FIRST).map(d => donationRowHTML(d, streams)).join('');
+  return `${histHTML(recs, streams)}${ttsBadgesHTML(username)}
+  <div class="panel-section">
+    <div class="panel-subtitle">Donation Log</div>
+    <table class="donations-table" data-total="${recs.length}">
+      <thead><tr><th>Date</th><th>Stream</th><th>Timestamp</th><th>Type</th><th>Amount</th><th>Message</th></tr></thead>
+      <tbody>${first}</tbody>
+    </table>
+  </div>`;
+}
+
+// A donor's TTS favourites (from tts.json, see foldTtsCounts): every voice as a
+// "name:" badge and every sound effect as a "(code)" badge, most-used first.
+// '' when the donor never used TTS. Sits AFTER the histogram on purpose —
+// redrawHistograms expects the histogram to be the panel's first section.
+function ttsBadgesHTML(username) {
+  const t = ttsByUser[(username || '').toLowerCase()];
+  if (!t) return '';
+  const badges = (uses, cls, token) => Object.entries(uses)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([name, n]) => `<span class="tts-badge${cls}">${escHtml(token(name))}<span class="n">×${n}</span></span>`)
+    .join('');
+  return `<div class="panel-section">
+    <div class="panel-subtitle">TTS Favourites
+      <span class="panel-hint">voices as name: · sound effects as (code)</span>
+    </div>
+    <div class="tts-badges">${badges(t.voices, '', n => `${n}:`)}${badges(t.sounds, ' snd', n => `(${n})`)}</div>
+  </div>`;
+}
+
+// Rebuild just the histogram of every open panel after a count/$ toggle. It must
+// not replace the donations <tbody> — that would cancel an in-flight
+// fillDonorPanel rAF chain and drop the rows it had left to append.
+function redrawHistograms() {
+  if (!donorData) return;
+  const streams = donorData.streams || {};
+  document.getElementById('tableWrap')
+    .querySelectorAll('tbody.donor-group > tr.donations-row .donor-panel').forEach(panel => {
+      const tb = panel.closest('tbody.donor-group');
+      const user = tb && tb.dataset.user;
+      const sec = panel.querySelector('.panel-section');
+      if (!user || !sec || !sec.querySelector('.donor-hist')) return;   // log-only panel
+      sec.outerHTML = histHTML((donorData.donors && donorData.donors[user]) || [], streams);
+    });
+}
+
+// Incrementally append the remaining donation rows of an open panel, a frame at
+// a time. Each run is tagged on the <tbody> so collapsing the panel (or a later
+// re-fill) supersedes an in-flight one; it also continues from however many rows
+// are already present, so it's safe to call repeatedly.
+function fillDonorPanel(panel, username) {
+  if (!donorData) return;
+  const body = panel.querySelector('table.donations-table > tbody');
+  if (!body) return;
+  const recs = (donorData.donors && donorData.donors[username]) || [];
+  const streams = donorData.streams || {};
+  const myGen = (body.__fillGen = (body.__fillGen || 0) + 1);
+  function step() {
+    if (body.__fillGen !== myGen || !body.isConnected) return;   // superseded / collapsed
+    const start = body.children.length;
+    if (start >= recs.length) return;
+    const end = Math.min(start + SUB_MORE, recs.length);
+    let html = '';
+    for (let i = start; i < end; i++) html += donationRowHTML(recs[i], streams);
+    body.insertAdjacentHTML('beforeend', html);
+    if (end < recs.length) requestAnimationFrame(step);
+  }
+  if (body.children.length < recs.length) requestAnimationFrame(step);
+}
+
+// Toggle a donor's panel open/closed, lazy-loading the data on first open.
+// Updates only the affected donor's <tbody> in place — rebuilding the whole
+// 4000-row table here is what made expanding a heavy donor (1800+ donations)
+// visibly lag, since it re-stringified and re-laid-out every other row too.
+function toggleDonor(username) {
+  const opening = !expanded.has(username);
+  if (opening) {
+    expanded.add(username);
+    ensureDonorData();   // fire-and-forget; refreshes this panel when it resolves
+  } else {
+    expanded.delete(username);
+  }
+
+  const wrap = document.getElementById('tableWrap');
+  const tb = [...wrap.querySelectorAll('tbody.donor-group')]
+    .find(t => t.dataset.user === username);
+  if (!tb) { renderTable(); return; }   // fallback: row not found, full redraw
+
+  const mainRow = tb.querySelector('tr.donor-row');
+  mainRow.classList.toggle('sticky-donor', opening);
+  const caret = mainRow.querySelector('.caret');
+  if (caret) caret.textContent = opening ? '▾' : '▸';
+
+  let detail = tb.querySelector('tr.donations-row');
+  if (opening) {
+    if (!detail) {
+      detail = document.createElement('tr');
+      detail.className = 'donations-row';
+      detail.innerHTML = `<td colspan="${COLS}"><div class="donor-panel">${donorPanelInner(username)}</div></td>`;
+      tb.appendChild(detail);
+      fillDonorPanel(detail.querySelector('.donor-panel'), username);
+    }
+  } else if (detail) {
+    detail.remove();
+  }
+}
+
+function sortArrow(key) {
+  if (key !== sortKey) return '';
+  return `<span class="sort-arrow">${sortAsc ? '↑' : '↓'}</span>`;
+}
+function thClass(key) {
+  return key === sortKey ? 'sorted' : '';
+}
+
+// The <tbody> markup for a single donor (main row + its detail panel if open).
+// `i` is the donor's overall rank in the sorted list (for the rank cell).
+function rowGroupHTML(row, i) {
+  const typeCells = TYPES.map(t => {
+    const v = row[t.key] || 0;
+    return `<td class="amount-type${v === 0 ? ' zero' : ''}">${fmtUSD(v)}</td>`;
+  }).join('');
+
+  const isOpen = expanded.has(row.username);
+  const caret  = `<span class="caret">${isOpen ? '▾' : '▸'}</span>`;
+
+  // TTS message count -> links to the TTS tab filtered to this donor (0 = plain).
+  const ttsCell = row.tts > 0
+    ? `<td class="amount-type"><a class="tts-link" data-user="${escHtml(row.username)}" title="TTS messages by ${escHtml(row.username)}">${row.tts}</a></td>`
+    : `<td class="amount-type zero">0</td>`;
+
+  const mainRow = `<tr class="donor-row${isOpen ? ' sticky-donor' : ''}" data-user="${escHtml(row.username)}">
+      <td class="rank">${i + 1}</td>
+      <td class="username">${caret}${escHtml(row.username)}</td>
+      <td class="amount-total">${fmtUSD(row.total)}</td>
+      <td class="amount-type">${row.streams}</td>
+      <td class="amount-type">${row.donations || 0}</td>
+      ${ttsCell}
+      ${typeCells}
+    </tr>`;
+
+  const detailRow = isOpen
+    ? `<tr class="donations-row"><td colspan="${COLS}"><div class="donor-panel">${donorPanelInner(row.username)}</div></td></tr>`
+    : '';
+
+  // Each donor (main row + its detail panel) gets its own <tbody> so the
+  // pinned/sticky main row is constrained to this section: it stays under the
+  // header while its panel scrolls, then releases as the next donor scrolls up.
+  // data-user lets toggleDonor find this section to update it in place.
+  return `<tbody class="donor-group" data-user="${escHtml(row.username)}">${mainRow}${detailRow}</tbody>`;
+}
+
+// Append the next CHUNK of donor rows to the table (no-op once all are rendered).
+function appendChunk() {
+  if (renderedCount >= sortedRows.length) return;
+  const table = document.querySelector('#tableWrap table');
+  if (!table) return;
+  const end = Math.min(renderedCount + CHUNK, sortedRows.length);
+  let html = '';
+  for (let i = renderedCount; i < end; i++) html += rowGroupHTML(sortedRows[i], i);
+  table.insertAdjacentHTML('beforeend', html);
+  // Any donor already expanded that landed in this chunk got only its first
+  // batch of donations from rowGroupHTML — start the incremental fill.
+  for (let i = renderedCount; i < end; i++) {
+    const u = sortedRows[i].username;
+    if (expanded.has(u)) {
+      const panel = table.querySelector(`tbody.donor-group[data-user="${cssEscape(u)}"] .donor-panel`);
+      if (panel) fillDonorPanel(panel, u);
+    }
+  }
+  renderedCount = end;
+}
+
+// Keep appending until the list overflows its scroll container (so there's
+// something to scroll), or every row is rendered. Guards against an infinite
+// loop if measurements ever go sideways.
+function fillViewport() {
+  const wrap = document.getElementById('tableWrap');
+  let guard = 0;
+  while (renderedCount < sortedRows.length &&
+         wrap.scrollHeight <= wrap.clientHeight + 300 &&
+         guard++ < 100) {
+    appendChunk();
+  }
+}
+
+function renderTable() {
+  const wrap = document.getElementById('tableWrap');
+  if (!tableData.length) {
+    wrap.innerHTML = '<div class="empty-state"><span class="loading-glyph" style="font-size:40px;">☽</span><span>no donations recorded yet</span></div>';
+    return;
+  }
+
+  const base = searchQuery
+    ? tableData.filter(u => u.username.toLowerCase().includes(searchQuery))
+    : tableData;
+
+  if (!base.length) {
+    wrap.innerHTML = `<div class="empty-state"><span class="loading-glyph" style="font-size:40px;">☽</span><span>no donors match “${escHtml(searchQuery)}”</span></div>`;
+    sortedRows = [];
+    renderedCount = 0;
+    return;
+  }
+
+  sortedRows = [...base].sort((a, b) => {
+    if (sortKey === 'username') {
+      const cmp = a.username.localeCompare(b.username, undefined, { sensitivity: 'base' });
+      return sortAsc ? cmp : -cmp;
+    }
+    const av = a[sortKey] ?? 0;
+    const bv = b[sortKey] ?? 0;
+    return sortAsc ? av - bv : bv - av;
+  });
+
+  const typeHeaders = TYPES.map(t =>
+    `<th class="${thClass(t.key)}" data-key="${t.key}">${escHtml(t.label)}${sortArrow(t.key)}</th>`
+  ).join('');
+
+  // Render only the header up front; rows are appended in chunks below. Resetting
+  // scrollTop matters on re-sort so the (now reordered) first chunk is in view.
+  renderedCount = 0;
+  wrap.scrollTop = 0;
+  wrap.innerHTML = `<table>
+    <thead>
+      <tr>
+        <th style="width:36px;"></th>
+        <th class="${thClass('username')}" data-key="username" style="min-width:160px;">Donor${sortArrow('username')}</th>
+        <th class="${thClass('total')}" data-key="total">Total${sortArrow('total')}</th>
+        <th class="${thClass('streams')}" data-key="streams">Streams${sortArrow('streams')}</th>
+        <th class="${thClass('donations')}" data-key="donations">Donations${sortArrow('donations')}</th>
+        <th class="${thClass('tts')}" data-key="tts" title="TTS messages sent — a voice or a sound effect (click a number to view them on the TTS tab)">TTS Messages${sortArrow('tts')}</th>
+        ${typeHeaders}
+      </tr>
+    </thead>
+  </table>`;
+
+  appendChunk();
+  fillViewport();
+
+  // The sticky donor row pins just below the (sticky) header; measure the
+  // header's rendered height so the pin sits flush under it across themes.
+  const thd = wrap.querySelector('thead');
+  if (thd) document.documentElement.style.setProperty('--thead-h', thd.offsetHeight + 'px');
+}
+
+// Click handling is delegated to the persistent #tableWrap container, attached
+// once — not re-bound per row on every render. With 4000+ rows, attaching a
+// listener to each was a large chunk of render cost and re-ran on every redraw.
+let delegationReady = false;
+function setupDelegation() {
+  if (delegationReady) return;
+  delegationReady = true;
+  const wrap = document.getElementById('tableWrap');
+  wrap.addEventListener('click', e => {
+    // Sort on header click.
+    const th = e.target.closest('th[data-key]');
+    if (th) {
+      const key = th.dataset.key;
+      if (key === sortKey) {
+        sortAsc = !sortAsc;
+      } else {
+        sortKey = key;
+        // Username sorts a→z by default, numbers sort greatest first.
+        sortAsc = key === 'username';
+      }
+      renderTable();
+      return;
+    }
+    // Histogram count/$ toggle — a shared preference, so every open panel redraws.
+    const hb = e.target.closest('button.hist-mode');
+    if (hb) {
+      if (histMode !== hb.dataset.mode) { histMode = hb.dataset.mode; redrawHistograms(); }
+      return;
+    }
+    // A stream title link: navigate the shell to the Streams tab in the same
+    // page (no new tab), honoring modified clicks for open-in-new-tab.
+    const sl = e.target.closest('a.stream-link');
+    if (sl) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+      jumpToStream(sl.dataset.sid);
+      return;
+    }
+    // A TTS-count link: jump to the TTS tab filtered to this donor, same page.
+    const tl = e.target.closest('a.tts-link');
+    if (tl) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+      jumpToTts(tl.dataset.user);
+      return;
+    }
+    // Ignore clicks on links inside a row (e.g. a VOD timestamp link) so they
+    // navigate instead of toggling the panel.
+    if (e.target.closest('a')) return;
+    // Expand/collapse a donor's itemized donations on row click.
+    const tr = e.target.closest('tr.donor-row');
+    if (tr) toggleDonor(tr.dataset.user);
+  });
+
+  // Live search: filter the donor list by username as the user types. Re-render
+  // is cheap (renderTable only lays out the first chunk synchronously, then
+  // windows the rest) so no debounce is needed; it also resets scrollTop, which
+  // is the desired behavior on a new query.
+  const search = document.getElementById('donorSearch');
+  if (search) {
+    search.addEventListener('input', e => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      renderTable();
+    });
+  }
+
+  // Windowed rendering: append the next chunk of donor rows as the user nears
+  // the bottom of the scroll container, so the DOM grows on demand instead of
+  // holding all 4000+ rows from the start.
+  wrap.addEventListener('scroll', () => {
+    if (renderedCount >= sortedRows.length) return;
+    if (wrap.scrollTop + wrap.clientHeight >= wrap.scrollHeight - 600) appendChunk();
+  }, { passive: true });
+}
+
+// Build tableData from a precomputed leaderboard.json object
+function loadFromLeaderboard(board) {
+  const users = board.users || {};
+  tableData = Object.values(users).filter(u => u.total > 0);
+}
+
+// Focus a specific donor (e.g. arrived from a streams.html pie-legend link).
+// Reuses the search filter so the row renders immediately regardless of the
+// windowed chunk rendering, then expands it and scrolls it into view.
+function selectDonor(user) {
+  const u = String(user).replace(/^@+/, '');
+  if (!u) return;
+  const box = document.getElementById('donorSearch');
+  if (box) box.value = u;
+  searchQuery = u.toLowerCase();
+  renderTable();
+  const match = tableData.find(r => (r.username || '').toLowerCase() === u.toLowerCase());
+  if (match && !expanded.has(match.username)) toggleDonor(match.username);
+  requestAnimationFrame(() => {
+    const wrap = document.getElementById('tableWrap');
+    const tb = match && wrap && wrap.querySelector(`tbody.donor-group[data-user="${cssEscape(match.username)}"]`);
+    if (tb) tb.scrollIntoView({ block: 'start' });
+  });
+}
+
+// Derive per-donor TTS usage from tts.json (schema v2: every message carries a
+// `commands` array of voices and a `sounds` array of sound-effect codes). A
+// message counts when it has >=1 whitelisted voice OR >=1 whitelisted sound --
+// the union of tts.html's two modes -- and lands on each tableData row as
+// row.tts; the per-voice / per-sound tallies feed ttsBadgesHTML. Best-effort: any
+// fetch failure leaves the counts at 0 so the column still renders. tts.json
+// usernames carry a leading '@' and leaderboard usernames don't, so the join
+// strips '@' + lowercases.
+let ttsByUser = {};   // { lowercasedUser: { count, voices: {name: n}, sounds: {code: n} } }
+async function foldTtsCounts() {
+  ttsByUser = {};
+  try {
+    const tts = await fetchJSON(`${RAW}/data/tts.json`);
+    // A whitelist that fails to load (or is empty) is permissive, not hide-all.
+    const loadList = file => fetchText(`${RAW}/${file}`).then(parseNames).catch(() => ({}));
+    const [voices, sounds] = await Promise.all([loadList('tts-voices.txt'), loadList('tts-sounds.txt')]);
+    const known = list => {
+      const on = Object.keys(list).length > 0;
+      return c => !on || Object.prototype.hasOwnProperty.call(list, String(c).toLowerCase());
+    };
+    const isVoice = known(voices), isSound = known(sounds);
+    for (const m of tts.messages || []) {
+      const mv = (m.commands || []).filter(c => isVoice(c));
+      const ms = (m.sounds   || []).filter(c => isSound(c));
+      if (!mv.length && !ms.length) continue;
+      const key = String(m.username || '').replace(/^@+/, '').toLowerCase();
+      if (!key) continue;
+      const t = ttsByUser[key] || (ttsByUser[key] = { count: 0, voices: {}, sounds: {} });
+      t.count++;
+      for (const v of mv) { const n = voices[String(v).toLowerCase()] || v; t.voices[n] = (t.voices[n] || 0) + 1; }
+      for (const c of ms) { const n = String(c).toLowerCase();              t.sounds[n] = (t.sounds[n] || 0) + 1; }
+    }
+  } catch (e) { /* leave ttsByUser empty -> all zeros */ }
+  for (const u of tableData) u.tts = (ttsByUser[(u.username || '').toLowerCase()] || {}).count || 0;
+}
+
+async function load() {
+  const wrap = document.getElementById('tableWrap');
+  try {
+    // This page reads only the precomputed leaderboard.json (maintained by
+    // github_sync._update_leaderboard; repair with rebuild_leaderboard.py).
+    // We intentionally do NOT fall back to aggregating every stream's
+    // events.jsonl -- at hundreds of streams that fan-out would fire hundreds
+    // of fetches (~tens of MB) and hang the browser.
+    const board = await fetchJSON(`${RAW}/data/leaderboard.json`);
+    loadFromLeaderboard(board);
+    await foldTtsCounts();   // adds row.tts (per-donor TTS message count)
+    setupDelegation();
+    renderTable();
+    // A pie-legend username link (streams.html) stashes the donor here; consume
+    // it once so a later manual visit doesn't re-trigger the filter.
+    let sel = null;
+    try {
+      sel = sessionStorage.getItem('selected-donor');
+      sessionStorage.removeItem('selected-donor');
+    } catch (e) {}
+    if (sel) selectDonor(sel);
+  } catch (e) {
+    wrap.innerHTML = `<div class="error-state"><span class="loading-glyph">✕</span><span>couldn't load donors<br><small>${e.message}</small></span></div>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>

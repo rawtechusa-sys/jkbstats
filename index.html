@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goblin Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Lora:ital,wght@0,400;0,500;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link id="theme-css" rel="stylesheet" href="themes/goblin-cave.css">
+<style>
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: var(--bg-base);
+    color: var(--text-primary);
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+
+  /* Vignette -- background set per theme file */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Root noise texture overlay */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.6;
+  }
+
+  /* ── Shell layout ── */
+  .shell {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 0 24px 0 0;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-default);
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    height: 56px;
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.5;
+  }
+
+  .header-title {
+    font-family: 'Rye', serif;
+    font-size: 22px;
+    color: var(--accent-bright);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    text-shadow: 0 0 20px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4);
+    padding: 0 24px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .header-title:hover { color: var(--accent); }
+
+  /* ── Tabs ── */
+  .tabs {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    flex: 1;
+  }
+
+  .tab {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 0 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 1px;
+  }
+
+  .tab:hover {
+    color: var(--accent);
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.05);
+  }
+
+  .tab.active {
+    color: var(--accent-bright);
+    border-bottom-color: var(--accent);
+  }
+
+  /* ── Theme select ── */
+  .theme-select {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    background: var(--bg-panel);
+    color: var(--text-muted);
+    border: 1px solid var(--border-default-strong);
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 0.05em;
+    margin-left: 12px;
+    flex-shrink: 0;
+  }
+
+  .theme-select:hover {
+    border-color: var(--accent);
+    color: var(--accent-bright);
+  }
+
+  /* ── Page iframe ── */
+  .page-frame {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: block;
+    background: transparent;
+  }
+
+</style>
+</head>
+
+<body>
+
+<script src="config.js"></script>
+
+<div class="shell">
+  <header class="header">
+    <a class="header-title" id="siteTitle" href="./">Goblin Watch</a>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-page="streams.html" data-slug="streams">Streams</button>
+      <button class="tab" data-page="channelstats.html" data-slug="channelstats">Channel Stats</button>
+      <button class="tab" data-page="donors.html" data-slug="donors">Donors</button>
+      <button class="tab" data-page="tts.html" data-slug="tts">TTS</button>
+      <button class="tab" data-page="chat.html" data-slug="chat">Search</button>
+    </nav>
+    <select class="theme-select" id="tzSelect" aria-label="Time zone" title="Time zone">
+      <option value="streamer">Goblin Time</option>
+      <option value="local">Local Time</option>
+      <option value="utc">UTC</option>
+    </select>
+    <select class="theme-select" id="themeSelect" aria-label="Color theme">
+      <option value="green">Goblin Cave</option>
+      <option value="amber">Hearth Fire</option>
+      <option value="grey">Misty Mountain</option>
+      <option value="void">Deep Mine</option>
+      <option value="white">The Shire</option>
+    </select>
+  </header>
+  <iframe class="page-frame" id="pageFrame" src="streams.html" title="Page content"></iframe>
+</div>
+
+<script>
+// Deep-link routing state for the streams sub-slug (#streams/<stream_slug>).
+// `pendingStreamSlug` is the stream to push into the streams iframe; it's set
+// from the hash or from a 'streamselected' message and (re)sent on iframe load.
+// `suppressHashSync` skips one hashchange when WE rewrote the hash (so an
+// in-iframe selection doesn't bounce back into a redundant reload).
+var pendingStreamSlug = null;
+var suppressHashSync = false;
+// Page currently loaded in the iframe (matches the static <iframe src>). We swap
+// the iframe via location.replace() (no history entry), which doesn't update the
+// src attribute, so track the loaded page here rather than reading getAttribute.
+var currentPage = 'streams.html';
+
+// Messages from the embedded page. (Pages also post 'mousemove'/'mouseleave';
+// nothing here consumes those, so they fall through.)
+window.addEventListener('message', e => {
+  if (!e.data) return;
+  if (e.data.type === 'theme') {
+    applyTheme(e.data.key);
+  } else if (e.data.type === 'navigate' && e.data.slug) {
+    // An embedded page (e.g. channelstats.html) asked to switch tabs. Setting the
+    // hash fires 'hashchange' -> syncTabFromHash, which reloads the iframe.
+    if (location.hash.replace(/^#/, '') === e.data.slug) syncTabFromHash();
+    else location.hash = e.data.slug;
+  } else if (e.data.type === 'streamselected' && e.data.slug) {
+    // The streams iframe reports a user selection -- reflect it in the parent URL
+    // as #streams/<slug> so the address bar stays a shareable deep link. Don't
+    // reload the iframe (the iframe is already showing it): suppress the echo.
+    pendingStreamSlug = e.data.slug;
+    const target = 'streams/' + encodeURIComponent(e.data.slug);
+    if (location.hash.replace(/^#/, '') !== target) {
+      suppressHashSync = true;
+      location.hash = target;
+    }
+  }
+});
+</script>
+
+<script>
+// ── Site title ────────────────────────────────────────────────────────────────
+document.getElementById('siteTitle').textContent = SITE_TITLE || 'Goblin Watch';
+document.title = SITE_TITLE || 'Goblin Watch';
+if (SITE_URL) document.getElementById('siteTitle').href = SITE_URL;
+// The time-zone label lives in config.js so the dropdown can't drift from it.
+for (const opt of document.getElementById('tzSelect').options) {
+  if (TZ_MODES[opt.value]) opt.textContent = TZ_MODES[opt.value].label;
+}
+
+// ── Theme ─────────────────────────────────────────────────────────────────────
+const THEME_FILES = {
+  green: 'themes/goblin-cave.css',
+  amber: 'themes/hearth-fire.css',
+  grey:  'themes/misty-mountain.css',
+  void:  'themes/deep-mine.css',
+  white: 'themes/the-shire.css',
+};
+
+function applyTheme(key) {
+  document.getElementById('theme-css').href = THEME_FILES[key] || THEME_FILES.green;
+  document.documentElement.setAttribute('data-theme', key);
+  localStorage.setItem('goblin-theme', key);
+  // Notify iframe -- it also reads localStorage directly on load,
+  // but this keeps live switching instant.
+  const f = document.getElementById('pageFrame');
+  try { f.contentWindow.postMessage({ type: 'theme', key }, '*'); } catch(e) {}
+}
+
+const savedTheme = localStorage.getItem('goblin-theme') || 'green';
+document.getElementById('themeSelect').value = savedTheme;
+applyTheme(savedTheme);
+
+document.getElementById('themeSelect').addEventListener('change', e => applyTheme(e.target.value));
+
+// ── Timezone ──────────────────────────────────────────────────────────────────
+// Persist the choice and push it to the iframe for live switching. Child pages
+// read getTimeZone() (config.js) at render time, so a freshly-loaded page already
+// paints in the saved zone -- no reapply on iframe 'load' needed.
+function applyTimezone(mode) {
+  localStorage.setItem('goblin-tz', mode);
+  const f = document.getElementById('pageFrame');
+  try { f.contentWindow.postMessage({ type: 'timezone', mode }, '*'); } catch (e) {}
+}
+const tzSelect = document.getElementById('tzSelect');
+tzSelect.value = getTZMode();
+tzSelect.addEventListener('change', e => applyTimezone(e.target.value));
+
+// Re-apply after iframe navigates to a new page; also (re)push any pending
+// stream selection now that the page's message listener is alive.
+document.getElementById('pageFrame').addEventListener('load', () => {
+  applyTheme(localStorage.getItem('goblin-theme') || 'green');
+  sendPendingStream();
+});
+
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+// The URL hash (#streams / #donors / #tts) is the source of truth for the active
+// tab, so links and refreshes deep-link to a tab. localStorage just remembers the
+// last tab when the page is opened with no hash.
+function tabForSlug(slug) {
+  return document.querySelector(`.tab[data-slug="${slug}"]`);
+}
+
+function activateTab(tab) {
+  if (!tab) return;
+  const frame = document.getElementById('pageFrame');
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  // Swap the iframe via location.replace() so the tab switch does NOT add a
+  // browser history entry. The hash is the only history record per navigation,
+  // so back/forward fire a single hashchange -> syncTabFromHash and stay in sync.
+  if (currentPage !== tab.dataset.page) {
+    currentPage = tab.dataset.page;
+    try { frame.contentWindow.location.replace(tab.dataset.page); }
+    catch (e) { frame.src = tab.dataset.page; } // fallback (same-origin: shouldn't happen)
+  }
+  localStorage.setItem('goblin-tab', tab.dataset.slug);
+}
+
+// The hash is #<tab> or #<tab>/<sub>. For the streams tab the sub-slug is a
+// stream id, so streams.html#<slug> deep links survive as index.html#streams/<slug>.
+function parseHash() {
+  const raw = location.hash.replace(/^#/, '');
+  const i = raw.indexOf('/');
+  return i === -1
+    ? { slug: raw, sub: '' }
+    : { slug: raw.slice(0, i), sub: raw.slice(i + 1) };
+}
+
+// Push the pending stream selection into the streams iframe.
+function sendPendingStream() {
+  if (!pendingStreamSlug) return;
+  const f = document.getElementById('pageFrame');
+  try { f.contentWindow.postMessage({ type: 'selectstream', slug: pendingStreamSlug }, '*'); } catch (e) {}
+}
+
+// Pick the tab implied by the current hash, falling back to the saved tab, then
+// the first tab. A streams sub-slug is stashed (sessionStorage, the channel
+// streams.html reads) and posted to the iframe.
+function syncTabFromHash() {
+  const { slug, sub } = parseHash();
+  const storedTab = tabForSlug(localStorage.getItem('goblin-tab'));
+  const tab = tabForSlug(slug)
+    || storedTab
+    || document.querySelector('.tab');
+  if (slug === 'streams' && sub) {
+    pendingStreamSlug = decodeURIComponent(sub);
+    try { sessionStorage.setItem('selected-stream', pendingStreamSlug); } catch (e) {}
+  }
+  activateTab(tab);
+  sendPendingStream();
+}
+
+document.getElementById('tabs').addEventListener('click', e => {
+  const tab = e.target.closest('.tab');
+  if (!tab) return;
+  // Setting the hash fires 'hashchange', which calls activateTab via
+  // syncTabFromHash. If the hash is already correct (re-click), activate directly.
+  if (location.hash.replace(/^#/, '') === tab.dataset.slug) {
+    activateTab(tab);
+  } else {
+    location.hash = tab.dataset.slug;
+  }
+});
+
+window.addEventListener('hashchange', () => {
+  // Skip the one hashchange we triggered ourselves from a 'streamselected'
+  // message -- the iframe already shows that stream; re-syncing would reload it.
+  if (suppressHashSync) { suppressHashSync = false; return; }
+  syncTabFromHash();
+});
+syncTabFromHash();
+</script>
+
+</body>
+</html>

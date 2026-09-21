@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Goblin Watch: a goblin head with long pointed ears and one watchful eye open. -->
+  <rect width="64" height="64" rx="12" fill="#080e08"/>
+  <path d="M4 22 L22 28 L20 40 Z" fill="#5a9a34"/>
+  <path d="M60 22 L42 28 L44 40 Z" fill="#5a9a34"/>
+  <ellipse cx="32" cy="35" rx="16" ry="17" fill="#7ab84a"/>
+  <ellipse cx="25" cy="32" rx="5" ry="6" fill="#f4f7e8"/>
+  <circle cx="26" cy="33" r="2.6" fill="#080e08"/>
+  <path d="M35 32 q5 -4 9 0" stroke="#080e08" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M24 44 q8 6 16 0" stroke="#080e08" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M27 45 l1.5 3 l1.5 -3 Z" fill="#f4f7e8"/>
+</svg>

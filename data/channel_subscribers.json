@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "updated_ts": 1789872452,
+  "snapshots": [
+    {
+      "ts": 1789872452,
+      "count": 62300,
+      "source": "manual",
+      "stream_id": null
+    }
+  ]
+}

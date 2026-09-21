@@ -1,0 +1,67 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    # The collector's uploader commits to data/ every few minutes during a
+    # stream. None of those commits need a deploy: every page fetches data/ from
+    # raw.githubusercontent.com (see DATA_BASE in config.js), so new data is
+    # visible as soon as the commit lands. Only site files trigger a deploy.
+    paths-ignore:
+      - 'data/**'
+      - 'README.md'
+      - 'tools/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a newer push replaces a deploy that is still running.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # data/ is never published to Pages (hundreds of MB of chat logs), so
+          # do not even download it.
+          sparse-checkout: |
+            /*
+            !/data/
+          sparse-checkout-cone-mode: false
+
+      - name: Stage site files
+        # Publish the pages only. data/ stays in the repo and is served by
+        # raw.githubusercontent.com; the tts-*.txt lists are fetched from there
+        # too, but are small, so they ride along for the local-preview path.
+        run: |
+          mkdir _site
+          cp *.html config.js favicon.svg _site/
+          cp tts-voices.txt tts-sounds.txt tts-descriptions.md _site/
+          cp -r themes tts-backgrounds _site/
+          if [ -f CNAME ]; then cp CNAME _site/; fi
+          touch _site/.nojekyll
+          du -sh _site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

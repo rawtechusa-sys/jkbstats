@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Standalone guard: these pages live inside the index.html shell. If loaded
+     top-level, bounce into the shell at this page's tab, carrying any sub-slug. -->
+<script>(function(){
+  if (window.self !== window.top) return;
+  var slug = 'chat';
+  var sub  = location.hash.replace(/^#/, '');
+  location.replace('index.html#' + slug + (sub ? '/' + sub : ''));
+})();</script>
+<title>Search</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Lora:ital,wght@0,400;0,500;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link id="theme-css" rel="stylesheet" href="themes/goblin-cave.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: transparent;
+    color: var(--text-primary);
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+
+  .page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 24px;
+    gap: 16px;
+  }
+
+  .title-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    flex-shrink: 0;
+  }
+  .page-title {
+    font-family: 'Rye', serif;
+    font-size: 20px;
+    color: var(--accent-bright);
+    letter-spacing: 0.06em;
+  }
+  .index-status {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    margin-left: auto;
+  }
+
+  /* ── Filter bar ─────────────────────────────────────────────── */
+  /* One <form>, stacked rows: text/date fields on top, checkbox groups +
+     actions underneath. Enter anywhere in the form submits natively. */
+  .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .filter-spacer { flex: 1 1 auto; }
+  /* Checkbox groups keep their label beside the boxes (not above, as the text
+     fields do) so row 2 stays one line tall. */
+  .check-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .filters .field {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .filters label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .filters input[type="text"],
+  .filters input[type="search"],
+  .filters input[type="date"] {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    background: var(--bg-panel);
+    color: var(--text-primary);
+    border: 1px solid var(--border-default-strong);
+    border-radius: 4px;
+    padding: 6px 9px;
+    outline: none;
+  }
+  .filters input:focus { border-color: var(--accent); }
+  .filters input[type="date"] { color-scheme: dark; }
+  html[data-theme="white"] .filters input[type="date"] { color-scheme: light; }
+  #q { min-width: 260px; flex: 1; }
+
+  /* ── Username quick-find ────────────────────────────────────── */
+  /* A hand-rolled dropdown, not a <datalist>: data/chat_authors.json can grow to
+     tens of thousands of author keys, and that many <option> nodes stall the
+     page. A row only fills the input. */
+  .filters .field.suggest-field { position: relative; }
+  .suggest {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    z-index: 20;
+    /* --bg-panel carries alpha in every theme, so it is layered over an opaque
+       --bg-base; otherwise the results underneath read straight through the list. */
+    background-color: var(--bg-base);
+    background-image: linear-gradient(var(--bg-panel), var(--bg-panel));
+    border: 1px solid var(--border-default-strong);
+    border-radius: 4px;
+    max-height: 260px;
+    overflow-y: auto;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .suggest::-webkit-scrollbar { width: 4px; }
+  .suggest::-webkit-scrollbar-track { background: transparent; }
+  .suggest::-webkit-scrollbar-thumb { background: var(--bg-raised); border-radius: 2px; }
+  .suggest-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 5px 9px;
+    color: var(--text-primary);
+    cursor: pointer;
+  }
+  .suggest-row .suggest-count { margin-left: auto; color: var(--text-muted); }
+  .suggest-row.active, .suggest-row:hover {
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.08);
+  }
+  /* The one non-row state: the author index is still on the wire. */
+  .suggest-note {
+    padding: 5px 9px;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .source-checks {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .source-checks label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    text-transform: none;
+    color: var(--text-primary);
+    cursor: pointer;
+  }
+  .source-checks input { accent-color: var(--accent); cursor: pointer; }
+  .phrase-check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: var(--text-primary);
+    cursor: pointer;
+    text-transform: none;
+  }
+  .phrase-check input { accent-color: var(--accent); cursor: pointer; }
+
+  .btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    background: var(--bg-panel);
+    color: var(--accent-bright);
+    border: 1px solid var(--border-default-strong);
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    align-self: flex-end;
+  }
+  .btn:hover { border-color: var(--accent); background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.08); }
+  .btn:disabled { opacity: 0.4; cursor: default; }
+
+  /* A text-only secondary action (reset) — never competes with the Search button. */
+  .btn-link {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 8px 4px;
+    align-self: flex-end;
+  }
+  .btn-link:hover { color: var(--accent-bright); }
+
+  /* ── Stale hint ─────────────────────────────────────────────── */
+  /* Sits BETWEEN the form and #results as a sibling: runSearch rewrites
+     results.innerHTML, which would destroy anything living inside it. */
+  .stale-hint {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+  }
+
+  /* ── Status bar ─────────────────────────────────────────────── */
+  /* Same reason as the stale hint: a sibling of #results, never inside it.
+     runSearch rewrites results.innerHTML, and the counts/cancel/expand controls
+     must stay put (and stay on screen) while the results scroll under them. */
+  .status-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    flex-shrink: 0;
+  }
+  /* An author `display` outranks the UA's [hidden] rule, so the hidden attribute
+     needs saying again here or the bar never hides. */
+  .status-bar[hidden] { display: none; }
+  .status-bar .btn-link { padding: 2px 4px; align-self: center; }
+  #searchNote {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    opacity: 0.6;
+    letter-spacing: 0.05em;
+  }
+
+  /* ── Results ────────────────────────────────────────────────── */
+  #results.stale { opacity: 0.55; transition: opacity .2s; }
+  .scroll-area {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-right: 4px;
+  }
+  .scroll-area::-webkit-scrollbar { width: 4px; }
+  .scroll-area::-webkit-scrollbar-track { background: transparent; }
+  .scroll-area::-webkit-scrollbar-thumb { background: var(--bg-raised); border-radius: 2px; }
+
+  .result-count {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+  }
+
+  .stream-group {
+    background: var(--bg-panel);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .stream-group-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.06);
+    border-bottom: 1px solid var(--border-default);
+    flex-wrap: wrap;
+    cursor: pointer;
+    list-style: none;
+  }
+  .stream-group-head::-webkit-details-marker { display: none; }
+  .stream-group:not([open]) .stream-group-head { border-bottom: none; }
+  /* Caret mirrors the expandable donor rows in donors.html. */
+  .caret {
+    display: inline-block;
+    width: 1em;
+    color: var(--text-muted);
+    transition: transform 0.15s ease, color 0.15s ease;
+  }
+  .stream-group[open] .caret { transform: rotate(90deg); }
+  .stream-group-head:hover .caret { color: var(--accent-bright); }
+  .stream-group-title {
+    font-family: 'Rye', serif;
+    font-size: 15px;
+    color: var(--accent-bright);
+  }
+  .stream-group-title a { color: inherit; text-decoration: none; }
+  .stream-group-title a:hover { text-decoration: underline; }
+  .stream-group-meta {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
+  .hit-count { margin-left: auto; }
+
+  .msg {
+    padding: 9px 16px;
+    border-bottom: 1px solid rgba(100,180,60,0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .msg:last-child { border-bottom: none; }
+  .msg:hover { background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.04); }
+  .msg-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .msg-user {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--text-primary);
+  }
+  .plat-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    padding: 0 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border: 1px solid var(--border-default-strong);
+    color: var(--text-muted);
+  }
+  /* Chat rows: every message is YouTube live chat, so the badge names the corpus. */
+  .plat-badge.youtube { color: var(--platform-youtube); border-color: var(--platform-youtube); }
+  /* Spoken-word rows (YouTube auto-captions) — same shape, accent-tinted so a
+     transcript line reads as a different corpus at a glance. */
+  .plat-badge.transcript {
+    color: var(--accent-bright);
+    border-color: var(--accent);
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.10);
+  }
+  .msg-text {
+    font-size: 14px;
+    color: var(--text-primary);
+    word-break: break-word;
+  }
+  .msg-text mark, .suggest mark {
+    background: rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.35);
+    color: var(--accent-bright);
+    border-radius: 2px;
+    padding: 0 1px;
+  }
+  .msg-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    flex-wrap: wrap;
+  }
+  .msg-meta a { color: var(--text-muted); text-decoration: none; }
+  .msg-meta a:hover { color: var(--accent-bright); }
+  /* Scoped to the anchor: a row with no source VOD renders the elapsed time as
+     plain text, and a play glyph on unclickable text is a false affordance. */
+  a.vod-link::before { content: '▶ '; }
+  .elapsed-plain { color: var(--text-muted); opacity: 0.75; }
+  .msg-clock { color: var(--text-muted); opacity: 0.75; }
+
+  /* Per-group cap: the rest of a big group is one click away. */
+  .show-more {
+    display: block;
+    margin: 10px auto;
+    font-size: 11px;
+    padding: 6px 14px;
+  }
+  /* Why the auto-scan stopped, under the "Keep scanning" button. */
+  .scan-note {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: center;
+  }
+
+  .loading-state, .empty-state, .error-state, .hint-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .loading-glyph {
+    font-family: 'Rye', serif;
+    font-size: 32px;
+    color: var(--accent);
+    animation: flicker 2s ease-in-out infinite;
+  }
+  @keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.6; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="title-row">
+    <div class="page-title">Search Chat/Transcripts</div>
+    <div class="index-status" id="indexStatus">loading index…</div>
+  </div>
+
+  <!-- One form for the whole search. Visible from the first paint (the index
+       loads behind it); the submit button stays disabled until the index lands. -->
+  <form class="filters" id="searchForm">
+    <div class="filter-row">
+      <div class="field" style="flex:1;">
+        <label for="q">Search text</label>
+        <input type="search" id="q" placeholder="words to find in chat or transcripts…" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="field suggest-field">
+        <label for="user">Username</label>
+        <!-- The quick-find list is filled from data/chat_authors.json, fetched on
+             first focus (see initUI) — the same one fetch runSearch's username
+             filter uses. Picking a row only fills the field; Enter still searches. -->
+        <input type="text" id="user" placeholder="@name" autocomplete="off" spellcheck="false">
+        <div class="suggest" id="userSuggest" hidden></div>
+      </div>
+      <div class="field">
+        <label for="stream">Stream</label>
+        <input type="text" id="stream" list="streamList" placeholder="any stream" autocomplete="off">
+        <datalist id="streamList"></datalist>
+      </div>
+      <div class="field">
+        <label for="dateFrom">From</label>
+        <input type="date" id="dateFrom">
+      </div>
+      <div class="field">
+        <label for="dateTo">To</label>
+        <input type="date" id="dateTo">
+      </div>
+      <div class="field">
+        <label>&nbsp;</label>
+        <label class="phrase-check"><input type="checkbox" id="phrase">Exact phrase</label>
+      </div>
+    </div>
+    <div class="filter-row">
+      <div class="check-field">
+        <label>Search in</label>
+        <div class="source-checks">
+          <label><input type="checkbox" value="chat" checked>Chat</label>
+          <label><input type="checkbox" value="transcripts" checked>Transcripts</label>
+        </div>
+      </div>
+      <div class="filter-spacer"></div>
+      <button type="submit" class="btn" id="searchBtn">Search</button>
+      <button type="button" class="btn-link" id="resetBtn">reset</button>
+    </div>
+  </form>
+
+  <div class="stale-hint" id="staleHint" hidden></div>
+
+  <!-- Counts, note, cancel and the expand/collapse controls. A sibling of
+       #results (not a child) so it never scrolls away and survives every
+       results.innerHTML rewrite. -->
+  <div class="status-bar" id="statusBar" hidden>
+    <span class="result-count" id="resultStatus"></span>
+    <span id="searchNote"></span>
+    <button type="button" class="btn-link" id="cancelBtn" hidden>cancel</button>
+    <div class="filter-spacer"></div>
+    <button type="button" class="btn-link" id="collapseAllBtn">collapse all</button>
+    <button type="button" class="btn-link" id="expandAllBtn">expand all</button>
+  </div>
+
+  <div class="scroll-area" id="results">
+    <div class="loading-state">
+      <span class="loading-glyph">~</span>
+      <span>dusting off the search index…</span>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+
+<script>
+const RAW = DATA_BASE;   // config.js: raw.githubusercontent in production, local files on localhost
+
+// Streams hydrated (full chat fetched) per scroll page. avg chat file ~0.67 MiB,
+// so BATCH=8 ≈ 5 MiB/page. Results stream in as the user scrolls, so a broad query
+// never fetches more than the user actually scrolls through.
+const BATCH = 8;
+// When a query matches many streams but few messages pass the message-level filter,
+// batches can render nothing, so auto-fill would keep fetching to fill the viewport.
+// Cap that continuous auto-scan; past it, offer a "Keep scanning" button so a
+// restrictive filter on a common token can't silently pull hundreds of MB.
+const MAX_AUTOSCAN = 60;
+// A stream with thousands of hits would bury every other stream in the pane, so a
+// group renders its first GROUP_CAP rows and offers the rest behind one button.
+const GROUP_CAP = 50;
+
+// ── Theme (mirrors tts.html / donors.html) ───────────────────────────────────
+function applyTheme(key) {
+  const themes = {
+    green: 'themes/goblin-cave.css',
+    amber: 'themes/hearth-fire.css',
+    grey:  'themes/misty-mountain.css',
+    void:  'themes/deep-mine.css',
+    white: 'themes/the-shire.css',
+  };
+  document.getElementById('theme-css').href = themes[key] || themes.green;
+  document.documentElement.setAttribute('data-theme', key);
+}
+applyTheme(localStorage.getItem('goblin-theme') || 'green');
+window.addEventListener('message', e => {
+  if (e.data?.type === 'theme') applyTheme(e.data.key);
+});
+
+// Mouse forwarding so the parent's roach/eye animations still react.
+document.addEventListener('mousemove', e => {
+  try { window.parent.postMessage({ type: 'mousemove', x: e.clientX, y: e.clientY }, '*'); } catch(err) {}
+});
+document.addEventListener('mouseleave', () => {
+  try { window.parent.postMessage({ type: 'mouseleave' }, '*'); } catch(err) {}
+});
+
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} — ${url}`);
+  return r.json();
+}
+
+// Same contract as fetchJSON, but reports download progress as it streams.
+// Gotcha: raw.githubusercontent serves the index gzipped, so Content-Length is
+// the COMPRESSED size while the reader hands back decompressed bytes — the
+// percentage is only meaningful while received <= total. Past that, MB only.
+async function fetchJSONProgress(url, onBytes) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} — ${url}`);
+  if (!r.body || typeof r.body.getReader !== 'function') return r.json();
+  const hdr = Number(r.headers.get('content-length'));
+  const total = Number.isFinite(hdr) && hdr > 0 ? hdr : null;
+  const reader = r.body.getReader();
+  const chunks = [];
+  let received = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    if (!value) continue;
+    chunks.push(value);
+    received += value.length;
+    if (onBytes) onBytes(received, total);
+  }
+  const buf = new Uint8Array(received);
+  let off = 0;
+  for (const c of chunks) { buf.set(c, off); off += c.length; }
+  return JSON.parse(new TextDecoder('utf-8').decode(buf));
+}
+function escHtml(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// Same tokenizer as chat_search_index.py: lowercase, [a-z0-9]+, length 2..40.
+function tokenize(text) {
+  const out = new Set();
+  for (const t of String(text ?? '').toLowerCase().match(/[a-z0-9]+/g) || []) {
+    if (t.length >= 2 && t.length <= 40) out.add(t);
+  }
+  return [...out];
+}
+// Same normalization as chat_search_index._norm_username / donor_donations.
+function normUser(raw) {
+  return (String(raw ?? '').replace(/^@/, '').trim().toLowerCase()) || 'unknown';
+}
+
+// ── State ────────────────────────────────────────────────────────────────────
+let INDEX   = null;   // chat_search.json  { streams:[], tokens:{} }
+let AUTHORS = null;   // chat_authors.json { authors:{} }  (lazy)
+let TINDEX  = null;   // transcript_search.json { streams:[], tokens:{} }  (lazy)
+let INDEX_FAILED = false;   // load()'s fetch failed permanently — INDEX stays null forever
+
+// Paged-search state (rebuilt on each new search).
+let SEARCH = null;    // see startSearch(): { q, candidates, cursor, gen, loading, ... }
+let GEN = 0;          // bumped per search so a stale in-flight batch can detect it lost
+let OBSERVER = null;  // IntersectionObserver watching the sentinel
+// serializeSearch() of the last search that actually executed. null = nothing has
+// run yet, which is what the checkbox live-rerun and the stale hint both key off.
+let LAST_RUN = null;
+let HINT_TIMER = null;   // auto-clear for a transient #staleHint note
+// Keys are source-qualified ('chat:'+id / 'tr:'+id) because the two corpora are
+// fetched independently and a stream can be hydrated for one and not the other.
+const hydrateCache = new Map();   // 'chat:<id>' | 'tr:<id>' -> messages[]; kept across searches
+// stream id -> { smeta, hits, tokens } for the groups on screen, so a "show N more"
+// click can render rows GROUP_CAP..end without re-hydrating. Cleared per search.
+const GROUP_HITS = new Map();
+
+// ── Author index (lazy) ──────────────────────────────────────────────────────
+// The ONE fetch of chat_authors.json, shared by runSearch's username filter and by
+// the quick-find dropdown. The in-flight promise is held, not just the result: the
+// dropdown starts the fetch on focus and a search can be submitted a keystroke
+// later, and both must join the same download. It rejects rather than
+// swallowing the error, because the two callers want opposite things — runSearch
+// renders an error pane, the dropdown degrades silently to plain typing.
+// A failure clears the handle, so the next caller tries again.
+let AUTHORS_FETCH = null;
+function ensureAuthors() {
+  if (AUTHORS) return Promise.resolve(AUTHORS);
+  if (!AUTHORS_FETCH) {
+    AUTHORS_FETCH = fetchJSON(`${RAW}/data/chat_authors.json`)
+      .then(j => { AUTHORS = j; return j; })
+      .finally(() => { AUTHORS_FETCH = null; });
+  }
+  return AUTHORS_FETCH;
+}
+
+// ── Transcript index (lazy, 404-tolerant) ────────────────────────────────────
+// The transcript corpus ships before any transcript data exists, so EVERY failure
+// mode — missing file, unreadable file, malformed payload — degrades to an empty
+// index (zero transcript candidates), never to an error UI.
+async function ensureTranscriptIndex() {
+  if (TINDEX) return TINDEX;
+  try { TINDEX = await fetchJSON(`${RAW}/data/transcript_search.json`); }
+  catch (e) { TINDEX = null; }
+  if (!TINDEX || !Array.isArray(TINDEX.streams) || !TINDEX.tokens) {
+    TINDEX = { streams: [], tokens: {} };
+    return TINDEX;
+  }
+  const st = document.getElementById('indexStatus');
+  if (st && TINDEX.streams.length) {
+    st.textContent += ` · ${TINDEX.streams.length.toLocaleString()} transcripts`;
+  }
+  // Transcript-only streams are now pickable by title too.
+  rebuildStreamDatalist();
+  return TINDEX;
+}
+
+// The stream picker offers both corpora: a stream can have a transcript and no
+// chat. Dedupe by id with the chat index's metadata winning, same precedence as
+// the stream-meta merge in resolveCandidates. Newest first.
+function rebuildStreamDatalist() {
+  const dl = document.getElementById('streamList');
+  if (!dl) return;
+  const byId = new Map();
+  for (const s of (TINDEX && TINDEX.streams) || []) if (s && s.id) byId.set(s.id, s);
+  for (const s of (INDEX && INDEX.streams) || []) if (s && s.id) byId.set(s.id, s);
+  dl.innerHTML = [...byId.values()]
+    .filter(s => s.title)
+    .sort((a, b) => (b.start_ts || 0) - (a.start_ts || 0))
+    .map(s => `<option value="${escHtml(s.title)}">`).join('');
+}
+
+// ── Cross-tab navigation to a stream (mirrors donors.html/channelstats jumpToStream) ──
+function jumpToStream(streamId, ev) {
+  if (!streamId) return;
+  // Let modified clicks open a new tab normally.
+  if (ev && (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button === 1)) return;
+  if (ev) ev.preventDefault();
+  try { sessionStorage.setItem('selected-stream', streamId); } catch (e) {}
+  if (window.parent && window.parent !== window) {
+    try { window.parent.postMessage({ type: 'navigate', slug: 'streams' }, '*'); return; } catch (e) {}
+  }
+  window.location.href = 'index.html#streams';
+}
+
+// ── Sorted-array intersection (two-pointer) ──────────────────────────────────
+function intersectSorted(a, b) {
+  const out = [];
+  let i = 0, j = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { out.push(a[i]); i++; j++; }
+    else if (a[i] < b[j]) i++;
+    else j++;
+  }
+  return out;
+}
+
+// ── Date helpers ─────────────────────────────────────────────────────────────
+function fmtDate(ts) {
+  if (ts == null) return '';
+  try { return new Date(ts * 1000).toLocaleDateString('en-US', withTZ({ year: 'numeric', month: 'short', day: 'numeric' })); }
+  catch { return ''; }
+}
+// A YYYY-MM-DD <input type=date> value -> unix seconds at local midnight.
+function dateToTs(v, endOfDay) {
+  if (!v) return null;
+  const [y, m, d] = v.split('-').map(Number);
+  if (!y) return null;
+  const dt = new Date(y, m - 1, d, endOfDay ? 23 : 0, endOfDay ? 59 : 0, endOfDay ? 59 : 0);
+  return Math.floor(dt.getTime() / 1000);
+}
+
+// ── VOD deep link ────────────────────────────────────────────────────────────
+// The only video for a stream is its SOURCE VOD (source_vod_id, carried by the
+// index's streams[] entries). Every row carries `offset` = seconds into that VOD:
+//   · chat.json       — `offset` is max(0, ts - start_ts), written by the collector.
+//   · transcript.json — captions come from the VOD itself, so `o` is native VOD time.
+// Both map exactly.
+function vodLink(smeta, offset, label) {
+  const t = Math.max(0, Math.floor(offset ?? 0));
+  const id = smeta ? smeta.source_vod_id : null;
+  if (id) {
+    const href = `https://www.youtube.com/watch?v=${encodeURIComponent(id)}&amp;t=${t}s`;
+    return `<a class="vod-link" href="${href}" target="_blank" rel="noopener noreferrer">${escHtml(label)}</a>`;
+  }
+  // No source VOD: the elapsed time is still worth showing, but as plain text —
+  // no anchor, and no play glyph pretending it is clickable.
+  return `<span class="elapsed-plain">${escHtml(label)}</span>`;
+}
+function fmtElapsed(sec) {
+  const s = Math.max(0, Math.floor(sec || 0));
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), ss = s % 60;
+  return h > 0
+    ? `${h}:${String(m).padStart(2,'0')}:${String(ss).padStart(2,'0')}`
+    : `${m}:${String(ss).padStart(2,'0')}`;
+}
+// Wall-clock time of a row, in the viewer's configured zone (config.js withTZ).
+function fmtClock(ts) {
+  if (ts == null) return '';
+  try { return new Date(ts * 1000).toLocaleTimeString('en-US', withTZ({ hour: 'numeric', minute: '2-digit' })); }
+  catch { return ''; }
+}
+
+// ── Highlight query tokens in a message ──────────────────────────────────────
+// Split on the RAW text, escape each segment afterwards. Escaping first and then
+// marking the escaped string let a query for `amp`/`quot`/`lt`/`gt` mark the
+// inside of an entity (`&amp;` -> `&<mark>amp</mark>;`).
+function highlight(text, tokens) {
+  const s = String(text ?? '');
+  if (!tokens.length) return escHtml(s);
+  // Match whole tokens case-insensitively; tokens are [a-z0-9]+ so no regex escaping needed.
+  const re = new RegExp(`(${tokens.join('|')})`, 'gi');
+  // One capture group -> split() puts every match at an odd index.
+  return s.split(re).map((part, i) => i % 2 ? `<mark>${escHtml(part)}</mark>` : escHtml(part)).join('');
+}
+
+// ── Candidate resolution (index-only, no hydration) ──────────────────────────
+// One corpus's postings (chat_search.json / transcript_search.json) index only that
+// corpus's OWN streams[] array, so each side resolves on its own and the two result
+// sets merge by stream id afterwards.
+function resolveOne(index, tokens, extraPostings) {
+  if (!index || !Array.isArray(index.streams) || !index.streams.length) return [];
+  let cand = null;   // null = "all so far"
+
+  // Text tokens -> intersect posting lists.
+  for (const tok of tokens) {
+    const postings = index.tokens ? index.tokens[tok] : null;
+    if (!postings) return [];               // unknown token -> nothing matches
+    cand = cand === null ? postings.slice() : intersectSorted(cand, postings);
+    if (!cand.length) return [];
+  }
+
+  // An extra posting list (the chat side's username postings) narrows the same way.
+  if (extraPostings) {
+    cand = cand === null ? extraPostings.slice() : intersectSorted(cand, extraPostings);
+    if (!cand.length) return [];
+  }
+
+  if (cand === null) cand = Array.from({ length: index.streams.length }, (_, i) => i);
+  return cand.map(i => index.streams[i]).filter(Boolean);
+}
+
+// Stream-level metadata filters (date range, single-stream pick).
+function passesMeta(s, q) {
+  if (q.streamId && s.id !== q.streamId) return false;
+  if (q.from != null && (s.start_ts == null || s.start_ts < q.from)) return false;
+  if (q.to   != null && (s.start_ts == null || s.start_ts > q.to)) return false;
+  return true;
+}
+
+// -> [{smeta, chat, tr}], newest stream first. `chat`/`tr` say which corpora this
+// stream can hold a hit in, so loadNextBatch fetches only the files it must.
+function resolveCandidates(q) {
+  const byId = new Map();
+  const add = (s, key) => {
+    if (!s || !s.id || !passesMeta(s, q)) return;
+    let e = byId.get(s.id);
+    if (!e) { e = { smeta: s, chat: false, tr: false }; byId.set(s.id, e); }
+    e[key] = true;
+    if (key === 'chat') e.smeta = s;   // the chat index's metadata wins on a tie
+  };
+
+  if (q.sources.has('chat')) {
+    // Username -> intersect author postings (needs the lazy author index).
+    const authorPostings = q.user ? ((AUTHORS && AUTHORS.authors[q.user]) || []) : null;
+    for (const s of resolveOne(INDEX, q.tokens, authorPostings)) add(s, 'chat');
+  }
+
+  // A transcript has no authors, so a username filter excludes the corpus entirely.
+  if (q.sources.has('transcripts') && !q.user) {
+    for (const s of resolveOne(TINDEX, q.tokens, null)) add(s, 'tr');
+  }
+
+  // Newest-first by stream start so paging is deterministic + matches the dashboard.
+  return [...byId.values()].sort((a, b) => (b.smeta.start_ts || 0) - (a.smeta.start_ts || 0));
+}
+
+// ── Hydrate one stream's chat ────────────────────────────────────────────────
+// Every published stream has exactly one chat.json (YouTube live chat). A missing
+// or unreadable file caches as zero rows — never an error, same as a transcript.
+async function hydrateChat(smeta) {
+  const cached = hydrateCache.get('chat:' + smeta.id);
+  if (cached) return cached;
+  let msgs = [];
+  try {
+    const p = await fetchJSON(`${RAW}/data/streams/${encodeURIComponent(smeta.id)}/chat.json`);
+    if (p && Array.isArray(p.messages)) msgs = p.messages;
+  } catch (e) { /* no chat for this stream — zero rows, not an error */ }
+  hydrateCache.set('chat:' + smeta.id, msgs);
+  return msgs;
+}
+
+// ── Hydrate one stream's transcript (YouTube auto-captions) ──────────────────
+// 404-tolerant by contract: a missing file, an unreadable one, or the
+// status:"unavailable" stub all cache as zero rows — never an error. Only
+// status:"ok" contributes lines.
+async function hydrateTranscript(smeta) {
+  const key = 'tr:' + smeta.id;
+  const cached = hydrateCache.get(key);
+  if (cached) return cached;
+  let msgs = [];
+  try {
+    const p = await fetchJSON(`${RAW}/data/streams/${encodeURIComponent(smeta.id)}/transcript.json`);
+    if (p && p.status === 'ok' && Array.isArray(p.segments)) {
+      // `segments` here are caption lines {o,d,t}. Their offsets are native
+      // source-VOD time; the anchor only converts them to wall clock so transcript
+      // lines interleave with chat by ts.
+      const anchor = p.start_anchor ?? smeta.start_ts ?? 0;
+      msgs = p.segments.map(s => ({
+        kind: 'tr', author: null, text: s.t, offset: s.o || 0, ts: anchor + (s.o || 0),
+      }));
+    }
+  } catch (e) { /* no transcript for this stream — zero rows, not an error */ }
+  hydrateCache.set(key, msgs);
+  return msgs;
+}
+
+// ── Search ───────────────────────────────────────────────────────────────────
+async function runSearch() {
+  // Pure defensive backstop: the form keydown handler already intercepts a
+  // pre-index Enter, and a checkbox only re-runs once LAST_RUN is non-null (which
+  // itself requires an index-backed search to have completed). Nothing should
+  // reach here with INDEX still null, but say so and drop it if it ever does.
+  if (!INDEX) { flashHint('index still loading…', 2000); return; }
+  const results = document.getElementById('results');
+
+  // Retire the previous search FIRST, before any early return below. A hint/error/
+  // empty result must still invalidate an in-flight batch loop: if the old search
+  // kept its generation, its finishSearch() would land after this call and overwrite
+  // the pane with the old query's state (and the old OBSERVER would be left watching
+  // a detached sentinel). The real search re-bumps GEN once it has candidates.
+  const myGen = ++GEN;
+  if (OBSERVER) { OBSERVER.disconnect(); OBSERVER = null; }
+  SEARCH = null;
+  GROUP_HITS.clear();   // the old groups are about to be replaced, hits and all
+
+  const rawQ = document.getElementById('q').value.trim();
+  const q = {
+    tokens: tokenize(rawQ),
+    phrase: document.getElementById('phrase').checked ? rawQ.toLowerCase() : null,
+    user: document.getElementById('user').value.trim() ? normUser(document.getElementById('user').value) : null,
+    streamId: streamIdFromInput(),
+    from: dateToTs(document.getElementById('dateFrom').value, false),
+    to:   dateToTs(document.getElementById('dateTo').value, true),
+    sources: new Set([...document.querySelectorAll('.source-checks input:checked')].map(c => c.value)),
+  };
+  // Snapshot the form HERE, alongside `q` — not after the awaits below. A text edit
+  // while an index downloads does not bump GEN, so a late serialize would record a
+  // query this run never executed: the pane would show the old results undimmed and
+  // the hash would publish a search that never happened.
+  const ranAs = serializeSearch();
+
+  // ── Dead-end guards ─────────────────────────────────────────────────────────
+  // Each one names the filter combination that can never return a row, instead of
+  // letting it fall through to a generic "nothing found" (or, worse, hydrating
+  // tens of MiB first). They are early returns: they deliberately leave LAST_RUN
+  // and the hash on the last search that really ran. That mismatch is invisible —
+  // showGuard makes the pane the explanation, so there are no results to dim and
+  // nothing to call stale — and it resolves itself on the next real search. Keeping
+  // LAST_RUN non-null also matters: it is what keeps the live checkbox re-run armed,
+  // so re-ticking the box that caused the dead end searches again immediately.
+
+  // A transcript line has no author, so a username filter empties that corpus —
+  // transcripts-only + a username can only ever return zero rows.
+  if (q.user && q.sources.size === 1 && q.sources.has('transcripts')) {
+    showGuard('transcripts have no authors — enable Chat or clear the username');
+    return;
+  }
+
+  if (!q.sources.size) {
+    showGuard('Nothing to search — select Chat and/or Transcripts.');
+    return;
+  }
+
+  if (!q.tokens.length && !q.user && !q.streamId && q.from == null && q.to == null) {
+    showGuard('Enter a word to search, or narrow by user, stream, or date.');
+    return;
+  }
+
+  // Both corpora + a username: the search silently runs on chat alone. Note it in
+  // the status line rather than let the transcript rows vanish unexplained.
+  if (q.user && q.sources.has('chat') && q.sources.has('transcripts')) {
+    q.note = 'transcript hits excluded — transcripts have no authors';
+  }
+
+  // Username needs the lazy author index — and only the chat corpus uses it.
+  if (q.user && q.sources.has('chat') && !AUTHORS) {
+    try { await ensureAuthors(); }
+    catch (e) {
+      // This catch lands after an await, so a newer search may already own the
+      // pane and the button. Check the generation before touching either — the
+      // error belongs to a query nobody is looking at any more.
+      if (myGen !== GEN) return;
+      results.innerHTML = `<div class="error-state"><span class="loading-glyph">✕</span><span>couldn't load the username index<br><small>${escHtml(e.message)}</small></span></div>`;
+      clearStaleState();   // same rule as the guards above: the pane IS the state
+      hideStatusBar();     // the previous search's counts describe nothing now
+      setSearchBusy(false);   // this pane replaced the only scan that was running
+      return;
+    }
+  }
+
+  // Transcripts need their own index; it is 404-tolerant, so this never fails.
+  // Re-resolve the stream pick afterwards: a transcript-only stream is unknown to
+  // the chat index, so the first-ever search would otherwise miss it by title.
+  // A username excludes the transcript candidates anyway, so skip the load then.
+  if (q.sources.has('transcripts') && !q.user) {
+    await ensureTranscriptIndex();
+    q.streamId = streamIdFromInput();
+  }
+
+  // The two loads above are awaits, so a second search can start (and finish) while
+  // this one is suspended. The generation taken at the top is the only way to notice:
+  // without this, the older query would resume and render over the newer one's pane.
+  if (myGen !== GEN) return;
+
+  // This search is committed now — record the snapshot taken with `q`, drop the
+  // stale flag, publish the hash. The early-return hint paths above deliberately
+  // leave LAST_RUN alone.
+  LAST_RUN = ranAs;
+  refreshStale();
+  writeHashState();
+
+  const cand = resolveCandidates(q);   // already newest-first
+  if (!cand.length) {
+    results.innerHTML = emptyState('the goblin dug deep and found nothing — no stream got past those filters', q.note);
+    hideStatusBar();   // no scan to report on; emptyState carries the note
+    setSearchBusy(false);
+    return;
+  }
+
+  const gen = ++GEN;
+  if (OBSERVER) { OBSERVER.disconnect(); OBSERVER = null; }
+  SEARCH = {
+    q, gen, candidates: cand, cursor: 0,
+    loading: false, done: false, paused: false,
+    shownMsgs: 0, shownStreams: 0, scanned: 0, autoScan: 0,
+  };
+
+  // Lay out the results container: an append target and a sentinel. The status
+  // line lives in #statusBar, outside this element, so it survives every rewrite.
+  results.innerHTML = `<div id="groups"></div><div id="sentinel"></div>`;
+  document.getElementById('statusBar').hidden = false;
+  // #groups is rebuilt per search, so this listener cannot stack across searches.
+  document.getElementById('groups').addEventListener('click', onGroupsClick);
+  setSearchBusy(true);
+  updateStatus();
+
+  OBSERVER = new IntersectionObserver(entries => {
+    if (entries.some(e => e.isIntersecting)) loadNextBatch();
+  }, { root: results, rootMargin: '600px' });
+  OBSERVER.observe(document.getElementById('sentinel'));
+
+  loadNextBatch();
+}
+
+// Apply the message-level filter (username/phrase/all-tokens) to a stream's
+// hydrated rows. A transcript line has no author, so a username filter drops it
+// outright.
+function matchMessages(all, q) {
+  return all.filter(m => {
+    if (m.kind === 'tr') {
+      if (q.user) return false;
+    } else {
+      if (q.user && normUser(m.author) !== q.user) return false;
+    }
+    const lc = String(m.text ?? '').toLowerCase();
+    if (q.phrase) return lc.includes(q.phrase);
+    for (const tok of q.tokens) if (!lc.includes(tok)) return false;
+    return true;
+  });
+}
+
+// Hydrate + render the next BATCH of candidate streams. Re-entrant-safe via S.loading;
+// a stale search (GEN changed) drops on return so it never renders into a new query.
+async function loadNextBatch() {
+  const S = SEARCH;
+  if (!S || S.loading || S.done || S.paused || S.gen !== GEN) return;
+  if (S.cursor >= S.candidates.length) { finishSearch(); return; }
+
+  S.loading = true;
+  const slice = S.candidates.slice(S.cursor, S.cursor + BATCH);
+  S.cursor += slice.length;
+
+  // Fetch only the corpora this candidate can actually hit in: a chat-only
+  // candidate never touches transcript.json, and vice versa.
+  let batch;
+  try {
+    batch = await Promise.allSettled(slice.map(c => Promise.all([
+      c.chat ? hydrateChat(c.smeta) : [],
+      c.tr   ? hydrateTranscript(c.smeta) : [],
+    ]).then(([chatMsgs, trMsgs]) => chatMsgs.concat(trMsgs))));
+  } catch (e) {
+    batch = [];
+  }
+  if (S.gen !== GEN) return;   // a newer search superseded us; drop this result
+
+  const groupsEl = document.getElementById('groups');
+  let batchHits = 0;
+  slice.forEach((c, k) => {
+    S.scanned++;
+    const res = batch[k];
+    if (!res || res.status !== 'fulfilled') return;
+    const smeta = c.smeta;
+    const hits = matchMessages(res.value, S.q);
+    if (!hits.length) return;
+    // Chronological so transcript lines interleave with the chat around them.
+    hits.sort((a, b) => (a.ts ?? a.offset ?? 0) - (b.ts ?? b.offset ?? 0));
+    batchHits += hits.length;
+    S.shownStreams++;
+    S.shownMsgs += hits.length;
+    groupsEl.insertAdjacentHTML('beforeend', renderGroup(smeta, hits, S.q.tokens));
+  });
+
+  S.loading = false;
+
+  if (S.cursor >= S.candidates.length) { finishSearch(); return; }
+
+  // Auto-fill: while the sentinel is still on screen (viewport not full, or a run of
+  // all-empty batches), keep loading -- but cap the continuous empty-run scan so a
+  // restrictive filter on a common token can't silently fetch hundreds of MB.
+  S.autoScan = batchHits ? 0 : S.autoScan + slice.length;
+  if (S.autoScan >= MAX_AUTOSCAN) { pauseAutoScan(); return; }
+  updateStatus();
+  if (sentinelVisible()) loadNextBatch();
+}
+
+function sentinelVisible() {
+  const results = document.getElementById('results');
+  const sentinel = document.getElementById('sentinel');
+  if (!results || !sentinel) return false;
+  const r = results.getBoundingClientRect();
+  const s = sentinel.getBoundingClientRect();
+  return s.top <= r.bottom + 600;   // matches the observer rootMargin
+}
+
+// One result row. Also used by the "show N more" handler, so it must stay a pure
+// (smeta, message, tokens) -> html function.
+function renderRow(smeta, m, tokens) {
+  // Seconds into the source VOD. The collector writes `offset`; a row without one
+  // falls back to the same formula it uses.
+  const offset = m.offset ?? Math.max(0, (m.ts ?? 0) - (smeta.start_ts ?? 0));
+  const link = vodLink(smeta, offset, fmtElapsed(offset));
+  const clock = fmtClock(m.ts);
+  // A transcript line has no author — just the badge, the text and the deep link.
+  const head = m.kind === 'tr'
+    ? `<span class="plat-badge transcript">transcript</span>`
+    : `<span class="msg-user">${escHtml(m.author)}</span>
+       <span class="plat-badge youtube">chat</span>`;
+  return `<div class="msg">
+    <div class="msg-head">
+      ${head}
+    </div>
+    <div class="msg-text">${highlight(m.text, tokens)}</div>
+    <div class="msg-meta">${clock ? `<span class="msg-clock">${escHtml(clock)}</span>` : ''}${link}</div>
+  </div>`;
+}
+
+function renderGroup(smeta, hits, tokens) {
+  const title = smeta.title || smeta.id;
+  const anchor = `<a href="streams.html#${encodeURIComponent(smeta.id)}" onclick="jumpToStream('${encodeURIComponent(smeta.id).replace(/'/g, "\\'")}', event)">${escHtml(title)}</a>`;
+  // Only the first GROUP_CAP rows go in; the full array is stashed so the
+  // "show N more" click can render the tail without re-hydrating the stream.
+  GROUP_HITS.set(smeta.id, { smeta, hits, tokens });
+  const rows = hits.slice(0, GROUP_CAP).map(m => renderRow(smeta, m, tokens)).join('');
+  const more = hits.length > GROUP_CAP
+    ? `<button type="button" class="btn show-more" data-sid="${escHtml(smeta.id)}">show ${hits.length - GROUP_CAP} more</button>`
+    : '';
+  return `<details class="stream-group" data-sid="${escHtml(smeta.id)}" open>
+    <summary class="stream-group-head">
+      <span class="caret">▸</span>
+      <span class="stream-group-title">${anchor}</span>
+      <span class="stream-group-meta">${escHtml(fmtDate(smeta.start_ts))}</span>
+      <span class="stream-group-meta hit-count">${hits.length} hit${hits.length === 1 ? '' : 's'}</span>
+    </summary>
+    ${rows}${more}
+  </details>`;
+}
+
+// Delegated on #groups (rebuilt per search): expand one capped group in place.
+function onGroupsClick(e) {
+  const btn = e.target.closest('.show-more');
+  if (!btn) return;
+  const entry = GROUP_HITS.get(btn.dataset.sid);
+  if (!entry) { btn.remove(); return; }
+  const rest = entry.hits.slice(GROUP_CAP).map(m => renderRow(entry.smeta, m, entry.tokens)).join('');
+  btn.insertAdjacentHTML('beforebegin', rest);
+  btn.remove();
+}
+
+// Status-bar controls: open/close every group currently on screen.
+function setAllGroups(open) {
+  document.querySelectorAll('#groups details.stream-group').forEach(d => { d.open = open; });
+}
+
+// The "nothing found" pane. A note (set on the query when a filter combination
+// quietly narrowed the search) MUST ride along here rather than rely on the status
+// line: updateStatus blanks that line on a zero-hit search, and finishSearch then
+// replaces the whole pane, destroying #resultStatus with it. Without the note the
+// copy asserts something false — that nothing matches, when one of the two corpora
+// was never searched. `message` is built from literals and
+// numbers in this file; `note` is escaped.
+function emptyState(message, note) {
+  return `<div class="empty-state"><span class="loading-glyph" style="font-size:40px;">☽</span>
+      <span>${message}</span>${note ? `<span style="opacity:0.6;">${escHtml(note)}</span>` : ''}</div>`;
+}
+
+// Live status in #statusBar — running totals, how far into the candidate set, the
+// note, and whether the scan is still cancellable.
+function updateStatus() {
+  const S = SEARCH;
+  const el = document.getElementById('resultStatus');
+  if (!S || !el) return;
+  const total = S.candidates.length;
+  const msgs = `${S.shownMsgs} message${S.shownMsgs === 1 ? '' : 's'}`;
+  const strms = `${S.shownStreams} stream${S.shownStreams === 1 ? '' : 's'}`;
+  if (S.cursor >= total) {
+    el.innerHTML = S.shownMsgs
+      ? `${msgs} across ${strms} <span style="opacity:0.5;">· ${total} scanned</span>`
+      : '';
+  } else {
+    el.innerHTML = `${msgs} across ${strms} <span style="opacity:0.5;">· scanning ${S.scanned}/${total} streams…</span>`;
+  }
+  // A note names a filter combination that quietly narrowed the search (set on the
+  // query in runSearch). Its own muted span — it never competes with the counts.
+  const noteEl = document.getElementById('searchNote');
+  if (noteEl) noteEl.textContent = S.q.note ? `· ${S.q.note}` : '';
+  // Cancellable only while a scan is actually in flight.
+  const cancel = document.getElementById('cancelBtn');
+  if (cancel) cancel.hidden = !(!S.done && !S.paused && S.cursor < total);
+}
+
+// Put the status bar away: no scan is described by it any more (a guard pane, an
+// error pane, a zero-candidate search, a reset).
+function hideStatusBar() {
+  const bar = document.getElementById('statusBar');
+  if (bar) bar.hidden = true;
+  const cancel = document.getElementById('cancelBtn');
+  if (cancel) cancel.hidden = true;
+  const el = document.getElementById('resultStatus');
+  if (el) el.innerHTML = '';
+  const noteEl = document.getElementById('searchNote');
+  if (noteEl) noteEl.textContent = '';
+}
+
+// The Search button doubles as a scan indicator. It must never re-enable while the
+// index is still loading — that disable belongs to load(), which owns the label too.
+function setSearchBusy(busy) {
+  const btn = document.getElementById('searchBtn');
+  if (!btn || !INDEX) return;
+  btn.disabled = busy;
+}
+
+// Stop the scan where it stands and keep everything already rendered. GEN first:
+// the in-flight batch must lose its generation check before any UI changes, or it
+// would append into the pane we just declared finished.
+function cancelScan() {
+  const S = SEARCH;
+  if (!S || S.done) return;
+  GEN++;
+  if (OBSERVER) { OBSERVER.disconnect(); OBSERVER = null; }
+  S.done = true;
+  S.loading = false;
+  const sentinel = document.getElementById('sentinel');
+  if (sentinel) sentinel.remove();
+  const el = document.getElementById('resultStatus');
+  if (el) el.innerHTML = `${S.shownMsgs} message${S.shownMsgs === 1 ? '' : 's'} across ${S.shownStreams} stream${S.shownStreams === 1 ? '' : 's'} <span style="opacity:0.5;">· stopped at ${S.scanned}/${S.candidates.length} streams</span>`;
+  const cancel = document.getElementById('cancelBtn');
+  if (cancel) cancel.hidden = true;
+  setSearchBusy(false);
+}
+
+function finishSearch() {
+  const S = SEARCH;
+  if (!S) return;
+  S.done = true;
+  if (OBSERVER) { OBSERVER.disconnect(); OBSERVER = null; }
+  const sentinel = document.getElementById('sentinel');
+  if (sentinel) sentinel.remove();
+  updateStatus();
+  setSearchBusy(false);
+  if (!S.shownMsgs) {
+    const results = document.getElementById('results');
+    results.innerHTML = emptyState(
+      `the goblin dug deep and found nothing — the term is indexed in ${S.candidates.length} stream${S.candidates.length === 1 ? '' : 's'} but no row passed your filters`,
+      S.q.note);
+    // Nothing left for the bar to say: the counts blanked, the note rides on the
+    // empty pane, and there are no groups to expand or collapse.
+    hideStatusBar();
+  }
+}
+
+// Stop auto-fetching after a long empty run; let the user opt to keep going.
+function pauseAutoScan() {
+  const S = SEARCH;
+  if (!S) return;
+  S.paused = true;
+  S.autoScan = 0;
+  setSearchBusy(false);
+  const sentinel = document.getElementById('sentinel');
+  if (!sentinel) return;
+  const remain = S.candidates.length - S.cursor;
+  sentinel.innerHTML =
+    `<button type="button" class="btn" id="keepScanning" style="display:block;margin:14px auto;">Keep scanning (${remain} more)</button>
+     <div class="scan-note">paused after ${MAX_AUTOSCAN} streams in a row with no hits — ${remain} unscanned</div>`;
+  const btn = document.getElementById('keepScanning');
+  if (btn) btn.addEventListener('click', () => {
+    sentinel.innerHTML = '';
+    S.paused = false;
+    setSearchBusy(true);
+    loadNextBatch();
+    updateStatus();     // the scan is live again: bring the cancel button back
+  });
+  updateStatus();
+}
+
+// Resolve the stream <input> value (a title, or an id) to a stream id. A stream can
+// have a transcript but no chat, so fall back to the transcript index when loaded.
+function streamIdFromInput() {
+  const v = document.getElementById('stream').value.trim();
+  if (!v) return null;
+  const pools = [INDEX.streams, (TINDEX && TINDEX.streams) || []];
+  for (const pool of pools) {
+    const byId = pool.find(s => s.id === v);
+    if (byId) return byId.id;
+  }
+  for (const pool of pools) {
+    const byTitle = pool.find(s => (s.title || '') === v);
+    if (byTitle) return byTitle.id;
+  }
+  return v;   // fall through to raw value (matches nothing -> empty)
+}
+
+// ── Form state: serialize / stale hint / hash ────────────────────────────────
+// The idle pane, shared by the first paint after the index lands and by reset().
+const IDLE_HINT = `<div class="hint-state"><span class="loading-glyph" style="font-size:34px;">?</span>
+      <span>Rummage through the chat and transcripts of every ${escHtml(CHANNEL_NAME)} stream.<br>Type a word, or filter by user, stream, or date.</span></div>`;
+
+// The single source of truth for "what is in the form". Drives staleness AND the
+// hash, so the two can never disagree. Only non-default values are written, so a
+// pristine form serializes to '' and the hash stays a bare #chat.
+function serializeSearch() {
+  const sp = new URLSearchParams();
+  const val = id => document.getElementById(id).value.trim();
+  const q = val('q');       if (q) sp.set('q', q);
+  const user = val('user'); if (user) sp.set('user', user);
+  // Store the resolved id when we can (a title is display-only); streamIdFromInput
+  // needs INDEX, so before the index lands the raw value goes in unchanged.
+  const stream = val('stream');
+  if (stream) sp.set('stream', INDEX ? (streamIdFromInput() || stream) : stream);
+  const from = document.getElementById('dateFrom').value; if (from) sp.set('from', from);
+  const to   = document.getElementById('dateTo').value;   if (to) sp.set('to', to);
+  if (document.getElementById('phrase').checked) sp.set('phrase', '1');
+  // Checkboxes default to checked, so only an UNCHECKED box is worth recording.
+  const off = (sel, key) => {
+    const el = document.querySelector(sel);
+    if (el && !el.checked) sp.set(key, '0');
+  };
+  off('.source-checks input[value="chat"]',        'chat');
+  off('.source-checks input[value="transcripts"]', 'tr');
+  return sp.toString();
+}
+
+function setHint(text) {
+  const el = document.getElementById('staleHint');
+  if (!el) return;
+  el.textContent = text || '';
+  el.hidden = !text;
+}
+
+// Compare the live form against the last executed search; dim the results and
+// say so when they no longer describe what is on screen.
+function refreshStale() {
+  if (HINT_TIMER) { clearTimeout(HINT_TIMER); HINT_TIMER = null; }
+  const results = document.getElementById('results');
+  if (LAST_RUN === null) { results.classList.remove('stale'); setHint(''); return; }
+  const stale = serializeSearch() !== LAST_RUN;
+  results.classList.toggle('stale', stale);
+  setHint(stale ? 'filters changed — press Enter to re-search' : '');
+}
+
+// A pane that explains itself (a guard hint, an error) replaces the results
+// entirely, so nothing on screen is a stale result set: drop the dim, drop the
+// hint line, cancel any pending flash. LAST_RUN and the hash stay untouched.
+function clearStaleState() {
+  const results = document.getElementById('results');
+  if (results) results.classList.remove('stale');
+  if (HINT_TIMER) { clearTimeout(HINT_TIMER); HINT_TIMER = null; }
+  setHint('');
+}
+
+// The pane every dead-end guard in runSearch renders. `message` is always a
+// literal from this file, never user input.
+function showGuard(message) {
+  const results = document.getElementById('results');
+  if (results) {
+    results.innerHTML = `<div class="hint-state"><span class="loading-glyph" style="font-size:34px;">?</span>
+      <span>${message}</span></div>`;
+  }
+  clearStaleState();
+  hideStatusBar();     // the counts on it describe a search that is no longer shown
+  setSearchBusy(false);  // a guard can land mid-scan (a checkbox re-search), and the
+                         // scan it replaced is the one that disabled the button
+}
+
+// A one-off note in the same line, which then reverts to the stale state.
+function flashHint(text, ms) {
+  setHint(text);
+  if (HINT_TIMER) clearTimeout(HINT_TIMER);
+  HINT_TIMER = setTimeout(() => { HINT_TIMER = null; refreshStale(); }, ms);
+}
+
+// The shell owns the hash; it only routes #<tab>/<sub> for the streams tab, and a
+// tab click rewrites the hash to the bare slug. So mirror the sub into
+// sessionStorage too — that is what survives a tab round-trip.
+function writeHashState() {
+  const sub = LAST_RUN || '';
+  try {
+    if (sub) sessionStorage.setItem('chat-last-search', sub);
+    else sessionStorage.removeItem('chat-last-search');
+  } catch (e) {}
+  try {
+    const w = (window.parent && window.parent !== window) ? window.parent : window;
+    const base = w.location.href.split('#')[0];
+    // replaceState fires no hashchange and adds no history entry, so the shell's
+    // syncTabFromHash never re-runs and back/forward stay clean.
+    w.history.replaceState(null, '', base + '#chat' + (sub ? '/' + sub : ''));
+  } catch (e) {}
+}
+
+function readHashState() {
+  let sub = '';
+  try {
+    if (window.parent && window.parent !== window) {
+      const raw = window.parent.location.hash.replace(/^#/, '');
+      const i = raw.indexOf('/');
+      if (i !== -1 && raw.slice(0, i) === 'chat') sub = raw.slice(i + 1);
+    }
+  } catch (e) {}
+  if (!sub) { try { sub = sessionStorage.getItem('chat-last-search') || ''; } catch (e) {} }
+  return sub ? new URLSearchParams(sub) : null;
+}
+
+function prefillFromParams(sp) {
+  if (!sp) return;
+  const setVal = (id, key) => { document.getElementById(id).value = sp.get(key) || ''; };
+  setVal('q', 'q');
+  setVal('user', 'user');
+  setVal('stream', 'stream');
+  setVal('dateFrom', 'from');
+  setVal('dateTo', 'to');
+  document.getElementById('phrase').checked = sp.get('phrase') === '1';
+  const setChk = (sel, key) => {
+    const el = document.querySelector(sel);
+    if (el) el.checked = sp.get(key) !== '0';
+  };
+  setChk('.source-checks input[value="chat"]',        'chat');
+  setChk('.source-checks input[value="transcripts"]', 'tr');
+}
+
+// Cosmetic: once the index is loaded, show a restored stream id as its title.
+// streamIdFromInput accepts either form, so the search is unaffected.
+function showStreamTitle(sp) {
+  const raw = sp && sp.get('stream');
+  if (!raw || !INDEX) return;
+  const field = document.getElementById('stream');
+  // Only swap in the title if the field still holds the restored raw id unchanged —
+  // this runs after the index load, and a user may have typed something else into
+  // the field in the meantime. Don't clobber it.
+  if (field.value !== raw) return;
+  const pools = [INDEX.streams, (TINDEX && TINDEX.streams) || []];
+  for (const pool of pools) {
+    const hit = pool.find(s => s.id === raw);
+    if (hit && hit.title) { field.value = hit.title; return; }
+  }
+}
+
+// ── Username quick-find ──────────────────────────────────────────────────────
+// A dropdown under the Username field, filled from the same chat_authors.json the
+// username filter uses. It is a convenience only: picking a row fills the field and
+// marks the results stale, exactly like typing the name — the search still waits for
+// Enter. Nothing here can block, delay or fail a search.
+const SUGGEST_MAX = 15;      // rows rendered; the index can hold thousands of authors
+let SUGGEST_ROWS   = [];     // the matches currently on screen
+let SUGGEST_ACTIVE = -1;     // index of the .active row, -1 = none
+let SUGGEST_TIMER  = null;   // input debounce (120 ms)
+
+// What the typed value matches against. normUser() turns an empty field into
+// 'unknown', so an empty/blank field short-circuits to '' before it is called.
+function suggestNeedle(raw) {
+  return String(raw ?? '').trim() ? normUser(raw) : '';
+}
+
+// Pure (authors, typed) -> ranked, capped matches. Author keys are already
+// normalized (lowercase, no '@'), which is exactly what normUser() produces, so a
+// picked row is an exact index key rather than a near-miss.
+//   · 'unknown' is excluded: it indexes blank-author messages, so offering it only
+//     invites a search nobody means.
+//   · Ranked by stream count desc (the only signal in the index), prefix matches
+//     first within a count band, then alphabetically.
+function filterAuthors(authors, raw) {
+  const needle = suggestNeedle(raw);
+  if (!needle || !authors) return [];
+  const out = [];
+  for (const name in authors) {
+    if (name === 'unknown') continue;
+    const at = name.indexOf(needle);
+    if (at === -1) continue;
+    out.push({ name, at, count: (authors[name] || []).length });
+  }
+  out.sort((a, b) =>
+    b.count - a.count ||
+    (a.at === 0 ? 0 : 1) - (b.at === 0 ? 0 : 1) ||
+    (a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
+  return out.slice(0, SUGGEST_MAX);
+}
+
+// Also cancels a pending debounce: a timer that fired after a blur would re-open
+// the list under an unfocused field.
+function hideSuggest() {
+  if (SUGGEST_TIMER) { clearTimeout(SUGGEST_TIMER); SUGGEST_TIMER = null; }
+  SUGGEST_ROWS = [];
+  SUGGEST_ACTIVE = -1;
+  const box = document.getElementById('userSuggest');
+  if (!box) return;
+  box.hidden = true;
+  box.innerHTML = '';
+}
+
+// Draw the list for whatever is in the field right now. Never fetches — the one
+// fetch is kicked off on first focus and calls back here when it lands.
+function renderSuggest() {
+  const box = document.getElementById('userSuggest');
+  const input = document.getElementById('user');
+  if (!box || !input) return;
+  const needle = suggestNeedle(input.value);
+  if (!needle) { hideSuggest(); return; }   // empty field -> no list
+  if (!AUTHORS) {
+    // Still on the wire: one muted row so the empty list reads as "not yet" rather
+    // than "no such user". A failed fetch leaves AUTHORS null and AUTHORS_FETCH
+    // cleared, so this collapses to a hidden list and typing carries on.
+    if (!AUTHORS_FETCH) { hideSuggest(); return; }
+    SUGGEST_ROWS = [];
+    SUGGEST_ACTIVE = -1;
+    box.innerHTML = `<div class="suggest-note">loading authors…</div>`;
+    box.hidden = false;
+    return;
+  }
+  SUGGEST_ROWS = filterAuthors(AUTHORS.authors, input.value);
+  SUGGEST_ACTIVE = -1;
+  if (!SUGGEST_ROWS.length) { hideSuggest(); return; }
+  box.innerHTML = SUGGEST_ROWS.map((m, i) => {
+    const pre  = m.name.slice(0, m.at);
+    const hit  = m.name.slice(m.at, m.at + needle.length);
+    const post = m.name.slice(m.at + needle.length);
+    return `<div class="suggest-row" data-i="${i}">
+      <span>${escHtml(pre)}<mark>${escHtml(hit)}</mark>${escHtml(post)}</span>
+      <span class="suggest-count">${m.count} stream${m.count === 1 ? '' : 's'}</span>
+    </div>`;
+  }).join('');
+  box.hidden = false;
+}
+
+// ArrowDown/ArrowUp, wrapping at both ends.
+function moveSuggest(delta) {
+  const box = document.getElementById('userSuggest');
+  const n = SUGGEST_ROWS.length;
+  if (!box || !n) return;
+  SUGGEST_ACTIVE = SUGGEST_ACTIVE === -1
+    ? (delta > 0 ? 0 : n - 1)
+    : (SUGGEST_ACTIVE + delta + n) % n;
+  box.querySelectorAll('.suggest-row').forEach((el, i) => {
+    el.classList.toggle('active', i === SUGGEST_ACTIVE);
+    if (i === SUGGEST_ACTIVE) el.scrollIntoView({ block: 'nearest' });
+  });
+}
+
+// Picking a row IS a text edit: fill the field, mark the shown results stale, wait
+// for Enter. refreshStale() is called directly rather than by dispatching an 'input'
+// event — that event would restart the debounce and re-open the list on the name we
+// just picked.
+function selectSuggest(i) {
+  const m = SUGGEST_ROWS[i];
+  if (!m) return;
+  document.getElementById('user').value = m.name;
+  hideSuggest();
+  refreshStale();
+}
+
+// ── Reset ────────────────────────────────────────────────────────────────────
+// Native form.reset() restores every `checked` attribute in the markup, so the
+// defaults live in one place (the HTML) rather than being duplicated here.
+function resetSearch() {
+  document.getElementById('searchForm').reset();
+  hideSuggest();   // form.reset() empties #user; the list must not outlive its text
+  GEN++;
+  if (OBSERVER) { OBSERVER.disconnect(); OBSERVER = null; }
+  SEARCH = null;
+  GROUP_HITS.clear();
+  hideStatusBar();
+  setSearchBusy(false);
+  LAST_RUN = null;
+  if (HINT_TIMER) { clearTimeout(HINT_TIMER); HINT_TIMER = null; }
+  const results = document.getElementById('results');
+  results.classList.remove('stale');
+  setHint('');
+  results.innerHTML = IDLE_HINT;
+  writeHashState();
+  document.getElementById('q').focus();
+}
+
+// ── Wiring ───────────────────────────────────────────────────────────────────
+// Runs before the index load so the form is live (if not yet submittable) from
+// the first paint.
+function initUI() {
+  const form = document.getElementById('searchForm');
+  // The one and only search trigger: the Search button and Enter in any field
+  // both come through here.
+  form.addEventListener('submit', e => { e.preventDefault(); runSearch(); });
+  // A disabled default button kills implicit form submission, so Enter would do
+  // nothing at all in the two states where the Search button is disabled. Answer
+  // the keypress in both.
+  form.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    // A field's own handler may already have consumed this Enter — the username
+    // quick-find takes it to select its active row. Never search over the top of
+    // one: the native submit is already cancelled, and so is this fallback.
+    if (e.defaultPrevented) return;
+    // Index still loading (or failed outright): say so, don't search.
+    if (!INDEX) {
+      e.preventDefault();
+      flashHint(INDEX_FAILED ? 'index failed to load' : 'index still loading…', 2000);
+      return;
+    }
+    // Mid-scan: the button is a status signal, not a lock — Enter must still
+    // re-search, which the GEN machinery makes safe. Enter on a focused button is
+    // that button's own key, so leave it alone.
+    const btn = document.getElementById('searchBtn');
+    if (!btn || !btn.disabled) return;   // native submit already handles it
+    if (e.target && e.target.tagName === 'BUTTON') return;
+    e.preventDefault();
+    runSearch();
+  });
+  document.getElementById('resetBtn').addEventListener('click', resetSearch);
+
+  // Status-bar controls. These elements are static, so they are wired once here —
+  // only #groups is rebuilt per search.
+  document.getElementById('cancelBtn').addEventListener('click', cancelScan);
+  document.getElementById('collapseAllBtn').addEventListener('click', () => setAllGroups(false));
+  document.getElementById('expandAllBtn').addEventListener('click', () => setAllGroups(true));
+
+  // Checkboxes are cheap toggles of an already-resolved result set, so they
+  // re-search live — but only once a search has actually run.
+  document.querySelectorAll('.source-checks input, #phrase')
+    .forEach(c => c.addEventListener('change', () => { if (LAST_RUN !== null) runSearch(); }));
+
+  // Text/date edits are not live — they only mark the shown results stale.
+  ['q', 'user', 'stream', 'dateFrom', 'dateTo'].forEach(id => {
+    document.getElementById(id).addEventListener('input', refreshStale);
+  });
+
+  document.getElementById('q').addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    e.target.value = '';
+    refreshStale();
+  });
+
+  // ── Username quick-find ────────────────────────────────────────────────────
+  // Every listener below is registered once, here — repeated focus re-renders the
+  // list but never re-wires it, and never re-fetches.
+  const userEl = document.getElementById('user');
+  const suggestBox = document.getElementById('userSuggest');
+
+  userEl.addEventListener('focus', () => {
+    // First focus starts the one fetch — or joins the one a search already started;
+    // ensureAuthors dedupes both. Suggestions are a convenience, so a failure is
+    // silent (typing still works) and runSearch keeps its own error pane.
+    // Re-focusing during the download only adds another one-shot continuation, so
+    // whichever focus is current when it lands is the one that draws the list.
+    if (!AUTHORS) {
+      ensureAuthors().catch(() => {}).then(() => {
+        if (document.activeElement === userEl) renderSuggest();
+      });
+    }
+    renderSuggest();   // re-focusing with text present re-shows the matches
+  });
+
+  userEl.addEventListener('input', () => {
+    if (SUGGEST_TIMER) clearTimeout(SUGGEST_TIMER);
+    SUGGEST_TIMER = setTimeout(() => { SUGGEST_TIMER = null; renderSuggest(); }, 120);
+  });
+
+  userEl.addEventListener('keydown', e => {
+    const open = !suggestBox.hidden && SUGGEST_ROWS.length > 0;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      if (!open) return;
+      e.preventDefault();          // move the active row, not the caret
+      moveSuggest(e.key === 'ArrowDown' ? 1 : -1);
+      return;
+    }
+    if (e.key === 'Enter') {
+      // Only an ACTIVE row consumes Enter. With the list open but nothing picked,
+      // it just gets out of the way and the form submits as usual — the dropdown
+      // must never swallow a search.
+      if (!open || SUGGEST_ACTIVE === -1) { hideSuggest(); return; }
+      // Cancels the native submit; the form-level keydown fallback stands down on
+      // defaultPrevented, so this Enter cannot also fire a search.
+      e.preventDefault();
+      selectSuggest(SUGGEST_ACTIVE);
+      return;
+    }
+    if (e.key === 'Escape') {
+      // Hides the list and nothing else — the field keeps its text.
+      if (suggestBox.hidden) return;
+      e.preventDefault();
+      hideSuggest();
+      return;
+    }
+    if (e.key === 'Tab') hideSuggest();
+  });
+
+  // mousedown, not click: it fires before the field's blur. Gated to a left-click
+  // on an actual row, so a scrollbar-track/thumb mousedown (or a right/middle
+  // click) passes through untouched instead of being swallowed.
+  suggestBox.addEventListener('mousedown', e => {
+    if (e.button !== 0 || !e.target.closest('.suggest-row')) return;
+    e.preventDefault();
+    const row = e.target.closest('.suggest-row');
+    if (row) selectSuggest(Number(row.dataset.i));
+  });
+
+  userEl.addEventListener('blur', hideSuggest);
+
+  // '/' jumps to the search box. Only works while the iframe holds focus —
+  // accepted, the shell has no key forwarding.
+  document.addEventListener('keydown', e => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    const ae = document.activeElement;
+    if (ae && /^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName)) return;
+    e.preventDefault();
+    document.getElementById('q').focus();
+  });
+
+  const btn = document.getElementById('searchBtn');
+  btn.disabled = true;
+  btn.textContent = 'loading index…';
+  document.getElementById('q').focus();
+}
+
+// ── Load the index ───────────────────────────────────────────────────────────
+async function load() {
+  const results = document.getElementById('results');
+  const btn = document.getElementById('searchBtn');
+  const status = document.getElementById('indexStatus');
+
+  // Restore before the fetch so a returning query is on screen while it loads.
+  const restored = readHashState();
+  prefillFromParams(restored);
+  initUI();
+
+  try {
+    INDEX = await fetchJSONProgress(`${RAW}/data/chat_search.json`, (received, total) => {
+      const mb = (received / 1048576).toFixed(1);
+      status.textContent = (total && received <= total)
+        ? `loading index… ${Math.round(received / total * 100)}%`
+        : `loading index… ${mb} MB`;
+    });
+
+    // Populate the stream picker datalist + status line. The transcript index is
+    // lazy, so this holds chat streams only until ensureTranscriptIndex rebuilds it.
+    rebuildStreamDatalist();
+
+    status.textContent =
+      `${INDEX.streams.length.toLocaleString()} streams · ${Object.keys(INDEX.tokens).length.toLocaleString()} terms`;
+    showStreamTitle(restored);
+    btn.disabled = false;
+    btn.textContent = 'Search';
+    results.innerHTML = IDLE_HINT;
+
+    if (restored) runSearch();
+  } catch (e) {
+    INDEX_FAILED = true;
+    btn.textContent = 'index failed';
+    status.textContent = 'index failed';
+    results.innerHTML = `<div class="error-state"><span class="loading-glyph">✕</span><span>couldn't load the chat index<br><small>${escHtml(e.message)}</small></span></div>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>

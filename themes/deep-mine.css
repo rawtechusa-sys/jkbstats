@@ -1,0 +1,23 @@
+:root {
+  --bg-base:            #000000;
+  --bg-surface:         #0a0a0ab0;
+  --bg-panel:           #111111b0;
+  --bg-subtle:          #1c1c1c;
+  --bg-raised:          #282828;
+  --text-primary:       #f0f0f0;
+  --text-muted:         #a0a0a0;
+  --accent:             #c0c0c0;
+  --accent-bright:      #ffffff;
+  --accent-alt:         #3a6648;
+  --accent-alt-bright:  #5a9068;
+  --platform-youtube:   #e05545;
+  --platform-twitch:    #a07ad0;
+  --border-default:     rgba(255,255,255,0.15);
+  --border-default-strong: rgba(255,255,255,0.4);
+  --border-strong:      rgba(255,255,255,0.45);
+  --accent-glow-r: 240; --accent-glow-g: 240; --accent-glow-b: 240;
+}
+
+body::before {
+  background: none;
+}
