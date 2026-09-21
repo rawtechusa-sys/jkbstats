@@ -578,6 +578,13 @@ function viewersRecorded(s) {
   return (s.peak_viewers || 0) > 0 || (s.avg_viewers || 0) > 0;
 }
 
+// chat_recorded === false: YouTube kept no chat replay for that VOD, so its
+// donation figures are UNKNOWN, not $0 -- a gap in the donation series, and it
+// stays out of the average rate. (Older aggregates lack the key: recorded.)
+function chatRecorded(s) {
+  return s.chat_recorded !== false;
+}
+
 function buildPage(channelStats, subsData) {
   const main = document.getElementById('main');
 
@@ -597,7 +604,7 @@ function buildPage(channelStats, subsData) {
 
   // ── Summary cards ──
   const lifetimeUSD = streams.reduce((s, x) => s + (x.total_donations_usd || 0), 0);
-  const rates = streams.map(s => s.donations_per_min).filter(v => v != null);
+  const rates = streams.filter(chatRecorded).map(s => s.donations_per_min).filter(v => v != null);
   const avgRate = rates.length ? rates.reduce((a, b) => a + b, 0) / rates.length : null;
   const latestSubs = subs.length ? subs[subs.length - 1].count : null;
   const peakReach = streams.reduce((m, s) => Math.max(m, s.peak_viewers || 0), 0);
@@ -702,11 +709,11 @@ function buildChart(streams, subs) {
   // ('after' puts the riser at that stream's start_ts).
   add(DS.DON_CUMULATIVE, cumData, '#96d45a',
       { yAxisID: 'yDollars', fill: true, bg: 'rgba(150,212,90,0.10)', pointRadius: 0, tension: 0, stepped: 'after' });
-  add(DS.DON_PER_STREAM, streams.map(s => pt(s, s.total_donations_usd)), '#e8c020',
+  add(DS.DON_PER_STREAM, streams.map(s => pt(s, chatRecorded(s) ? s.total_donations_usd : null)), '#e8c020',
       { yAxisID: 'yPerStream', type: 'bar' });
 
   // Donations per hour (right).
-  add(DS.DON_PER_HR, streams.map(s => pt(s, s.donations_per_min != null ? s.donations_per_min * 60 : null)), '#e8952a',
+  add(DS.DON_PER_HR, streams.map(s => pt(s, chatRecorded(s) && s.donations_per_min != null ? s.donations_per_min * 60 : null)), '#e8952a',
       { yAxisID: 'yRate', type: 'bar' });
 
   // Viewers (left). A stream with no viewer data is a GAP (null), never a zero

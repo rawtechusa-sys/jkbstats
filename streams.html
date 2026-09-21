@@ -1413,9 +1413,17 @@ async function loadStream(streamId, refresh = false) {
       fmtDate(startTs) + (isLive ? ' · live now' : ''));
     cards += card('Peak Viewers',
       hasYTViewers ? peakYT.toLocaleString() : 'N/A', hasYTViewers ? '' : 'not recorded');
-    cards += card('Hoard', '$' + totalUSD.toFixed(2), `${donCount} donation${donCount !== 1 ? 's' : ''}`);
-    cards += card('Hourly Wage',
-      duration ? '$' + (totalUSD / (duration / 3600)).toFixed(2) : '—', 'per hour');
+    // metadata.chat_replay === false: YouTube kept no chat replay for this VOD,
+    // so its donations are UNKNOWN. "$0.00 / 0 donations" would be a false claim.
+    const chatRecorded = meta.chat_replay !== false;
+    if (chatRecorded) {
+      cards += card('Hoard', '$' + totalUSD.toFixed(2), `${donCount} donation${donCount !== 1 ? 's' : ''}`);
+      cards += card('Hourly Wage',
+        duration ? '$' + (totalUSD / (duration / 3600)).toFixed(2) : '—', 'per hour');
+    } else {
+      cards += card('Hoard', 'N/A', 'not recorded');
+      cards += card('Hourly Wage', 'N/A', 'not recorded');
+    }
 
     // Average over the samples that exist -- a null snapshot is a collector
     // gap, not zero viewers, and counting it would drag the average down.
@@ -1468,7 +1476,9 @@ async function loadStream(streamId, refresh = false) {
       note.innerHTML = `<div class="empty-state" style="height:auto;padding:28px 16px;text-align:center">`
         + (isLive
             ? 'the burrow is still quiet — nothing recorded for this stream yet'
-            : 'an empty hoard — no chat or donation data was recorded for this stream')
+            : (chatRecorded
+                ? 'an empty hoard — no chat or donation data was recorded for this stream'
+                : 'YouTube kept no chat replay for this stream — its chat and donations could not be rebuilt. The video and the transcript are still here.'))
         + `</div>`;
       main.appendChild(note);
     }
