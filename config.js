@@ -3,14 +3,14 @@
 
 // ── Site ───────────────────────────────────────────────────────────────────────
 const SITE_TITLE     = 'Goblin Watch';
-const SITE_URL       = 'https://rtudaycare.center';                       // TODO(deploy): 'https://<your domain>' (also set CNAME)
+const SITE_URL       = 'https://rtudaycare.center';
 const CHANNEL_NAME   = 'JKB';
 const CHANNEL_HANDLE = '@Jayhooft';
 const CHANNEL_URL    = 'https://www.youtube.com/@Jayhooft';
 
 // ── GitHub repo (site + data) ──────────────────────────────────────────────────
 const GITHUB_OWNER = 'rawtechusa-sys';
-const GITHUB_REPO  = 'jkbstats';            // TODO(deploy): the real repo name
+const GITHUB_REPO  = 'jkbstats';
 const BRANCH       = 'main';
 
 // Where the pages fetch data/ (and the tts-*.txt lists) from.
@@ -41,7 +41,7 @@ function fmtMoney(n) {
 // re-render reflects the current mode. 'local' omits timeZone so toLocale* uses the
 // visitor's browser zone. Default is Goblin Time (the streamer's clock).
 const TZ_MODES = {
-  streamer: { label: 'Goblin Time', zone: 'America/New_York' },   // TODO(deploy): confirm JKB's zone
+  streamer: { label: 'Goblin Time', zone: 'America/New_York' },
   local:    { label: 'Local Time',  zone: undefined },
   utc:      { label: 'UTC',         zone: 'UTC' },
 };
