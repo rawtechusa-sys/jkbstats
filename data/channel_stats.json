@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790020789,
+  "updated_ts": 1790208194,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -505,7 +505,8 @@
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
     "you_may_want_to_watch_this_jkb_streams_2025-09-13_223216",
     "you_wont_believe_this_jkb_streams_2025-08-28_195237",
-    "youtube_is_broken_jkb_streams_2025-10-30_205645"
+    "youtube_is_broken_jkb_streams_2025-10-30_205645",
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9578,6 +9579,24 @@
       "avg_viewers": null,
       "avg_chat_mpm": 9.61,
       "avg_active_chatters": 21.72,
+      "percent_paused": null
+    },
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601": {
+      "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
+      "title": "XBOX IS FALLING APART?! HALO GOING TO ACTIVISION! | JKB Streams",
+      "start_ts": 1790196961,
+      "end_ts": 1790208138,
+      "duration_sec": 11177,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 197.0,
+      "donation_count": 52,
+      "donations_per_min": 1.0575,
+      "peak_viewers": 122,
+      "avg_viewers": 99.99,
+      "avg_chat_mpm": 8.42,
+      "avg_active_chatters": 17.73,
       "percent_paused": null
     }
   }
