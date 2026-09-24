@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790020795,
+  "updated_ts": 1790208196,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -505,7 +505,8 @@
     "why_sony_cancelled_kojimas_next_game_jkb_streams_2026-09-11_204615",
     "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
     "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
-    "superstation_one_is_here_the_ultimate_fpga_retro_gaming_console_jkb_streams_2026-09-19_204907"
+    "superstation_one_is_here_the_ultimate_fpga_retro_gaming_console_jkb_streams_2026-09-19_204907",
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5546,6 +5547,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "LuSlxzb_uOI",
+      "source_platform": "youtube"
+    },
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601": {
+      "title": "XBOX IS FALLING APART?! HALO GOING TO ACTIVISION! | JKB Streams",
+      "start_ts": 1790196961,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "h8-2quCZuVw",
       "source_platform": "youtube"
     }
   },
