@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1790020786,
+  "updated_ts": 1790208187,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -505,7 +505,8 @@
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
     "you_may_want_to_watch_this_jkb_streams_2025-09-13_223216",
     "you_wont_believe_this_jkb_streams_2025-08-28_195237",
-    "youtube_is_broken_jkb_streams_2025-10-30_205645"
+    "youtube_is_broken_jkb_streams_2025-10-30_205645",
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
   ],
   "commands": {
     "xijinping": 224,
@@ -531,7 +532,7 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 374,
-    "bob": 1283,
+    "bob": 1284,
     "jkb": 114,
     "glados": 184,
     "king": 1,
@@ -575,7 +576,7 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 92,
+    "alanwake": 93,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -648,7 +649,7 @@
     "masterchief": 6,
     "fl": 1,
     "now": 3,
-    "report": 2,
+    "report": 3,
     "asmrguy": 4,
     "albus": 3,
     "problem": 1,
@@ -6004,9 +6005,52 @@
       "segments": null,
       "source_vod_id": "liu72EYSc_0",
       "source_platform": "youtube"
+    },
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601": {
+      "title": "XBOX IS FALLING APART?! HALO GOING TO ACTIVISION! | JKB Streams",
+      "start_ts": 1790196961,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "h8-2quCZuVw",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1790199169,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
+      "message": "Alanwake: Jay quickly realized he would never have enough time to play every game on his retro console, but he would die trying or have Vapist help.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790197989,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
+      "message": "bob: has the ghost of my career left your armpit?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790197876,
+      "username": "@evanpietrone9742",
+      "platform": "youtube",
+      "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
+      "message": "JRPG REPORT: I resonate with final fantasy resonance, go play the demo. Far exceeds the mobile game it\u2019s based on. Lots of nostalgia here.",
+      "commands": [
+        "report"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1789873514,
       "username": "@timmarcoux",
