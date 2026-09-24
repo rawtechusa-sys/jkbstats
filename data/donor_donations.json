@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790020788,
+  "updated_ts": 1790208190,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -505,7 +505,8 @@
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
     "you_may_want_to_watch_this_jkb_streams_2025-09-13_223216",
     "you_wont_believe_this_jkb_streams_2025-08-28_195237",
-    "youtube_is_broken_jkb_streams_2025-10-30_205645"
+    "youtube_is_broken_jkb_streams_2025-10-30_205645",
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5546,6 +5547,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "liu72EYSc_0",
+      "source_platform": "youtube"
+    },
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601": {
+      "title": "XBOX IS FALLING APART?! HALO GOING TO ACTIVISION! | JKB Streams",
+      "start_ts": 1790196961,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "h8-2quCZuVw",
       "source_platform": "youtube"
     }
   },
@@ -39936,6 +39947,14 @@
     ],
     "DarthOmegas": [
       {
+        "ts": 1790199104,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1788957703,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -44394,6 +44413,22 @@
     ],
     "DougSavona": [
       {
+        "ts": 1790198054,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "the new R E movie is grate",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197491,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": ":lizard::lizard::lizard::lizard::lizard::lizard::lizard::lizard::lizard:",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789851836,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -47395,6 +47430,22 @@
       }
     ],
     "PortableHamSandwich": [
+      {
+        "ts": 1790207246,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790206965,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789165045,
         "type": "superchat",
@@ -62234,6 +62285,22 @@
     ],
     "towerdragon4487": [
       {
+        "ts": 1790198017,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "why are priests no good at racing. they like to come in a little behind",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197896,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "what do you call a lesbian dinosaur a lick a lot of pus",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789769821,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -74065,6 +74132,14 @@
       }
     ],
     "sauerballz": [
+      {
+        "ts": 1790199014,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789164207,
         "type": "giftmembership",
@@ -100446,6 +100521,38 @@
     ],
     "woody4077": [
       {
+        "ts": 1790207195,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790204360,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jayy did you show my entry from last week?",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790200260,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "reminder this is why Playstation exists",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197989,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: has the ghost of my career left your armpit?",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789867093,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -122862,6 +122969,14 @@
     ],
     "jaieroc": [
       {
+        "ts": 1790200060,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Dude, keep in mind when your Zelda Edition Switch 2 arrives, we will humbly purchase your current system. Autograph it to trigger your sister. Cheers:hugging_face:",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789773680,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -123625,6 +123740,62 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1790207494,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "thats the hair Jay stitched from his lover's pubes",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790206651,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "R u allowed to hav dik? Are u hungry for dik, Jay?",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790206437,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J wood phuck that corn til his cawk turned yellow",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790201312,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "turn the rumble pak on. let it vibrate N yor khunt",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790200318,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Viva la France. I cream inside U with my baguette",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790199277,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can U show us the Pocket Pussie console? Its rare",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790198989,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "want me to rub 1 out on yor belly? Wood that help?",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789869333,
         "type": "superchat",
@@ -148820,6 +148991,14 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1790207025,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789853235,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -166186,6 +166365,22 @@
     ],
     "rtusburritoeattingbrother": [
       {
+        "ts": 1790207475,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "be my big Canadian Goth mom me",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790199524,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": ":face_blowing_a_kiss:",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789868381,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -167795,6 +167990,30 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1790198324,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Iam really happy about the Xbox news full reset",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790198113,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Ment metal slug 3",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790198003,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Please play metal slug please",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789852096,
         "type": "superchat",
@@ -187670,6 +187889,38 @@
     ],
     "RawrDakota": [
       {
+        "ts": 1790205587,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "My beard thanks you",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790204993,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The name of the boat goes on the stern (back), I put LLE on the side cause I already ordered it, but it was too long for the back.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790200815,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I want to go back to the past and play some shitty games that suck ass",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790199883,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The tracking system they use for the shipping is trash and confusing as fuck. Mine has entered US customes twice according to it.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789862231,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -202202,6 +202453,38 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1790198823,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I prefer this version of Xbox to the slow death mode it was in. At least now if they fail, they tried.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790198331,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "So is the bisexual lighting gone from halo?",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197876,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "JRPG REPORT: I resonate with final fantasy resonance, go play the demo. Far exceeds the mobile game it\u2019s based on. Lots of nostalgia here.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197198,
+        "type": "superchat",
+        "amount_usd": 9.99,
+        "amount_raw": "$9.99",
+        "message": "Wendy\u2019s fast food dropped an emo album today featuring Silverstein, blessthefall, and more.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789169235,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -216572,6 +216855,22 @@
     ],
     "FoilGrimTimmy": [
       {
+        "ts": 1790207847,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Come do Balir Witch/ Gettysburg ghost hunting",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790207607,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789857876,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -221245,6 +221544,14 @@
       }
     ],
     "GrizzlyBehr91": [
+      {
+        "ts": 1790205099,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 29 months",
+        "message": "Pirate:Land Ho! Ahoy & hallelujah me fellow land-fairing fupa fondlers!! I been stranded at sea for months and just made me trek back. I missed yee :saluting_face:",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1786656308,
         "type": "superchat",
@@ -232560,6 +232867,14 @@
     ],
     "Twizty360": [
       {
+        "ts": 1790201208,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 23 months",
+        "message": "put the Wallet Guy Cheat on lol",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1787172890,
         "type": "membership",
         "amount_usd": 1.99,
@@ -238463,6 +238778,30 @@
       }
     ],
     "My_Paradoxical_Me": [
+      {
+        "ts": 1790205152,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Through all the diet and lifestyle changes ahead, just know we\u2019re all in your corner and here to support you however we can! Also, I vote Wednesday, Thursday, or Friday for Retro Night!",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790204527,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790200524,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I haven\u2019t been playing retro games, but I\u2019ve been watching mid to late \u201990s WWF shows and PPVs. I\u2019m on 1996 now and loving the nostalgia!",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789770325,
         "type": "superchat",
@@ -263018,6 +263357,38 @@
     ],
     "DamienGuyton": [
       {
+        "ts": 1790200519,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay Diesel getting fast and furious",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790199989,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I hope mine ships soon",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790199023,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I think it will be on gamepass",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790198952,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Also the Xbox ad patent is wild too",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789873404,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -271572,6 +271943,22 @@
     ],
     "unclemike84": [
       {
+        "ts": 1790199169,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: Jay quickly realized he would never have enough time to play every game on his retro console, but he would die trying or have Vapist help.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197587,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Are you sure Vapist actually fixed it? Skeptical.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
         "ts": 1789865236,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -278853,6 +279240,30 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1790201782,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "how is the superstition playing n64 ? thought was cd only?",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790201618,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "looks really pixelated and choppy",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790201499,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay your fired you broke the game",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789775255,
         "type": "superchat",
@@ -295203,6 +295614,22 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1790205602,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay got pre scheduled cum hair at HindsDale house.",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
+      {
+        "ts": 1790197769,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 10 months",
+        "message": "What do you call a black pilot? A pilot you racist",
+        "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+      },
       {
         "ts": 1789867349,
         "type": "superchat",
