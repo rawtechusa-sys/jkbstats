@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790208203,
+  "updated_ts": 1790295751,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -13,6 +13,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+    },
+    {
+      "ts": 1790295687,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832"
     }
   ]
 }
