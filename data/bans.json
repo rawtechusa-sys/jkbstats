@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790208196,
+  "updated_ts": 1790295743,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -506,7 +506,8 @@
     "i_bought_a_crt_to_play_ocarina_of_time_jkb_streams_2026-09-16_194631",
     "will_resident_evil_be_good_jkb_streams_2026-09-18_205716",
     "superstation_one_is_here_the_ultimate_fpga_retro_gaming_console_jkb_streams_2026-09-19_204907",
-    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
+    "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5557,6 +5558,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "h8-2quCZuVw",
+      "source_platform": "youtube"
+    },
+    "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832": {
+      "title": "$400 FOR GTA VI MERCH?! AND NO GAME! \ud83d\udc80 | JKB Streams #GTAVI",
+      "start_ts": 1790277512,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "di8d0KS1fmU",
       "source_platform": "youtube"
     }
   },
