@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1790208187,
+  "updated_ts": 1790295731,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -506,7 +506,8 @@
     "you_may_want_to_watch_this_jkb_streams_2025-09-13_223216",
     "you_wont_believe_this_jkb_streams_2025-08-28_195237",
     "youtube_is_broken_jkb_streams_2025-10-30_205645",
-    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601"
+    "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
+    "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832"
   ],
   "commands": {
     "xijinping": 224,
@@ -521,7 +522,7 @@
     "warmy": 601,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 543,
+    "trump": 544,
     "girlfriend": 77,
     "story": 1,
     "forrest": 192,
@@ -532,9 +533,9 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 374,
-    "bob": 1284,
+    "bob": 1285,
     "jkb": 114,
-    "glados": 184,
+    "glados": 185,
     "king": 1,
     "pirate": 105,
     "jay": 15,
@@ -553,7 +554,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 115,
+    "pooh": 116,
     "legends": 1,
     "dramatic": 22,
     "wings": 1,
@@ -576,11 +577,11 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 93,
+    "alanwake": 94,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
-    "mark": 64,
+    "mark": 65,
     "attention": 1,
     "my": 1,
     "kermit": 8,
@@ -852,7 +853,7 @@
     "vampire": 1
   },
   "sounds": {
-    "fart": 1102,
+    "fart": 1103,
     "burp": 60,
     "laughter": 1,
     "boowomp": 39,
@@ -883,7 +884,7 @@
     "augh": 26,
     "quack": 19,
     "thwomp": 76,
-    "bleep": 90,
+    "bleep": 91,
     "badumtiss": 5,
     "stab": 16,
     "mario_fall": 10,
@@ -6015,9 +6016,107 @@
       "segments": null,
       "source_vod_id": "h8-2quCZuVw",
       "source_platform": "youtube"
+    },
+    "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832": {
+      "title": "$400 FOR GTA VI MERCH?! AND NO GAME! \ud83d\udc80 | JKB Streams #GTAVI",
+      "start_ts": 1790277512,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "di8d0KS1fmU",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1790293703,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "bob:(bleep) it we'll do it live we'll do it live",
+      "commands": [],
+      "sounds": [
+        "bleep"
+      ]
+    },
+    {
+      "ts": 1790289343,
+      "username": "@TacoDan34",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Just saying hi! Need to go back to work (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1790289287,
+      "username": "@RyuDaBurninator",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Trump: Its a Ghost? I thought it was a pumpkin klansman. Please Add Bust A Groove to the Queue my friend.",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790287816,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Alanwake: I ordered it\u2026 in an alternate universe where I figured out the infinite money glitch and can buy anything I want, including your stream.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790284374,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Mark: Ok I need redemption. Third time\u2019s the charm. Gimme Herc\u2019s Adventure PS1.",
+      "commands": [
+        "mark"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790283659,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790279162,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Bob: Will you be humping ghosts at Hinsdale House?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790278841,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+      "message": "Glados: So it\u2019s basically a GTA 6 themed gift box.",
+      "commands": [
+        "glados"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1790199169,
       "username": "@unclemike84",
