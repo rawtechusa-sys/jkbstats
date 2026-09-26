@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790455996,
+  "updated_ts": 1790460151,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -25,6 +25,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+    },
+    {
+      "ts": 1790460035,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "hiking_jkb_streams_2026-09-26_204411"
     }
   ]
 }
