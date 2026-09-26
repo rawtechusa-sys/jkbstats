@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790455988,
+  "updated_ts": 1790460144,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -508,7 +508,8 @@
     "superstation_one_is_here_the_ultimate_fpga_retro_gaming_console_jkb_streams_2026-09-19_204907",
     "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
-    "lets_go_hiking_jkb_streams_2026-09-26_192252"
+    "lets_go_hiking_jkb_streams_2026-09-26_192252",
+    "hiking_jkb_streams_2026-09-26_204411"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5579,6 +5580,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "aUeIOpHWl3s",
+      "source_platform": "youtube"
+    },
+    "hiking_jkb_streams_2026-09-26_204411": {
+      "title": "Hiking \u2026.| JKB Streams",
+      "start_ts": 1790455451,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "I-87SozgfRo",
       "source_platform": "youtube"
     }
   },
