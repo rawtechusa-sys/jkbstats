@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790295735,
+  "updated_ts": 1790455982,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -507,7 +507,8 @@
     "you_wont_believe_this_jkb_streams_2025-08-28_195237",
     "youtube_is_broken_jkb_streams_2025-10-30_205645",
     "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
-    "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832"
+    "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
+    "lets_go_hiking_jkb_streams_2026-09-26_192252"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5568,6 +5569,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "di8d0KS1fmU",
+      "source_platform": "youtube"
+    },
+    "lets_go_hiking_jkb_streams_2026-09-26_192252": {
+      "title": "LET\u2019S GO HIKING! | JKB Streams",
+      "start_ts": 1790450572,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "aUeIOpHWl3s",
       "source_platform": "youtube"
     }
   },
@@ -16697,6 +16708,22 @@
       }
     ],
     "DrummerCream": [
+      {
+        "ts": 1790452852,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "breasts! come to the other stream.",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
+        "ts": 1790451482,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I fucked a manic woman once, it was great. a week later she was angry for talking to other woman so we broke up and had breakup sex, you.",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
       {
         "ts": 1790281848,
         "type": "membership",
@@ -44439,6 +44466,14 @@
       }
     ],
     "DougSavona": [
+      {
+        "ts": 1790451454,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay im gonna to need you to lock it in goddammit",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
       {
         "ts": 1790278705,
         "type": "superchat",
@@ -95538,6 +95573,14 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1790451713,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Tell wallet guy to come at you and you'll shove his wallet right up his leathery ass klit and then bitch slap him with a bifold.",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
         "ts": 1790280891,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -123847,6 +123890,14 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1790451623,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, have you ever plowed a chick in the woods?",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
       {
         "ts": 1790207494,
         "type": "superchat",
@@ -171070,6 +171121,22 @@
     ],
     "confusedsiren56": [
       {
+        "ts": 1790451142,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "flyiing lawnmowers do exist there called drones they get flown into russian oil refinerys",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
+        "ts": 1790450964,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "Jay gets chased by a flying lawnmower",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
         "ts": 1788878604,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -188020,6 +188087,14 @@
     ],
     "RawrDakota": [
       {
+        "ts": 1790451237,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You are rather manic today I see",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
         "ts": 1790294673,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -202624,6 +202699,14 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1790452832,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Dual stream test",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
         "ts": 1790198823,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -212993,6 +213076,14 @@
       }
     ],
     "HillPhantom": [
+      {
+        "ts": 1790451719,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I find bodies all the time, just not a snitch",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
       {
         "ts": 1788554669,
         "type": "superchat",
@@ -279587,6 +279678,30 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1790451682,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I fucked a girl on the hood in the woods",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
+        "ts": 1790450904,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "jay one day u better watch out ill be hiding in the bush in a bear suit and ill jump you and give you bear love lmao",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
+      {
+        "ts": 1790450691,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay is looking handsome today in the sun",
+        "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
+      },
       {
         "ts": 1790294918,
         "type": "superchat",
