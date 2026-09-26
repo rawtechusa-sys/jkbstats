@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790295751,
+  "updated_ts": 1790455996,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -19,6 +19,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832"
+    },
+    {
+      "ts": 1790451849,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "lets_go_hiking_jkb_streams_2026-09-26_192252"
     }
   ]
 }
