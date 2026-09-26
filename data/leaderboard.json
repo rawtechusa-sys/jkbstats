@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790455976,
+  "updated_ts": 1790460132,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -508,7 +508,8 @@
     "youtube_is_broken_jkb_streams_2025-10-30_205645",
     "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
-    "lets_go_hiking_jkb_streams_2026-09-26_192252"
+    "lets_go_hiking_jkb_streams_2026-09-26_192252",
+    "hiking_jkb_streams_2026-09-26_204411"
   ],
   "users": {
     "WickedGrom": {
@@ -591,10 +592,10 @@
     },
     "DrummerCream": {
       "username": "DrummerCream",
-      "total": 3682.2799999999925,
-      "streams": 275,
-      "donations": 1416,
-      "superchat": 3196.7199999999975,
+      "total": 3686.2799999999925,
+      "streams": 276,
+      "donations": 1418,
+      "superchat": 3200.7199999999975,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -1358,10 +1359,10 @@
     },
     "Night_Breaker": {
       "username": "Night_Breaker",
-      "total": 5898.859999999998,
-      "streams": 309,
-      "donations": 2732,
-      "superchat": 5871.0,
+      "total": 5908.859999999998,
+      "streams": 310,
+      "donations": 2737,
+      "superchat": 5881.0,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -1904,15 +1905,15 @@
     },
     "RawrDakota": {
       "username": "RawrDakota",
-      "total": 7618.069999999982,
-      "streams": 279,
-      "donations": 1696,
+      "total": 7628.019999999982,
+      "streams": 280,
+      "donations": 1697,
       "superchat": 4676.849999999999,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
       "membership": 37.809999999999995,
-      "giftmembership": 2903.4099999999976,
+      "giftmembership": 2913.3599999999974,
       "kicks": 0.0
     },
     "theshinynickell": {
@@ -2099,10 +2100,10 @@
     },
     "HillPhantom": {
       "username": "HillPhantom",
-      "total": 961.0699999999999,
-      "streams": 39,
-      "donations": 145,
-      "superchat": 776.0,
+      "total": 980.0699999999999,
+      "streams": 40,
+      "donations": 153,
+      "superchat": 795.0,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -4348,10 +4349,10 @@
     },
     "Volk_Pack": {
       "username": "Volk_Pack",
-      "total": 28.990000000000002,
-      "streams": 4,
-      "donations": 10,
-      "superchat": 27.0,
+      "total": 30.990000000000002,
+      "streams": 5,
+      "donations": 11,
+      "superchat": 29.0,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -6428,10 +6429,10 @@
     },
     "Crizppy": {
       "username": "Crizppy",
-      "total": 15.950000000000001,
-      "streams": 4,
-      "donations": 5,
-      "superchat": 9.98,
+      "total": 17.94,
+      "streams": 5,
+      "donations": 6,
+      "superchat": 11.97,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
