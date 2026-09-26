@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1790455978,
+  "updated_ts": 1790460134,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -508,7 +508,8 @@
     "youtube_is_broken_jkb_streams_2025-10-30_205645",
     "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
-    "lets_go_hiking_jkb_streams_2026-09-26_192252"
+    "lets_go_hiking_jkb_streams_2026-09-26_192252",
+    "hiking_jkb_streams_2026-09-26_204411"
   ],
   "commands": {
     "xijinping": 224,
@@ -6036,6 +6037,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "aUeIOpHWl3s",
+      "source_platform": "youtube"
+    },
+    "hiking_jkb_streams_2026-09-26_204411": {
+      "title": "Hiking \u2026.| JKB Streams",
+      "start_ts": 1790455451,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "I-87SozgfRo",
       "source_platform": "youtube"
     }
   },
