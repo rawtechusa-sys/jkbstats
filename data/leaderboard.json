@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790460132,
+  "updated_ts": 1790708003,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -509,7 +509,8 @@
     "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
-    "hiking_jkb_streams_2026-09-26_204411"
+    "hiking_jkb_streams_2026-09-26_204411",
+    "spooky_hike_jkb_streams_2026-09-29_171039"
   ],
   "users": {
     "WickedGrom": {
@@ -592,10 +593,10 @@
     },
     "DrummerCream": {
       "username": "DrummerCream",
-      "total": 3686.2799999999925,
-      "streams": 276,
-      "donations": 1418,
-      "superchat": 3200.7199999999975,
+      "total": 3690.2799999999925,
+      "streams": 277,
+      "donations": 1420,
+      "superchat": 3204.7199999999975,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -852,10 +853,10 @@
     },
     "brahman_noodles": {
       "username": "brahman_noodles",
-      "total": 119.63999999999993,
-      "streams": 35,
-      "donations": 36,
-      "superchat": 103.71999999999996,
+      "total": 124.62999999999992,
+      "streams": 36,
+      "donations": 37,
+      "superchat": 108.70999999999995,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -3387,14 +3388,14 @@
     },
     "hipnotyq": {
       "username": "hipnotyq",
-      "total": 8.459999999999999,
-      "streams": 5,
-      "donations": 5,
+      "total": 10.45,
+      "streams": 6,
+      "donations": 6,
       "superchat": 6.469999999999999,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
-      "membership": 1.99,
+      "membership": 3.98,
       "giftmembership": 0.0,
       "kicks": 0.0
     },
@@ -3491,10 +3492,10 @@
     },
     "DamienGuyton": {
       "username": "DamienGuyton",
-      "total": 1092.6299999999999,
-      "streams": 42,
-      "donations": 249,
-      "superchat": 579.2100000000002,
+      "total": 1096.61,
+      "streams": 43,
+      "donations": 251,
+      "superchat": 583.1900000000002,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
@@ -4102,15 +4103,15 @@
     },
     "dan_evilrobot": {
       "username": "dan_evilrobot",
-      "total": 1174.04,
-      "streams": 52,
-      "donations": 192,
-      "superchat": 799.9199999999997,
+      "total": 1190.3899999999999,
+      "streams": 53,
+      "donations": 196,
+      "superchat": 814.2799999999997,
       "bits": 0.0,
       "giftsub": 0.0,
       "sub": 0.0,
       "membership": 11.94,
-      "giftmembership": 362.1799999999999,
+      "giftmembership": 364.1699999999999,
       "kicks": 0.0
     },
     "Destruktor1111": {
