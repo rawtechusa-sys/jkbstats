@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790460138,
+  "updated_ts": 1790708012,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -509,7 +509,8 @@
     "xbox_is_falling_apart_halo_going_to_activision_jkb_streams_2026-09-23_205601",
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
-    "hiking_jkb_streams_2026-09-26_204411"
+    "hiking_jkb_streams_2026-09-26_204411",
+    "spooky_hike_jkb_streams_2026-09-29_171039"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5590,6 +5591,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "I-87SozgfRo",
+      "source_platform": "youtube"
+    },
+    "spooky_hike_jkb_streams_2026-09-29_171039": {
+      "title": "SPOOKY HIKE! | JKB Streams",
+      "start_ts": 1790701839,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "riSc5oagTSA",
       "source_platform": "youtube"
     }
   },
@@ -16719,6 +16730,22 @@
       }
     ],
     "DrummerCream": [
+      {
+        "ts": 1790703707,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "a ride of a life time. I would swing life away",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
+      {
+        "ts": 1790702817,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "goal is to fuck on a pile of leaves on Halloween",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
       {
         "ts": 1790457344,
         "type": "superchat",
@@ -57807,6 +57834,14 @@
       }
     ],
     "brahman_noodles": [
+      {
+        "ts": 1790704009,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Please make a list of horror films to watch in each day in October. I am looking for ideas.",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
       {
         "ts": 1767050252,
         "type": "superchat",
@@ -260726,6 +260761,14 @@
     ],
     "hipnotyq": [
       {
+        "ts": 1790705786,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
+      {
         "ts": 1776282594,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -263797,6 +263840,22 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1790702393,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "The secret is he is possessed",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
+      {
+        "ts": 1790702347,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Can\u2019t wait to see it",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
       {
         "ts": 1790287887,
         "type": "superchat",
@@ -278067,6 +278126,38 @@
       }
     ],
     "dan_evilrobot": [
+      {
+        "ts": 1790703046,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Lol. Good question: What is your favorite genre music? Mine is Heavy metal.",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
+      {
+        "ts": 1790702871,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Oh, wait, that's not true. I had a 2 hour bike ride. and the other day I literally walk to town took me almost 4 hours to town and back to my house. my legs were sore. I live in the countryside.",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
+      {
+        "ts": 1790702554,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I'm out of shape too. It's been a while, going Hiking.",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
+      {
+        "ts": 1790702249,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+      },
       {
         "ts": 1790289199,
         "type": "superchat",
