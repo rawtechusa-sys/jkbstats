@@ -28,6 +28,13 @@ const DATA_BASE = IS_LOCAL_PREVIEW
 // ~5 minute raw.githubusercontent.com cache. 0 disables.
 const LIVE_REFRESH_SECONDS = 300;
 
+// ── RTU stats site (Donors tab "RTU Dent?" column) ─────────────────────────────
+// donors.html joins our donors against RTU's leaderboard + chat authors, read
+// straight from that site's repo (always remote, also in local preview), and
+// links RTU donors to its Dents tab (#dents/<user>).
+const RTU_DATA_BASE = 'https://raw.githubusercontent.com/rawtechusa-sys/ogrestats/main';
+const RTU_SITE_URL  = 'https://www.ogre.watch';
+
 // ── Money ────────────────────────────────────────────────────────────────────────
 // Two decimals WITH thousands separators: 150994.24 -> "150,994.24". Shared by
 // every page, so a dollar figure reads the same on each tab. No "$": callers add it.

@@ -190,6 +190,24 @@
 
   .amount-type.zero { opacity: 0.2; }
 
+  /* DSP Dent? / RTU Dent? glyph cells (same styles as RTU's dents.html). */
+  .dsp-dent {
+    text-align: center;
+    font-size: 16px;
+    width: 90px;
+    line-height: 1;
+  }
+  .dsp-dent a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  .dsp-dent a:hover {
+    background: var(--surface-2, rgba(255,255,255,0.08));
+  }
+
   .loading-state, .empty-state, .error-state {
     display: flex;
     flex-direction: column;
@@ -497,6 +515,82 @@ function cssEscape(s) {
   return (window.CSS && CSS.escape) ? CSS.escape(s) : String(s).replace(/["\\\]]/g, '\\$&');
 }
 
+// ── DSP Dent? cross-reference ────────────────────────────────────────────────
+// The backend (collector/leaderboard.py update_dsp_dent_info) queries
+// renton.report and stamps user.dsp_dent / user.dsp_chatter / user.dsp_banned /
+// user.renton_viewer_id into leaderboard.json. We just read those fields here.
+//
+// Glyph precedence:
+//   💵  has donated to DSP        (dsp_dent)
+//   💬  has chatted in DSP's stream but not donated  (dsp_chatter only)
+//   ❌  neither, or not found on renton
+// plus 🚫 when DSP currently bans them (dsp_banned). A ban is itself a DSP
+// connection, so a banned user with no chat or donation shows 🚫 alone, not ❌🚫.
+
+function dspDentGlyph(row) {
+  const base = row.dsp_dent ? '💵' : row.dsp_chatter ? '💬' : '';
+  if (row.dsp_banned) return base + '🚫';
+  return base || '❌';
+}
+
+function dspDentCell(row) {
+  const glyph = dspDentGlyph(row);
+  if (row.renton_viewer_id) {
+    const href = `https://renton.report/viewers/${encodeURIComponent(row.renton_viewer_id)}`;
+    return `<a href="${href}" target="_blank" rel="noopener noreferrer"
+              title="View ${escHtml(row.username)} on renton.report">${glyph}</a>`;
+  }
+  return glyph;
+}
+
+// ── RTU Dent? cross-reference ────────────────────────────────────────────────
+// Joined client-side against the RTU stats site (www.ogre.watch): its
+// leaderboard.json (donors) and chat_authors.json (everyone who chatted). Both
+// key users by lowercase name without '@', the same form as our leaderboard.
+// The mirror of RTU dents.html's "JKB Dent?" column.
+//   💵  has donated to RTU   (links to that dent on www.ogre.watch)
+//   💬  has chatted in RTU's stream but not donated
+//   ❌  neither
+//   ?   RTU data failed to load
+// foldRtuStatus stamps row.rtu_dent (2/1/0, or null on failure) and
+// row.rtu_user (RTU's own spelling of the name, for the link).
+const RTU_GLYPHS = { 2: '💵', 1: '💬', 0: '❌' };
+
+function rtuDentCell(row) {
+  if (row.rtu_dent == null) return '?';
+  const glyph = RTU_GLYPHS[row.rtu_dent];
+  if (row.rtu_dent === 2 && row.rtu_user) {
+    const href = `${RTU_SITE_URL}/#dents/${encodeURIComponent(row.rtu_user)}`;
+    return `<a href="${href}" target="_blank" rel="noopener noreferrer"
+              title="View ${escHtml(row.username)} on www.ogre.watch">${glyph}</a>`;
+  }
+  return glyph;
+}
+
+async function foldRtuStatus() {
+  const norm = s => String(s || '').replace(/^@+/, '').toLowerCase();
+  let donors = null, chatters = null;
+  try {
+    const [board, authors] = await Promise.all([
+      fetchJSON(`${RTU_DATA_BASE}/data/leaderboard.json`),
+      fetchJSON(`${RTU_DATA_BASE}/data/chat_authors.json`),
+    ]);
+    // A Map, not an object: `in` on a plain object matches names like "constructor".
+    donors = new Map();
+    for (const [key, u] of Object.entries(board.users || {})) {
+      if ((u.donations || 0) > 0 || (u.total || 0) > 0) donors.set(norm(key), u.username || key);
+    }
+    chatters = new Set(Object.keys(authors.authors || {}).map(norm));
+  } catch (e) { /* leave donors null -> every cell shows '?' */ }
+  for (const row of tableData) {
+    if (!donors) { row.rtu_dent = null; continue; }
+    const k = norm(row.username);
+    if (donors.has(k))        { row.rtu_dent = 2; row.rtu_user = donors.get(k); }
+    else if (chatters.has(k)) { row.rtu_dent = 1; }
+    else                      { row.rtu_dent = 0; }
+  }
+}
+
 // Sort state
 let sortKey   = 'total';
 let sortAsc   = false;
@@ -508,7 +602,7 @@ let searchQuery = '';
 // Total column count of the outer table, used for the expanded detail row's
 // colspan. Static (TYPES is fixed) so it lives at module scope — toggleDonor
 // needs it to build a detail row without a full re-render.
-const COLS = 6 + TYPES.length;   // rank, donor, total, streams, donations, TTS messages + one per type
+const COLS = 6 + TYPES.length + 2;   // rank, donor, total, streams, donations, TTS messages + one per type + DSP Dent? + RTU Dent?
 
 // ── Windowed rendering ───────────────────────────────────────────────────────
 // There are 4000+ donors. Putting every row in the DOM at once costs ~4s of
@@ -872,6 +966,8 @@ function rowGroupHTML(row, i) {
       <td class="amount-type">${row.donations || 0}</td>
       ${ttsCell}
       ${typeCells}
+      <td class="dsp-dent">${dspDentCell(row)}</td>
+      <td class="dsp-dent">${rtuDentCell(row)}</td>
     </tr>`;
 
   const detailRow = isOpen
@@ -942,6 +1038,19 @@ function renderTable() {
       const cmp = a.username.localeCompare(b.username, undefined, { sensitivity: 'base' });
       return sortAsc ? cmp : -cmp;
     }
+    if (sortKey === 'dsp_dent') {
+      // 3-tier rank: donor (2) > chatter only (1) > neither (0); a current
+      // ban ranks first within its tier.
+      const rank = u => (u.dsp_dent ? 2 : u.dsp_chatter ? 1 : 0) + (u.dsp_banned ? 0.5 : 0);
+      const cmp  = rank(a) - rank(b);
+      return sortAsc ? cmp : -cmp;
+    }
+    if (sortKey === 'rtu_dent') {
+      // Same tiers; a failed RTU load (null) sorts below "neither".
+      const rank = u => u.rtu_dent ?? -1;
+      const cmp  = rank(a) - rank(b);
+      return sortAsc ? cmp : -cmp;
+    }
     const av = a[sortKey] ?? 0;
     const bv = b[sortKey] ?? 0;
     return sortAsc ? av - bv : bv - av;
@@ -965,6 +1074,8 @@ function renderTable() {
         <th class="${thClass('donations')}" data-key="donations">Donations${sortArrow('donations')}</th>
         <th class="${thClass('tts')}" data-key="tts" title="TTS messages sent — a voice or a sound effect (click a number to view them on the TTS tab)">TTS Messages${sortArrow('tts')}</th>
         ${typeHeaders}
+        <th class="${thClass('dsp_dent')}" data-key="dsp_dent" title="renton.report: 💵 has donated to DSP, 💬 has chatted in DSP's stream, ❌ neither / not found, 🚫 currently banned from DSP's chat">DSP Dent?${sortArrow('dsp_dent')}</th>
+        <th class="${thClass('rtu_dent')}" data-key="rtu_dent" title="www.ogre.watch: 💵 has donated to RTU, 💬 has chatted in RTU's stream, ❌ neither, ? RTU data unavailable">RTU Dent?${sortArrow('rtu_dent')}</th>
       </tr>
     </thead>
   </table>`;
@@ -1124,7 +1235,9 @@ async function load() {
     // of fetches (~tens of MB) and hang the browser.
     const board = await fetchJSON(`${RAW}/data/leaderboard.json`);
     loadFromLeaderboard(board);
-    await foldTtsCounts();   // adds row.tts (per-donor TTS message count)
+    // row.tts (per-donor TTS message count) and row.rtu_dent (RTU Dent?),
+    // fetched in parallel; both are best-effort and never throw.
+    await Promise.all([foldTtsCounts(), foldRtuStatus()]);
     setupDelegation();
     renderTable();
     // A pie-legend username link (streams.html) stashes the donor here; consume
