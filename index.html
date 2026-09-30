@@ -305,6 +305,8 @@ function activateTab(tab) {
 
 // The hash is #<tab> or #<tab>/<sub>. For the streams tab the sub-slug is a
 // stream id, so streams.html#<slug> deep links survive as index.html#streams/<slug>.
+// For the donors tab it is a donor username (#donors/<user>), which ogre.watch's
+// Dents tab links to.
 function parseHash() {
   const raw = location.hash.replace(/^#/, '');
   const i = raw.indexOf('/');
@@ -332,6 +334,12 @@ function syncTabFromHash() {
   if (slug === 'streams' && sub) {
     pendingStreamSlug = decodeURIComponent(sub);
     try { sessionStorage.setItem('selected-stream', pendingStreamSlug); } catch (e) {}
+  }
+  // donors.html reads 'selected-donor' once on load and filters to that donor.
+  // Only a fresh donors iframe reads it: #donors -> #donors/<user> inside an open
+  // donors tab does not reload the frame. An inbound link always loads fresh.
+  if (slug === 'donors' && sub) {
+    try { sessionStorage.setItem('selected-donor', decodeURIComponent(sub)); } catch (e) {}
   }
   activateTab(tab);
   sendPendingStream();
