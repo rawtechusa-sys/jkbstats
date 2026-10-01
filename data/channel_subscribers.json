@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790708031,
+  "updated_ts": 1790818280,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -37,6 +37,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "spooky_hike_jkb_streams_2026-09-29_171039"
+    },
+    {
+      "ts": 1790818194,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
     }
   ]
 }
