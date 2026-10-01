@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790708019,
+  "updated_ts": 1790818272,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -510,7 +510,8 @@
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
     "hiking_jkb_streams_2026-09-26_204411",
-    "spooky_hike_jkb_streams_2026-09-29_171039"
+    "spooky_hike_jkb_streams_2026-09-29_171039",
+    "3_hour_marathon_jkb_streams_2026-09-30_201938"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9673,6 +9674,24 @@
       "avg_viewers": 18.04,
       "avg_chat_mpm": 2.91,
       "avg_active_chatters": 6.62,
+      "percent_paused": null
+    },
+    "3_hour_marathon_jkb_streams_2026-09-30_201938": {
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938",
+      "title": "3 HOUR MARATHON! \ud83d\udc80 | JKB Streams",
+      "start_ts": 1790799578,
+      "end_ts": 1790818194,
+      "duration_sec": 18616,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 330.09,
+      "donation_count": 72,
+      "donations_per_min": 1.0639,
+      "peak_viewers": 77,
+      "avg_viewers": 60.43,
+      "avg_chat_mpm": 6.84,
+      "avg_active_chatters": 13.65,
       "percent_paused": null
     }
   }
