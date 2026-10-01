@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790708012,
+  "updated_ts": 1790818268,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -510,7 +510,8 @@
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
     "hiking_jkb_streams_2026-09-26_204411",
-    "spooky_hike_jkb_streams_2026-09-29_171039"
+    "spooky_hike_jkb_streams_2026-09-29_171039",
+    "3_hour_marathon_jkb_streams_2026-09-30_201938"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5602,6 +5603,16 @@
       "segments": null,
       "source_vod_id": "riSc5oagTSA",
       "source_platform": "youtube"
+    },
+    "3_hour_marathon_jkb_streams_2026-09-30_201938": {
+      "title": "3 HOUR MARATHON! \ud83d\udc80 | JKB Streams",
+      "start_ts": 1790799578,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "JSeWjchNwyM",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8692,6 +8703,14 @@
       }
     ],
     "GlamerousFrog": [
+      {
+        "ts": 1790800664,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "It's like T.A.P.S but Canadian. I'm a huge sceptic so would happily stay in a house like that overnight. We once explored an abandoned insane asylum",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1789160692,
         "type": "superchat",
@@ -16730,6 +16749,30 @@
       }
     ],
     "DrummerCream": [
+      {
+        "ts": 1790800970,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Two men going at each other one is gay with a micro and the other is sexually frustrated and bisexual. They both want a bus on dick island.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790800467,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I think I want to fuck you and this is :thumbs_up:",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790799917,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Is today healthy meal submissions ?",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790703707,
         "type": "superchat",
@@ -95635,6 +95678,38 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1790803601,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Thank you very much man, you've made my day. You didn't have to, truly really appreciate it and the bday wishes from everyone. It really means a lot.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802804,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "He rubbed the nub and the memberships came quick",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802662,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay wants a nub job, confirmed. Nut knubbing",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802561,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 28 months",
+        "message": "After that fingering comment. I'd wanna hide from you too. The shadows are the safe space from the freaky finger bangs",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1790451713,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -100692,6 +100767,14 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1790805728,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790293703,
         "type": "superchat",
@@ -111237,6 +111320,14 @@
     ],
     "Blaqk_Sheep": [
       {
+        "ts": 1790817323,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "The ghost need to stop pushing shit around your things are pretty valuable my friend. This next trip with all of us their will be insane we all can't wait to experience the house :soft_ice_cream::pie::hole:",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1789160523,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -116372,6 +116463,30 @@
       }
     ],
     "Juicyb00ch": [
+      {
+        "ts": 1790817244,
+        "type": "superchat",
+        "amount_usd": 49.99,
+        "amount_raw": "$49.99",
+        "message": "Justin is the man.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790816830,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "\ud83e\udd77\ud83c\udffb",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790811045,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1789867544,
         "type": "superchat",
@@ -123952,6 +124067,30 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1790817432,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J, can I share my ectoplasm with you? Extra sticky",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790816939,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "at that point, J was ready 2 get phucked by demons",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790810531,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "who said white boys can't jump? He's spring loaded",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790458296,
         "type": "superchat",
@@ -145851,6 +145990,22 @@
     ],
     "Chevmatic": [
       {
+        "ts": 1790807721,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hi my name is T-Rex and I want to give you $2",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790799837,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "I'm finally caught up again!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1787178696,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -149250,6 +149405,22 @@
       }
     ],
     "mist_letumgothmommy": [
+      {
+        "ts": 1790803811,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790799728,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 23 months",
+        "message": "support the stream for spoopy month!! soon to be 2 years for me...",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790287838,
         "type": "superchat",
@@ -162293,6 +162464,14 @@
     ],
     "HappyConsoleGamer": [
       {
+        "ts": 1790815465,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Hi everyone! #Scary",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1789765559,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -164701,6 +164880,22 @@
     ],
     "ShanesWorld25": [
       {
+        "ts": 1790799974,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 19 months",
+        "message": "what's up Jay. Been playing thru Wind Waker HD",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790799921,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1786482656,
         "type": "membership",
         "amount_usd": 1.99,
@@ -166632,6 +166827,30 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1790811292,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "BUECHIE are you okay? BUECHIE are okay? Are you OKAY BUECHIE?!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790805658,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790804927,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "my SuperStation came. I've been creaming my pants to set it up. Been too busy to do it. Probably this Saturday. :face_blowing_a_kiss:",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790281060,
         "type": "superchat",
@@ -185691,6 +185910,30 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1790817491,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "That was Netflix Quality Evergreen Content right there",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790817384,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "HERES TO SATURDAY! ME AND LIKEMINDED ARE READY!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790812247,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 27 months",
+        "message": "Power Rangers SNES. game is good if you like this you will really like it",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1788225497,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -188188,6 +188431,54 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1790813870,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Do you have a cot I can use in the basement?",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790811517,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Robocop is the great great great grandson of Robotaco's 1943 dildo",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790805065,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Playing Legand of Dragoon right now",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790804203,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802958,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Drinking + donating to JKB is awesome jkjk",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790801784,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790458151,
         "type": "giftmembership",
@@ -201767,6 +202058,14 @@
     ],
     "theshinynickell": [
       {
+        "ts": 1790800770,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Is it 11am EST, PST, CST, MST, AKST, HST, GMT?",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1789590729,
         "type": "membership",
         "amount_usd": 1.99,
@@ -205760,6 +206059,14 @@
       }
     ],
     "Omar777i": [
+      {
+        "ts": 1790801647,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Listen Jay next meet up I'm cumming\u2026 I mean coming",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1788434981,
         "type": "membership",
@@ -210270,6 +210577,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1790804459,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Ants in my pants (fart)",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790280912,
         "type": "superchat",
@@ -216766,6 +217081,14 @@
       }
     ],
     "Webbz517": [
+      {
+        "ts": 1790805722,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Are you gonna fly out to Uranus in that space suit",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1789854879,
         "type": "superchat",
@@ -237521,6 +237844,14 @@
     ],
     "Dumpaloo": [
       {
+        "ts": 1790801076,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 8 months",
+        "message": "I want to watch Gabe Newell and Rich from Review, Tech USA get nasty with an overside football while I watch them from a locker. Ben Roethlisberger.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1788439893,
         "type": "membership",
         "amount_usd": 1.99,
@@ -251039,6 +251370,14 @@
     ],
     "SwaggBae": [
       {
+        "ts": 1790799660,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Joined!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1789589193,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -253221,6 +253560,14 @@
     ],
     "DemolitionDaddy": [
       {
+        "ts": 1790802748,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "That ghost hole looks robust and flavorful (fart)",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1789776198,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -253842,6 +254189,14 @@
       }
     ],
     "ZeroPointWaveTX": [
+      {
+        "ts": 1790799966,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Legend!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1785536772,
         "type": "membership",
@@ -262477,6 +262832,22 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1790803821,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790803536,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen Jay we need u to dress up as Rich for Halloween. You have 31 days to transform into his hairstyle and bodytype.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1789860201,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -263840,6 +264211,46 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1790817746,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Loved it. Bookings for 2027 open at new years",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790817698,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Waverly Hills next year",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790811843,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "\"hey devs, do you want discs? if so we will charge you 50x the current cost, do you still want them now? also if you tell anyone we asked this we sue\"",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790808778,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790808717,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Here is $2 from the man in India",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790702393,
         "type": "superchat",
@@ -272483,6 +272894,70 @@
     ],
     "unclemike84": [
       {
+        "ts": 1790809576,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Knuckles: My alternate request is Apocalypse on PS1. If you don\u2019t have that game, you\u2019re fired and have to play Bubsy 3D on PS1 for 5 minutes. EeeeeEe",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790807375,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "My request is Pepsiman for PS1. Intro is hilarious",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790807002,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Sent u the matchup you mentioned on Discord\u2026",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790804306,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: Please stand by while J debases himself.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790803901,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790803216,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Let\u2019s play Hinsdalevania - Jay\u2019s Bisexual Curse!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802799,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: At that moment, Jay realized his stream was so far off the rails that he\u2019d never get it back on those rails again. A new JKB era had began.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802563,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Look for Shadow people at Hinsdale tomorrow!",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1790287816,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -275603,6 +276078,22 @@
     ],
     "patman2986": [
       {
+        "ts": 1790811644,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You think PS will actually do away with discs?",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790808441,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, love you what have I missed the last cpl mths",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1766879171,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -278126,6 +278617,70 @@
       }
     ],
     "dan_evilrobot": [
+      {
+        "ts": 1790804462,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "What happened to my YouTube channel? Because I'm in the progress.. For now I go live on Twitch, come hang out! https://www.twitch.tv/dan_evilrobot",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790803498,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I know everybody's excited for new release games like Zelda.. I'm gonna be playing some random horror games. This years October on my live stream.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802717,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790802429,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Do you believe in shadow people? I do, at least in my area.. I can easily walk Into the woods, I can see them at night, just don't piss them off.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790801205,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "He didn't believe in ghosts until it was something throwing at us, I think it was a cup. I can see ghosts in my naked eye at night.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790801083,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Reminds me when I was in high school, me and my old friend went to a abandoned house. I had a old HD camera. He didn't believe in ghosts, except I do.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790799988,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I like to pissed you off once in a while..:face_with_tears_of_joy:",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
+        "ts": 1790799880,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "What up Jay.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790703046,
         "type": "superchat",
@@ -296331,6 +296886,14 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1790802395,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jays a handsome man with good spooky lighting",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
+      {
         "ts": 1790288010,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -298518,6 +299081,14 @@
       }
     ],
     "RyuDaBurninator": [
+      {
+        "ts": 1790807063,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Eliminate Down - Sega Genesis. Let the intro play.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1790295111,
         "type": "superchat",
@@ -304182,6 +304753,14 @@
       }
     ],
     "Skyrim1212g": [
+      {
+        "ts": 1790806745,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 9 months",
+        "message": "Listen, stream DSP for 12 hours.",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1780528591,
         "type": "giftmembership",
@@ -317108,6 +317687,14 @@
       }
     ],
     "zsalloum23": [
+      {
+        "ts": 1790805898,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+      },
       {
         "ts": 1729992036,
         "type": "membership",
