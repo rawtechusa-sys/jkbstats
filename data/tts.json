@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1790708007,
+  "updated_ts": 1790818263,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -510,7 +510,8 @@
     "400_for_gta_vi_merch_and_no_game_jkb_streams_gtavi_2026-09-24_191832",
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
     "hiking_jkb_streams_2026-09-26_204411",
-    "spooky_hike_jkb_streams_2026-09-29_171039"
+    "spooky_hike_jkb_streams_2026-09-29_171039",
+    "3_hour_marathon_jkb_streams_2026-09-30_201938"
   ],
   "commands": {
     "xijinping": 224,
@@ -548,7 +549,7 @@
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 33,
+    "knuckles": 34,
     "isabelle": 3,
     "idea": 5,
     "jingle_bells": 16,
@@ -580,7 +581,7 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 94,
+    "alanwake": 95,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -588,7 +589,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 45,
+    "narrator": 46,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -856,7 +857,7 @@
     "vampire": 1
   },
   "sounds": {
-    "fart": 1103,
+    "fart": 1105,
     "burp": 60,
     "laughter": 1,
     "boowomp": 39,
@@ -6059,9 +6060,74 @@
       "segments": null,
       "source_vod_id": "riSc5oagTSA",
       "source_platform": "youtube"
+    },
+    "3_hour_marathon_jkb_streams_2026-09-30_201938": {
+      "title": "3 HOUR MARATHON! \ud83d\udc80 | JKB Streams",
+      "start_ts": 1790799578,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "JSeWjchNwyM",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1790809576,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938",
+      "message": "Knuckles: My alternate request is Apocalypse on PS1. If you don\u2019t have that game, you\u2019re fired and have to play Bubsy 3D on PS1 for 5 minutes. EeeeeEe",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790804459,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938",
+      "message": "Ants in my pants (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1790804306,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938",
+      "message": "Narrator: Please stand by while J debases himself.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790802799,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938",
+      "message": "Alanwake: At that moment, Jay realized his stream was so far off the rails that he\u2019d never get it back on those rails again. A new JKB era had began.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790802748,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938",
+      "message": "That ghost hole looks robust and flavorful (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
     {
       "ts": 1790703046,
       "username": "@dan_evilrobot",
