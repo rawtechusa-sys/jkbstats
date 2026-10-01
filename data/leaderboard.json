@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790812336,
+  "updated_ts": 1790813828,
   "counted_streams": [
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "spooky_hike_jkb_streams_2026-09-29_171039",
@@ -988,6 +988,23 @@
       "sub": 0.0,
       "membership": 55.72000000000001,
       "giftmembership": 1580.0600000000015,
+      "kicks": 0.0
+    },
+    "Ones2Cents": {
+      "username": "Ones2Cents",
+      "total": 1057.96,
+      "streams": 81,
+      "donations": 313,
+      "renton_viewer_id": null,
+      "dsp_dent": false,
+      "dsp_chatter": false,
+      "dsp_banned": false,
+      "superchat": 858.96,
+      "bits": 0.0,
+      "giftsub": 0.0,
+      "sub": 0.0,
+      "membership": 21.889999999999997,
+      "giftmembership": 177.11,
       "kicks": 0.0
     },
     "brahman_noodles": {
@@ -2977,23 +2994,6 @@
       "sub": 0.0,
       "membership": 1.99,
       "giftmembership": 35.82,
-      "kicks": 0.0
-    },
-    "Ones2Cents": {
-      "username": "Ones2Cents",
-      "total": 1055.97,
-      "streams": 80,
-      "donations": 312,
-      "renton_viewer_id": null,
-      "dsp_dent": false,
-      "dsp_chatter": false,
-      "dsp_banned": false,
-      "superchat": 858.96,
-      "bits": 0.0,
-      "giftsub": 0.0,
-      "sub": 0.0,
-      "membership": 19.9,
-      "giftmembership": 177.11,
       "kicks": 0.0
     },
     "mariokartpro1000": {
