@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790818273,
+  "updated_ts": 1790900636,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -511,7 +511,8 @@
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
     "hiking_jkb_streams_2026-09-26_204411",
     "spooky_hike_jkb_streams_2026-09-29_171039",
-    "3_hour_marathon_jkb_streams_2026-09-30_201938"
+    "3_hour_marathon_jkb_streams_2026-09-30_201938",
+    "its_halloween_season_jkb_streams_2026-10-01_205654"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5612,6 +5613,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "JSeWjchNwyM",
+      "source_platform": "youtube"
+    },
+    "its_halloween_season_jkb_streams_2026-10-01_205654": {
+      "title": "\ud83c\udf83 IT\u2019S HALLOWEEN SEASON! \ud83d\udc7b | JKB Streams",
+      "start_ts": 1790888214,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "OnyMPANAsX0",
       "source_platform": "youtube"
     }
   },
