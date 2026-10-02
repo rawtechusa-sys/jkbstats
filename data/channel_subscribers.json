@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790818280,
+  "updated_ts": 1790900644,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -43,6 +43,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "3_hour_marathon_jkb_streams_2026-09-30_201938"
+    },
+    {
+      "ts": 1790900524,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654"
     }
   ]
 }
