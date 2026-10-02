@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1790818263,
+  "updated_ts": 1790900627,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -511,7 +511,8 @@
     "lets_go_hiking_jkb_streams_2026-09-26_192252",
     "hiking_jkb_streams_2026-09-26_204411",
     "spooky_hike_jkb_streams_2026-09-29_171039",
-    "3_hour_marathon_jkb_streams_2026-09-30_201938"
+    "3_hour_marathon_jkb_streams_2026-09-30_201938",
+    "its_halloween_season_jkb_streams_2026-10-01_205654"
   ],
   "commands": {
     "xijinping": 224,
@@ -523,7 +524,7 @@
     "asmr": 162,
     "obama": 69,
     "confirmed": 2,
-    "warmy": 601,
+    "warmy": 604,
     "emoguy": 19,
     "baymax": 132,
     "trump": 544,
@@ -536,12 +537,12 @@
     "glorious": 90,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 374,
-    "bob": 1285,
+    "dsp": 375,
+    "bob": 1290,
     "jkb": 114,
-    "glados": 185,
+    "glados": 187,
     "king": 1,
-    "pirate": 105,
+    "pirate": 106,
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 160,
@@ -558,7 +559,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 116,
+    "pooh": 117,
     "legends": 1,
     "dramatic": 22,
     "wings": 1,
@@ -566,7 +567,7 @@
     "forest": 2,
     "stewiegriffin": 4,
     "chewbacca": 9,
-    "doom": 57,
+    "doom": 58,
     "qtv": 29,
     "dream": 54,
     "alto": 14,
@@ -589,7 +590,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 46,
+    "narrator": 47,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -636,7 +637,7 @@
     "sagiri": 3,
     "vomit": 15,
     "eminem": 9,
-    "announcer": 4,
+    "announcer": 5,
     "hal9000": 6,
     "linus": 11,
     "metaphor": 1,
@@ -718,7 +719,7 @@
     "klaus": 1,
     "r2d2": 6,
     "p0": 1,
-    "rich": 12,
+    "rich": 13,
     "mom": 1,
     "alien": 1,
     "hole": 1,
@@ -733,7 +734,7 @@
     "wtich": 1,
     "haiku": 1,
     "gustav": 1,
-    "world": 1,
+    "world": 2,
     "prediction": 1,
     "mariokart": 1,
     "media": 1,
@@ -857,7 +858,7 @@
     "vampire": 1
   },
   "sounds": {
-    "fart": 1105,
+    "fart": 1110,
     "burp": 60,
     "laughter": 1,
     "boowomp": 39,
@@ -6070,9 +6071,221 @@
       "segments": null,
       "source_vod_id": "JSeWjchNwyM",
       "source_platform": "youtube"
+    },
+    "its_halloween_season_jkb_streams_2026-10-01_205654": {
+      "title": "\ud83c\udf83 IT\u2019S HALLOWEEN SEASON! \ud83d\udc7b | JKB Streams",
+      "start_ts": 1790888214,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "OnyMPANAsX0",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1790900309,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "bob: Yea! Everybody whip out your micros! EeeeeEE!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790900289,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Pirate: ALL ABOARD THE ASS TRAIN (fart)",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1790899426,
+      "username": "@FoilGrimTimmy",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Warmy: (Fart)Jay(fart)(fart)Jay Jay (fart)",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1790899329,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Warmy: In the jungle, mighty jungle of J\u2019s pussy",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790898617,
+      "username": "@PhilsLostDoorDashShrimp",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Warmy: Jane you\u2019re playing a game. Oh Jane eeeeeee",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790898229,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Glados: You have less viewers, but higher caliber.",
+      "commands": [
+        "glados"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790898229,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "bob: The only thing U owe me is Jay's. Pussieeeee!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790898105,
+      "username": "@PhilsLostDoorDashShrimp",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Bob: it can\u2019t be a parasocial relationship eeeeeee",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790897866,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "theres a castlevania thats free on mobile devices until the end of the month to celebrate the 40 th anniversary also dsp: don;'t be poor in chat",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790896867,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Announcer: Witch vadge - it\u2019s whats for dinner!",
+      "commands": [
+        "announcer"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790894961,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Bob: I think you just invented pansexual lighting.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790894791,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Narrator: Crocs is not an official stream sponsor.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790891148,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Glados: Speaking of Switch 2 games, have you played Orbitals? It\u2019s a Switch 2 exclusive from a third party that looks awesome. Probably good 4 stream.",
+      "commands": [
+        "glados"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790890825,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "For Halloween this year, I\u2019m dressing up as the scariest person in the world: Rich crying to his own beats.",
+      "commands": [
+        "world"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790890327,
+      "username": "@Gamermeetsworld",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "I like turtles. Rich: I like dick",
+      "commands": [
+        "rich"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790889487,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Pooh: :rooster::rooster::rooster::rooster::rooster::rooster::rooster::rooster::rooster:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790889438,
+      "username": "@astrozombies751",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "doom: it's spooky season , which means, I'm going to put it in Jay's ass. He's going to have some cream in his shits",
+      "commands": [
+        "doom"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1790888636,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654",
+      "message": "Bob: listen J Im single now. Lets go cruisin 4 chicks. U can stay at my place after. But dont wake my roommates by roommates I mean my parents lets go",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1790809576,
       "username": "@unclemike84",
