@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1790900627,
+  "updated_ts": 1791110317,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -512,33 +512,34 @@
     "hiking_jkb_streams_2026-09-26_204411",
     "spooky_hike_jkb_streams_2026-09-29_171039",
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
-    "its_halloween_season_jkb_streams_2026-10-01_205654"
+    "its_halloween_season_jkb_streams_2026-10-01_205654",
+    "live_from_the_hinsdale_house_2026-10-04_002153"
   ],
   "commands": {
     "xijinping": 224,
     "biden": 90,
-    "witch": 549,
-    "spooky": 69,
+    "witch": 555,
+    "spooky": 71,
     "trickster": 103,
     "kratos": 25,
-    "asmr": 162,
+    "asmr": 168,
     "obama": 69,
     "confirmed": 2,
-    "warmy": 604,
+    "warmy": 605,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 544,
+    "trump": 546,
     "girlfriend": 77,
     "story": 1,
-    "forrest": 192,
+    "forrest": 194,
     "point": 1,
     "kid": 1,
     "batman": 8,
-    "glorious": 90,
+    "glorious": 91,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 375,
-    "bob": 1290,
+    "dsp": 381,
+    "bob": 1304,
     "jkb": 114,
     "glados": 187,
     "king": 1,
@@ -546,20 +547,20 @@
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 160,
-    "grandpa": 38,
+    "grandpa": 39,
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
     "knuckles": 34,
     "isabelle": 3,
-    "idea": 5,
+    "idea": 6,
     "jingle_bells": 16,
     "it": 4,
     "beauty": 72,
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 117,
+    "pooh": 119,
     "legends": 1,
     "dramatic": 22,
     "wings": 1,
@@ -567,7 +568,7 @@
     "forest": 2,
     "stewiegriffin": 4,
     "chewbacca": 9,
-    "doom": 58,
+    "doom": 59,
     "qtv": 29,
     "dream": 54,
     "alto": 14,
@@ -576,8 +577,8 @@
     "galdos": 1,
     "patrick": 3,
     "shadow": 1,
-    "ghostface": 14,
-    "chills": 13,
+    "ghostface": 15,
+    "chills": 14,
     "deepthi": 5,
     "spongebob": 22,
     "hikari": 22,
@@ -855,10 +856,11 @@
     "a": 1,
     "coconut": 1,
     "on": 1,
-    "vampire": 1
+    "vampire": 1,
+    "comedy": 1
   },
   "sounds": {
-    "fart": 1110,
+    "fart": 1111,
     "burp": 60,
     "laughter": 1,
     "boowomp": 39,
@@ -868,14 +870,14 @@
     "sm64_hurt": 27,
     "gta_mission_pass": 12,
     "peeing": 75,
-    "evil_laugh": 27,
-    "i_see_you": 30,
-    "goofy_yell": 34,
-    "heartbeat": 3,
+    "evil_laugh": 28,
+    "i_see_you": 32,
+    "goofy_yell": 35,
+    "heartbeat": 6,
     "fn_shield_drink": 9,
-    "door_knock": 18,
+    "door_knock": 20,
     "explosion": 16,
-    "slap": 130,
+    "slap": 131,
     "fail": 56,
     "tada": 15,
     "yoda": 93,
@@ -901,7 +903,7 @@
     "smw_coin": 4,
     "yahoo": 14,
     "smw_1up": 12,
-    "drinking": 38,
+    "drinking": 39,
     "boom": 5,
     "coughing": 27,
     "gnome": 2,
@@ -917,7 +919,7 @@
     "twitch_bits": 2,
     "gaster": 17,
     "slow_clap": 104,
-    "door_open": 3,
+    "door_open": 5,
     "gasp_female": 10,
     "door_close": 6,
     "slip": 13,
@@ -6081,9 +6083,600 @@
       "segments": null,
       "source_vod_id": "OnyMPANAsX0",
       "source_platform": "youtube"
+    },
+    "live_from_the_hinsdale_house_2026-10-04_002153": {
+      "title": "LIVE FROM THE HINSDALE HOUSE",
+      "start_ts": 1791073313,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "gdsxP4sOcMI",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1791104155,
+      "username": "@nevablowingbubbles1337",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "DSP: Ack ack ack ack support this god damn stream",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791099336,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: So much red! Reminds me of Jay's. PussieeEEE!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791095672,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Witch: time for the oldest oldest Ghost Adventures trick in the book, hunting for light orbs",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791095278,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Witch: I hav barnacles on my cooch. Sandblast them",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791094697,
+      "username": "@Enraged-Gecko",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Movie Idea: Sundowners - a group of senile geriatrics in a retirement villa start butchering each other and the workers have to survive until morning. Found footage style.",
+      "commands": [
+        "idea"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791094232,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Spooky: Oh ghost we summon you",
+      "commands": [
+        "spooky"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791094156,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Glorious: Praise Raw Dakoto. Raw dog Jay N his ass",
+      "commands": [
+        "glorious"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791093631,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: yo ones, stay gai",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791092714,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: I\u2019m the lot lizard making sounds",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791091980,
+      "username": "@kitosmith8049",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Trump: This whole operation is fraud and waste, I'm sending Elon",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791091190,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "chills: Number 15. Hinsdale haunting 2026. This is the house where the ghosts had a bukkake session with the guests and they burst loads of ectocum.",
+      "commands": [
+        "chills"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791090864,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "witch: Ave Satana; spiritus evoco ut me futuant.",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791090720,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Ghostface: Here is a tip. Its on my knife lol.",
+      "commands": [
+        "ghostface"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791090405,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "dsp: Tell the ghost I need contributions or else",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791090288,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "asmr: Where is my fucking sandwich bitch ass ghost",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791090216,
+      "username": "@ZeroPointWaveTX",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Trump: Excuse me ghost Your haunting is a disaster",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791090047,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "asmr: U hear that? The ghost is touching my pussie",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791089735,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: nothings happening. J has a small cawk. Eeeee",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791089732,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "(i_see_you)",
+      "commands": [],
+      "sounds": [
+        "i_see_you"
+      ]
+    },
+    {
+      "ts": 1791087828,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Forrest: My ass was torn asunder by a BBC. Oh gawd",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791086632,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Forrest: Goin upstairs 2 phuck ghost. Wanna watch?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791086297,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "that wasn't J. That ghost pussie's queefing (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791086077,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "(heartbeat) (heartbeat) (heartbeat) They are here",
+      "commands": [],
+      "sounds": [
+        "heartbeat"
+      ]
+    },
+    {
+      "ts": 1791085720,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: Hey ghost! Repeat after me. Eeeee EeeeEEEeEE!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791084579,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "(door_knock) (door_open) (evil_laugh)(goofy_yell)",
+      "commands": [],
+      "sounds": [
+        "door_knock",
+        "door_open",
+        "evil_laugh",
+        "goofy_yell"
+      ]
+    },
+    {
+      "ts": 1791084513,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Witch: Joochy Boochy",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791084383,
+      "username": "@devinlyda",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Witch: There it goes, boys. Melatonin baby!",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791084307,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "warmy: When is ghost bukkake",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791084105,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "O my gawd (drinking) ghosts sucking me off so good",
+      "commands": [],
+      "sounds": [
+        "drinking"
+      ]
+    },
+    {
+      "ts": 1791084085,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "asmr: The demon is right behind you. bob: RUN!!!",
+      "commands": [
+        "asmr",
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791083814,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "(door_knock) (door_open) bob: EeeeeeeeEeeeeeeeeee!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "door_knock",
+        "door_open"
+      ]
+    },
+    {
+      "ts": 1791083763,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "asmr: Ave Santanas Ave Santanas Ave Santanas",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791083708,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "(i_see_you)",
+      "commands": [],
+      "sounds": [
+        "i_see_you"
+      ]
+    },
+    {
+      "ts": 1791083430,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Listen play with the Quija board in the basement and let them in. They are waiting for ya'll. bob: Let them in. dsp: Let them in. asmr: Let them in.",
+      "commands": [
+        "bob",
+        "dsp",
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791082315,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: my ass is getting pumped with ectoplasm. eeeE",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791082140,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Pooh::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791080663,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "DSP: Hi. I'm DSP. My retardation cannot be cured.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791079286,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "grandpa: I died here. Blacksheep, phuck my ghost!",
+      "commands": [
+        "grandpa"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791079073,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: is the ghost of my old channel there? I need it back! Btw the ghost of Jim Henson has his hand up my ass.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791078727,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "bob: if you find the ghost of my baby dik, call me",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791078241,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Spooky: It's getting spooky. Hold onto your poossy",
+      "commands": [
+        "spooky"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791077907,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Doom: you are in my house now Boys let's get this party started ghost orgy at the Hinsdale house :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "doom"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791077876,
+      "username": "@Enraged-Gecko",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Concept for a comedy: a vampire that targets women on the rag via tinder\u2026 Redwings:The Musical",
+      "commands": [
+        "comedy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791076792,
+      "username": "@PhilsLostDoorDashShrimp",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: the sheep\u2019s shoes scare me more than ghosts",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791076044,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "dsp: Can you ask the ghosts to get me doordash",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791075742,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Bob: Hail satan I bless this house with the ghosts of my career now lets pay tribute to the demons. OoOoOoOoOo.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791075509,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Pardon the noise. Thats just Ones & I phucking each others brains out. Oh Ones! give me that gay dik in my tight sticky honey khunt! (slap) aAAAaaaaa!",
+      "commands": [],
+      "sounds": [
+        "slap"
+      ]
+    },
+    {
+      "ts": 1791075397,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "dsp: Listen let DSP come haunt the top bunk. OoOoO",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791074538,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "bob: Listen haunt me on the top bunk. EeEeEeEeEeEe",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791073909,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "pooh: Oh Christopher haunt my holes",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791073771,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "Witch: OH MY GOD! There\u2019s a woman on Jay\u2019s stream",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791073706,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "message": "asmr: Is everyone ready to be haunted and have nightmares? Lets say an incantion together. Ave Satana, quaeso, omnes foramina infesta.",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1790900309,
       "username": "@Night_Breaker",
