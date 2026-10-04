@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790900635,
+  "updated_ts": 1791110324,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -512,7 +512,8 @@
     "hiking_jkb_streams_2026-09-26_204411",
     "spooky_hike_jkb_streams_2026-09-29_171039",
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
-    "its_halloween_season_jkb_streams_2026-10-01_205654"
+    "its_halloween_season_jkb_streams_2026-10-01_205654",
+    "live_from_the_hinsdale_house_2026-10-04_002153"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9711,6 +9712,24 @@
       "avg_viewers": 93.47,
       "avg_chat_mpm": 9.17,
       "avg_active_chatters": 19.52,
+      "percent_paused": null
+    },
+    "live_from_the_hinsdale_house_2026-10-04_002153": {
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153",
+      "title": "LIVE FROM THE HINSDALE HOUSE",
+      "start_ts": 1791073313,
+      "end_ts": 1791110203,
+      "duration_sec": 36890,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 792.09,
+      "donation_count": 231,
+      "donations_per_min": 1.2883,
+      "peak_viewers": 153,
+      "avg_viewers": 101.57,
+      "avg_chat_mpm": 6.61,
+      "avg_active_chatters": 15.4,
       "percent_paused": null
     }
   }
