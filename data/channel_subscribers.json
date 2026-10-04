@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1790900644,
+  "updated_ts": 1791110334,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -49,6 +49,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "its_halloween_season_jkb_streams_2026-10-01_205654"
+    },
+    {
+      "ts": 1791110203,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153"
     }
   ]
 }
