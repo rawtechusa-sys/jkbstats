@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791110334,
+  "updated_ts": 1791420075,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -55,6 +55,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153"
+    },
+    {
+      "ts": 1791419980,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
     }
   ]
 }
