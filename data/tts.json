@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1791110317,
+  "updated_ts": 1791420057,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -513,19 +513,20 @@
     "spooky_hike_jkb_streams_2026-09-29_171039",
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "its_halloween_season_jkb_streams_2026-10-01_205654",
-    "live_from_the_hinsdale_house_2026-10-04_002153"
+    "live_from_the_hinsdale_house_2026-10-04_002153",
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
   ],
   "commands": {
-    "xijinping": 224,
+    "xijinping": 225,
     "biden": 90,
-    "witch": 555,
+    "witch": 557,
     "spooky": 71,
     "trickster": 103,
     "kratos": 25,
     "asmr": 168,
     "obama": 69,
     "confirmed": 2,
-    "warmy": 605,
+    "warmy": 606,
     "emoguy": 19,
     "baymax": 132,
     "trump": 546,
@@ -535,11 +536,11 @@
     "point": 1,
     "kid": 1,
     "batman": 8,
-    "glorious": 91,
+    "glorious": 93,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 381,
-    "bob": 1304,
+    "dsp": 382,
+    "bob": 1309,
     "jkb": 114,
     "glados": 187,
     "king": 1,
@@ -551,7 +552,7 @@
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 34,
+    "knuckles": 35,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -560,7 +561,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 119,
+    "pooh": 120,
     "legends": 1,
     "dramatic": 22,
     "wings": 1,
@@ -591,13 +592,13 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 47,
+    "narrator": 49,
     "here": 1,
     "ps2": 1,
     "plug": 1,
     "tip": 2,
     "santa": 14,
-    "phil": 11,
+    "phil": 12,
     "fact": 5,
     "berries": 1,
     "javier": 20,
@@ -860,7 +861,7 @@
     "comedy": 1
   },
   "sounds": {
-    "fart": 1111,
+    "fart": 1119,
     "burp": 60,
     "laughter": 1,
     "boowomp": 39,
@@ -948,7 +949,7 @@
     "cave": 6,
     "punch": 12,
     "daddy_chill": 3,
-    "this_guy_stinks": 4,
+    "this_guy_stinks": 5,
     "leave_a_message": 4,
     "noot_noot": 10,
     "walking": 3,
@@ -6093,9 +6094,222 @@
       "segments": null,
       "source_vod_id": "gdsxP4sOcMI",
       "source_platform": "youtube"
+    },
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308": {
+      "title": "THE HINSDALE HOUSE AFTERMATH! \ud83d\udc7b\ud83c\udf83  | JKB Streams",
+      "start_ts": 1791405188,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "lDbqHH4eEU4",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1791418778,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Glorious: Phuck LubbyChubber. Eat a massive cawk",
+      "commands": [
+        "glorious"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791417687,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Pooh::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791416899,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Bob: how much to zoom in while you climax. EeeeEE!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791416832,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Witch: Te invoco a profundus inferni",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791414292,
+      "username": "@bammersvabamm822",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Bob: Listen, Now you have a reason to check out Toronto with the Nintendo shop opening up. I am sick so come cuddle with me and make me soup Oh UH!!!!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791412900,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Glorious: Happy birthday Banshee! Cream J's pussie",
+      "commands": [
+        "glorious"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791411163,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "bob: Listen your face is a terrible bald cap(fart)",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791411098,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Narrator: J\u2019s currently adjusting his head condom.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791410842,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Bob: ReviewTechCanada in the house, ya\u2019 all!!!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791410719,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Narrator: Jay is pretending to be a ghost\u2026 poorly.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791410684,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "warmy: Does anyone else's butt feel sore after?",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791410576,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "xijinping: Listen, anal lies mynfootage (fart)",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791408238,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Knuckles: Okay, but did you get scratched again?!",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791407027,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "I can verify there was no venillation. Jay gassed up the place like crazy. (fart) (fart) (fart) (this_guy_stinks) (fart) (fart) (fart)",
+      "commands": [],
+      "sounds": [
+        "fart",
+        "this_guy_stinks"
+      ]
+    },
+    {
+      "ts": 1791406237,
+      "username": "@Dino_Spumonii",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Dsp: ghosts can haunt me but I need contributions",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791406165,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Bob: Suffah Jay\u2019s ghost! Suffah! Whoa buddy!!!!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791405860,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Phil: I once had sex with Casper the Ghost and man he was a good lay. His cum was like ectoplasm.",
+      "commands": [
+        "phil"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791405525,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+      "message": "Witch: WOAAAAAH BUDDYYYYYYYYY!!!!",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1791104155,
       "username": "@nevablowingbubbles1337",
