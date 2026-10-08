@@ -1,0 +1,2 @@
+{"ts": 1791492458, "event": "viewer_snapshot", "youtube": 15, "twitch": null, "kick": null, "active_youtube_chatters": 7, "active_twitch_chatters": null, "active_kick_chatters": null, "youtube_messages_per_minute": 7.0, "twitch_messages_per_minute": 0.0, "kick_messages_per_minute": 0.0}
+{"ts": 1791492447, "event": "donation", "platform": "youtube", "type": "superchat", "username": "@Gamermeetsworld", "amount_raw": "$1.99", "amount_usd": 1.99, "message": "First super chat"}
