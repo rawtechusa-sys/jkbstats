@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791110321,
+  "updated_ts": 1791420061,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -513,7 +513,8 @@
     "spooky_hike_jkb_streams_2026-09-29_171039",
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "its_halloween_season_jkb_streams_2026-10-01_205654",
-    "live_from_the_hinsdale_house_2026-10-04_002153"
+    "live_from_the_hinsdale_house_2026-10-04_002153",
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5635,6 +5636,16 @@
       "segments": null,
       "source_vod_id": "gdsxP4sOcMI",
       "source_platform": "youtube"
+    },
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308": {
+      "title": "THE HINSDALE HOUSE AFTERMATH! \ud83d\udc7b\ud83c\udf83  | JKB Streams",
+      "start_ts": 1791405188,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "lDbqHH4eEU4",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8726,6 +8737,14 @@
     ],
     "GlamerousFrog": [
       {
+        "ts": 1791415504,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Ave domine inferni. The frogs are coming :frog: :fire: :jack_o_lantern: :face_screaming_in_fear:",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1790897347,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -11255,6 +11274,22 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1791411163,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "bob: Listen your face is a terrible bald cap(fart)",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791410576,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: Listen, anal lies mynfootage (fart)",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1789854885,
         "type": "superchat",
@@ -34296,6 +34331,14 @@
     ],
     "jacobcrowley8968": [
       {
+        "ts": 1791407923,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Listen how much for you to go trick or treating live",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1790898670,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -47828,6 +47871,30 @@
     ],
     "PortableHamSandwich": [
       {
+        "ts": 1791418979,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791418849,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791414976,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791090329,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -58512,6 +58579,22 @@
     ],
     "Mysterr_E": [
       {
+        "ts": 1791406165,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Bob: Suffah Jay\u2019s ghost! Suffah! Whoa buddy!!!!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791405525,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Witch: WOAAAAAH BUDDYYYYYYYYY!!!!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791073771,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -62785,6 +62868,30 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1791406578,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Yeah, definitely don't go during the Halloween season you'll never make it in without reservations",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791406447,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "you can book Steven King's room where he actually wrote The shining we inquired at the front desk about it and they said it's booked solid usually years in advance",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791406219,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The Stanley Hotel in Colorado. I've been there. it's something My sister lives in Denver and we stopped off there on our way to RMNP",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791081102,
         "type": "superchat",
@@ -76195,6 +76302,14 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1791406213,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Listen its my favorite season lets get spooky",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791091498,
         "type": "superchat",
@@ -90410,6 +90525,14 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1791416913,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay\u2019s having a stroke\u2026",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791100497,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -96451,6 +96574,30 @@
       }
     ],
     "BansheeTK": [
+      {
+        "ts": 1791418789,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791410806,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "OK Temu rich. Those are temu tits too, ebay this?",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791409869,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I Can hear a little more with D-Atmos. It's faint",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791092042,
         "type": "superchat",
@@ -124190,6 +124337,14 @@
     ],
     "jaieroc": [
       {
+        "ts": 1791406670,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Am I crazy or was that the ghost of jostlers tezticle?",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791073498,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -124977,6 +125132,62 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1791418778,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Glorious: Phuck LubbyChubber. Eat a massive cawk",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791418454,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "how much does Jason charge for his BBC services?",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791417561,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Viva la France! Suck my phat blue cheese hog, Jay!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791416899,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: how much to zoom in while you climax. EeeeEE!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791414764,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The ghost cooch followed you. Don't let it get ya!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791412900,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Glorious: Happy birthday Banshee! Cream J's pussie",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791412515,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Jay, did Ones get jealous when the demons phucked you with their enormous, bulbous cawks? How does your rectum feel? R the hemorrhoids still bleeding?",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791100253,
         "type": "superchat",
@@ -168226,6 +168437,14 @@
     ],
     "rtusburritoeattingbrother": [
       {
+        "ts": 1791414894,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":face_blowing_a_kiss:",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791091441,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -179712,6 +179931,22 @@
     ],
     "TheJostler": [
       {
+        "ts": 1791418882,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen I'm late. Ohh baby fuck me. Uhhh. Uhhh, UH!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791418809,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791075670,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -189893,6 +190128,70 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1791416832,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Witch: Te invoco a profundus inferni",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791415563,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Daemon, esto subjecto voluntati meae!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791413171,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791410858,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I can't fap to that",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791410684,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "warmy: Does anyone else's butt feel sore after?",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791409088,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791407027,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I can verify there was no venillation. Jay gassed up the place like crazy. (fart) (fart) (fart) (this_guy_stinks) (fart) (fart) (fart)",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791406208,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791073984,
         "type": "giftmembership",
@@ -208424,6 +208723,14 @@
     ],
     "timmarcoux": [
       {
+        "ts": 1791417687,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791101438,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -212223,6 +212530,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1791405860,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Phil: I once had sex with Casper the Ghost and man he was a good lay. His cum was like ectoplasm.",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791079073,
         "type": "superchat",
@@ -216406,6 +216721,14 @@
     ],
     "Dino_Spumonii": [
       {
+        "ts": 1791406237,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Dsp: ghosts can haunt me but I need contributions",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791078888,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -219323,6 +219646,14 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1791415528,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791098616,
         "type": "superchat",
@@ -224069,6 +224400,14 @@
       }
     ],
     "GrizzlyBehr91": [
+      {
+        "ts": 1791418812,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pirate:Ahoy! Have a good night, u stinky scallops",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1790205099,
         "type": "membership",
@@ -236744,6 +237083,22 @@
     ],
     "jasonjenkins5067": [
       {
+        "ts": 1791418928,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The best thing about lesbians is the homemade mayonnaise they make when you start scissoring and grinding boxes. In Canada they make special snowcones",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791406210,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "U can borrow my porn cam if I'm not using it then",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791077250,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -243811,6 +244166,14 @@
       }
     ],
     "bammersvabamm822": [
+      {
+        "ts": 1791414292,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 26 months",
+        "message": "Bob: Listen, Now you have a reason to check out Toronto with the Nintendo shop opening up. I am sick so come cuddle with me and make me soup Oh UH!!!!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1789074797,
         "type": "membership",
@@ -261370,6 +261733,14 @@
     ],
     "ScottWoodford76": [
       {
+        "ts": 1791406665,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Oh, that\u2019s a pride pumpkin had an orb now get a strobe , light and dance, and dance to dance",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1787677433,
         "type": "membership",
         "amount_usd": 1.99,
@@ -266129,6 +266500,94 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1791419622,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791419255,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "from india",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791419204,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "watch out for your eyes on the train",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791419003,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "cum train",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791415311,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You could do the clown motel in the future",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791412904,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "here is 2 from your friend in India",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791412837,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Will we get a Ouija board from you this time :rolling_on_the_floor_laughing:",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791412347,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I think a small history rundown vid that you could use in the doc. Have it play as like a stream starting so that ppl get a rundown of the location",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791409858,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You should send it to the owner and see if the voice sounds like the woman next door to eliminate that theory",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791405977,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791405841,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Let\u2019s go!!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1791104485,
         "type": "giftmembership",
@@ -275123,6 +275582,46 @@
       }
     ],
     "unclemike84": [
+      {
+        "ts": 1791411098,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: J\u2019s currently adjusting his head condom.",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791410842,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Bob: ReviewTechCanada in the house, ya\u2019 all!!!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791410719,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: Jay is pretending to be a ghost\u2026 poorly.",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791408238,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Knuckles: Okay, but did you get scratched again?!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791408050,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Bribe YouTube to fix it with mildly sexual favors.",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1790899329,
         "type": "superchat",
@@ -293048,6 +293547,14 @@
     ],
     "JQR0666": [
       {
+        "ts": 1791419079,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "killing me with that new sound. my tummy hurts",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791074774,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -299308,6 +299815,22 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1791419493,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "He\u2019s making soup for 3 weeks to prepare for winter",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
+        "ts": 1791407185,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "It\u2019s almost as if you\u2019ve got no poosay for a while and you got your holes stretched out by a ghost. You seem extra chill.",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1791099220,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -301542,6 +302065,14 @@
     ],
     "seamonkey8435": [
       {
+        "ts": 1791406835,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 8 months",
+        "message": "Love the way you move!",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
+      {
         "ts": 1788217161,
         "type": "membership",
         "amount_usd": 1.99,
@@ -302457,6 +302988,14 @@
       }
     ],
     "xanderskullion": [
+      {
+        "ts": 1791419493,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "meaty",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1790896685,
         "type": "gift",
@@ -307131,6 +307670,14 @@
       }
     ],
     "kyletech84": [
+      {
+        "ts": 1791416733,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "yes, hang out until you pass out",
+        "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+      },
       {
         "ts": 1732317810,
         "type": "membership",
