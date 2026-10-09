@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791420065,
+  "updated_ts": 1791511121,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -514,7 +514,8 @@
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
-    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9749,6 +9750,24 @@
       "avg_viewers": 80.45,
       "avg_chat_mpm": 6.94,
       "avg_active_chatters": 16.0,
+      "percent_paused": null
+    },
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618": {
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "title": "THE STATE OF GAMING IN 2026! \ud83d\udc7b\ud83c\udf83  | JKB Streams",
+      "start_ts": 1791492378,
+      "end_ts": 1791511004,
+      "duration_sec": 18626,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 506.13,
+      "donation_count": 131,
+      "donations_per_min": 1.6304,
+      "peak_viewers": 113,
+      "avg_viewers": 93.7,
+      "avg_chat_mpm": 10.87,
+      "avg_active_chatters": 21.71,
       "percent_paused": null
     }
   }
