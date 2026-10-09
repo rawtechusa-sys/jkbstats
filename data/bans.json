@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791420066,
+  "updated_ts": 1791511123,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -514,7 +514,8 @@
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
-    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5645,6 +5646,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "lDbqHH4eEU4",
+      "source_platform": "youtube"
+    },
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618": {
+      "title": "THE STATE OF GAMING IN 2026! \ud83d\udc7b\ud83c\udf83  | JKB Streams",
+      "start_ts": 1791492378,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "j1X9XAFqFZI",
       "source_platform": "youtube"
     }
   },
