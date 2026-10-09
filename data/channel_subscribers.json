@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791420075,
+  "updated_ts": 1791511130,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -61,6 +61,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+    },
+    {
+      "ts": 1791511004,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
     }
   ]
 }
