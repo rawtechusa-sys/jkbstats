@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791420061,
+  "updated_ts": 1791511117,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -514,7 +514,8 @@
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
-    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5646,6 +5647,16 @@
       "segments": null,
       "source_vod_id": "lDbqHH4eEU4",
       "source_platform": "youtube"
+    },
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618": {
+      "title": "THE STATE OF GAMING IN 2026! \ud83d\udc7b\ud83c\udf83  | JKB Streams",
+      "start_ts": 1791492378,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "j1X9XAFqFZI",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8591,6 +8602,14 @@
     ],
     "bartman261": [
       {
+        "ts": 1791499968,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Here i am love you Jay",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1785529241,
         "type": "membership",
         "amount_usd": 1.99,
@@ -8736,6 +8755,14 @@
       }
     ],
     "GlamerousFrog": [
+      {
+        "ts": 1791503472,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "bob: :frog: :frog: :frog: :frog: haunted :frog: :ghost: . :frog: :ghost: :spider: :women_holding_hands::men_holding_hands::woman_and_man_holding_hands::balloon::balloon::balloon:float :jack_o_lantern::jack_o_lantern::couple_with_heart:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791415504,
         "type": "superchat",
@@ -44765,6 +44792,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1791503638,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "birds",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791096539,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -58579,6 +58614,38 @@
     ],
     "Mysterr_E": [
       {
+        "ts": 1791503423,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Bob: listen, I need the applause button. So fuck you Aimes, kino, werski, tripple P, 8 bit eric, smash JT, ones 2 cents and all my other detractors",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493745,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Fuck me jay. Fuck me like Christopher used to experiment on me. Oh Christopher! Hmmm mmmm mmmm. Fuck dem hoes",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492989,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Bob: Jay! TAKE MY MICRO PEEN!! On your ass! Rawrrr",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492610,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Bob: listen, the only thing that\u2019s higher than RTU on stream, is RTU\u2019s cholesterol. LET\u2019s FUCKING GOOOOO!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791406165,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -62868,6 +62935,22 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1791495004,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "glorious: birds birds birds birds birds bird birds",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494052,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::jack_o_lantern::jack_o_lantern::jack_o_lantern::banana::banana::banana::banana::jack_o_lantern::jack_o_lantern::jack_o_lantern::jack_o_lantern::banana::jack_o_lantern::jack_o_lantern::jack_o_lantern::banana::banana::banana::banana::jack_o_lantern::jack_o_lantern::banana::banana::banana::banana::banana::banana::jack_o_lantern::jack_o_lantern::jack_o_lantern::jack_o_lantern::jack_o_lantern::jack_o_lantern::banana::banana::banana::banana::jack_o_lantern::jack_o_lantern::jack_o_lantern:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791406578,
         "type": "superchat",
@@ -73867,6 +73950,14 @@
     ],
     "Billy-Dillinger": [
       {
+        "ts": 1791496203,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": ":banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1787874446,
         "type": "superchat",
         "amount_usd": 6.66,
@@ -76302,6 +76393,86 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1791510478,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen I might not be here tomorrow or Saturday so have a good week and let the ghosts fuck you.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791507541,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "This is for the person complaining about TTS in chat (kiss) (i_see_you) (kiss) (pants_unzip) (goofy_yell) bob: Now lets watch spooky movies together",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791503961,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I wear my sunglasses at night so I can watch you sleep",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791503532,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: Listen I plan on fisting every one of my detractors but first let me send you demonic vibes as I praise satan to save my career now fuck me.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791503223,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: Listen let me make you cringe and give you that rizzler vibe into my skbidi vibe into my nocap crib into my cunt vibe of having a word stroke.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791502962,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr:Listen let me send you spooky vibes :ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791502882,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "My name literally has vibes in it. Lol",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791495655,
+        "type": "superchat",
+        "amount_usd": 50.0,
+        "amount_raw": "$50.00",
+        "message": "Its costume time for Halloween season now get that ass ready for me baby. dsp: Damn why does Jay get all the contributions. bob: Because jay is a good dude who deserves support. Now lets fuck and suck EeEeEeEeEeEe",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493727,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: Hail satan I command you to haunt Jays house and use the demons to play footsy with his glorious man khunt",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493134,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: Listen sit on my face and crush all my internal organs for satan. FILL MY HOLES LETS FUCKING GO!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791406213,
         "type": "membership",
@@ -96575,6 +96746,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1791496274,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "OK :banana: klit I mean split. Fight me",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791496050,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "u told me to stahp to enjoy my day, u klitt khunt",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791418789,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -101720,6 +101907,22 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1791499438,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "also the original episode 1 racer game is on gog",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791499113,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "listen fire me cuz i was sleeping",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791087038,
         "type": "giftmembership",
@@ -116439,6 +116642,22 @@
     ],
     "ianhunter8405": [
       {
+        "ts": 1791508814,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "i don't think you could be able to stream playing Hellraiser. Its very Grotesque with a lot of gore and nudity",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791508624,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "just Bought Hellraiser Revival",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1790287676,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -117464,6 +117683,14 @@
       }
     ],
     "Juicyb00ch": [
+      {
+        "ts": 1791492461,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": ":sweat_droplets:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791088017,
         "type": "superchat",
@@ -125132,6 +125359,102 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1791510958,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: Proud annexation of Canada, 51st State",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791510054,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "mor importantly, hav U ever broken a womans khunt?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791509774,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: J, don't 4get our makeup sex on Christmas day",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791509259,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Is Zaylen's name going to B in the special thanks?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791508831,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "U doing business talks with drug cartels? Bad idea",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791507338,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: My big hairy ass is getting phucked. EeeEeEe!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791506952,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "grandpa: big things come in old wrinkly packages",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791505627,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: Big Beautiful Pussie! Bigly Tremendous Puss",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791504760,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Peacock (pants_unzip) (peeing) subscription paid",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791503787,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Zelda is a paid kitty actress. Not a real pet cat",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791500868,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: I'm having vadge lips 4 dinner. Want sum?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791500325,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm here. Jay, is it too late for me to phuck you?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791418778,
         "type": "superchat",
@@ -164049,6 +164372,14 @@
     ],
     "HappyConsoleGamer": [
       {
+        "ts": 1791494468,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Hi Everyone! Happy Thursday!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791093153,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -167194,6 +167525,22 @@
       }
     ],
     "Mailmansson": [
+      {
+        "ts": 1791495966,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "playing with ps5 jailbreak 13.60. Its pretty cool",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493655,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 15 months",
+        "message": "Sorry missed the last few streams. Been busy banging hoes. keep your pimp hand strong:raised_hand:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1789851707,
         "type": "superchat",
@@ -179931,6 +180278,38 @@
     ],
     "TheJostler": [
       {
+        "ts": 1791504875,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Pea cok. Peacock...pea cock.p cok. pea peeacock. peacock. PEEock. peecock peecock.pcok. peecock. peacock. PEE Kuh ock. peacock shhh! peacock. Uhh. Uh",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791504580,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You watchin Crystal Lake on Thursday? All 8 eps!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791504300,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "65 lbs. I bought the Halloween game btw",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791504250,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791418882,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -187607,6 +187986,30 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1791510039,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You dodged a Bullet with Melanie Mac",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791509809,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The trade was Solid, love it thank you man.also I am getting another copy of Xeno tomorrow. Also again thank you for the Console Heros FF7",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791509626,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 28 months",
+        "message": "Zelda getting more Pussah than Jay LOL",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1790817491,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -190128,6 +190531,110 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1791503400,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Slowpoke can't save you without the cross.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791502917,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "watching the stream in the tub is good vides",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791499329,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Have you started watching the anime?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791498526,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Why get excited, scalpers will ruin them",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791496160,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":banana:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791496019,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": ":banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494723,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Fuck a canoe, get in the SS Jaysus with me",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494649,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494285,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The ghost of Robotaco is haunting in your house",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493830,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Tell Simmon that's not how you get ahead in life",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493635,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Te invoco a profundus inferni et ad congregandum eos coram me! ad constringendum, ad ligandum eos pariter et solvendum et ad",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493186,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Get drunk then give Jay money",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492712,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791416832,
         "type": "superchat",
@@ -203851,6 +204358,14 @@
     ],
     "theshinynickell": [
       {
+        "ts": 1791510869,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Peace out jolly good show",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1790800770,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -212531,6 +213046,22 @@
     ],
     "niallwilliamson3540": [
       {
+        "ts": 1791499610,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "I would remake Custer\u2019s Revenge",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791499559,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "I\u2019m going fart (fart) (fart)",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791405860,
         "type": "superchat",
         "amount_usd": 6.74,
@@ -219647,6 +220178,38 @@
     ],
     "FoilGrimTimmy": [
       {
+        "ts": 1791508349,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I made up you look like Waynes world from MY doc",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791506507,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Suffah Jay, I hope you live for ever",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791503292,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I have a meeting with a Biotech CEO, but I already have a job. This could mean I can be a consultant and work for myself just like you(fart)Rich(fart)",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494890,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791415528,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -224401,6 +224964,14 @@
     ],
     "GrizzlyBehr91": [
       {
+        "ts": 1791493102,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Pirate:Ahoy all o' ye magnificent moob masters, I totally not be drivin' n' listenin' to yer pordcarst or stram, be it whatever, I be happy to be here",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791418812,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -227972,6 +228543,14 @@
       }
     ],
     "MikeMcc85": [
+      {
+        "ts": 1791492769,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 60 months",
+        "message": "Don't tell me that I have to show up when your live you canadian curd",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1789852317,
         "type": "superchat",
@@ -231899,6 +232478,14 @@
     ],
     "TacoDan34": [
       {
+        "ts": 1791494154,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Just want to say hello! (fart)(fart)(fart):goblin::ogre:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1790289343,
         "type": "membership",
         "amount_usd": 1.99,
@@ -235087,6 +235674,14 @@
     ],
     "marihdimitri7219": [
       {
+        "ts": 1791500095,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "I'm not into horror but that scene in Freddy vs. Jason with Jason on fire through the cornfield is totally awesome. Amazing scene. Top notch.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791075002,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -237082,6 +237677,54 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1791496321,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Brown bananas are looked at differently.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791496081,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If I send u $20 & a empty pickle jar will u take it to the women's bathroom in McDonald's, fill it in the toilet & mail it back to me? Thank you man.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494985,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hey DJ can I contract U to reprogram my fuck doll?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494491,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Be strong & tight. Water tight like a frogs ass",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494048,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Too many men suffer from chronic bitch dependency",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493927,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Pimping ain't easy. Let yo bitches do the walking & yo pimp hand do the talking. Kicking bitches in their booties & pointing out their duties. pimping",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791418928,
         "type": "superchat",
@@ -243592,6 +244235,30 @@
       }
     ],
     "ArcadeIntelligence": [
+      {
+        "ts": 1791496013,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791495320,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 10 months",
+        "message": "I\u2019m coming up on my 10 month with this acoount",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791495101,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1789771256,
         "type": "giftmembership",
@@ -251192,6 +251859,38 @@
       }
     ],
     "djjailbreak": [
+      {
+        "ts": 1791494699,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "I developed the interface, the switcher, and everything with Android, Kotlin, and Rust. I am a developer. I also made the foundation based off an open source Android ROM called LineageOS.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494533,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm going to need beta testers",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494065,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I just sent you a message on discord with Early footage if you want to watch it",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493472,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "sorry I haven't been around lately been working on my own retro operating system for gaming handhelds hope all is well",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1786237486,
         "type": "superchat",
@@ -265121,6 +265820,14 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1791508543,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen Jay--your favorite movie is the one featuring you, Review Tech USA and a jacuzzi scene.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1790803821,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -266500,6 +267207,78 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1791510450,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "tomorrow we shall run a train on Jay",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791509674,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Jammin",
+        "message": "sent Jammin",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791507065,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "wear that Rich dress to the red carpet",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791502147,
+        "type": "superchat",
+        "amount_usd": 4.0,
+        "amount_raw": "$4.00",
+        "message": "Here is a dollar for each leg",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791501182,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Someone needs to smuggle that dress across the border for you",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791500347,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Here is 2 from your friend in India",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791499069,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "get Pennywise eyes tattooed on your eyelids",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791498901,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "make it a balloon tramp stamp",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791498762,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Should I do it?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791419622,
         "type": "giftmembership",
@@ -275583,6 +276362,46 @@
     ],
     "unclemike84": [
       {
+        "ts": 1791495783,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Narrator: Ladies & gentlemen, Jay is currently changing into his birthday suit for your enjoyment. However, the YouTube TOS forbids watching. Good day",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494854,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Glados: BIRDS BIRDS BIRDS BIRDS BIRDS BIRDS BIRDS",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494703,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Bob: Birds. Birds. Birds. Birds. Birds. Birds Bird",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493480,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate: Wait, that not be ghost Richard Simmons?!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493179,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate: I think KayNubbs wants to do yee hard. Aye",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791411098,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -278218,6 +279037,38 @@
       }
     ],
     "Gamermeetsworld": [
+      {
+        "ts": 1791495263,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 9 months",
+        "message": "9 months? when did I subscribe to this shit lol",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494305,
+        "type": "superchat",
+        "amount_usd": 9.99,
+        "amount_raw": "$9.99",
+        "message": "I don\u2019t know who need to hear this but always remember, be strong like ass hair, always lonely always in darkness, and they always go through a lot of shit but alway keep growing, be like ass hair",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492759,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Seven Thursdays till thanksgiving",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492447,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "First super chat",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1790890327,
         "type": "superchat",
@@ -281411,6 +282262,46 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1791495846,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Banana Jay!!!",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494078,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "I'm doing good. Taking a break away from listening all the drama BS about retrogames are expensive on X. Played a little bit of Resident Evil 2 on N64 for the first time. I only play the PS1 version.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493038,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "What up Jay. Feels like fall again..",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492743,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492682,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1790892717,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -283085,6 +283976,14 @@
     ],
     "Destruktor1111": [
       {
+        "ts": 1791492862,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 7 months",
+        "message": "off the rails right away. cawks out everyone",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1789869811,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -283296,6 +284195,14 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1791500461,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay play rich again I missed it",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1790888751,
         "type": "superchat",
@@ -288498,6 +289405,14 @@
       }
     ],
     "WebTechSimplified": [
+      {
+        "ts": 1791496450,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Is Rizmo possessed too",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1791073813,
         "type": "giftmembership",
@@ -299815,6 +300730,110 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1791508340,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I loved that scene of Jamie Lee Curtis in True Lies where she\u2019s seducing Arnold. Sliding down that Activia yogurt greased poll.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791503563,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Listen We don\u2019t have raves anymore. The people gathering in dirty old warehouses. Now we have JKB streams. We can sit on our ass and see a dirty house",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791502345,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay taking advantage of me drunk like Cornell 7",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791502243,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791500853,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Drummer taking 5 days for croutons for 7 day soup",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791498948,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "My entire body is tattooed in Caucasian skin tone.",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791498234,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Is it true your cum tastes sweeter with diabetes?",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791494362,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay say hi to all your fans from India they luv u",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493452,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I love how streams are bookended by ultra gayness",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791493063,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate: You heard the captain, boys. (pants_unzip)",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492831,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "We\u2019re rebelling. With our wallets you sum batch",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492618,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I love how Booch uses words before getting stoned:rolling_on_the_floor_laughing:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
+        "ts": 1791492470,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "High Cholesterol low support Thursday let\u2019s go",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1791419493,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -303145,6 +304164,14 @@
     ],
     "Gentooo": [
       {
+        "ts": 1791494616,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 11 months",
+        "message": "Birds",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1782335412,
         "type": "membership",
         "amount_usd": 1.99,
@@ -306114,6 +307141,14 @@
       }
     ],
     "VintendoVaultz": [
+      {
+        "ts": 1791504758,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Address the state of Uranus:ringed_planet:pull up 2my bumpa baby",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
       {
         "ts": 1789595296,
         "type": "superchat",
@@ -318269,6 +319304,14 @@
     ],
     "Gamerfreak-MLP-Lover20248": [
       {
+        "ts": 1791494194,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":jack_o_lantern::ghost::jack_o_lantern::ghost::jack_o_lantern::ghost:more Halloween :jack_o_lantern::ghost::jack_o_lantern::ghost::jack_o_lantern::ghost:less cats :jack_o_lantern::ghost::jack_o_lantern::ghost::jack_o_lantern::ghost:(fart):banana:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      },
+      {
         "ts": 1788553106,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -323093,6 +324136,26 @@
         "amount_raw": "$5.00",
         "message": "Trump: This whole operation is fraud and waste, I'm sending Elon",
         "stream_id": "live_from_the_hinsdale_house_2026-10-04_002153"
+      }
+    ],
+    "Bug-Catcher-Nik": [
+      {
+        "ts": 1791493855,
+        "type": "superchat",
+        "amount_usd": 7.75,
+        "amount_raw": "DKK\u00a050.00",
+        "message": "Hi J! Hope you're having a good day. I love watching your streams. They are very entertaining and just keeps me in a good mood. Keep up your good work",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      }
+    ],
+    "LordBacontheDestroyer": [
+      {
+        "ts": 1791496179,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "banane g\u00e9ante, pl\u00e1tano gigantes :party_popper::party_popper::banana:",
+        "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
       }
     ]
   }
