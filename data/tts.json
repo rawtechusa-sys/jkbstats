@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1791420057,
+  "updated_ts": 1791511113,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -514,7 +514,8 @@
     "3_hour_marathon_jkb_streams_2026-09-30_201938",
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
-    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308"
+    "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
   ],
   "commands": {
     "xijinping": 225,
@@ -529,26 +530,26 @@
     "warmy": 606,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 546,
+    "trump": 548,
     "girlfriend": 77,
     "story": 1,
-    "forrest": 194,
+    "forrest": 195,
     "point": 1,
     "kid": 1,
     "batman": 8,
-    "glorious": 93,
+    "glorious": 94,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 382,
-    "bob": 1309,
+    "dsp": 383,
+    "bob": 1322,
     "jkb": 114,
-    "glados": 187,
+    "glados": 188,
     "king": 1,
-    "pirate": 106,
+    "pirate": 109,
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 160,
-    "grandpa": 39,
+    "grandpa": 40,
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
@@ -592,7 +593,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 49,
+    "narrator": 50,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -861,19 +862,19 @@
     "comedy": 1
   },
   "sounds": {
-    "fart": 1119,
+    "fart": 1127,
     "burp": 60,
     "laughter": 1,
     "boowomp": 39,
-    "pants_unzip": 113,
+    "pants_unzip": 116,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
     "gta_mission_pass": 12,
-    "peeing": 75,
+    "peeing": 76,
     "evil_laugh": 28,
-    "i_see_you": 32,
-    "goofy_yell": 35,
+    "i_see_you": 33,
+    "goofy_yell": 36,
     "heartbeat": 6,
     "fn_shield_drink": 9,
     "door_knock": 20,
@@ -899,7 +900,7 @@
     "eating": 10,
     "ohmygawd": 27,
     "baby_cry2": 1,
-    "kiss": 31,
+    "kiss": 33,
     "baby_cry1": 3,
     "smw_coin": 4,
     "yahoo": 14,
@@ -6104,9 +6105,336 @@
       "segments": null,
       "source_vod_id": "lDbqHH4eEU4",
       "source_platform": "youtube"
+    },
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618": {
+      "title": "THE STATE OF GAMING IN 2026! \ud83d\udc7b\ud83c\udf83  | JKB Streams",
+      "start_ts": 1791492378,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "j1X9XAFqFZI",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1791510958,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Trump: Proud annexation of Canada, 51st State",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791509774,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "bob: J, don't 4get our makeup sex on Christmas day",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791507541,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "This is for the person complaining about TTS in chat (kiss) (i_see_you) (kiss) (pants_unzip) (goofy_yell) bob: Now lets watch spooky movies together",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "kiss",
+        "i_see_you",
+        "pants_unzip",
+        "goofy_yell"
+      ]
+    },
+    {
+      "ts": 1791507338,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Bob: My big hairy ass is getting phucked. EeeEeEe!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791506952,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "grandpa: big things come in old wrinkly packages",
+      "commands": [
+        "grandpa"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791505627,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Trump: Big Beautiful Pussie! Bigly Tremendous Puss",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791504760,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Peacock (pants_unzip) (peeing) subscription paid",
+      "commands": [],
+      "sounds": [
+        "pants_unzip",
+        "peeing"
+      ]
+    },
+    {
+      "ts": 1791503532,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "bob: Listen I plan on fisting every one of my detractors but first let me send you demonic vibes as I praise satan to save my career now fuck me.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791503472,
+      "username": "@GlamerousFrog",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "bob: :frog: :frog: :frog: :frog: haunted :frog: :ghost: . :frog: :ghost: :spider: :women_holding_hands::men_holding_hands::woman_and_man_holding_hands::balloon::balloon::balloon:float :jack_o_lantern::jack_o_lantern::couple_with_heart:",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791503423,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Bob: listen, I need the applause button. So fuck you Aimes, kino, werski, tripple P, 8 bit eric, smash JT, ones 2 cents and all my other detractors",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791503292,
+      "username": "@FoilGrimTimmy",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "I have a meeting with a Biotech CEO, but I already have a job. This could mean I can be a consultant and work for myself just like you(fart)Rich(fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791503223,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "bob: Listen let me make you cringe and give you that rizzler vibe into my skbidi vibe into my nocap crib into my cunt vibe of having a word stroke.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791500868,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Forrest: I'm having vadge lips 4 dinner. Want sum?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791499559,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "I\u2019m going fart (fart) (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791495783,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Narrator: Ladies & gentlemen, Jay is currently changing into his birthday suit for your enjoyment. However, the YouTube TOS forbids watching. Good day",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791495655,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Its costume time for Halloween season now get that ass ready for me baby. dsp: Damn why does Jay get all the contributions. bob: Because jay is a good dude who deserves support. Now lets fuck and suck EeEeEeEeEeEe",
+      "commands": [
+        "dsp",
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791495004,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "glorious: birds birds birds birds birds bird birds",
+      "commands": [
+        "glorious"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791494854,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Glados: BIRDS BIRDS BIRDS BIRDS BIRDS BIRDS BIRDS",
+      "commands": [
+        "glados"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791494703,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Bob: Birds. Birds. Birds. Birds. Birds. Birds Bird",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791494194,
+      "username": "@Gamerfreak-MLP-Lover20248",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": ":jack_o_lantern::ghost::jack_o_lantern::ghost::jack_o_lantern::ghost:more Halloween :jack_o_lantern::ghost::jack_o_lantern::ghost::jack_o_lantern::ghost:less cats :jack_o_lantern::ghost::jack_o_lantern::ghost::jack_o_lantern::ghost:(fart):banana:",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791494154,
+      "username": "@TacoDan34",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Just want to say hello! (fart)(fart)(fart):goblin::ogre:",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791493727,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "bob: Hail satan I command you to haunt Jays house and use the demons to play footsy with his glorious man khunt",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791493480,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Pirate: Wait, that not be ghost Richard Simmons?!",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791493179,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Pirate: I think KayNubbs wants to do yee hard. Aye",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791493134,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "bob: Listen sit on my face and crush all my internal organs for satan. FILL MY HOLES LETS FUCKING GO!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791493063,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Pirate: You heard the captain, boys. (pants_unzip)",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": [
+        "pants_unzip"
+      ]
+    },
+    {
+      "ts": 1791492989,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Bob: Jay! TAKE MY MICRO PEEN!! On your ass! Rawrrr",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791492610,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+      "message": "Bob: listen, the only thing that\u2019s higher than RTU on stream, is RTU\u2019s cholesterol. LET\u2019s FUCKING GOOOOO!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1791418778,
       "username": "@Night_Breaker",
