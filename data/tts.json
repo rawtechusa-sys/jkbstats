@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1791511113,
+  "updated_ts": 1791596189,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -515,12 +515,13 @@
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
-    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
   ],
   "commands": {
     "xijinping": 225,
     "biden": 90,
-    "witch": 557,
+    "witch": 558,
     "spooky": 71,
     "trickster": 103,
     "kratos": 25,
@@ -533,15 +534,15 @@
     "trump": 548,
     "girlfriend": 77,
     "story": 1,
-    "forrest": 195,
+    "forrest": 196,
     "point": 1,
     "kid": 1,
     "batman": 8,
     "glorious": 94,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 383,
-    "bob": 1322,
+    "dsp": 384,
+    "bob": 1325,
     "jkb": 114,
     "glados": 188,
     "king": 1,
@@ -562,9 +563,9 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 120,
+    "pooh": 121,
     "legends": 1,
-    "dramatic": 22,
+    "dramatic": 23,
     "wings": 1,
     "baby": 40,
     "forest": 2,
@@ -585,7 +586,7 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 95,
+    "alanwake": 96,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -593,7 +594,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 50,
+    "narrator": 51,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -859,7 +860,8 @@
     "coconut": 1,
     "on": 1,
     "vampire": 1,
-    "comedy": 1
+    "comedy": 1,
+    "sos": 1
   },
   "sounds": {
     "fart": 1127,
@@ -871,7 +873,7 @@
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
     "gta_mission_pass": 12,
-    "peeing": 76,
+    "peeing": 77,
     "evil_laugh": 28,
     "i_see_you": 33,
     "goofy_yell": 36,
@@ -6115,9 +6117,142 @@
       "segments": null,
       "source_vod_id": "j1X9XAFqFZI",
       "source_platform": "youtube"
+    },
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725": {
+      "title": "\ud83c\udf83 SPOOKY VIDEO GAMES THAT WILL HAUNT YOU! \ud83d\udc7b HORROR GAMES, RETRO SCARES \ud83d\udc80  | JKB Streams",
+      "start_ts": 1791578845,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "An_01UAZQ5k",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1791594252,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Forrest: How about a helping of deep fried pussie?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791592061,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Bob: kidding wasn't piss, it was diarrhea (peeing)",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "peeing"
+      ]
+    },
+    {
+      "ts": 1791589912,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Narrator: But Jay, how do we know you\u2019re not AI?",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791588875,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "dsp: i'm never blowing bubbles again never again",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791584376,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Alanwake: It was then that Jay realized he had a greater calling. A great purpose. Something beyond babysitting Vapist on the weekends and streaming.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791582159,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Bob: Quick question - Why is Rich voice named Bob?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791580817,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Witch: Boochy Joochy",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791580478,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Dramatic: Count Jaycula vill suck u wit no consent",
+      "commands": [
+        "dramatic"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791579923,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Pooh::banana::snake::banana::snake::banana::snake::banana::snake::banana::snake::banana::snake::banana::snake::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791579527,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "SOS: My ass is leaking toxic fumes and I might die",
+      "commands": [
+        "sos"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791579471,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "message": "Bob: listen Jay, first you steal my humor now you\u2019re wearing the same outfit on back to back streams like I do. How FUCKIN DARE YOU!! :face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth: LETS GO!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1791510958,
       "username": "@Night_Breaker",
