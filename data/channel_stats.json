@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791511121,
+  "updated_ts": 1791596197,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -515,7 +515,8 @@
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
-    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9768,6 +9769,24 @@
       "avg_viewers": 93.7,
       "avg_chat_mpm": 10.87,
       "avg_active_chatters": 21.71,
+      "percent_paused": null
+    },
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725": {
+      "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+      "title": "\ud83c\udf83 SPOOKY VIDEO GAMES THAT WILL HAUNT YOU! \ud83d\udc7b HORROR GAMES, RETRO SCARES \ud83d\udc80  | JKB Streams",
+      "start_ts": 1791578845,
+      "end_ts": 1791596079,
+      "duration_sec": 17234,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 334.77,
+      "donation_count": 124,
+      "donations_per_min": 1.1655,
+      "peak_viewers": 96,
+      "avg_viewers": 76.27,
+      "avg_chat_mpm": 9.0,
+      "avg_active_chatters": 18.12,
       "percent_paused": null
     }
   }
