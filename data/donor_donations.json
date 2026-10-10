@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791511117,
+  "updated_ts": 1791596193,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -515,7 +515,8 @@
     "its_halloween_season_jkb_streams_2026-10-01_205654",
     "live_from_the_hinsdale_house_2026-10-04_002153",
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
-    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+    "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5656,6 +5657,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "j1X9XAFqFZI",
+      "source_platform": "youtube"
+    },
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725": {
+      "title": "\ud83c\udf83 SPOOKY VIDEO GAMES THAT WILL HAUNT YOU! \ud83d\udc7b HORROR GAMES, RETRO SCARES \ud83d\udc80  | JKB Streams",
+      "start_ts": 1791578845,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "An_01UAZQ5k",
       "source_platform": "youtube"
     }
   },
@@ -34358,6 +34369,14 @@
     ],
     "jacobcrowley8968": [
       {
+        "ts": 1791581881,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "People like jay can create true art and are a dying breed . People will get sick of slop. Good news is that being a real artist will pay eventually.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791407923,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -44792,6 +44811,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1791590993,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "birds",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791503638,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -55200,6 +55227,22 @@
     ],
     "doodystreams": [
       {
+        "ts": 1791589604,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791588831,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "We need to talk about 28 years later. It was more disappointing and upsetting than s ex with Ones. God it pisses me off just talking about it.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1790898509,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -58613,6 +58656,14 @@
       }
     ],
     "Mysterr_E": [
+      {
+        "ts": 1791579471,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Bob: listen Jay, first you steal my humor now you\u2019re wearing the same outfit on back to back streams like I do. How FUCKIN DARE YOU!! :face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth::face_with_symbols_on_mouth: LETS GO!",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791503423,
         "type": "superchat",
@@ -90696,6 +90747,46 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1791589845,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Check your discord DMs",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791589215,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Tell us more about arson\u2026",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791588651,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Jay\u2019s lucky the ghost of Chris Hanson\u2019s career didn\u2019t hear that\u2026",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791586128,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Start requiring a signature. They\u2019re way more careful when their job is on the line.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791585818,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Friends with Disability Benefits",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791416913,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -96746,6 +96837,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1791594717,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I've been here the whole time you blind Fawk, tf",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591572,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forget off the rails. Friday Crash out Stream",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791496274,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -101907,6 +102014,22 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1791594059,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791588875,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: i'm never blowing bubbles again never again",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791499438,
         "type": "superchat",
@@ -125359,6 +125482,62 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1791595372,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Do u think Rich phucks while he cries 2 rap music?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594982,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Murray don't listen to him. J will poison the food",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594252,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: How about a helping of deep fried pussie?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791593236,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "will U be beating up Megan's pussie anytime soon?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791592738,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "its a salad. I used my man milk as a dressing",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791592061,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: kidding wasn't piss, it was diarrhea (peeing)",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591915,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, are you going to mate with Vapist tomorrow?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791510958,
         "type": "superchat",
@@ -151250,6 +151429,30 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1791590849,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "have you heard of a streamer named detour? he does ghost hunts live and mark on it last night. there was a lot of activity. detour makes his own equipment",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791583688,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "As my husband is trimming down, inserts for his shoes, he went awe. How am I gonna be able to touch that? But if he's not interested in anyone",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579464,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "wtf did i just come into.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791075010,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -165216,6 +165419,14 @@
     ],
     "devinlyda": [
       {
+        "ts": 1791589820,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "This is AI, Papa Iger. Don\u2019t strike the stream, please",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791084383,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -168783,6 +168994,14 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1791581978,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791414894,
         "type": "superchat",
@@ -180278,6 +180497,30 @@
     ],
     "TheJostler": [
       {
+        "ts": 1791591471,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791582678,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Tell them I have 1 ball.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791582540,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791504875,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -187986,6 +188229,14 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1791590154,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I heard Robo Taco and Zaylen are having a Anal Baby together... and its going to pop out Smoking a Cig and Drinking a beer.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791510039,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -190531,6 +190782,70 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1791591581,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791584864,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "There are no berries at the library",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791584377,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Is my lack of believing in ghosts holding my back from the ladies? Do they just want their tacos haunted with ghost penis?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791584109,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay is a good wingman",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791583156,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "goon goon goon goon goon goon goon goon goon goon",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580698,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Come to the Cavalier Hotel here in Virginia Beach",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579527,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "SOS: My ass is leaking toxic fumes and I might die",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579078,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791503400,
         "type": "superchat",
@@ -208384,6 +208699,22 @@
     ],
     "Omar777i": [
       {
+        "ts": 1791580343,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Sparkles",
+        "message": "sent Sparkles",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580234,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Listen Jay I'll point and click you 4 my pleasure!",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1790801647,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -209237,6 +209568,30 @@
       }
     ],
     "timmarcoux": [
+      {
+        "ts": 1791580817,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Witch: Boochy Joochy",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580756,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Boochy Joochy",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579923,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh::banana::snake::banana::snake::banana::snake::banana::snake::banana::snake::banana::snake::banana::snake::banana:",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791417687,
         "type": "superchat",
@@ -216026,6 +216381,38 @@
     ],
     "HillPhantom": [
       {
+        "ts": 1791585067,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I suggest a casual game of Twister",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791584362,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "TOP GOON -JAY Daddy - Lead US!",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791584072,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Most use dating apps, you started a support group. I fully respect this 4-D chess move. Rizzler, I respect you! For the HORDE!",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791581412,
+        "type": "superchat",
+        "amount_usd": 20.0,
+        "amount_raw": "$20.00",
+        "message": "W film dawg! Well done! Let me get a movie poster dawg! Or signed underwear is fine.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1790459934,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -220032,6 +220419,14 @@
     ],
     "MrHomebrew_Leonidas": [
       {
+        "ts": 1791595294,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1785621462,
         "type": "membership",
         "amount_usd": 1.99,
@@ -220177,6 +220572,102 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1791595794,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "As a scientist I approve your vasectomy:thumbs_up:",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791595500,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You're on drugs man, where did you get your jacket",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594793,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "A skin walker is a guy who isn't circumsized",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594617,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay come to the DelMarVa region, it's so haunted",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594347,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You ever blown up a ballon in a chicks ass? I win",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594290,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594227,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen, go back to primary school and tape it",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594052,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "BigFoot says \"I only mess with Jay, ur da best\"",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791593999,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791589544,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580052,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579971,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791508349,
         "type": "superchat",
@@ -236342,6 +236833,38 @@
     ],
     "Twizty360": [
       {
+        "ts": 1791580182,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580042,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579941,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579269,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1790201208,
         "type": "membership",
         "amount_usd": 1.99,
@@ -237677,6 +238200,22 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1791595227,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Hey Murry ever been into chicks? The best thing about lesbians is the homemade mayonnaise they make when thay start scissoring & grinding boxes.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791583249,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hey where da white women at?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791496321,
         "type": "superchat",
@@ -242413,6 +242952,14 @@
       }
     ],
     "My_Paradoxical_Me": [
+      {
+        "ts": 1791588372,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I posted the gif in general :_JKBJaysus:",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791104596,
         "type": "giftmembership",
@@ -267208,6 +267755,134 @@
     ],
     "DamienGuyton": [
       {
+        "ts": 1791594864,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ones will b back from his Pierogi appointment soon",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594679,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay are you going to go Skinwalker hunting?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594301,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "2 from the man in India",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594039,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791592469,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "She can't get up she has no legs.. ableist",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791592193,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591792,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Do you still have AI make random stories",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591571,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bank Account",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591109,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791590735,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 14 months",
+        "message": "Joined!",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791589845,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "what about an Indian rapper",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791589489,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Jay was lighting bags of dog poop on fire an leaving them on door steps",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791589043,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791589003,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "can't put a member in the wallet",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791588954,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "for Halloween we should all dress as JKB including the man from India",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791588865,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "don't forget your pew pew for the retrostation",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791510450,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -276362,6 +277037,46 @@
     ],
     "unclemike84": [
       {
+        "ts": 1791589912,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: But Jay, how do we know you\u2019re not AI?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791584376,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: It was then that Jay realized he had a greater calling. A great purpose. Something beyond babysitting Vapist on the weekends and streaming.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791582159,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Bob: Quick question - Why is Rich voice named Bob?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580478,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Dramatic: Count Jaycula vill suck u wit no consent",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580131,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Why\u2019re we not checkin it out on your Superstation?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791495783,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -280192,6 +280907,30 @@
     ],
     "imnotmechanical0": [
       {
+        "ts": 1791592183,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791587803,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "send a voice text and tell him he's crashing out",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791587072,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Bob:I was about to end my shift at the lot when Burt Reynolds shows up in his 77 Trans Am. If I'm lucky, I'm gonna smoke him and the Bandit too",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1788558256,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -282262,6 +283001,30 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1791580207,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I only played the Super Famicon of Clock Tower with English translation. Never played the PlayStation version.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579900,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "How is that interesting watching people eating on stream? I don't get it.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791579289,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791495846,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -283976,6 +284739,38 @@
     ],
     "Destruktor1111": [
       {
+        "ts": 1791580483,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580323,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580222,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580032,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791492862,
         "type": "membership",
         "amount_usd": 1.99,
@@ -284195,6 +284990,78 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1791594779,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay if i said your a solid 10 do i get some points",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791594183,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "i know what you can eat jay come eat me lol",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791593428,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Jay i peg you hard in a bear suit in the woods.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791593094,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "i was thinking about it today if they keep damaging and tarnishing there brand that the PS6 could be there last and final console cause be a comercial failure like dreamcast and become a publisher",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791592945,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "jay whats your thoughts on steam and PC? i been getting serious into steam and my PC and loving it after i upgraded to a 5070 cause im just done with playstation when they move into the ps6 i feel safer on steam with digital.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591994,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay buddy why cant i view you in 4K? only 1080p",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591836,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "do you dry hump the plush on the keyboard ?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591737,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "i love coming in late like a drunk fucking asshole",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791591672,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "what does your setup look from your point of view",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791500461,
         "type": "superchat",
@@ -289405,6 +290272,22 @@
       }
     ],
     "WebTechSimplified": [
+      {
+        "ts": 1791587684,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "he is only crashing out if he deletes the stream",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791587608,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The demon didn't scratch you this time because he was busy with DSP at the tree",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791496450,
         "type": "superchat",
@@ -300730,6 +301613,30 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1791594070,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Should I play bioshock 1 or Arkham asylum next?",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791592446,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Im not drunk enough for your Jay dye mind tricks",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791588877,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I\u2019m gonna get a wig, some black spray paint for my beard and walk around with an empty wallet for Halloween. My costume will be JKB",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
         "ts": 1791508340,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -303117,6 +304024,14 @@
       }
     ],
     "RyuDaBurninator": [
+      {
+        "ts": 1791584371,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "JKB Paranormal Investigations and Carnal Rendezvous. Either way, Someone's gonna get slimed.",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1791087137,
         "type": "superchat",
@@ -313491,6 +314406,54 @@
       }
     ],
     "greenmind924": [
+      {
+        "ts": 1791580784,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580714,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580463,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580313,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580172,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791580072,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
       {
         "ts": 1783197664,
         "type": "membership",
@@ -324156,6 +325119,52 @@
         "amount_raw": "$1.99",
         "message": "banane g\u00e9ante, pl\u00e1tano gigantes :party_popper::party_popper::banana:",
         "stream_id": "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618"
+      }
+    ],
+    "sheed_rock": [
+      {
+        "ts": 1791580835,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      }
+    ],
+    "DragonKnightMaux": [
+      {
+        "ts": 1791586803,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Yeah, crtT v's even regular tvs now when dark",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791583692,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "saw them on their channel dropped it like its hot",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      },
+      {
+        "ts": 1791582571,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "jay I got a game id like to see you play on your emulator box. Haunted Mansion for the NES",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      }
+    ],
+    "JayNubbs": [
+      {
+        "ts": 1791594792,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Don\u2019t try to psychoanalyze me you bastard",
+        "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
       }
     ]
   }
