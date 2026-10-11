@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1791596189,
+  "updated_ts": 1791677412,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -516,12 +516,13 @@
     "live_from_the_hinsdale_house_2026-10-04_002153",
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
     "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
-    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
   ],
   "commands": {
     "xijinping": 225,
     "biden": 90,
-    "witch": 558,
+    "witch": 559,
     "spooky": 71,
     "trickster": 103,
     "kratos": 25,
@@ -531,7 +532,7 @@
     "warmy": 606,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 548,
+    "trump": 549,
     "girlfriend": 77,
     "story": 1,
     "forrest": 196,
@@ -541,8 +542,8 @@
     "glorious": 94,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 384,
-    "bob": 1325,
+    "dsp": 385,
+    "bob": 1326,
     "jkb": 114,
     "glados": 188,
     "king": 1,
@@ -559,7 +560,7 @@
     "idea": 6,
     "jingle_bells": 16,
     "it": 4,
-    "beauty": 72,
+    "beauty": 73,
     "bateman": 25,
     "brok": 7,
     "tate": 2,
@@ -864,16 +865,16 @@
     "sos": 1
   },
   "sounds": {
-    "fart": 1127,
+    "fart": 1128,
     "burp": 60,
     "laughter": 1,
-    "boowomp": 39,
+    "boowomp": 40,
     "pants_unzip": 116,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
     "gta_mission_pass": 12,
-    "peeing": 77,
+    "peeing": 78,
     "evil_laugh": 28,
     "i_see_you": 33,
     "goofy_yell": 36,
@@ -945,7 +946,7 @@
     "bonk": 10,
     "smw_kick": 1,
     "gasp_crowd": 4,
-    "krabs": 7,
+    "krabs": 8,
     "nani": 1,
     "ho_ho_ho": 4,
     "clown_horn": 5,
@@ -6127,9 +6128,118 @@
       "segments": null,
       "source_vod_id": "An_01UAZQ5k",
       "source_platform": "youtube"
+    },
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930": {
+      "title": "WHAT VIDEO GAMES ARE YOU THANKFUL FOR? \ud83d\udc7b\ud83c\udf83 HORROR GAMES, RETRO SCARES \ud83d\udc80  | JKB Streams",
+      "start_ts": 1791665970,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "TiMN8UxNp44",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1791677000,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "DSP: I. am. Phucking. Ree. tarded. That is all.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791675689,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "Beauty: Go longer babe. Rich's dik ain't cuttin it",
+      "commands": [
+        "beauty"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791674000,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "Now Rawr is pissing cash all over yo ass (peeing)",
+      "commands": [],
+      "sounds": [
+        "peeing"
+      ]
+    },
+    {
+      "ts": 1791673701,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "J. I, uh. (boowomp) I just came in my pants. Help!",
+      "commands": [],
+      "sounds": [
+        "boowomp"
+      ]
+    },
+    {
+      "ts": 1791670895,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "is there a vid of U tickling rich's thing? (krabs)",
+      "commands": [],
+      "sounds": [
+        "krabs"
+      ]
+    },
+    {
+      "ts": 1791668503,
+      "username": "@RyuDaBurninator",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "Witch: If I were a woman, I'd love long hair. Id pull your ponytail as I peg you.",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791667978,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "Trump: Canada will soon be grateful when it becomes the 51st state MCGA",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791667935,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "It's Thanksgiving in my ass (fart) Eat my stuffing",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791666476,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "message": "Bob: Keemstar. You stole my play button & my fap video. I blame you for all my problems & I will seek revenge, when a lawyer returns my calls. Lets go",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1791594252,
       "username": "@Night_Breaker",
