@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791596193,
+  "updated_ts": 1791677415,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -516,7 +516,8 @@
     "live_from_the_hinsdale_house_2026-10-04_002153",
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
     "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
-    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5667,6 +5668,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "An_01UAZQ5k",
+      "source_platform": "youtube"
+    },
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930": {
+      "title": "WHAT VIDEO GAMES ARE YOU THANKFUL FOR? \ud83d\udc7b\ud83c\udf83 HORROR GAMES, RETRO SCARES \ud83d\udc80  | JKB Streams",
+      "start_ts": 1791665970,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "TiMN8UxNp44",
       "source_platform": "youtube"
     }
   },
@@ -28271,6 +28282,14 @@
     ],
     "CheckmateStallioN": [
       {
+        "ts": 1791667541,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I'm thankful for having the best 90s childhood any kid could ever dream of! We millenials had it so good. btw I wana book a :ghost: meet so DM me on discord",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791090003,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -44811,6 +44830,22 @@
     ],
     "DougSavona": [
       {
+        "ts": 1791674062,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "ill be bring 800",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791672591,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "im thankful for jays ass",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791590993,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -58657,6 +58692,14 @@
     ],
     "Mysterr_E": [
       {
+        "ts": 1791666476,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Bob: Keemstar. You stole my play button & my fap video. I blame you for all my problems & I will seek revenge, when a lawyer returns my calls. Lets go",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791579471,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -62986,6 +63029,22 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1791667978,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Trump: Canada will soon be grateful when it becomes the 51st state MCGA",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666509,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I missed yesterday's stream :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::peach::peach::peach::peach::peach::peach::peach::peach::peach::peach::peach:",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791495004,
         "type": "superchat",
@@ -74907,6 +74966,14 @@
     ],
     "sauerballz": [
       {
+        "ts": 1791676450,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1790199014,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -76444,6 +76511,30 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1791674040,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Oh Christopher lets have clean sex then go to bed early like good Christian men then while we sleep have deranged demon sex in our dreams hail satan.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791669166,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I remember that stream you did on RTU where you put up ghost cameras and used a tool to create images of a ghost lady that made you freak out lol.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791668273,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Personally speaking you dress well and I don't think you need to change anything depending on what you are comfortable with. Your choice ultimately.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791510478,
         "type": "superchat",
@@ -96837,6 +96928,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1791674718,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Temu foreskin and Bush",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666298,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791594717,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -102014,6 +102121,14 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1791674440,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "listen this is a 6 out of 10 stream no boo baddies",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791594059,
         "type": "giftmembership",
@@ -125482,6 +125597,102 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1791677000,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "DSP: I. am. Phucking. Ree. tarded. That is all.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791675689,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Beauty: Go longer babe. Rich's dik ain't cuttin it",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674962,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "ol' ghosty been phucking that pumpkin a long time",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674330,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "there's also the time he wore the ree tard helmet",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674000,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Now Rawr is pissing cash all over yo ass (peeing)",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791673701,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J. I, uh. (boowomp) I just came in my pants. Help!",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791672633,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J has 3 balls, so he donate 1 to Jostler. Lets go!",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791671871,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "how much to peg Jay with an erect French Fry?",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791670895,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "is there a vid of U tickling rich's thing? (krabs)",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791669198,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J, R u grateful 4 Robo Taco' s coke & vadge? Oooo0",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791667935,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "It's Thanksgiving in my ass (fart) Eat my stuffing",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791667492,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm grateful J blows me 4 just $2. Cheap Canadian",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791595372,
         "type": "superchat",
@@ -167737,6 +167948,14 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1791677055,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "i just got done dropping off one of my hoes",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791495966,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -173648,6 +173867,14 @@
       }
     ],
     "confusedsiren56": [
+      {
+        "ts": 1791677053,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Jay i sent you a dm i had a run in yesterday",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791100452,
         "type": "superchat",
@@ -180496,6 +180723,46 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1791672675,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jayealready donated sperm to my ass.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791672468,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791671778,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How much to eat a french fry Lady and Tramp style?",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791671487,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay is about to get a big sweaty hog in his ass",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791670698,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Nobody ever talks about it, but MTV Music Simulator got me into writing and recording music, and eventually into playing guitar. Changed my life man!",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791591471,
         "type": "giftmembership",
@@ -190782,6 +191049,46 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1791673928,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Now time to turn it yellow",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791673762,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791668512,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I've had some women say they dont like long hair on men. They will compliment it, but don't find it attractive on a partner. Fuck'em, I have lush hair",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666992,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm thankful for pink tacos",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666549,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791591581,
         "type": "giftmembership",
@@ -213401,6 +213708,14 @@
     ],
     "niallwilliamson3540": [
       {
+        "ts": 1791667194,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "I\u2019m grateful for anal beads",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791499610,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -220572,6 +220887,30 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1791672157,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791671876,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666519,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791595794,
         "type": "superchat",
@@ -238200,6 +238539,54 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1791677062,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The short bus is like shooting fish in a barrel",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791676943,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Vapist when I come 2 Canada I'm bringing $20 & we can slpit all the bitches that get us. Treating bitches like red lights & running right through them",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791676204,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Hey Vapist I'm having a standoff in this chicks mouth & she's daring me 2 shoot. I'm about 2 give her double her recommended daily intake of vitamin D",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791668345,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You should dress like that dude in The Labyrinth",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791667318,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I heard in Canada 4 Thanksgiving U skin polar bears & steal baby penguin from their mothers & leave them miles away so they grow up bastard penguins",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666679,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791595227,
         "type": "superchat",
@@ -257055,6 +257442,14 @@
     ],
     "DemolitionDaddy": [
       {
+        "ts": 1791668643,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "Pirate:I have more hair on me ass than on me head",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791079526,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -266367,6 +266762,14 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1791672559,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen Jay are you grateful for Review Tech USA's complementary keyloggers including with every gift?",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791508543,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -267754,6 +268157,94 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1791676691,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Poutine",
+        "message": "sent Poutine",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674438,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "For Halloween when you wear the dress Vapist should wings style you into another cake",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674099,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Vapist is going off the rails",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674053,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791673983,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Yellow like a Minion",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791673782,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "time to run a train on you",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791672448,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791671007,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "We also bring him up when he is working the lot",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791669899,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I am thankful that you have ghost Vapist since the real Vapist is slacking in getting there",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791669419,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "get a Thanksgiving Turkey sub from firehouse",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666288,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791594864,
         "type": "superchat",
@@ -272700,6 +273191,14 @@
       }
     ],
     "FreddyKruegerIsTheName": [
+      {
+        "ts": 1791666819,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Thankful for majora\u2019s mask it stopped me from deleting myself when I was 12 due to being bullied at school.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1789775438,
         "type": "superchat",
@@ -283001,6 +283500,14 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1791669618,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Enjoy my Thanksgiving lunch. I'm still in the chat watching your stream. I'm just letting people talk.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791580207,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -284738,6 +285245,14 @@
       }
     ],
     "Destruktor1111": [
+      {
+        "ts": 1791668305,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "get some hawaiian shirts, some cargo pants, socks up to your knee caps, and a fanny pack. grow the fawk up jay",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791580483,
         "type": "gift",
@@ -295345,6 +295860,14 @@
     ],
     "JQR0666": [
       {
+        "ts": 1791668587,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bro, you need to use Rosemary Shampoo Bars.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791419079,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -296946,6 +297469,22 @@
       }
     ],
     "freshhotline696": [
+      {
+        "ts": 1791676480,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791674005,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "damn that burger looks scrumptious",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791076047,
         "type": "superchat",
@@ -304025,6 +304564,22 @@
     ],
     "RyuDaBurninator": [
       {
+        "ts": 1791672598,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791668503,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Witch: If I were a woman, I'd love long hair. Id pull your ponytail as I peg you.",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791584371,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -304795,6 +305350,14 @@
     ],
     "AdamSicks": [
       {
+        "ts": 1791674273,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1762555140,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -305216,6 +305779,14 @@
       }
     ],
     "mrgibb1003": [
+      {
+        "ts": 1791675939,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Marshmallow hi",
+        "message": "sent Marshmallow hi",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1782344007,
         "type": "membership",
@@ -325133,6 +325704,14 @@
     ],
     "DragonKnightMaux": [
       {
+        "ts": 1791668604,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay check DMs am i goth enough for you? :face_blowing_a_kiss::face_blowing_a_kiss::face_blowing_a_kiss::face_blowing_a_kiss::face_blowing_a_kiss::face_blowing_a_kiss:",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
         "ts": 1791586803,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -325158,6 +325737,22 @@
       }
     ],
     "JayNubbs": [
+      {
+        "ts": 1791676279,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "10 minutes left till the 2 hour E beg segment",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
+      {
+        "ts": 1791666736,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Thankful for Skyrim when it distract me from nubbs",
+        "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+      },
       {
         "ts": 1791594792,
         "type": "superchat",
