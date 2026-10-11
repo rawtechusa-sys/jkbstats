@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791596208,
+  "updated_ts": 1791677428,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -73,6 +73,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+    },
+    {
+      "ts": 1791677337,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
     }
   ]
 }
