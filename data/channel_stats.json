@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791596197,
+  "updated_ts": 1791677419,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -516,7 +516,8 @@
     "live_from_the_hinsdale_house_2026-10-04_002153",
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
     "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
-    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+    "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9787,6 +9788,24 @@
       "avg_viewers": 76.27,
       "avg_chat_mpm": 9.0,
       "avg_active_chatters": 18.12,
+      "percent_paused": null
+    },
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930": {
+      "stream_id": "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+      "title": "WHAT VIDEO GAMES ARE YOU THANKFUL FOR? \ud83d\udc7b\ud83c\udf83 HORROR GAMES, RETRO SCARES \ud83d\udc80  | JKB Streams",
+      "start_ts": 1791665970,
+      "end_ts": 1791677337,
+      "duration_sec": 11367,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 251.66,
+      "donation_count": 73,
+      "donations_per_min": 1.3284,
+      "peak_viewers": 110,
+      "avg_viewers": 88.53,
+      "avg_chat_mpm": 9.28,
+      "avg_active_chatters": 18.86,
       "percent_paused": null
     }
   }
