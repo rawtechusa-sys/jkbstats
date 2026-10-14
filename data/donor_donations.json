@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791677415,
+  "updated_ts": 1791942663,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -517,7 +517,8 @@
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
     "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
     "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
-    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+    "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5679,6 +5680,16 @@
       "segments": null,
       "source_vod_id": "TiMN8UxNp44",
       "source_platform": "youtube"
+    },
+    "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058": {
+      "title": "A.I. IS ABOUT TO END PLAYSTATION, XBOX AND NINTENDO\ud83d\udc7b\ud83c\udf83| JKB Streams",
+      "start_ts": 1791924058,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "3X50_n4pDZA",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8777,6 +8788,14 @@
       }
     ],
     "GlamerousFrog": [
+      {
+        "ts": 1791925292,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Buy a game once it should be yours forever.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791503472,
         "type": "superchat",
@@ -44830,6 +44849,30 @@
     ],
     "DougSavona": [
       {
+        "ts": 1791930105,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Not that I would, but is there a way a person would be able to reverse to a certain Sony update to do this?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929912,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Richls title for his last video that he posted looks like he may be right. This is could be worse than the 80's Crash most likely",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927697,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Sunday Sunday Sunday Sunday",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791674062,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -55262,6 +55305,14 @@
     ],
     "doodystreams": [
       {
+        "ts": 1791926414,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "MAKE ME ADMIN OR ELSE RIP WALTER JR",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791589604,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -58691,6 +58742,30 @@
       }
     ],
     "Mysterr_E": [
+      {
+        "ts": 1791935384,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "When are we getting an RTU JKB stream collab?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925874,
+        "type": "superchat",
+        "amount_usd": 10.04,
+        "amount_raw": "CA$13.99",
+        "message": "Witch: When I go driving I stay in my layee! But getting cut off it makes me insaee! Open the glove box, reach inside. Gonna wreck this fuckers ride cause I\u2019ve got a back habit! And it ain\u2019t goin away",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791924333,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "Bob: Im on hiatus this week so I don\u2019t have crash out number 57. Jay will take the reins for the RTU community until I get back. Have at it my editor!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791666476,
         "type": "superchat",
@@ -63029,6 +63104,94 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1791927881,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::monkey::flashlight::monkey::flashlight::monkey::flashlight:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927777,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":peach::flashlight::peach::flashlight::peach::flashlight::peach::flashlight::peach::peach::flashlight::peach::flashlight::peach::peach::flashlight::flashlight::flashlight::peach::flashlight::peach::flashlight::flashlight::flashlight::peach::peach::flashlight::peach::flashlight::peach::flashlight::peach::flashlight::peach::flashlight::peach::flashlight::flashlight::flashlight::flashlight::peach::flashlight::peach::peach::flashlight::peach::flashlight::peach::flashlight::peach:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927107,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight::horse::flashlight:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927003,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes::pancakes:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926479,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926283,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "glorious: don't be a dick oh don't be a dick",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926120,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925718,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "apparently Sony coming out with a new PS portal. OLED possible get ready to pay $500 for it",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925568,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "balls penis balls penis balls penis balls and ball",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791924819,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I never thought that PlayStation would actually add AI upscaling to the base PS5 it actually doesn't look too bad with qssr hope other start using it",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791924652,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm here that means :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791667978,
         "type": "superchat",
@@ -71640,6 +71803,14 @@
     ],
     "thebubster8620": [
       {
+        "ts": 1791928616,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "You sweet piece of Canadian bacon. Just popping in to say hi. Life\u2019s been crazy",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1787779050,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -76511,6 +76682,110 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1791941094,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Here is some pity bucks from my ghost hole",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940919,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Oh Christopher lock me in a room with the detractors so I can fuck there brains out and take their money to feel sorry for me. Im so lonely LOL",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940517,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Take my money I am mentally ill for jays cawk",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940328,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: Restream contributions into my ass. EeEeEeEe.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940199,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: I need money prey on me daddy jay I am broke",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938858,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bring the haunted doll to the next ghost hunt lol.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938636,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: The ghosts want your flesh. Let them in.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938435,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen I bought Psycho to watch after stream so thanks for the film idea. Now go get haunted at the bates motel while the ghosts wear you like a suit.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938201,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen restream me haunting you :smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::ghost::smiling_face_with_horns::cat_with_wry_smile:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927408,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Unrelated note but did you solidify plans for the next ghost trip? Am I still invited or did I get banned to the shadow realm lol",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926350,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "warmy: Ban the dicks from discord",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925895,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen fire then rehire the discord staff and let the AI take the job and run it into the ground like gaming after the AI overlords take us over",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791924667,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen let the AI fuck gaming in the ass lets go",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791674040,
         "type": "superchat",
@@ -90838,6 +91113,94 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1791929947,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Sony and Microsoft utilize nearly identical AMD processors. The only real differences are software based.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929560,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Gotcha. That\u2019s why I asked.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929457,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Can we turn the retro gaming club chat into retro gaming an emulation, given the recent advances in the emulation scene?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928746,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Can we change name of \u201cGeneral-Chat\u201d to Polite Conversation and \u201cSpicy-Chat\u201d to Shitposting?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928171,
+        "type": "superchat",
+        "amount_usd": 9.99,
+        "amount_raw": "$9.99",
+        "message": "Is this the last time that we\u2019re gonna talk about the recent discord drama on the stream? If so, maybe we should pin a frequently Asked Questions post for members that trickle back in to the discord.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927865,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Shoutout to Mr. Awesome. He can come across as a bit much, but his jabs are good natured and entertaining.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927367,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Doody\u2019s reach-around game is S-tier",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926533,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "You fucking ruined the joke!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926484,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "We just handing out random mods\u2026",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926164,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Sexism, bullying people with mental or physical disabilities and pushing political agendas is also included in \u201cdon\u2019t be a dick\u201d",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925970,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Racism, homophobia, transphobia and religious discrimination are included in \u201cdon\u2019t be a dick\u201d.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791589845,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -96928,6 +97291,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1791941041,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "U r the most pitybegar, take my pity bux, lmao",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926378,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Glados: Don't be a terrible person. No khunts",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791674718,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -102121,6 +102500,38 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1791934305,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791930011,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "listen this for the get jay a hotub fund",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928827,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925988,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp:don't be poor in chat",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791674440,
         "type": "superchat",
@@ -112762,6 +113173,30 @@
     ],
     "Blaqk_Sheep": [
       {
+        "ts": 1791927945,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::hole::soft_ice_cream::eggplant::ok_hand::seal::peanuts::ok_hand:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927627,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole::soft_ice_cream: :pie: :hole:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926917,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":foot::peanuts::foot::peanuts::foot::peanuts::foot::foot::foot::peanuts::foot::peanuts::foot::foot::foot::peanuts::foot::foot::foot::foot::foot::foot::foot::foot::peanuts::foot::foot::peanuts::foot::foot::foot::foot::foot::peanuts::foot::foot::foot::foot::peanuts::foot::foot::peanuts::foot::foot::foot::foot::peanuts::foot::peanuts::seal:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1790817323,
         "type": "membership",
         "amount_usd": 1.99,
@@ -116814,6 +117249,14 @@
     ],
     "XoHooftyOx": [
       {
+        "ts": 1791934972,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Congrats you missed your nieces birthday again",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1782961724,
         "type": "membership",
         "amount_usd": 1.99,
@@ -116879,6 +117322,22 @@
       }
     ],
     "ianhunter8405": [
+      {
+        "ts": 1791929410,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "a lot of retro games are being recompiled and decompiled too on PC through ai",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928575,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I've always been drama free and I been enjoying sharing my knowledge of retro gaming with you guys in the retro chat",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791508814,
         "type": "superchat",
@@ -125597,6 +126056,110 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1791942186,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pat is still here. He's master bating to your hair",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791941713,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "RIP Patrick Bateman. A legendary serial killer",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940654,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: I dono 2$ billion, & J lets me hump his leg",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940319,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm too ree tarded to keep my cash. Hold it for me",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938121,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Witch: Its getting spooky, so hang onto yor poossy",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791937542,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "A dog is master bating in my front yard? Any tips?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791936744,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Narrator: & here we C a pussie cleaning its pussie",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791936030,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Not the 1st time he's had pussie hair in his mouth",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791935760,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay jerks it to a plushy of Murray behind her back",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791934950,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "do U guys hear that? Snort snort oink. Here piggy!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791932072,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "the plushies wood B stained, hard & pubic infested",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928946,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Kaynubbs, punch J in the man khunt (punch) eeE eee",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928031,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Put a flashlight in yor dik. Best flesh light ever",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791677000,
         "type": "superchat",
@@ -151640,6 +152203,38 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1791940389,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "prey on us daddy jay",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791935988,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "this is for the fur baby!!!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929140,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "not surprised since the firmware is easy to hack",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927872,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "this is my last day as 43 yr goth lady!!!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791590849,
         "type": "superchat",
         "amount_usd": 10.0,
@@ -162440,6 +163035,62 @@
     ],
     "JacobstanfordOCD": [
       {
+        "ts": 1791942184,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jay restart the entire stream for pat",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791941649,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "show pat your gout on your shrimphole. SHOW HIM J",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926676,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen J. get a 2nd job. then have 1 of your cars break down, then have your 2nd car break down then sell them both and add14k for a new one. lets go",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926211,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "ohh shit I didn't expect u to do it. much love Jay",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926133,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "listen throw a pizza and make me an admin let's go",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925829,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925817,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1771367402,
         "type": "membership",
         "amount_usd": 1.99,
@@ -167948,6 +168599,14 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1791926827,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "sony did say play has no limits. jailbreak 100%",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791677055,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -169213,6 +169872,14 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1791936857,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791581978,
         "type": "giftmembership",
@@ -170911,6 +171578,14 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1791928816,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "What is your honest to god prediction for next gen I ethir see it as PlayStation copy\u2019s the switch or we move closer to cloud gaming subscription",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1790198324,
         "type": "superchat",
@@ -179628,6 +180303,14 @@
     ],
     "julieb8730": [
       {
+        "ts": 1791927749,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1790289280,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -180723,6 +181406,22 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1791940247,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "DoomShrookem is a hard worker, don't talk shit Jay",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938499,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 30 months",
+        "message": "If you owned Bates Motel you'd be Master Bates.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791672675,
         "type": "superchat",
@@ -188496,6 +189195,94 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1791940962,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "A Grifter... Cute... Grift me 200 right now. Also You're a Homophobe apparently",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940009,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "No Dolls will be as Creepy as those at Hinsdale",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791939062,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Standing in for Blacksheep here. Thats some White People shit",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938418,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I dont Dox, thats it... Boarders are Closed",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938128,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Its your Re Streamer Hiding in the Closet",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791935322,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hiss hiss sssssss",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791934759,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Wait Murry is friends with RoboTaco?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791934525,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'll Stabby you from behind.. but not in the Back.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791934255,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791933962,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Job Security: Work on AI for a Living",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928083,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I dont own the Discord but I sure as shit own Jays Ass",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791590154,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -191049,6 +191836,62 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1791941561,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "lick the shimp hole, that will win him over",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940768,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "take my pitty bucks",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938070,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You are hearing the ghosts of Zaylen's past jobs",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791933412,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Companies got too greedy",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929927,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "One thought, is Sony able to detect the jailbreak? If so they will just ban them from their network.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927683,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925424,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "penis",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791673928,
         "type": "superchat",
@@ -204980,6 +205823,102 @@
     ],
     "theshinynickell": [
       {
+        "ts": 1791928562,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": ":garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic::garlic:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928276,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928185,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928035,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927965,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927884,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927804,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927724,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927653,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927382,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926163,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "DSP: make me admin, I will ban all the detractors",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925451,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 14 months",
+        "message": "I\u2019m fully bricked up for this conversation",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791510869,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -206037,6 +206976,14 @@
       }
     ],
     "evanpietrone9742": [
+      {
+        "ts": 1791925885,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "2 dollar bills are gay, here have another one",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1790452832,
         "type": "superchat",
@@ -209876,6 +210823,14 @@
     ],
     "timmarcoux": [
       {
+        "ts": 1791926311,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791580817,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -213707,6 +214662,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1791924602,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "RIP RJ Mitte aka Walt Jr. from Breaking Bad",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791667194,
         "type": "superchat",
@@ -220324,6 +221287,14 @@
     ],
     "Webbz517": [
       {
+        "ts": 1791934295,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1790805722,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -220887,6 +221858,62 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1791939203,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay look up the Australian Gollywog",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791938090,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen you brought back Taco Bell shut the fok up",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791937632,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pussy comes and goes, but a cat lives forever",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791935551,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Bob: Listen Keemstar stole my silver play button so I deleted my channel in order to get another one then I decided to become a lot lizard(fart)(fart)",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927734,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927352,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926670,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791672157,
         "type": "gift",
@@ -225793,6 +226820,14 @@
       }
     ],
     "GrizzlyBehr91": [
+      {
+        "ts": 1791928185,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 30 months",
+        "message": "Pirate: Oh yo ho ho & ahoy! Tis' be me, yer ever-so salty, sea-fairin' smelly starfish slapper, Captain Behr das Grizzly, & I make my return to ye now",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791493102,
         "type": "superchat",
@@ -238539,6 +239574,14 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1791926099,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Let me know when the 1 black spot on discord opens",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791677062,
         "type": "superchat",
@@ -255122,6 +256165,14 @@
     ],
     "QHuffer": [
       {
+        "ts": 1791925398,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1771366739,
         "type": "membership",
         "amount_usd": 1.99,
@@ -255511,6 +256562,14 @@
       }
     ],
     "violationentertainment": [
+      {
+        "ts": 1791924483,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1790890103,
         "type": "giftmembership",
@@ -255939,6 +256998,14 @@
       }
     ],
     "matte-o4988": [
+      {
+        "ts": 1791926615,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "I\u2019ve never left. The discord is amazing and filled with great people. I\u2019ve had nothing but great experiences there",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1786744580,
         "type": "superchat",
@@ -257441,6 +258508,14 @@
       }
     ],
     "DemolitionDaddy": [
+      {
+        "ts": 1791936037,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate:give that kitty a kiss for me (fart) (meow)",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791668643,
         "type": "membership",
@@ -262210,6 +263285,14 @@
     ],
     "OppeltDrums": [
       {
+        "ts": 1791937271,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "it would help us focus if the light were a little more... bisexual",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1781017238,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -266762,6 +267845,30 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1791927586,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen: Make dewdy a mawd. He watches DSP all day from the bow of his 40 foot yacht: \"the Robust Catherine\"",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927257,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Make Rich a mod. i like my discord with keyloggers",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927073,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen--make Wings a mawd. he'll ban everybody",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791672559,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -268157,6 +269264,94 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1791941138,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Here is 2 on behalf of pat",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791933754,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Companies are replacing people with AI and now AI is giving us a way to replace those exact companies.. the irony",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791932379,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791931663,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Get ready for people to get around RAW license locks for their cinema cameras",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928687,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928617,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Treat",
+        "message": "sent Treat",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927575,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The only toxicity with those admins is their farts based on the last investigation",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925977,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "2 from the man in India",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925869,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I think you missed hitting an audio button when you said \u201che\u2019s handling backend\u201d",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791924535,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Also I hate YouTube on iPhone and the autocorrect",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791924474,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "By hardware while you can",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791676691,
         "type": "gift",
@@ -277536,6 +278731,70 @@
     ],
     "unclemike84": [
       {
+        "ts": 1791941479,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "He's just jealous of your success at retro gaming.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791939197,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Knuckles: Make a horror movie about that doll.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791931851,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Knuckles: Sony, Nintendo and Xbox can\u2019t hold me back! (Pants_Unzip) Girlfriend: Oh my gawd! Trump: I\u2019m going to legislate against that tremendous dog.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791931319,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate: Aye, was that a huge green Minecraft dick?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927249,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Knuckles: Don\u2019t make Rich a mod. He\u2019ll delete the Discord like a 1 million+ sub YouTube Channel. (Laughter) Bob: That was way too soon man. Too soon.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926352,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "So ur saying that you\u2019re the dom in Discord S&M?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926066,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "DSP: Don\u2019t be a Woody in chat. EeeeeeeEeeeeeeeeeee",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925954,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 8 months",
+        "message": "Holy shit I\u2019ve been here a minute. How ya doing?",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791589912,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -280251,6 +281510,14 @@
       }
     ],
     "Gamermeetsworld": [
+      {
+        "ts": 1791924121,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "First super chat",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791495263,
         "type": "membership",
@@ -283500,6 +284767,22 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1791926395,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Well, I haven't been on your discord lately, so hopefully fix it up this situation.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791925574,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Yeah, Gaming is cooked. I've been hearing we're gonna get a video game crash 2.0. Do you kind of agree we're getting there? I wouldn't go that far.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791669618,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -285505,6 +286788,78 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1791941089,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay your cat isnt even real its a AI cat with dlss",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791931907,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay sent u super chat like 10min ago & not work",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791931421,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "in a couple weeks we will have AI jay talking to us while real jay is dry humping his plushies",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791930512,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay i ordered 241 pizza :pizza: sorry no pizza for u",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928043,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": ":monkey: :flashlight: :monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey::flashlight::monkey:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927311,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "jay vapist comes to me at night and we party sorry to tell u this hes into me and he comes to u for seconds lok jk:winking_face_with_tongue:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927043,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "found it jay I turned notifications. im an asshole jay so come give me a big bear hug and grab my buns",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926715,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "u where going to explain something to me",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791926614,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "how do I know when u go live on discord I miss it",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791594779,
         "type": "superchat",
@@ -295860,6 +297215,22 @@
     ],
     "JQR0666": [
       {
+        "ts": 1791936271,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Kittie wants kisses",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928705,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Piracy isnt stealing if BUYING isnt owning.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791668587,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -302922,6 +304293,38 @@
     ],
     "ReviewLotLizardsUSA": [
       {
+        "ts": 1791940654,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Restream Ception",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940595,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Just do what I do, Strike him, Twitch doesnt like restreasm either",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940474,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Dont worry that tard Restreams me all the time.. Just wish he would visit his local Love Truck Stop",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791940383,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Congrats Shroom Restreams you now YOU MADE IT!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1789775802,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -303147,6 +304550,14 @@
       }
     ],
     "cutelittlemuffinsahles8330": [
+      {
+        "ts": 1791934105,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 8 months",
+        "message": "its imposible to be nuanced with AI its like politics and religion",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1788041280,
         "type": "membership",
@@ -304564,6 +305975,14 @@
     ],
     "RyuDaBurninator": [
       {
+        "ts": 1791939006,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "All aboard the nope train to FuckThatShitVille!!!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791672598,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -305485,6 +306904,22 @@
       }
     ],
     "xanderskullion": [
+      {
+        "ts": 1791940608,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "listen restream the stream that shows a stream",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791937770,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "we need to give zelda a cheese cake for cats",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
       {
         "ts": 1791419493,
         "type": "superchat",
@@ -314978,6 +316413,158 @@
     ],
     "greenmind924": [
       {
+        "ts": 1791929841,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929771,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929650,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929580,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929199,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791929108,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928597,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928506,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928406,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928286,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928225,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928155,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791928005,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927944,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927874,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927814,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927724,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927673,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927208,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791580784,
         "type": "gift",
         "amount_usd": null,
@@ -320838,6 +322425,14 @@
     ],
     "Gamerfreak-MLP-Lover20248": [
       {
+        "ts": 1791930933,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Don't be a dick but you can be an anoos (fart) :garlic::jack_o_lantern::turkey:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791494194,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -325694,6 +327289,14 @@
     ],
     "sheed_rock": [
       {
+        "ts": 1791938362,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791580835,
         "type": "gift",
         "amount_usd": null,
@@ -325738,6 +327341,22 @@
     ],
     "JayNubbs": [
       {
+        "ts": 1791928308,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "DSP: Time to watch in shower. DO NOT turn me on :sweat_droplets::sweat_droplets:",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791927012,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I like the discord b/c Jay no beg for money there.",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
         "ts": 1791676279,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -325760,6 +327379,58 @@
         "amount_raw": "$1.99",
         "message": "Don\u2019t try to psychoanalyze me you bastard",
         "stream_id": "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725"
+      }
+    ],
+    "TheDenOfTimbsStudios": [
+      {
+        "ts": 1791934438,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "You made more then DSP, Congrats!",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791932269,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      }
+    ],
+    "FrankkCozmo": [
+      {
+        "ts": 1791939472,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 5 months",
+        "message": "look up \"Letta Me Out\" doll; it's 200 years old",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791937007,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791936947,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+      },
+      {
+        "ts": 1791934345,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
       }
     ]
   }
