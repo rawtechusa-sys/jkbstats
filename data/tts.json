@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1791677412,
+  "updated_ts": 1791942659,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -517,37 +517,38 @@
     "the_hinsdale_house_aftermath_jkb_streams_2026-10-07_203308",
     "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
     "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
-    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930"
+    "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
+    "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
   ],
   "commands": {
     "xijinping": 225,
     "biden": 90,
-    "witch": 559,
+    "witch": 561,
     "spooky": 71,
     "trickster": 103,
     "kratos": 25,
-    "asmr": 168,
+    "asmr": 169,
     "obama": 69,
     "confirmed": 2,
-    "warmy": 606,
+    "warmy": 607,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 549,
-    "girlfriend": 77,
+    "trump": 551,
+    "girlfriend": 78,
     "story": 1,
     "forrest": 196,
     "point": 1,
     "kid": 1,
     "batman": 8,
-    "glorious": 94,
+    "glorious": 95,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 385,
-    "bob": 1326,
+    "dsp": 390,
+    "bob": 1329,
     "jkb": 114,
-    "glados": 188,
+    "glados": 189,
     "king": 1,
-    "pirate": 109,
+    "pirate": 111,
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 160,
@@ -555,7 +556,7 @@
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 35,
+    "knuckles": 38,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -564,7 +565,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 121,
+    "pooh": 122,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -595,7 +596,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 51,
+    "narrator": 52,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -652,7 +653,7 @@
     "clarification": 1,
     "condition": 1,
     "quote": 1,
-    "listen": 6,
+    "listen": 7,
     "poll": 1,
     "concept": 2,
     "disclaimer": 1,
@@ -862,14 +863,16 @@
     "on": 1,
     "vampire": 1,
     "comedy": 1,
-    "sos": 1
+    "sos": 1,
+    "yacht": 1,
+    "security": 1
   },
   "sounds": {
-    "fart": 1128,
+    "fart": 1132,
     "burp": 60,
-    "laughter": 1,
+    "laughter": 2,
     "boowomp": 40,
-    "pants_unzip": 116,
+    "pants_unzip": 117,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
@@ -951,7 +954,7 @@
     "ho_ho_ho": 4,
     "clown_horn": 5,
     "cave": 6,
-    "punch": 12,
+    "punch": 13,
     "daddy_chill": 3,
     "this_guy_stinks": 5,
     "leave_a_message": 4,
@@ -6138,9 +6141,315 @@
       "segments": null,
       "source_vod_id": "TiMN8UxNp44",
       "source_platform": "youtube"
+    },
+    "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058": {
+      "title": "A.I. IS ABOUT TO END PLAYSTATION, XBOX AND NINTENDO\ud83d\udc7b\ud83c\udf83| JKB Streams",
+      "start_ts": 1791924058,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "3X50_n4pDZA",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1791940654,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Trump: I dono 2$ billion, & J lets me hump his leg",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791940328,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "dsp: Restream contributions into my ass. EeEeEeEe.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791940199,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "dsp: I need money prey on me daddy jay I am broke",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791939197,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Knuckles: Make a horror movie about that doll.",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791938636,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "asmr: The ghosts want your flesh. Let them in.",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791938121,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Witch: Its getting spooky, so hang onto yor poossy",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791936744,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Narrator: & here we C a pussie cleaning its pussie",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791936037,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Pirate:give that kitty a kiss for me (fart) (meow)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791935551,
+      "username": "@FoilGrimTimmy",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Bob: Listen Keemstar stole my silver play button so I deleted my channel in order to get another one then I decided to become a lot lizard(fart)(fart)",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791933962,
+      "username": "@Ones2Cents",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Job Security: Work on AI for a Living",
+      "commands": [
+        "security"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791931851,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Knuckles: Sony, Nintendo and Xbox can\u2019t hold me back! (Pants_Unzip) Girlfriend: Oh my gawd! Trump: I\u2019m going to legislate against that tremendous dog.",
+      "commands": [
+        "knuckles",
+        "girlfriend",
+        "trump"
+      ],
+      "sounds": [
+        "pants_unzip"
+      ]
+    },
+    {
+      "ts": 1791931319,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Pirate: Aye, was that a huge green Minecraft dick?",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791930933,
+      "username": "@Gamerfreak-MLP-Lover20248",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Don't be a dick but you can be an anoos (fart) :garlic::jack_o_lantern::turkey:",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1791928946,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Kaynubbs, punch J in the man khunt (punch) eeE eee",
+      "commands": [],
+      "sounds": [
+        "punch"
+      ]
+    },
+    {
+      "ts": 1791928308,
+      "username": "@JayNubbs",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "DSP: Time to watch in shower. DO NOT turn me on :sweat_droplets::sweat_droplets:",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791928185,
+      "username": "@GrizzlyBehr91",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Pirate: Oh yo ho ho & ahoy! Tis' be me, yer ever-so salty, sea-fairin' smelly starfish slapper, Captain Behr das Grizzly, & I make my return to ye now",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791927586,
+      "username": "@DeportedSicilianGamer",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Listen: Make dewdy a mawd. He watches DSP all day from the bow of his 40 foot yacht: \"the Robust Catherine\"",
+      "commands": [
+        "listen",
+        "yacht"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791927249,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Knuckles: Don\u2019t make Rich a mod. He\u2019ll delete the Discord like a 1 million+ sub YouTube Channel. (Laughter) Bob: That was way too soon man. Too soon.",
+      "commands": [
+        "knuckles",
+        "bob"
+      ],
+      "sounds": [
+        "laughter"
+      ]
+    },
+    {
+      "ts": 1791926378,
+      "username": "@BansheeTK",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Glados: Don't be a terrible person. No khunts",
+      "commands": [
+        "glados"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791926350,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "warmy: Ban the dicks from discord",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791926311,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791926283,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "glorious: don't be a dick oh don't be a dick",
+      "commands": [
+        "glorious"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791926163,
+      "username": "@theshinynickell",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "DSP: make me admin, I will ban all the detractors",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791926066,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "DSP: Don\u2019t be a Woody in chat. EeeeeeeEeeeeeeeeeee",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791925874,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Witch: When I go driving I stay in my layee! But getting cut off it makes me insaee! Open the glove box, reach inside. Gonna wreck this fuckers ride cause I\u2019ve got a back habit! And it ain\u2019t goin away",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1791924333,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+      "message": "Bob: Im on hiatus this week so I don\u2019t have crash out number 57. Jay will take the reins for the RTU community until I get back. Have at it my editor!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1791677000,
       "username": "@Night_Breaker",
