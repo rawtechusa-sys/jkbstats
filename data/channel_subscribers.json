@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1791942679,
+  "updated_ts": 1792021311,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -85,6 +85,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+    },
+    {
+      "ts": 1792021217,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
     }
   ]
 }
