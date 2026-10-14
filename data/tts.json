@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1791942659,
+  "updated_ts": 1792021291,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -518,7 +518,8 @@
     "the_state_of_gaming_in_2026_jkb_streams_2026-10-08_204618",
     "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
-    "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058"
+    "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
+    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
   ],
   "commands": {
     "xijinping": 225,
@@ -533,22 +534,22 @@
     "warmy": 607,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 551,
-    "girlfriend": 78,
+    "trump": 553,
+    "girlfriend": 79,
     "story": 1,
-    "forrest": 196,
+    "forrest": 197,
     "point": 1,
     "kid": 1,
     "batman": 8,
     "glorious": 95,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 390,
-    "bob": 1329,
+    "dsp": 394,
+    "bob": 1331,
     "jkb": 114,
     "glados": 189,
     "king": 1,
-    "pirate": 111,
+    "pirate": 112,
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 160,
@@ -556,7 +557,7 @@
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 38,
+    "knuckles": 39,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -565,7 +566,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 122,
+    "pooh": 123,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -582,13 +583,13 @@
     "galdos": 1,
     "patrick": 3,
     "shadow": 1,
-    "ghostface": 15,
+    "ghostface": 16,
     "chills": 14,
     "deepthi": 5,
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 96,
+    "alanwake": 97,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -596,7 +597,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 52,
+    "narrator": 53,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -643,7 +644,7 @@
     "sagiri": 3,
     "vomit": 15,
     "eminem": 9,
-    "announcer": 5,
+    "announcer": 7,
     "hal9000": 6,
     "linus": 11,
     "metaphor": 1,
@@ -6151,9 +6152,176 @@
       "segments": null,
       "source_vod_id": "3X50_n4pDZA",
       "source_platform": "youtube"
+    },
+    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948": {
+      "title": "THE GTA VI LEAK DRAMA JUST TOOK ANOTHER TURN! \ud83d\udc7b\ud83c\udf83| JKB Streams",
+      "start_ts": 1792010988,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "6SRf1WaJ1sM",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1792018558,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Forrest: J, any advice 4 making porn films? Thanks",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792017632,
+      "username": "@Vito_Scaletta-h6d",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "DSP: Support my guy Dreamcast guy. He has 32 teeth",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792017322,
+      "username": "@DamienGuyton",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Dsp: Jay you should open a pack of Pok\u00e9mon 30th anniversary just like me... make them pay fifty dollars a pack just like me",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792016942,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Trump: Would u like a presidential golden shower?",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792016419,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Announcer: This just in, I'm getting phucked live!",
+      "commands": [
+        "announcer"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792016247,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Knuckles: I was just joking about getting the flu. Trump: If you do get a flu make sure it\u2019s a tremendous flu or you\u2019re a pussy. Narrator: That is all",
+      "commands": [
+        "knuckles",
+        "trump",
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792014698,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Alanwake: Then, the video Jay requested arrived.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792013891,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Announcer: Breaking! GTA 6 cancelled by Ubisoft!",
+      "commands": [
+        "announcer"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792013786,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Bob: hey look listen Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana: bob: stick that banana in my hole let's go",
+      "commands": [
+        "bob",
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792012722,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "ghostface: You heard her. open that pussie up wide",
+      "commands": [
+        "ghostface"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792012634,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "girlfriend: come over here and open my box",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792012536,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "Pirate: Aye, does that be a off brand Chucky doll?",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792012032,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "DSP: How do you circumcised a hillbilly? You kick his sister in the jaw. Thank you I\u2019m here till Thursday.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792011872,
+      "username": "@JayNubbs",
+      "platform": "youtube",
+      "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+      "message": "DSP: My Buddy taught me how to sixty nine.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1791940654,
       "username": "@Night_Breaker",
