@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792021300,
+  "updated_ts": 1792197572,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -519,7 +519,8 @@
     "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
-    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
+    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9844,6 +9845,24 @@
       "avg_viewers": 107.84,
       "avg_chat_mpm": 9.67,
       "avg_active_chatters": 21.79,
+      "percent_paused": null
+    },
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733": {
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "title": "\ud83e\udd87 IS THE NEW CASTLEVANIA WORTH THE HYPE?! \ud83d\udd25 \ud83d\udc7b\ud83c\udf83| JKB Streams",
+      "start_ts": 1792183653,
+      "end_ts": 1792197435,
+      "duration_sec": 13782,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 234.63,
+      "donation_count": 58,
+      "donations_per_min": 1.0215,
+      "peak_viewers": 99,
+      "avg_viewers": 76.96,
+      "avg_chat_mpm": 5.47,
+      "avg_active_chatters": 12.4,
       "percent_paused": null
     }
   }
