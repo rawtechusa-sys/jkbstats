@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792021295,
+  "updated_ts": 1792197568,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -519,7 +519,8 @@
     "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
-    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
+    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5700,6 +5701,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "6SRf1WaJ1sM",
+      "source_platform": "youtube"
+    },
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733": {
+      "title": "\ud83e\udd87 IS THE NEW CASTLEVANIA WORTH THE HYPE?! \ud83d\udd25 \ud83d\udc7b\ud83c\udf83| JKB Streams",
+      "start_ts": 1792183653,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "pX5i-7FHQm8",
       "source_platform": "youtube"
     }
   },
@@ -11361,6 +11372,46 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1792186017,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "dsp: Like the phucking stream so Zelda can sleep.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792185814,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "dsp: Low support gout. Oh the camera's on (fart)",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184755,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "zerotwo: \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30a2\u30c3\u30b9",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184641,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d6\u30fc\u30d6\u30ba\u3001\u30d0\u30ca\u30ca:banana:",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184485,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30fc\u30d3\u30fc\u30ba(fart) bob: anal",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1791411163,
         "type": "superchat",
@@ -44868,6 +44919,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1792192698,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "2 more sleeps till I get the switch 2 from u",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1791930105,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -63123,6 +63182,14 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1792188448,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm here :banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::monkey::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight::banana::flashlight:",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1792017942,
         "type": "superchat",
@@ -97342,6 +97409,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1792189904,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen, have ur bt earbuds die 5 minutes after a charge them right as nightbreakers chat plays, and it plays thru phone speakers around cowkrs. EFF me",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184548,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1792019199,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -126155,6 +126238,46 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1792197391,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can I come on the Switch after Jay pulls it out?",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792195077,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pooh: can u phuck the demons? if not, 0 out of 10.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191577,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Like the stream so J doesn't hav to B a prostitute",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191054,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Smashjt: U playing as female? U must be woke & gay",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792189685,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pooh: is the artist gay, & does he let u phuck him",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1792020463,
         "type": "superchat",
@@ -163198,6 +163321,14 @@
     ],
     "JacobstanfordOCD": [
       {
+        "ts": 1792197347,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jay pull a switch 2 out of your ass. love you bud",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1792019694,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -177004,6 +177135,14 @@
     ],
     "seales8414": [
       {
+        "ts": 1792195688,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 25 months",
+        "message": "I am a little bit more than halfway through the game. The game is fun. The music's good way till you see the other upgrades",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1791083008,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -181617,6 +181756,22 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1792184578,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184362,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: I want to buttfuck you live on YouTube.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1791940247,
         "type": "superchat",
@@ -192047,6 +192202,30 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1792195332,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "whip me mommy",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792186287,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Doesn't mean that the server the update is at isn't getting butt fucked since a lot of people are downloading it.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792183735,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1792013508,
         "type": "superchat",
@@ -211050,6 +211229,38 @@
     ],
     "timmarcoux": [
       {
+        "ts": 1792186241,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Dsp: We looked at the logs, it\u2019s true",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792186135,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh: Oh Christopher support Canadiangroceryprices",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184832,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Back in my day, it used to be safe to go into the sewers, damn monsters infesting them",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184592,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh: :chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken:",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1791926311,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -222109,6 +222320,54 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1792192373,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, it's cool to just play...no pressure enjoy it",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191945,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191690,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay say hello to the restreamers so Zelda can eat",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191433,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Like the can so stream eat Zelda",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191298,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Like the Zelda so the stream can(fart)Oghh(fart)",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191212,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1792011477,
         "type": "gift",
@@ -234602,6 +234861,14 @@
     ],
     "TacoDan34": [
       {
+        "ts": 1792191838,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "(Fart) i am looking forward to playing this game.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1791494154,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -237797,6 +238064,14 @@
       }
     ],
     "marihdimitri7219": [
+      {
+        "ts": 1792195139,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Castlevania is a legacy of its own since the 80s.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1791500095,
         "type": "membership",
@@ -259782,6 +260057,14 @@
     ],
     "alexroberts3613": [
       {
+        "ts": 1792194021,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "loving you is easy",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1786834305,
         "type": "membership",
         "amount_usd": 1.99,
@@ -262091,6 +262374,22 @@
       }
     ],
     "KingOfLesbia": [
+      {
+        "ts": 1792187221,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "have you seen laid to rest 1 or 2 cant for some reason the get it for decent price in the US. I meet the main lady from that at star trek convention",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792187030,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "oh Winnie,oh Christopher,Oh Winnie,Oh Christopher",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1785530188,
         "type": "superchat",
@@ -269579,6 +269878,22 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1792194785,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792193415,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Here is 2 from the man in India",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1792017456,
         "type": "superchat",
@@ -279078,6 +279393,54 @@
     ],
     "unclemike84": [
       {
+        "ts": 1792191382,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Like the eat so the Zelda can stream. Eeeeeeeeeeee",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191213,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Put a chick in it and make her gay! Wait, is she?",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792186434,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Buy the longest Ethernet cable you can find, then connect it to whichever neighbor\u2019s house has best connection, then text Rich a dick pic. Let\u2019s go!",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792186012,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Knuckles: Slow ass Canadian dial up internet poop.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792185754,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "KayNubbs first mistake is trusting IGN reviews.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792185061,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Join the server so Zelda can eat or Jay wil find u",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1792016849,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -281905,6 +282268,14 @@
       }
     ],
     "Gamermeetsworld": [
+      {
+        "ts": 1792183736,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "First super hat and first like",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1791924121,
         "type": "superchat",
@@ -285161,6 +285532,62 @@
       }
     ],
     "dan_evilrobot": [
+      {
+        "ts": 1792188693,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "What was the other movie I watched.. The Sacrifice (1986) It's a sad and beautiful movie. Has one of the best looking house on fire.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792187070,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "I'm happy that I own all three Poltergeist films. The first two on 4K Ultra HD Blu-rays but the third movie on regular Blu-ray, because it was out of print, recently.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792186737,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "When I see the first IT movie. It was around my birthday, While watching the film, I was laughing my ass off but there are some good jump scares and the people in the theater were looking at me weird.. I find it hilarious.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792185840,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "Yes. I have the movies in theaters, I have some issues with them but I enjoy it. You're gonna to be shocking for me. telling you this, I don't find the new Pennywise, scary. But Welcome to Derry change my mind. Yes I'm a fan.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792185169,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "Speaking of IT? I just finished watching Carrie show, It was good, but for me, but I've always prefer the original 1976 and I'm watching the new prequel of Crystal Lake show, finished the first episode was really good so far.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184676,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I like looking at tattoos, but I'm not getting a tattoo.",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792184548,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1792013522,
         "type": "superchat",
@@ -297426,6 +297853,14 @@
     ],
     "artgrant1142": [
       {
+        "ts": 1792186850,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 29 months",
+        "message": "My wife hasn't seen Poltergeist. Watchin it tonite",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1789588739,
         "type": "membership",
         "amount_usd": 1.99,
@@ -303965,6 +304400,30 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1792191512,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Like the like likes in Zelda",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792191161,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "This goes out to the Jay no play games detractors",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
+        "ts": 1792188520,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Chew it back down Jay (burp) (burp) (coughing)",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1791594070,
         "type": "superchat",
@@ -323222,6 +323681,14 @@
     ],
     "PowerMetalGamer": [
       {
+        "ts": 1792187169,
+        "type": "superchat",
+        "amount_usd": 23.0,
+        "amount_raw": "\u20ac20.00",
+        "message": "Sup Jay. Been a while, dude. Playing Belmonts Curse at the mo on PS5.. So damn good! Here's money. Buy new G Strings. :smiling_face_with_hearts:",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
+      {
         "ts": 1749173776,
         "type": "superchat",
         "amount_usd": 23.0,
@@ -327743,6 +328210,14 @@
       }
     ],
     "Bug-Catcher-Nik": [
+      {
+        "ts": 1792184522,
+        "type": "superchat",
+        "amount_usd": 3.1,
+        "amount_raw": "DKK\u00a020.00",
+        "message": "Hi J! It was fun seeing you in Rich's stream! :D",
+        "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+      },
       {
         "ts": 1791493855,
         "type": "superchat",
