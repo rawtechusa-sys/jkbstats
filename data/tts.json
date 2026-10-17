@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1792021291,
+  "updated_ts": 1792197564,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -519,7 +519,8 @@
     "spooky_video_games_that_will_haunt_you_horror_games_retro_scares_jkb_streams_2026-10-09_204725",
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
-    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
+    "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
   ],
   "commands": {
     "xijinping": 225,
@@ -544,20 +545,20 @@
     "glorious": 95,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 394,
-    "bob": 1331,
+    "dsp": 397,
+    "bob": 1333,
     "jkb": 114,
     "glados": 189,
     "king": 1,
     "pirate": 112,
     "jay": 15,
     "weeknd": 10,
-    "zerotwo": 160,
+    "zerotwo": 163,
     "grandpa": 40,
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 39,
+    "knuckles": 40,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -566,7 +567,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 123,
+    "pooh": 127,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -633,7 +634,7 @@
     "wimsy": 4,
     "shapiro": 4,
     "adonis": 1,
-    "smashjt": 20,
+    "smashjt": 21,
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
@@ -869,8 +870,8 @@
     "security": 1
   },
   "sounds": {
-    "fart": 1132,
-    "burp": 60,
+    "fart": 1137,
+    "burp": 62,
     "laughter": 2,
     "boowomp": 40,
     "pants_unzip": 117,
@@ -914,7 +915,7 @@
     "smw_1up": 12,
     "drinking": 39,
     "boom": 5,
-    "coughing": 27,
+    "coughing": 28,
     "gnome": 2,
     "bruh": 11,
     "kekw_laugh": 2,
@@ -6162,9 +6163,201 @@
       "segments": null,
       "source_vod_id": "6SRf1WaJ1sM",
       "source_platform": "youtube"
+    },
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733": {
+      "title": "\ud83e\udd87 IS THE NEW CASTLEVANIA WORTH THE HYPE?! \ud83d\udd25 \ud83d\udc7b\ud83c\udf83| JKB Streams",
+      "start_ts": 1792183653,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "pX5i-7FHQm8",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1792195077,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Pooh: can u phuck the demons? if not, 0 out of 10.",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792191838,
+      "username": "@TacoDan34",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "(Fart) i am looking forward to playing this game.",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1792191298,
+      "username": "@FoilGrimTimmy",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Like the Zelda so the stream can(fart)Oghh(fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1792191054,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Smashjt: U playing as female? U must be woke & gay",
+      "commands": [
+        "smashjt"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792189685,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Pooh: is the artist gay, & does he let u phuck him",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792188520,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Chew it back down Jay (burp) (burp) (coughing)",
+      "commands": [],
+      "sounds": [
+        "burp",
+        "coughing"
+      ]
+    },
+    {
+      "ts": 1792186241,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Dsp: We looked at the logs, it\u2019s true",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792186135,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Pooh: Oh Christopher support Canadiangroceryprices",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792186017,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "dsp: Like the phucking stream so Zelda can sleep.",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792186012,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Knuckles: Slow ass Canadian dial up internet poop.",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792185814,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "dsp: Low support gout. Oh the camera's on (fart)",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1792184755,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "zerotwo: \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30a2\u30c3\u30b9",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792184641,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "zerotwo: \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3001\u30d6\u30fc\u30d6\u30ba\u3001\u30d0\u30ca\u30ca:banana:",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792184592,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Pooh: :chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken::chicken:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792184485,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "zerotwo: \u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30ec\u30b9\u30c8\u3001\u30d6\u30fc\u30d3\u30fc\u30ba(fart) bob: anal",
+      "commands": [
+        "zerotwo",
+        "bob"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1792184362,
+      "username": "@TheJostler",
+      "platform": "youtube",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+      "message": "Bob: I want to buttfuck you live on YouTube.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1792018558,
       "username": "@Night_Breaker",
