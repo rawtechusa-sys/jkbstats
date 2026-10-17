@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792021311,
+  "updated_ts": 1792197580,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -91,6 +91,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
+    },
+    {
+      "ts": 1792197435,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
     }
   ]
 }
