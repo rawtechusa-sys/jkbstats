@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792197572,
+  "updated_ts": 1792540088,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -520,7 +520,8 @@
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
     "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
-    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9863,6 +9864,24 @@
       "avg_viewers": 76.96,
       "avg_chat_mpm": 5.47,
       "avg_active_chatters": 12.4,
+      "percent_paused": null
+    },
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400": {
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "title": "IS AI & JAILBREAKING KILLING GAMING?! \ud83d\udc80\ud83c\udfae\ud83d\udd25\ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1792526640,
+      "end_ts": 1792539983,
+      "duration_sec": 13343,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 219.28,
+      "donation_count": 84,
+      "donations_per_min": 0.986,
+      "peak_viewers": 122,
+      "avg_viewers": 96.57,
+      "avg_chat_mpm": 7.61,
+      "avg_active_chatters": 17.28,
       "percent_paused": null
     }
   }
