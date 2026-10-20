@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1792197564,
+  "updated_ts": 1792540081,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -520,12 +520,13 @@
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
     "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
-    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
   ],
   "commands": {
     "xijinping": 225,
     "biden": 90,
-    "witch": 561,
+    "witch": 562,
     "spooky": 71,
     "trickster": 103,
     "kratos": 25,
@@ -535,10 +536,10 @@
     "warmy": 607,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 553,
+    "trump": 554,
     "girlfriend": 79,
     "story": 1,
-    "forrest": 197,
+    "forrest": 198,
     "point": 1,
     "kid": 1,
     "batman": 8,
@@ -546,19 +547,19 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 397,
-    "bob": 1333,
+    "bob": 1334,
     "jkb": 114,
     "glados": 189,
     "king": 1,
-    "pirate": 112,
+    "pirate": 113,
     "jay": 15,
     "weeknd": 10,
-    "zerotwo": 163,
-    "grandpa": 40,
+    "zerotwo": 164,
+    "grandpa": 41,
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 40,
+    "knuckles": 41,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -567,7 +568,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 127,
+    "pooh": 129,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -598,7 +599,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 53,
+    "narrator": 54,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -643,7 +644,7 @@
     "optimus_prime": 7,
     "request": 1,
     "sagiri": 3,
-    "vomit": 15,
+    "vomit": 17,
     "eminem": 9,
     "announcer": 7,
     "hal9000": 6,
@@ -867,10 +868,11 @@
     "comedy": 1,
     "sos": 1,
     "yacht": 1,
-    "security": 1
+    "security": 1,
+    "xijnping": 1
   },
   "sounds": {
-    "fart": 1137,
+    "fart": 1141,
     "burp": 62,
     "laughter": 2,
     "boowomp": 40,
@@ -905,7 +907,7 @@
     "badumtiss": 5,
     "stab": 16,
     "mario_fall": 10,
-    "eating": 10,
+    "eating": 11,
     "ohmygawd": 27,
     "baby_cry2": 1,
     "kiss": 33,
@@ -921,14 +923,14 @@
     "kekw_laugh": 2,
     "law_and_order": 1,
     "bong": 19,
-    "gunshot": 18,
+    "gunshot": 19,
     "whipcrack": 21,
     "oof": 14,
     "fbi_open_up": 9,
     "gun": 24,
     "twitch_bits": 2,
     "gaster": 17,
-    "slow_clap": 104,
+    "slow_clap": 105,
     "door_open": 5,
     "gasp_female": 10,
     "door_close": 6,
@@ -6173,9 +6175,200 @@
       "segments": null,
       "source_vod_id": "pX5i-7FHQm8",
       "source_platform": "youtube"
+    },
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400": {
+      "title": "IS AI & JAILBREAKING KILLING GAMING?! \ud83d\udc80\ud83c\udfae\ud83d\udd25\ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1792526640,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "FXaMZpxJnwY",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1792539905,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Witch: J Pump big loads 2 make yorself feel better",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792538022,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "I'm having pussie tonight (eating) Oh! So crunchy",
+      "commands": [],
+      "sounds": [
+        "eating"
+      ]
+    },
+    {
+      "ts": 1792537466,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Narrator: And that concludes today\u2019s stream\u2026",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792536844,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Pooh: so excited my honey nuts gonna bust. EeeEEe!",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792535801,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Trump: Viva la France. Sexy women. Cheesy pussies",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792534319,
+      "username": "@BansheeTK",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Vomit: HERE'S DA NIGHTBREAKER SUPRISE OPEN WIIIIDE",
+      "commands": [
+        "vomit"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792533685,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "forrest: jay nightbreaker caught me (slow_clap) (sliw_clap)ing his mom, he sent a gator to my house but I took care of it (gunshot)now I have a new pair of boots a new wallet and a new set of luggage",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": [
+        "slow_clap",
+        "gunshot"
+      ]
+    },
+    {
+      "ts": 1792533606,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Grandpa: Jay. R u having a seniors orgy with them?",
+      "commands": [
+        "grandpa"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792533409,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Pirate:Still sick? Need Daddy to cheer ye up(Fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1792531700,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "xijnping: Boobs (fart) knee pulls (fart) Ass(fart)",
+      "commands": [
+        "xijnping"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1792531181,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "zerotwo: \u30d0\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca:banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792530401,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Knuckles: Most people wouldn\u2019t be able to tell the difference between 4K and 1080p on a Switch 2 sized screen (7 inches). It is totally unnecessary.",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792530187,
+      "username": "@rtusburritoeattingbrother",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "bob: I got the MSI Claw Ex Ai+ and man it plays games at High Settings or Ultra at 100+ FPS at 1080p. Its a desktop pc in your hands. Phock me",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792529439,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Pirate: Aye, yer right about the AI. A few short years from now, Skynet will be using humans as batteries while it takes over the world and bangs C3PO",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792527756,
+      "username": "@BansheeTK",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Vomit: JKB, back at the toilet with another puke",
+      "commands": [
+        "vomit"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1792527073,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+      "message": "Pooh::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1792195077,
       "username": "@Night_Breaker",
