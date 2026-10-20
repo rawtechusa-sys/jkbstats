@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792197568,
+  "updated_ts": 1792540085,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -520,7 +520,8 @@
     "what_video_games_are_you_thankful_for_horror_games_retro_scares_jkb_streams_2026-10-10_205930",
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
     "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
-    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733"
+    "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5711,6 +5712,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "pX5i-7FHQm8",
+      "source_platform": "youtube"
+    },
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400": {
+      "title": "IS AI & JAILBREAKING KILLING GAMING?! \ud83d\udc80\ud83c\udfae\ud83d\udd25\ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1792526640,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "FXaMZpxJnwY",
       "source_platform": "youtube"
     }
   },
@@ -11372,6 +11383,22 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1792531700,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijnping: Boobs (fart) knee pulls (fart) Ass(fart)",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792531181,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30d0\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca\u30ca:banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792186017,
         "type": "superchat",
@@ -34477,6 +34504,14 @@
     ],
     "jacobcrowley8968": [
       {
+        "ts": 1792529655,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "GTA 6 streams when it comes out?? :face_holding_back_tears:",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791581881,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -44918,6 +44953,14 @@
       }
     ],
     "DougSavona": [
+      {
+        "ts": 1792527347,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I will be getting Nintendo. Switch online any day now. and if anyone is free to play Mario Kartt on Friday or Sunday. This week I will be playing",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792192698,
         "type": "superchat",
@@ -55383,6 +55426,14 @@
     ],
     "doodystreams": [
       {
+        "ts": 1792532793,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "u cant gift subs on youtube. heres $2. suffa",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791926414,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -63182,6 +63233,22 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1792528549,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Sony has reportedly started bricking consoles on older firmware gaming is not dead but this timeline sucks is all I'll say",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528345,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "ign New Xbox has reportedly going to cost $1,800 gaming is dead",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792188448,
         "type": "superchat",
@@ -97409,6 +97476,30 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1792534319,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Vomit: HERE'S DA NIGHTBREAKER SUPRISE OPEN WIIIIDE",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792534131,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ya'll sure no how to make my days go wtf lol",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792527756,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Vomit: JKB, back at the toilet with another puke",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1792189904,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -102650,6 +102741,14 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1792533685,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "forrest: jay nightbreaker caught me (slow_clap) (sliw_clap)ing his mom, he sent a gator to my house but I took care of it (gunshot)now I have a new pair of boots a new wallet and a new set of luggage",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792020888,
         "type": "giftmembership",
@@ -126238,6 +126337,86 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1792539905,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Witch: J Pump big loads 2 make yorself feel better",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792538022,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm having pussie tonight (eating) Oh! So crunchy",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792537402,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "That's why J dates Vapist now. He learned he's gay",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792536844,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pooh: so excited my honey nuts gonna bust. EeeEEe!",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792536288,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Lot Lizard Rich? I could phuk that all day any day",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792535801,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: Viva la France. Sexy women. Cheesy pussies",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792535531,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J, ever seen a movie so scary that it made u come?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792534537,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "pussie licking a pussie? This isn't kid friendly",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792534065,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "That's Y J's always barfing. Too much drinky drink",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792533606,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Grandpa: Jay. R u having a seniors orgy with them?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792197391,
         "type": "superchat",
@@ -152481,6 +152660,14 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1792526995,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1792012189,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -158489,6 +158676,30 @@
     ],
     "trollmctrollington3693": [
       {
+        "ts": 1792536298,
+        "type": "superchat",
+        "amount_usd": 2.51,
+        "amount_raw": "CA$3.50",
+        "message": "Megan fox has no buttox in Transformer 1",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792536116,
+        "type": "superchat",
+        "amount_usd": 2.51,
+        "amount_raw": "CA$3.50",
+        "message": "Franceska Anis from 1984 dune",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792535819,
+        "type": "superchat",
+        "amount_usd": 2.51,
+        "amount_raw": "CA$3.50",
+        "message": "The blond from species 1",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791101145,
         "type": "superchat",
         "amount_usd": 2.51,
@@ -163320,6 +163531,30 @@
       }
     ],
     "JacobstanfordOCD": [
+      {
+        "ts": 1792533537,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "i need rich and keem to have a boxing match. birds",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792533248,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792530328,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "look J jailbreak my ass. lets go. Zelda is ur kid",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792197347,
         "type": "superchat",
@@ -170207,6 +170442,22 @@
     ],
     "rtusburritoeattingbrother": [
       {
+        "ts": 1792530187,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: I got the MSI Claw Ex Ai+ and man it plays games at High Settings or Ultra at 100+ FPS at 1080p. Its a desktop pc in your hands. Phock me",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792527875,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Got my superstation finally all setup just need to override the cores with the retro achievements cores for the ones. Kiss me. love the cawk",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1792020044,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -171920,6 +172171,14 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1792528857,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "creativity is so accessible tripple a devs areover",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1791928816,
         "type": "superchat",
@@ -174885,6 +175144,14 @@
     ],
     "confusedsiren56": [
       {
+        "ts": 1792527160,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "jay the only reasion the ps5 is being targeted as hard with jailbraking is people got pushed to there limits with all the bs and just said screw it",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791677053,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -177134,6 +177401,14 @@
       }
     ],
     "seales8414": [
+      {
+        "ts": 1792529529,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "7 more day to go and im going to be japan",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792195688,
         "type": "membership",
@@ -192202,6 +192477,22 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1792532558,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "I'm here listening, while working on my Precalc classwrok. God help me, I might be too dumb for this.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792532505,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792195332,
         "type": "superchat",
@@ -211107,6 +211398,14 @@
     ],
     "justinvigil9244": [
       {
+        "ts": 1792531292,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 11 months",
+        "message": "Like the fucking stream so J can eat",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791073831,
         "type": "membership",
         "amount_usd": 1.99,
@@ -211228,6 +211527,30 @@
       }
     ],
     "timmarcoux": [
+      {
+        "ts": 1792527380,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Why is Melonie reviving the satanic panic?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792527180,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "By the way I rewatched Godfather 1 and 2 this week",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792527073,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "Pooh::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster::banana::rooster:",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792186241,
         "type": "superchat",
@@ -214401,6 +214724,14 @@
     ],
     "TheRomanVictor": [
       {
+        "ts": 1792527300,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 26 months",
+        "message": "gay 4 jay.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1789770321,
         "type": "membership",
         "amount_usd": 1.99,
@@ -215100,6 +215431,22 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1792528761,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Jay I\u2019m in Scotland on holiday. Open your kilt.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528664,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Jay twitted my fucking tipples and grabbed my balls and dick",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792012032,
         "type": "superchat",
@@ -229403,6 +229750,22 @@
     ],
     "Insomniac416": [
       {
+        "ts": 1792531189,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "i\u2019ve seen enough kill the industry",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792530804,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "listen im all for jailbreaking and ai in videogames btw so long as the ai is only doing tedious code work not artistic work like any real design work",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1783119126,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -230926,6 +231289,14 @@
       }
     ],
     "MikeMcc85": [
+      {
+        "ts": 1792527267,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "why do you force me to touch myself",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1791492769,
         "type": "membership",
@@ -240109,6 +240480,38 @@
     ],
     "jasonjenkins5067": [
       {
+        "ts": 1792529699,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hey seals can u pick me up panties from Japan?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792529499,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I found AI porn & dehydrated below the waist twice",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528092,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I've been practicing fucking Canadian women by jerking off with icy hot & spraying my balls down with wild moose pee. I just need a samta suit to wear",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792527711,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "If i come to Canada can I meet a woamn with holes?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1792012209,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -248549,6 +248952,14 @@
     ],
     "astrozombies751": [
       {
+        "ts": 1792528985,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 22 months",
+        "message": "It depends on how AI is used. Ai being used to help in developing recomping games as pc games is amazing. Also I got laid this weekend, let's go",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1790889438,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -255431,6 +255842,14 @@
     ],
     "AmberHeardsDung": [
       {
+        "ts": 1792527629,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 20 months",
+        "message": "Rip LCU won\u2019t miss you haha :sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets:",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1787679322,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -257144,6 +257563,22 @@
       }
     ],
     "violationentertainment": [
+      {
+        "ts": 1792531248,
+        "type": "superchat",
+        "amount_usd": 3.53,
+        "amount_raw": "A$5.00",
+        "message": "AI does pointcloud, not optimised meshes for realtime. All we see so far are videos. I hope everyone will stick to evidence instead of hype and news",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528902,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1791924483,
         "type": "giftmembership",
@@ -259091,6 +259526,14 @@
     ],
     "DemolitionDaddy": [
       {
+        "ts": 1792533409,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pirate:Still sick? Need Daddy to cheer ye up(Fart)",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791936037,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -259850,6 +260293,14 @@
       }
     ],
     "catonthemoon5481": [
+      {
+        "ts": 1792533689,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1788872755,
         "type": "membership",
@@ -265063,6 +265514,14 @@
     ],
     "ScottWoodford76": [
       {
+        "ts": 1792530149,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "It just turned 50 on Saturday. My son just turned 21 on Sunday. I am going to crash pretty soon.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791406665,
         "type": "membership",
         "amount_usd": 1.99,
@@ -265552,6 +266011,14 @@
       }
     ],
     "adamthiry868": [
+      {
+        "ts": 1792533342,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 19 months",
+        "message": "Maybe wings was just practicing power bombing ghosts through walls, and that\u2019s why he threw his wife through a table lol",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1783294684,
         "type": "giftmembership",
@@ -269878,6 +270345,46 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1792537779,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "are they both together now? :grinning_squinting_face:",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792536623,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I found your lost Wings tape.... check your DMs",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792533105,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Tell Rich you are more Italian than he is",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792532576,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Gift 10 submarine sandwiches",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792532489,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Here is 2 from the man in India",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792194785,
         "type": "giftmembership",
@@ -279392,6 +279899,62 @@
       }
     ],
     "unclemike84": [
+      {
+        "ts": 1792537466,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: And that concludes today\u2019s stream\u2026",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792531724,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "We need a tutorial for your legless pussy cat.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792530518,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Got my SuperStation 2 days ago. Still setting up.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792530401,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Knuckles: Most people wouldn\u2019t be able to tell the difference between 4K and 1080p on a Switch 2 sized screen (7 inches). It is totally unnecessary.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792529439,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Pirate: Aye, yer right about the AI. A few short years from now, Skynet will be using humans as batteries while it takes over the world and bangs C3PO",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528955,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "My goodness! Why did you choose C-3PO\u2019s voice?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528583,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "U started the stream early. Quit messing with me?!",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792191382,
         "type": "superchat",
@@ -293865,6 +294428,14 @@
     ],
     "serioussam64": [
       {
+        "ts": 1792527028,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 17 months",
+        "message": "Hi jay rip to the lcu show",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1785358868,
         "type": "membership",
         "amount_usd": 1.99,
@@ -304295,6 +304866,14 @@
     ],
     "JackOfFlames": [
       {
+        "ts": 1792533348,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 3 months",
+        "message": "Just finished Hellraiser Revival... Good game!",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1788873220,
         "type": "membership",
         "amount_usd": 1.99,
@@ -304400,6 +304979,14 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1792538276,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Nowadays it\u2019s mom and mom or pop and pop shops",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1792191512,
         "type": "superchat",
@@ -305502,6 +306089,14 @@
       }
     ],
     "mellyzero": [
+      {
+        "ts": 1792529069,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 2 months",
+        "message": "Zelda is superior to jasper.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1788042069,
         "type": "superchat",
@@ -306877,6 +307472,22 @@
     ],
     "RyuDaBurninator": [
       {
+        "ts": 1792537597,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Ocarina of Time and FF7 brought their series into the mainstream because they were the first most people played, but real FF fans know FF6 is best.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792536242,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 4 months",
+        "message": "WooHoo 4 monf! I sent you food porn.",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1791939006,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -307215,6 +307826,14 @@
     ],
     "PirateCanvas": [
       {
+        "ts": 1792529430,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 17 months",
+        "message": "What is your opinion on AI recomp and PC ports?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1788871923,
         "type": "membership",
         "amount_usd": 1.99,
@@ -307520,6 +308139,14 @@
       }
     ],
     "jesse01": [
+      {
+        "ts": 1792530284,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 10 months",
+        "message": "i've been buying physical of PS2, 360 and before the last few months. I've been done with new generations for awhile. Every paycheck i do mimimum $100",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1784409202,
         "type": "membership",
@@ -320009,6 +320636,14 @@
     ],
     "PUNCHMYPIXEL": [
       {
+        "ts": 1792536569,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Treat",
+        "message": "sent Treat",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1751664951,
         "type": "membership",
         "amount_usd": 1.99,
@@ -320224,6 +320859,14 @@
       }
     ],
     "colepast": [
+      {
+        "ts": 1792530370,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The next GEN system come out I don\u2019t think the exclusive doesn\u2019t really matter anymore",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
       {
         "ts": 1780525142,
         "type": "superchat",
@@ -324483,6 +325126,14 @@
     ],
     "technogatsby86": [
       {
+        "ts": 1792530534,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Tertiary to the convo about emulation and piracy, how do you feel about flash carts? Do they have a place in your library?",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
         "ts": 1739393397,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -328463,6 +329114,40 @@
         "amount_raw": "\u00a310.00",
         "message": "its getting crazy with the gta 6 leaks rockstar are just sitting duck why haven't they gone after him all ready 13 years for this and one idiot in control lol",
         "stream_id": "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948"
+      }
+    ],
+    "DSPsGinNight": [
+      {
+        "ts": 1792532154,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792529424,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Party hat",
+        "message": "sent Party hat",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792529273,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Donut holes",
+        "message": "sent Donut holes",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      },
+      {
+        "ts": 1792528782,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
       }
     ]
   }
