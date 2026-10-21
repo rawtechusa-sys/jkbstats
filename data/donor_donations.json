@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792540085,
+  "updated_ts": 1792625747,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -521,7 +521,8 @@
     "ai_is_about_to_end_playstation_xbox_and_nintendo_jkb_streams_2026-10-13_204058",
     "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
     "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
-    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+    "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
+    "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5722,6 +5723,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "FXaMZpxJnwY",
+      "source_platform": "youtube"
+    },
+    "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452": {
+      "title": "EA SHUTS DOWN BIOWARE & CANCELS MASS EFFECT! \ud83d\udc80\ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1792613692,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "YRz0QE5G0_0",
       "source_platform": "youtube"
     }
   },
@@ -40488,6 +40499,22 @@
     ],
     "DarthOmegas": [
       {
+        "ts": 1792616511,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "alls not lost within the darkness of this world, nightcity welcomes all and getting a new update with new combat style",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792614477,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 29 months",
+        "message": "they shut down my pop up Photobooth",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1790199104,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -44954,6 +44981,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1792620920,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I just bought this game today.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792527347,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -48132,6 +48167,14 @@
     ],
     "PortableHamSandwich": [
       {
+        "ts": 1792617199,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "We're either in the midst of another gaming crash, or the fall of major studios/rise of indie studios",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1791418979,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -51183,6 +51226,14 @@
       }
     ],
     "Jayhooft": [
+      {
+        "ts": 1792624380,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1789168818,
         "type": "giftmembership",
@@ -63233,6 +63284,14 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1792617409,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bioware was my childhood I'll miss them RIP",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792528549,
         "type": "superchat",
@@ -97476,6 +97535,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1792618692,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Need for speed was already dead. Was put on to bf",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792617678,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Make it a point to play Star Wars Kotor as well",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792534319,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -102741,6 +102816,22 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1792619416,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp:iquit belmonts curse duetolack of $$$ support",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792616505,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "on the one hand this sucks but on the hand they spent over a decade hiring people that were activists first & developers second so it's not surprising",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792533685,
         "type": "superchat",
@@ -113453,6 +113544,14 @@
       }
     ],
     "Blaqk_Sheep": [
+      {
+        "ts": 1792614653,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "time to shoot :water_pistol: ropes :knot:over the corpse of Bioware, next time to increase games to 100$ and remove 5090's from consumer's:soft_ice_cream::pie::hole::peanuts::face_with_rolling_eyes::ok_hand::water_pistol::knot::soft_ice_cream::pie: gaming industry getting fucked hard & strong :flexed_biceps: :thumbs_up: :peanuts::water_pistol::knot:",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1791927945,
         "type": "superchat",
@@ -126337,6 +126436,78 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1792625216,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, remember that time you bounced on Rich's dik?",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792624788,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: if i put it on mine, wil my cawk grow bigger?",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792624220,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J, what about that time u ejaculated at a concert?",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792623877,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "glorious: Praise Boochy. Best drug lord in history",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792621706,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Smashjt: say it with me. woke & gay! woke & gay!",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792619429,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I get nostalgic for getting phucked by Christopher",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792618985,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I don't. understand. Y. I. Sound. Like. This. WTF",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792618064,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Neil Druckman enjoys pumping loads N his own mouth",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792617631,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I want a game where Master Chief and Cortana phuck",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792539905,
         "type": "superchat",
@@ -163532,6 +163703,30 @@
     ],
     "JacobstanfordOCD": [
       {
+        "ts": 1792614932,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: im sorry J I need that money I really need it",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792614494,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792614380,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 25 months",
+        "message": "JAYY LOOK LISTEN. THICK OR MEAT OR WHATEVER! BIRDS",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792533537,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -172172,6 +172367,22 @@
     ],
     "Ryft7": [
       {
+        "ts": 1792615829,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Didn\u2019t balder gate win game of the year recently",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792615740,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Let see Paul Allen\u2019s legs",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792528857,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -175143,6 +175354,14 @@
       }
     ],
     "confusedsiren56": [
+      {
+        "ts": 1792619273,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "3 foods in a good diet. the 3 foods: lead, corn syrup, red 40",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792527160,
         "type": "superchat",
@@ -192477,6 +192696,38 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1792624420,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792618242,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Art normally has an agenda or is trying to make a statement put in there from their creator. So if games are art it's to be expected.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792617139,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Everything is AI, I'm AI, you're AI. AI logs",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792616316,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Good news, I'm making bacon",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792532558,
         "type": "membership",
@@ -215432,6 +215683,14 @@
     ],
     "niallwilliamson3540": [
       {
+        "ts": 1792617879,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "EA SHUTTING DOWN STUDIOS LIKE THE GOOD OLD DAYS",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792528761,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -218459,6 +218718,22 @@
       }
     ],
     "HillPhantom": [
+      {
+        "ts": 1792616999,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Not live yet! But if you ever hang out with me I can show you and show you my assortments of sausages",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792616690,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Hang in there. We all can make games now. Bunch of cool indy games about to drop mine included. Studios are cooked now. Unreal 5 and AI for the win.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1791585067,
         "type": "superchat",
@@ -222667,6 +222942,22 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1792624865,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay can you put on the Gremlin or banana filter?",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792624781,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792192373,
         "type": "superchat",
@@ -234500,6 +234791,14 @@
     ],
     "tdub2113": [
       {
+        "ts": 1792614636,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "dsp: Now guys, things have never been better for me. By the way, you can now purchase a cameo to get a personalized message from yours truly! *snort*",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1783120366,
         "type": "membership",
         "amount_usd": 1.99,
@@ -235231,6 +235530,14 @@
       }
     ],
     "TacoDan34": [
+      {
+        "ts": 1792620374,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "my favourite device is my caulk (fart)",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792191838,
         "type": "superchat",
@@ -257564,6 +257871,14 @@
     ],
     "violationentertainment": [
       {
+        "ts": 1792614905,
+        "type": "superchat",
+        "amount_usd": 1.41,
+        "amount_raw": "A$2.00",
+        "message": "Xijinping: Eeeeeeeee motional damage!!! :banana::banana:",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792531248,
         "type": "superchat",
         "amount_usd": 3.53,
@@ -268926,6 +269241,30 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1792619264,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I have nostalgia for Tech Talk.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792616700,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen Jay just make your own Mass Effect with Review Tech USA as the only playable character--\"mass effect\" refers to Rich's gravitational pull",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792615539,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Why can't EA and the Saudis shut down DSP Gaming instead?",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1791927586,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -279900,6 +280239,38 @@
     ],
     "unclemike84": [
       {
+        "ts": 1792619291,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Not turned on by video games? You can still get turned on by Lot Lizard Rich. Pirate: Aye, that is one fine lady man. Trump: You\u2019re all tremendous!",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792616375,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "It\u2019s not Canadian bacon, so you wouldn\u2019t like it.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792615880,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Girlfriend: J, pet that pussi harder! Oh Gawd yes!",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792615065,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I have never played a single Mass Effect game.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792537466,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -282831,6 +283202,14 @@
       }
     ],
     "Gamermeetsworld": [
+      {
+        "ts": 1792621028,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792183736,
         "type": "superchat",
@@ -286096,6 +286475,30 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1792618846,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I said the same thing all the time. Why not just focus on making good games and actually make money. I don't understand these big AAA companies.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792615620,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Yeah, I feel like these days like big triple-a game studios with fantastic IPs in the past. Are now we're already going to the dark ages..",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792614971,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "How's it going? Jay? You already heard this news like everybody else..",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792188693,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -287937,6 +288340,14 @@
       }
     ],
     "Destruktor1111": [
+      {
+        "ts": 1792624658,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "you should tape that crystal to your balls so when you get pulled over and the cops search you they find it.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1791668305,
         "type": "superchat",
@@ -300036,6 +300447,14 @@
     ],
     "princegroove": [
       {
+        "ts": 1792615852,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1788987554,
         "type": "membership",
         "amount_usd": 1.99,
@@ -304980,6 +305399,22 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1792617249,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Can we tune in and watch Rich crash out later? :folded_hands:",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792614639,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "The best part of waking up is not giving a fuck :hot_beverage:",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792538276,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -307471,6 +307906,14 @@
       }
     ],
     "RyuDaBurninator": [
+      {
+        "ts": 1792620897,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1792537597,
         "type": "superchat",
@@ -311565,6 +312008,14 @@
       }
     ],
     "TimothyCulhane": [
+      {
+        "ts": 1792618577,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1789772698,
         "type": "superchat",
@@ -325126,6 +325577,22 @@
     ],
     "technogatsby86": [
       {
+        "ts": 1792623061,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "10-21-86. 40 today. Happy to enjoy the live stream while at work instead of doing work at work. Cheers to a much better decade than the last.",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
+        "ts": 1792621018,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
+      {
         "ts": 1792530534,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -325461,6 +325928,14 @@
       }
     ],
     "BoodyChew1999": [
+      {
+        "ts": 1792615330,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "first viseral now Bioware fuck EA",
+        "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+      },
       {
         "ts": 1783114491,
         "type": "superchat",
