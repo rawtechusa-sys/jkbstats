@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792540098,
+  "updated_ts": 1792625762,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -103,6 +103,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+    },
+    {
+      "ts": 1792625651,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
     }
   ]
 }
