@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792625747,
+  "updated_ts": 1792729626,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -522,7 +522,8 @@
     "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
     "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
     "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
-    "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+    "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
+    "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5733,6 +5734,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "YRz0QE5G0_0",
+      "source_platform": "youtube"
+    },
+    "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634": {
+      "title": "SWITCH 2! JAILBROKEN? NINTENDO NINJA'S ARE COMING! \ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1792702594,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "DlucVyCNmY8",
       "source_platform": "youtube"
     }
   },
@@ -34515,6 +34526,14 @@
     ],
     "jacobcrowley8968": [
       {
+        "ts": 1792709425,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Listen just got here how late am I",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792529655,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -44981,6 +45000,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1792710956,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Sorry, I'm at work, but you might have already mentioned this. But did you hear about Nintendo? Getting hacked?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792620920,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -48166,6 +48193,14 @@
       }
     ],
     "PortableHamSandwich": [
+      {
+        "ts": 1792716862,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "GOOGLE IT, FOR FACKS SAKES",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792617199,
         "type": "superchat",
@@ -63285,6 +63320,14 @@
     ],
     "towerdragon4487": [
       {
+        "ts": 1792711283,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Pooh: I just got here. what the hell happened to your face? and hands",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792617409,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -72047,6 +72090,14 @@
     ],
     "thebubster8620": [
       {
+        "ts": 1792724792,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "Jay that\u2019s bitch beer. Love you ya crispy piece of maple soaked Canadian bacon.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791928616,
         "type": "membership",
         "amount_usd": 1.99,
@@ -74474,6 +74525,30 @@
       }
     ],
     "Billy-Dillinger": [
+      {
+        "ts": 1792712955,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Here\u2019s the last $10!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792711531,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "Listen explain to me how Halloween 3 is a Halloween movie. I'm going through the series right now and that one sucked!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792706404,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Cat bed fee!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791496203,
         "type": "membership",
@@ -91357,6 +91432,54 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1792718771,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "The love wasn\u2019t reciprocated",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792718092,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The adult actor portrayed in the movie died of AIDS.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792717355,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I got married once\u2026 terrible mistake.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792717299,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Dead by Daylight",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716628,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "You should be fine. Just reheat it.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716579,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Bacterial growth becomes unsafe after two hours, but I\u2019m immune compromised and I eat things that sit out for four hours or less",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791929947,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -97535,6 +97658,30 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1792707248,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If I can make a suggestion. Look up happy light. Shorter days = less natural sun light, seasonal affective winter disorder can really mess with you",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704485,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "OK doke jail broke pennydik",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704341,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen, the ps5 and the nintendo switch 2 aren't the only thing Jailbroken, by the looks of what I came into now ur sanity and rails r now Jailbroken",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792618692,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -102816,6 +102963,38 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1792724586,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792719539,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "speaking of puppets that kill check dm's",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792717084,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "if you \"pass on\" i get your gaming collection",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792713224,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "for the jkb hut tub fund; fire me cuz i was a leep",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792619416,
         "type": "superchat",
@@ -110609,6 +110788,14 @@
     ],
     "Generic_White_Male": [
       {
+        "ts": 1792704394,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "my ass is jailbroken",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1790896377,
         "type": "membership",
         "amount_usd": 1.99,
@@ -113544,6 +113731,14 @@
       }
     ],
     "Blaqk_Sheep": [
+      {
+        "ts": 1792707430,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792614653,
         "type": "membership",
@@ -117703,6 +117898,14 @@
     ],
     "ianhunter8405": [
       {
+        "ts": 1792713210,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "got my steam deck a couple of days ago",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791929410,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -118760,6 +118963,14 @@
       }
     ],
     "Juicyb00ch": [
+      {
+        "ts": 1792721484,
+        "type": "superchat",
+        "amount_usd": 19.99,
+        "amount_raw": "$19.99",
+        "message": ":sweat_droplets:",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791492461,
         "type": "superchat",
@@ -126436,6 +126647,94 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1792721097,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "glorious: Happy birthday Homebrew J givs good head",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792718870,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "unrequited. Un. Ree. Quite. Tid. Unrequited poosy",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792718160,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "She has saggy titts. Stretched like Laffy Taffy",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792717548,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "did U come when the spaghetti tickled your pickle?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792717207,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "May I have necrophiliac sex with yor stiff corpse?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716497,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "don't mind him. He wasn't sucking cawk off camera",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792715986,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can u phuck Shiva N this game? If not, 0 out of 10",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792713969,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J. Stop shoving yor head in while she's on the rag",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792711872,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: Hi Cory. Can U suck Jay's cawk on stream?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792710846,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: Jay has pussie herpes on his face (peeing)",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792710530,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: I squirted period blood on J's face (peeing)",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792625216,
         "type": "superchat",
@@ -152831,6 +153130,30 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1792718178,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Just reheat your food and eat it. you have permission to haunt me",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792713429,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "when will we be playing Halloween?? so I can bone up before getting my ass kicked",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792708165,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Watching these streams remind me of friends hangin out and the hang outs in discord as well. I got halloween so I am ready. Also take my money and buy your princess treats. Excited to see elvira!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792526995,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -161865,6 +162188,14 @@
     ],
     "PaulieTheAlien": [
       {
+        "ts": 1792711016,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 30 months",
+        "message": "Love ya probe",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791087203,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -163702,6 +164033,38 @@
       }
     ],
     "JacobstanfordOCD": [
+      {
+        "ts": 1792723062,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "this is a playback of what Zelda dreams about",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792708881,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: what about me? I need that money. I really do",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792708683,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jay this makes me feel bad 4 throwing the pizza",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792708232,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "you broke my ass with your robustness. thick birds",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792614932,
         "type": "superchat",
@@ -169363,6 +169726,22 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1792708575,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "this is why I watch you cause you fucking care",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704512,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jail break all the systems. Take back your power",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791926827,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -170636,6 +171015,30 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1792728761,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Just seen clayface. I can't wait to see how he plays into the DCU batman movies. Now shoot ropes on ones. bob: Ones stay gay",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792728507,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "bob: A thick Canadian cawk is still live. fuck me",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705317,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Why are you guys upset about the superstation?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792530187,
         "type": "superchat",
@@ -172366,6 +172769,46 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1792708720,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Jay this is why I keep coming back to your streams your a good person don\u2019t let anyone tell you your not let\u2019s make this Christmas special everyone",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792706850,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "I still suffer with it now just not as bad (iykyk)",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705860,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "I swear social media has made no one an individual",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704987,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Jay is showing us his real hairline",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704229,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Switch sports resort is amazing",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792615829,
         "type": "superchat",
@@ -181147,6 +181590,14 @@
     ],
     "julieb8730": [
       {
+        "ts": 1792712075,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Are you going to stream playing Zelda when its out",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791927749,
         "type": "membership",
         "amount_usd": 1.99,
@@ -182250,6 +182701,38 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1792717560,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pho k my ass",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716996,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Call the restaurant and say your meal is rotten.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716804,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Y your face like that? Murray's time of the month?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716666,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Dsp: I heard a rumor you wanted to stick your cawk in tuna oil so you can roughly phock Dreamcast Guy's tangy robust tuna hole.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792184578,
         "type": "giftmembership",
@@ -190055,6 +190538,14 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1792709506,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Slithering Pride is Awoken gonna play MW4 All nght",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791940962,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -192696,6 +193187,126 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1792717601,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You are freaking yourself out. I grew up in a farm family. You are fine, as long as it doesnt smell mad or hasnt turned different colors your are fine",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792717242,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "One a happier note, I sent you that DM",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792716656,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I eat pizza that has say out overnight and I've been fine",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792714048,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I just added another rifle to the collection.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792713212,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "All you needed to do was Stream whnever Zaylen wanted and not have any interests or dreams outside of streaming.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792712317,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Are you going to a concert again soon? If so who? I'm seeing the Kings of Emo, Hawthorn Heights next Friday.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792710556,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Imma need royalties everytime you use one of my Superchats on stream jk",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792710229,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I think you owe us a suuuuuuit after that. Penis Boobs Penis Boobs Penis Boobs Penis Boobs Penis Boobs Penis Boobs Penis Boobs Penis Boobs",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709999,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709688,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709322,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "All I want for xmas is an asian girlfriend, Latina works too. Or fuck it, mix them and a Filipina would be the best of both worlds. Am I joking, idk",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792707192,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If you see everything as shit, then everything will be shit. Finding the small good things will snowball into finding good big things.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705011,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "guys can use pregnancy tests to check for possible prostate cancer",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704598,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "People normally dont go down on a women during that time of the month. Did she sneeze while doing it?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792703619,
+        "type": "superchat",
+        "amount_usd": 50.0,
+        "amount_raw": "$50.00",
+        "message": "You want to act crazy? Put a suit on. Get even further off the fucking rails. You look like you murdered Rich's career. Creeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeam",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792624420,
         "type": "giftmembership",
@@ -206762,6 +207373,22 @@
       }
     ],
     "theshinynickell": [
+      {
+        "ts": 1792727092,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Warmy: how is this for $2",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792727037,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warmy: are you bricked up",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791928562,
         "type": "superchat",
@@ -222371,6 +222998,22 @@
     ],
     "Webbz517": [
       {
+        "ts": 1792717534,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 26 months",
+        "message": "I've ate chicken that was out all night still here",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709658,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791934295,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -222789,6 +223432,22 @@
     ],
     "MrHomebrew_Leonidas": [
       {
+        "ts": 1792722308,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792720972,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "MY FCKN BIRTHDAY :partying_face::partying_face::partying_face::partying_face: LET ME GET A SHOUT-OUT GOOD SIR, YOU DO THE BEST BIRTHDAY SHOUT-OUTS :birthday_cake: GIVE ME A REAL MAN BIRTHDAY CONGRATULATIONS",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791595294,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -222942,6 +223601,14 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1792706447,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792624865,
         "type": "superchat",
@@ -231581,6 +232248,14 @@
     ],
     "MikeMcc85": [
       {
+        "ts": 1792704741,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "I need a new icon, Get it sorted mofo",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792527267,
         "type": "superchat",
         "amount_usd": 2.7,
@@ -235530,6 +236205,14 @@
       }
     ],
     "TacoDan34": [
+      {
+        "ts": 1792723736,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 30 months",
+        "message": "helping friends move is balls .Do you like tea?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792620374,
         "type": "superchat",
@@ -240787,6 +241470,54 @@
     ],
     "jasonjenkins5067": [
       {
+        "ts": 1792729060,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Ever wish you was black? Its not all good. Jerking it is hard. There is still slack in it when my arm is locked out straight before the return stroke.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792727739,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If I can catch my loads instead of just making a mess all over my stomach and\u00a0 chest. Do you think I can grow a cabbage patch doll garden in my yard?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792727453,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If I get 2 fingers in and the lady doesn't pull away. Do I try for 3? I'm ok if not but I see wrist deep as a viable goal. Just trying to overachieve",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705640,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "When I depressed i just think about a midget trying 2 reach the cabinet above the stove & that cheers me up. Or I go 2 a place U throw money at women",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704927,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hes giving away a fuckable med kit you can pee on.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704438,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "My sex doll is jail broken. Now all the holes work",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792529699,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -245634,6 +246365,70 @@
       }
     ],
     "My_Paradoxical_Me": [
+      {
+        "ts": 1792710019,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709828,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709587,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709527,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709457,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709169,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "I\u2019m saving for a wedding flight and shipping costs plus I\u2019m waiting on my visa. We can push the wedding back if needed but all I can do is stay positive. I'll be moving in December if all goes to plan",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792707830,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "I dont join depression talks cause I dont experience it to the extent people describe I\u2019ve been sad but I move on from bad experiences easily It kinda makes me feel guilty for not being able to relate",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705870,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Ultimate Legend!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792020171,
         "type": "superchat",
@@ -255003,6 +255798,14 @@
     ],
     "Marti2003": [
       {
+        "ts": 1792709898,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1788556200,
         "type": "superchat",
         "amount_usd": 2.3,
@@ -260812,6 +261615,14 @@
       }
     ],
     "Stillmovin0212": [
+      {
+        "ts": 1792720791,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Legend!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1771374940,
         "type": "superchat",
@@ -269241,6 +270052,54 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1792728665,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen Jay I feel like I know you but when you stream with Rich I always felt like a part of you is hidden...behind his flesh.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792728443,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Thanks Jay, Review Tech USA offered to send me a PC. It works great but I've been having some connectivity as well as bank account issues",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792728323,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen Jay, can you just start the stream from the beginning? i think i lost internet for a minute.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705770,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Please invite Rich, Wings, Boogie2988, Low Tier God, DSP, Cyrax and Chris Chan to your Halloween special.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705470,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "just use edibles like Rich and lie about it",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792705222,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen Jay--where's the promised Jay/Rich collab?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792619264,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -270684,6 +271543,78 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1792727344,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Thank you for a good stream man!!!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792724575,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792711835,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Does he know you have the blood on you lol",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792710510,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709467,
+        "type": "giftmembership",
+        "amount_usd": 99.5,
+        "amount_raw": "50 gifted memberships",
+        "message": "Sent 50 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792703577,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Can we put a cake on Vapist and rename him Cakeist",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792703361,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Or is it the aftermath of buying pokemon cards like DSP?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792703274,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Is that the blood of those getting rid of physical media",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792702856,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "2 from the man in India",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792537779,
         "type": "superchat",
@@ -280239,6 +281170,30 @@
     ],
     "unclemike84": [
       {
+        "ts": 1792709946,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Eminem: Jay, you own it, you better never let it go You only get one shot, do not miss your chance to blow This opportunity comes once in a lifetime!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792707344,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Seriously though, are you trial running some zombie makeup or did you finally kill Wallet Guy? Also, if the latter, did you teabag him afterwards?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792707018,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay, did Nightbreaker take a shit on your face?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792619291,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -283203,6 +284158,22 @@
     ],
     "Gamermeetsworld": [
       {
+        "ts": 1792709797,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Rich is looking for an editor.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792706332,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Sometimes depression gets confused with a need of a good cumming. Have you tried plucking your oyster today?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792621028,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -283910,6 +284881,14 @@
       }
     ],
     "patman2986": [
+      {
+        "ts": 1792721130,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 14 months",
+        "message": "Love you Jay",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1790811644,
         "type": "superchat",
@@ -286401,6 +287380,14 @@
     ],
     "Ciph3r_nu11": [
       {
+        "ts": 1792706425,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 10 months",
+        "message": "Listen!! DM me while drinking. blame others for your problem. Let\u2019s go! Jk. Yo ones stay gay and fabulous!!!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1789162595,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -286474,6 +287461,30 @@
       }
     ],
     "dan_evilrobot": [
+      {
+        "ts": 1792704650,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I can be crazy, that will gives me a good mood.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704476,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Waiting for Nintendo Ninjas are coming to get you.. If you're not jailbreaking, you're good, you're fine. Lol. Now, that's horrifying.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792703395,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 6 months",
+        "message": "Joined!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1792618846,
         "type": "superchat",
@@ -288608,6 +289619,38 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1792713861,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "same art style as octo path traveler",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792713648,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "your computer is strong could have got on steam",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792712268,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "as im a huge fan of penny wise u fan of terrifier?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792711643,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "jay you look like you been beaten by vapist for coming to my place for a slumber party..btw Micheal does gaming is at it again max Griffter is complaining switch sports resort lawn chairs disappear",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791941089,
         "type": "superchat",
@@ -291752,6 +292795,14 @@
       }
     ],
     "tougeruzbay": [
+      {
+        "ts": 1792727891,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Debating to get GTA 6 even though its digital as shet, Been a big fan of the series and all their games Jaysussy",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1787867966,
         "type": "superchat",
@@ -299059,6 +300110,14 @@
     ],
     "JQR0666": [
       {
+        "ts": 1792714379,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "have you played that new Horror game thats Pixel Art with Live Action game?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792018904,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -300708,6 +301767,14 @@
       }
     ],
     "freshhotline696": [
+      {
+        "ts": 1792721162,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "One day jay is going to view someone's Wishlist and it'll be full of corn",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791676480,
         "type": "giftmembership",
@@ -305399,6 +306466,62 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1792724234,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Dark Arisen Vapist beats all challengers",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792718453,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Rate my sandwich I sent just now before end stream",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792715769,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "If it\u2019s Rose I hope she paints you like the non French Canadian Whore you are.",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792712516,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I hear dis guy collects dung beetles for the smell",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792709117,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Ones doing charity to make up for sin of being gay",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792706584,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "What bout jerking someone else off 2 feel better?",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792703537,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Show us Zelda before I call cops u son of bitch",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792617249,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -306216,6 +307339,14 @@
       }
     ],
     "ReviewLotLizardsUSA": [
+      {
+        "ts": 1792723106,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I need that black man with the meat between my cheeks",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791940654,
         "type": "superchat",
@@ -318417,6 +319548,22 @@
     ],
     "greenmind924": [
       {
+        "ts": 1792708745,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792708684,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792017457,
         "type": "gift",
         "amount_usd": null,
@@ -321162,6 +322309,14 @@
       }
     ],
     "Mr.Substantial": [
+      {
+        "ts": 1792713259,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1789774881,
         "type": "membership",
@@ -324265,6 +325420,14 @@
     ],
     "qb3540": [
       {
+        "ts": 1792703419,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen, Jay I'm sick. Sheet on me and rub it on my chest like Vicks vapor rub",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1789170523,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -324574,6 +325737,14 @@
       }
     ],
     "PhilsLostDoorDashShrimp": [
+      {
+        "ts": 1792706629,
+        "type": "superchat",
+        "amount_usd": 2.11,
+        "amount_raw": "A$2.99",
+        "message": "Bob: listen beat it like it owes you moneeeeeeeeee",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1791076792,
         "type": "superchat",
@@ -325506,6 +326677,14 @@
       }
     ],
     "Dad_Brad": [
+      {
+        "ts": 1792724642,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 7 months",
+        "message": "Late to the stream, hope you\u2019re doing good Jay",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
       {
         "ts": 1790279475,
         "type": "superchat",
@@ -329365,6 +330544,14 @@
     ],
     "sheed_rock": [
       {
+        "ts": 1792708072,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1791938362,
         "type": "gift",
         "amount_usd": null,
@@ -329509,6 +330696,14 @@
     ],
     "FrankkCozmo": [
       {
+        "ts": 1792709718,
+        "type": "giftmembership",
+        "amount_usd": 99.5,
+        "amount_raw": "50 gifted memberships",
+        "message": "Sent 50 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792020798,
         "type": "giftmembership",
         "amount_usd": 19.9,
@@ -329567,6 +330762,14 @@
     ],
     "harryholmes4576": [
       {
+        "ts": 1792707567,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "jkb I understand you i lost my grandad this year and aunt in about 3 month so it been a hard year for me just keep positive good things will come",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
         "ts": 1792014674,
         "type": "superchat",
         "amount_usd": 13.5,
@@ -329623,6 +330826,44 @@
         "amount_raw": "Garlic",
         "message": "sent Garlic",
         "stream_id": "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400"
+      }
+    ],
+    "theirishpilot": [
+      {
+        "ts": 1792704681,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      },
+      {
+        "ts": 1792704163,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      }
+    ],
+    "drokumatoyz": [
+      {
+        "ts": 1792705955,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Poutine",
+        "message": "sent Poutine",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      }
+    ],
+    "Introgay69": [
+      {
+        "ts": 1792727856,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "W",
+        "message": "sent W",
+        "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
       }
     ]
   }
