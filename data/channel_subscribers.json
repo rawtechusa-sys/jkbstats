@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792625762,
+  "updated_ts": 1792729640,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -109,6 +109,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+    },
+    {
+      "ts": 1792729525,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
     }
   ]
 }
