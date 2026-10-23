@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792625751,
+  "updated_ts": 1792729630,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -522,7 +522,8 @@
     "the_gta_vi_leak_drama_just_took_another_turn_jkb_streams_2026-10-14_204948",
     "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
     "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
-    "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452"
+    "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
+    "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9901,6 +9902,24 @@
       "avg_viewers": 86.31,
       "avg_chat_mpm": 8.88,
       "avg_active_chatters": 18.8,
+      "percent_paused": null
+    },
+    "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634": {
+      "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
+      "title": "SWITCH 2! JAILBROKEN? NINTENDO NINJA'S ARE COMING! \ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1792702594,
+      "end_ts": 1792729525,
+      "duration_sec": 26931,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 784.97,
+      "donation_count": 153,
+      "donations_per_min": 1.7488,
+      "peak_viewers": 137,
+      "avg_viewers": 95.25,
+      "avg_chat_mpm": 9.93,
+      "avg_active_chatters": 18.93,
       "percent_paused": null
     }
   }
