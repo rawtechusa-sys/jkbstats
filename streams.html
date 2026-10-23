@@ -588,6 +588,9 @@
   .ts-link    { color: var(--accent); text-decoration: none; border-bottom: 1px dotted rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4); transition: color 0.15s ease, border-color 0.15s ease; }
   .ts-link:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); text-shadow: 0 0 8px rgba(var(--accent-glow-r),var(--accent-glow-g),var(--accent-glow-b),0.4); }
   .msg-cell   { font-family: 'Lora', serif; color: var(--text-muted); font-size: 14px; word-break: break-word; }
+  /* A moderated user's last chat message, quoted ahead of the row's own note --
+     dimmer and italic so it reads as a quotation, not as our own text. */
+  .mod-last-msg { font-style: italic; opacity: 0.85; }
 
   /* ── States ── */
   .loading-state, .empty-state, .error-state {
@@ -1228,6 +1231,57 @@ function normalizeModeration(events) {
   return out;
 }
 
+// ── A moderated user's last words ──────────────────────────────────────────────
+// A moderation row says who and when but never why. The stream's chat.json holds
+// the message that earned it.
+
+// Normalized username key. Mirrors bans.py's `_norm_username` (strip a leading
+// "@", trim) and folds case on top: a chat author and the moderation row's
+// `username` for the same person differ in exactly those two ways.
+function normUsername(raw) {
+  return String(raw == null ? '' : raw).replace(/^@+/, '').trim().toLowerCase();
+}
+
+function normPlatform(raw) {
+  return String(raw == null ? '' : raw).trim().toLowerCase();
+}
+
+// The last message this user posted on this platform at or before the event, or
+// null. A message with no usable ts never matches. Keeps the newest match rather
+// than stopping at the first, so it does not depend on chat.json being sorted.
+function lastMessageBefore(messages, ev) {
+  if (!ev || typeof ev !== 'object') return null;
+  const user = normUsername(ev.username);
+  const platform = normPlatform(ev.platform);
+  if (!user || !platform || !Number.isFinite(ev.ts)) return null;
+  let best = null;
+  for (const m of (Array.isArray(messages) ? messages : [])) {
+    if (!m || typeof m !== 'object') continue;
+    if (!Number.isFinite(m.ts) || m.ts > ev.ts) continue;
+    if (normPlatform(m.platform) !== platform) continue;
+    if (normUsername(m.author) !== user) continue;
+    if (!best || m.ts > best.ts) best = m;
+  }
+  return best;
+}
+
+// Hang `{text, ts}` off every moderation event that has a preceding message and
+// return how many got one. An event with no match gets NO field (absent, not
+// null), so the renderer can test `ev.lastMessage` directly.
+function attachLastMessages(moderation, messages) {
+  const msgs = Array.isArray(messages) ? messages : [];
+  if (msgs.length === 0) return 0;
+  let attached = 0;
+  for (const ev of (Array.isArray(moderation) ? moderation : [])) {
+    if (!ev || typeof ev !== 'object') continue;
+    const m = lastMessageBefore(msgs, ev);
+    if (!m) continue;
+    ev.lastMessage = { text: String(m.text == null ? '' : m.text), ts: m.ts };
+    attached++;
+  }
+  return attached;
+}
+
 // Members contributed by one donation event: 1 per membership, N per gift
 // ("5 gifted memberships"), 0 for everything else.
 // TRAP: only the gift type carries a count. A `membership` row's amount_raw is a
@@ -1357,6 +1411,21 @@ async function loadStream(streamId, refresh = false) {
       ensureVoices(),   // both lists are needed before any donation is bucketed;
       ensureSounds(),   // cached after the first stream
     ]);
+
+    const events = parseJSONL(eventsText);
+    // Removals / timeouts / inferred unbans the collector recorded. Same file, no
+    // extra fetch; drops rows with no username (see normalizeModeration).
+    const moderation = normalizeModeration(events);
+
+    // What each moderated user said just before the removal. chat.json is a
+    // megabyte or more and most streams moderate nobody, so it is fetched only
+    // when there is a moderation event, and before the render begins.
+    // 404-tolerant and silent: a stream with no chat.json shows no message.
+    if (moderation.length > 0) {
+      const chat = await fetchJSON(`${RAW}/data/streams/${streamId}/chat.json${bust}`).catch(() => null);
+      const messages = (chat && Array.isArray(chat.messages)) ? chat.messages : [];
+      if (messages.length > 0) attachLastMessages(moderation, messages);
+    }
     if (seq !== loadSeq) return;   // the user moved on while this was in flight
 
     const view = refresh ? captureView(main) : null;
@@ -1371,12 +1440,8 @@ async function loadStream(streamId, refresh = false) {
       document.getElementById('streamTitle').textContent = meta.title;
     }
 
-    const events    = parseJSONL(eventsText);
     const snapshots = events.filter(e => e.event === 'viewer_snapshot');
     const donations = events.filter(e => e.event === 'donation');
-    // Removals / timeouts / inferred unbans the collector recorded. Same file, no
-    // extra fetch; drops rows with no username (see normalizeModeration).
-    const moderation = normalizeModeration(events);
 
     const startTs   = meta.start_ts;
     const endTs     = meta.end_ts;
@@ -1629,7 +1694,21 @@ async function loadStream(streamId, refresh = false) {
         if (ev.moderator) parts.push(`by ${ev.moderator}`);
         if (ev.reason)    parts.push(ev.reason);
         const note   = parts.join(' · ');
-        const msg    = note ? `<span class="msg-cell" title="${note.replace(/"/g,'&quot;')}">${escHtml(note)}</span>` : '';
+        // The user's last words come FIRST: they are the only thing that says
+        // why the moderation happened.
+        const cells  = [];
+        const last   = ev.lastMessage;
+        if (last && last.text) {
+          const delta = Math.max(0, Math.round(ev.ts - last.ts));
+          // fmtDuration is minute-grained, and most of these land seconds
+          // before the event -- so use modDuration's seconds under a minute.
+          const ago   = delta < 60 ? (modDuration(delta) || '0s') : fmtDuration(delta);
+          const noun  = ev.type === 'removed' ? 'removal' : label.toLowerCase();
+          const tip   = `last message ${ago} before the ${noun}`;
+          cells.push(`<span class="msg-cell mod-last-msg" title="${escHtml(tip)}">“${escHtml(String(last.text))}”</span>`);
+        }
+        if (note) cells.push(`<span class="msg-cell" title="${escHtml(note)}">${escHtml(note)}</span>`);
+        const msg    = cells.join(' · ');
         return `<tr data-evtype="${escHtml(evType)}">
           <td class="ts-cell">${tsLink(ev.ts, elapsedText(ev.ts))}</td>
           <td><span class="username">${escHtml(String(ev.username || '').replace(/^@+/, ''))}</span></td>
