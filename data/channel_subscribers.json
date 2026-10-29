@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1792729640,
+  "updated_ts": 1793236413,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -115,6 +115,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+    },
+    {
+      "ts": 1793236293,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651"
     }
   ]
 }
