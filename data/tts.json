@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1792729622,
+  "updated_ts": 1793236391,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -523,10 +523,11 @@
     "is_the_new_castlevania_worth_the_hype_jkb_streams_2026-10-16_204733",
     "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
-    "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+    "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
+    "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651"
   ],
   "commands": {
-    "xijinping": 226,
+    "xijinping": 228,
     "biden": 90,
     "witch": 562,
     "spooky": 71,
@@ -535,10 +536,10 @@
     "asmr": 171,
     "obama": 69,
     "confirmed": 2,
-    "warmy": 609,
+    "warmy": 611,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 555,
+    "trump": 557,
     "girlfriend": 80,
     "story": 1,
     "forrest": 199,
@@ -548,20 +549,20 @@
     "glorious": 97,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 401,
-    "bob": 1338,
+    "dsp": 402,
+    "bob": 1342,
     "jkb": 114,
     "glados": 189,
     "king": 1,
-    "pirate": 114,
+    "pirate": 115,
     "jay": 15,
     "weeknd": 10,
-    "zerotwo": 164,
+    "zerotwo": 167,
     "grandpa": 41,
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 41,
+    "knuckles": 42,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -570,7 +571,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 130,
+    "pooh": 136,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -601,7 +602,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 54,
+    "narrator": 55,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -647,7 +648,7 @@
     "request": 1,
     "sagiri": 3,
     "vomit": 17,
-    "eminem": 10,
+    "eminem": 11,
     "announcer": 7,
     "hal9000": 6,
     "linus": 11,
@@ -875,16 +876,16 @@
     "foods": 1
   },
   "sounds": {
-    "fart": 1142,
+    "fart": 1144,
     "burp": 62,
     "laughter": 2,
     "boowomp": 40,
-    "pants_unzip": 117,
+    "pants_unzip": 118,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
     "gta_mission_pass": 12,
-    "peeing": 80,
+    "peeing": 81,
     "evil_laugh": 28,
     "i_see_you": 33,
     "goofy_yell": 36,
@@ -900,7 +901,7 @@
     "spiderman": 11,
     "smw_stomp": 15,
     "disgusting": 9,
-    "phone_vibrate": 7,
+    "phone_vibrate": 8,
     "uwu": 69,
     "drinking_2": 16,
     "augh": 26,
@@ -6208,9 +6209,319 @@
       "segments": null,
       "source_vod_id": "DlucVyCNmY8",
       "source_platform": "youtube"
+    },
+    "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651": {
+      "title": "JKB HAS RETURNED! HALLOWEEN COUNTDOWN! \ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1793215611,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "PVE3Nz2GzEI",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1793234689,
+      "username": "@violationentertainment",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793233858,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Narrator: it is time to prepare your anuses. Aaaaa",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793233705,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "if Ashley wants 2 come, just use a (phone_vibrate)",
+      "commands": [],
+      "sounds": [
+        "phone_vibrate"
+      ]
+    },
+    {
+      "ts": 1793232055,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Bob: phuck you! Thats Y I fired your ass. EeeeeEe!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793230740,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "So, are they really coming on the stream? (peeing)",
+      "commands": [],
+      "sounds": [
+        "peeing"
+      ]
+    },
+    {
+      "ts": 1793229544,
+      "username": "@tdub2113",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Dsp: almost time for JKB tries it. Please tell us how tangy and robust those wings are. *HEHEM*",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793229255,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Warmy: Everyone is cancelled thank you",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793226006,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Eminem: Anxiety and depression. It\u2019s all in your head. Makin you panic like you\u2019re already dead. Beat down that feeling and get on with some healing!",
+      "commands": [
+        "eminem"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793225990,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "bob: breasts",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793225212,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "I have something to warm your mouth (pants_unzip)",
+      "commands": [],
+      "sounds": [
+        "pants_unzip"
+      ]
+    },
+    {
+      "ts": 1793223942,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Boochy is master bating to Ashley right now (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793223415,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Knuckles: So what you\u2019re saying is that you\u2019re going to be surrounded by lot of pussies on Halloween? Trump: Just make sure to grab a few of them!",
+      "commands": [
+        "knuckles",
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793219611,
+      "username": "@violationentertainment",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Pooh: :beaver::hole::beaver::hole::beaver::hole::beaver::hole::beaver::hole::beaver::hole::beaver::hole::beaver::hole::beaver::hole::beaver::hole:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793218426,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Pooh::banana::chicken::banana::chicken::banana::chicken::banana::chicken::banana::chicken::banana::chicken::banana::chicken::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793217603,
+      "username": "@rtusburritoeattingbrother",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "bob: Listen, kiss me on my. Tipples! ahhhhhhhhhhhh",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216690,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "pooh: :flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight::flashlight:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216636,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Pirate: Aye, as penance, ye must restartda stream!",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216616,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "zerotwo: :banana:\u30d0\u30c3\u30c8\u30c1\u30fc\u30af:banana:\u30d0\u30c3\u30c8\u30c1\u30fc\u30af:banana:\u30d0\u30c3\u30c8\u30c1\u30fc\u30af:banana:\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u3000\u30aa\u30fc\u30ac\u30b5\u30e0 \u30d6\u30a5\u30a5\u30a5\u30a5\u30d3",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216435,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Bob: Am I late to the stream? Or are you early?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216406,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "xijinping: asss! butt! anal! buttcheeks! hentai!",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216295,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "zerotwo: \u30d6\u30d0\u30d6\u30fc\u30d0\u30fc\u30d6\u30fc\u30d0\u30fc\u30d6\u30fc\u30d0\u30fc\u30d6\u30fc\u30d0\u30fc\u30d6\u30fc\u30d0\u30fc\u30d6\u30fc\u30d0\u30fc\u30d6\u30fc\u30d0\u3063\u30c7\u30a3\u30fc\u30ba\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30ba",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216246,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Warmy: Jay is dating Hila Klein",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216142,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "xijinping: tits tits tits tits tits tits nipples :banana:",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216116,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "pooh: :ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793216054,
+      "username": "@Twizty360",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "Trump: 24 Months, The Ocarina of Time are streaming over the Border, absolutely bigly Tremendous",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793215994,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "pooh: I'm here :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::monkey::monkey::monkey::banana::banana::banana::banana::monkey::banana::monkey::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793215938,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+      "message": "zerotwo: \u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9\u3000\u30a2\u30c3\u30b9(fart)",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
     {
       "ts": 1792728761,
       "username": "@rtusburritoeattingbrother",
