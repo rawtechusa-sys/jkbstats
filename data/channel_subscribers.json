@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793236413,
+  "updated_ts": 1793321614,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -121,6 +121,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651"
+    },
+    {
+      "ts": 1793321507,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
     }
   ]
 }
