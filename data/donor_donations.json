@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793236397,
+  "updated_ts": 1793321600,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -524,7 +524,8 @@
     "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
-    "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651"
+    "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5755,6 +5756,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "PVE3Nz2GzEI",
+      "source_platform": "youtube"
+    },
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636": {
+      "title": "JKB CRASHOUT HALLOWEEN EDITION \ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1793306796,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "GOJxGk0M66k",
       "source_platform": "youtube"
     }
   },
@@ -11416,6 +11427,22 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1793318213,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: Asian men on stage again offended(fart)",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317865,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30c7\u30a3\u30c3\u30af\u3000\u30d7\u30c3\u30bb\u3043\u3000\u30dc\u30fc\u30eb\u30ba\u3000\u30d6\u30fc\u30d3\u30fc\u30ba\u3000\u30cb\u30c3\u30d7\u30eb\u3000\u30a2\u30c3\u30b9\u3000:banana::banana::banana::banana::strawberry::banana::fried_shrimp::banana::pile_of_poo::banana::pile_of_poo:",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793216616,
         "type": "superchat",
@@ -45051,6 +45078,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1793307285,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "this sucks",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1792710956,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -51312,6 +51347,14 @@
       }
     ],
     "Jayhooft": [
+      {
+        "ts": 1793316073,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1792624380,
         "type": "giftmembership",
@@ -63371,6 +63414,30 @@
     ],
     "towerdragon4487": [
       {
+        "ts": 1793307726,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The crazy thing is will Wheaton is almost the same age. Patrick Stewart was when he started the next Generation",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307427,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Two Star Trek deaths in one week. Crazy. Someone better protect William and George, and don't you dare touch Sir Ian McKellen.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307170,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "R. I. P Patrick Stewart, thank you for the memories",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793216690,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -74601,6 +74668,14 @@
     ],
     "Billy-Dillinger": [
       {
+        "ts": 1793317599,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1792712955,
         "type": "superchat",
         "amount_usd": 10.0,
@@ -77076,6 +77151,38 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1793317408,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316249,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I look forward to scaring the fuck out of everyone tomorrow with my TTS chats. Demon summoning and off the rails chaos inbound. Stay tuned :ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost::ghost:",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793309825,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: The bass loud. You feel the heat now? You ain't seen nothing baby I'm about crash out. Now touch my channel. EeEeEeEeEeEeAaAaAaAaAaAaAa.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307729,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Listen I have been busy doing Halloween stuff so I missed several streams. Regardless I am here for the Halloween streams now and RIP to all the celebrity figurea gone. Tragic to see deaths like this.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1791941094,
         "type": "superchat",
@@ -83902,6 +84009,14 @@
       }
     ],
     "jaquanbutler148": [
+      {
+        "ts": 1793320071,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 16 months",
+        "message": "Joined!",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1784147286,
         "type": "membership",
@@ -97748,6 +97863,30 @@
       }
     ],
     "BansheeTK": [
+      {
+        "ts": 1793320677,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "He gives it the ok grip & treats it like a nubgina",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793309422,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "U can shove that in ur shitter to start phuck face",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793309391,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793223886,
         "type": "superchat",
@@ -119119,6 +119258,38 @@
     ],
     "Juicyb00ch": [
       {
+        "ts": 1793320992,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": ":sweat_droplets:",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319766,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319648,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Buzzing like a fridge",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318722,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1792721484,
         "type": "superchat",
         "amount_usd": 19.99,
@@ -126810,6 +126981,54 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1793321378,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "remember that one time you phucked a fat ghost?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793321232,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You'r orgasming with the Boo Baddies til midnight?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319817,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "hav u ever gotten so drunk that you vomit: barfed?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319272,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Did U know that Zelda master baits while u sleep?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317492,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Was that your fawk face? Yikes! Those poor women",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316298,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: no! Canadian women R drop dead ugly (fart)",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793233705,
         "type": "superchat",
@@ -153397,6 +153616,22 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1793312612,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307664,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "always go up to the celebrity table at a convention, ask if you can talk to the celeb even if you're not buying a singature just so you can thank em.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793235133,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -159468,6 +159703,38 @@
       }
     ],
     "trollmctrollington3693": [
+      {
+        "ts": 1793318760,
+        "type": "superchat",
+        "amount_usd": 2.51,
+        "amount_raw": "CA$3.50",
+        "message": "Just be Thickolas Cage for that goodness",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317649,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317558,
+        "type": "superchat",
+        "amount_usd": 2.51,
+        "amount_raw": "CA$3.50",
+        "message": "Once stay you know",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317298,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "Used Gamy vaped meat from vapist enjoy the hot lava down the shoot",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1792536298,
         "type": "superchat",
@@ -171323,6 +171590,14 @@
     ],
     "rtusburritoeattingbrother": [
       {
+        "ts": 1793310276,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "forest: My Zelda Special addition Switch 2 confirmed from Nintendo. Listen I'm coming in my overalls. Love that thick Canadian Cawk.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793217603,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -178378,6 +178653,22 @@
       }
     ],
     "seales8414": [
+      {
+        "ts": 1793316185,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Do you guys wanna hang out in the discord In an hour and a half it's so what would you guys like to see the sega store? The nintendo store or use game",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793311524,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "if jkb get 10 gifted membership in next 30 minutes i will do a video of a mystery bath bomb, have a Pok\u00e9mon toy. or DBZ Review and jkb can show it",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793216007,
         "type": "superchat",
@@ -190861,6 +191152,30 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1793317568,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793315120,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "DEAD AIR",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307474,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Screw Shitner protect George at all costs",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793232166,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -193558,6 +193873,30 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1793308814,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen, lets buy a bigger church, move into it, turn it into a bachelor pad, get no women to come over because we are weird, then eat sad cheesecake.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307656,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307479,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "We are getting old",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793232383,
         "type": "superchat",
@@ -208971,6 +209310,30 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1793319315,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Midnight Zelda release plans or na?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317987,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "1 hour of drinking as much as you can",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793314505,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Halloween and new Zelda game in the next 7 days!!",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793232772,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -212588,6 +212951,14 @@
       }
     ],
     "AllenJones97": [
+      {
+        "ts": 1793317157,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1791089396,
         "type": "giftmembership",
@@ -216768,6 +217139,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1793307273,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "RIP Patrick Stewart, he will be missed \ud83c\uddec\ud83c\udde7",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793216246,
         "type": "superchat",
@@ -224132,6 +224511,54 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1793320002,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay did you like the movie 8 millimeter?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319553,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Jay, do you think Nintendo will ues AI for games? Given that they protect their I.P and are known for original games. They might go traditional style",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319273,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, you look cute with your plastic son",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319084,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317876,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen, my wife is a gourmet subway sandwich",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317528,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793234485,
         "type": "superchat",
@@ -239997,6 +240424,14 @@
     ],
     "marihdimitri7219": [
       {
+        "ts": 1793318833,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1792195139,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -242048,6 +242483,14 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1793307934,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Lois! Lois! Lois! Lois! Lois! Mom! Mom! Mom! Mommy! Mommy! Mommy! Mama! Mama! Mama! Ma! Ma! Ma! Ma! Mum! Mum! Mum! Mum! Mummy! Mummy! Mumma! Mumma!",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793221640,
         "type": "superchat",
@@ -246969,6 +247412,22 @@
     ],
     "My_Paradoxical_Me": [
       {
+        "ts": 1793309170,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793308686,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Hey Jay I got some exciting news. The Zelda Switch 2 case should be arriving today plus I finally got approved for my fiancee visa to the UK! So the wedding is still on for February :_JKBJaysus:",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1792710019,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -249516,6 +249975,14 @@
       }
     ],
     "bammersvabamm822": [
+      {
+        "ts": 1793316363,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 27 months",
+        "message": "If ones comes over on Halloween and wears a lot lizard dress and heels, Veal Sandwiches all around. :shrimp::shrimp::shrimp::shrimp::shrimp::shrimp::shrimp::shrimp::shrimp::shrimp:",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1791414292,
         "type": "membership",
@@ -270735,6 +271202,14 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1793309362,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen I messaged Rich yesterday and he said he quit the stream because of Jay Hooft. He also quit Ozempic.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793222971,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -272258,6 +272733,134 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1793319867,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I believe Rich is at the Indian mans setup",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319302,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Do you and vapist share joint custody of ghost vapist",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318954,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I believe the Indian man sent you a video",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318458,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Actually it Jay S P",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318409,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "No one is holding Boo Daddy Jay hostage",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317824,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "What do you like better pizza or submarine sandwiches? JaySP",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317754,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "calm down there DSP",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317676,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Drunk seconds are longer than normal seconds",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317568,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317327,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Imagine if the say ghost vapist is possessed",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317137,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316729,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If he brought you real wings you would be powerbombed through the table",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316612,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I forgot... 2 from the man in India",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316365,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Are we going to hit 1k with the Boo Baddies",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316174,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ban Jay.. he is drunk gifting",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316105,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How is it going Boo Daddy Jay",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793233349,
         "type": "superchat",
@@ -278909,6 +279512,14 @@
     ],
     "joshuarees7061": [
       {
+        "ts": 1793310194,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793225070,
         "type": "membership",
         "amount_usd": 1.99,
@@ -281973,6 +282584,78 @@
     ],
     "unclemike84": [
       {
+        "ts": 1793317538,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316154,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793314924,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vega: Sent you the applause SFX. Congratulations.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793312191,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: Please stand by. Jay is very confused.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793312081,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Girlfriend: Toilet paper made out of cats?! OMG!",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793309623,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "What\u2019s happening? Bob: What\u2019s happening? Vega: What\u2019s happening? Girlfriend: What\u2019s happening? Trump: What\u2019s happening? Spooky: What\u2019s happening? Eeee",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793309279,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Bob: Ahhhh, need thos gifted subs in all my holes.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793308097,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Girlfriend: Need that controller in all my holes.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307974,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vega: Patrick Stewart reached the final frontier.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793233858,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -285024,6 +285707,94 @@
       }
     ],
     "Gamermeetsworld": [
+      {
+        "ts": 1793321070,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I may not super chat you, until November",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319935,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Here we go again with the movies fuck",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317086,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "My friends wife passed away today I will dress up as her for Halloween",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316949,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I may not be able to stream till November",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316864,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Cat wings",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316057,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Are Canadian women beautiful?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793313517,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Are you also part Buddhist? Because you are missing some hair",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793313197,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Four Thursdays till thanksgiving",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793312713,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Oh do that comb thing with the cat",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793308832,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Wow !!! I just googled old actors still alive.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793306855,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "First super chat",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1792709797,
         "type": "superchat",
@@ -288328,6 +289099,30 @@
       }
     ],
     "dan_evilrobot": [
+      {
+        "ts": 1793310244,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "RIP Patrick Stewart. Can't believe he passed away.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793310089,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I'll be getting the new Evercade Nexus arrived sometime this week. And other Evercade games including Doom. Wish I ordered the collector's edition.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793309792,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793218113,
         "type": "superchat",
@@ -298815,6 +299610,14 @@
     ],
     "generalcarville": [
       {
+        "ts": 1793307409,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Walter Koenig aka Pavel Chekov and Patrick stewart have both passed away this month",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1791092113,
         "type": "membership",
         "amount_usd": 1.99,
@@ -301072,6 +301875,14 @@
       }
     ],
     "JQR0666": [
+      {
+        "ts": 1793307232,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Thank You Sir Patrick Stewart for years of Cinema",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1793228254,
         "type": "superchat",
@@ -307437,6 +308248,70 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1793317609,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317368,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316866,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793314541,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Don\u2019t have a stream plan. Just read every chat",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793310751,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Actually new goal If you hit month goal I\u2019m no mod",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793308400,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Girlfriend: You better not flirt with boo badies",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307899,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I may buy subs. But at least I have leg muscles.",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793307722,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 11 months",
+        "message": "How\u2019d you know I got a submarine sandwich today? You\u2019re creepy. I love you. But hate you. You\u2019re a man. But a child. Listen show me games and dolls",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
         "ts": 1793233864,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -308382,6 +309257,14 @@
       }
     ],
     "ReviewLotLizardsUSA": [
+      {
+        "ts": 1793319292,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I heard lot lizard roast beef was on the menu?",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
       {
         "ts": 1792723106,
         "type": "superchat",
@@ -331939,6 +332822,156 @@
         "amount_raw": "W",
         "message": "sent W",
         "stream_id": "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634"
+      }
+    ],
+    "Devilslayer117": [
+      {
+        "ts": 1793315652,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      }
+    ],
+    "WingsOfReviewTechUSA": [
+      {
+        "ts": 1793321312,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "u learned from me promise extra now dont deliver",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793320658,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Wow Kaynubbs you are worse than me cross faded huh",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319123,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I need to learn from u u let people forget the real world and relax, meanwhile I remind people how horrible my country is with politics and spew hate",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318722,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I wish my parents wouldnt bother me when I stream 2 I feel your pain they are so annoying actually expecting me to be responsible",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318278,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "do not worry, michelle so gucci will not be coming back here, i took inspiration from wings of redemption and power boomed her into a table",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318099,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "its a PP extention device not an attachment",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793318000,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "as kino would tell me. Suffah Jay Suffah!",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317794,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "its me rich there is no redemption for me",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317731,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Jay like me you hit the goal and have to suffer like I do each time I hit a goal I pray i dont hit. all they do is complain of my politics",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317441,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "why couldnt you guys send memberships last night to me? they are only 1.99 you can afford it. its just a cup of coffee how dare you gift here 4 more",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317318,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317283,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "take my viewers from me as I scare them off",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793317114,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I am only streaming on Nov 3rd to my viewers because they pissed me off, they dont want politics so I am going to shove it down their throats",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793316999,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "fine now I am not streaming till december",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      }
+    ],
+    "penzomania4427": [
+      {
+        "ts": 1793320780,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Floating heart",
+        "message": "sent Floating heart",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319324,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Gold coin",
+        "message": "sent Gold coin",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      },
+      {
+        "ts": 1793319284,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
       }
     ]
   }
