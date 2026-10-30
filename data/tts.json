@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1793236391,
+  "updated_ts": 1793321596,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -524,13 +524,14 @@
     "is_ai_jailbreaking_killing_gaming_jkb_streams_2026-10-20_200400",
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
-    "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651"
+    "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
   ],
   "commands": {
-    "xijinping": 228,
+    "xijinping": 229,
     "biden": 90,
     "witch": 562,
-    "spooky": 71,
+    "spooky": 72,
     "trickster": 103,
     "kratos": 25,
     "asmr": 171,
@@ -539,8 +540,8 @@
     "warmy": 611,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 557,
-    "girlfriend": 80,
+    "trump": 559,
+    "girlfriend": 84,
     "story": 1,
     "forrest": 199,
     "point": 1,
@@ -550,14 +551,14 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 402,
-    "bob": 1342,
+    "bob": 1345,
     "jkb": 114,
     "glados": 189,
     "king": 1,
     "pirate": 115,
     "jay": 15,
     "weeknd": 10,
-    "zerotwo": 167,
+    "zerotwo": 168,
     "grandpa": 41,
     "dreamcast": 118,
     "membership": 1,
@@ -576,7 +577,7 @@
     "dramatic": 23,
     "wings": 1,
     "baby": 40,
-    "forest": 2,
+    "forest": 3,
     "stewiegriffin": 4,
     "chewbacca": 9,
     "doom": 59,
@@ -602,7 +603,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 55,
+    "narrator": 56,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -642,12 +643,12 @@
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
-    "vega": 4,
+    "vega": 7,
     "narator": 1,
     "optimus_prime": 7,
     "request": 1,
     "sagiri": 3,
-    "vomit": 17,
+    "vomit": 18,
     "eminem": 11,
     "announcer": 7,
     "hal9000": 6,
@@ -876,7 +877,7 @@
     "foods": 1
   },
   "sounds": {
-    "fart": 1144,
+    "fart": 1146,
     "burp": 62,
     "laughter": 2,
     "boowomp": 40,
@@ -6219,9 +6220,181 @@
       "segments": null,
       "source_vod_id": "PVE3Nz2GzEI",
       "source_platform": "youtube"
+    },
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636": {
+      "title": "JKB CRASHOUT HALLOWEEN EDITION \ud83d\udc7b\ud83c\udf83 | JKB Streams",
+      "start_ts": 1793306796,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "GOJxGk0M66k",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1793319817,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "hav u ever gotten so drunk that you vomit: barfed?",
+      "commands": [
+        "vomit"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793318213,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "xijinping: Asian men on stage again offended(fart)",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793317865,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "zerotwo: \u30c7\u30a3\u30c3\u30af\u3000\u30d7\u30c3\u30bb\u3043\u3000\u30dc\u30fc\u30eb\u30ba\u3000\u30d6\u30fc\u30d3\u30fc\u30ba\u3000\u30cb\u30c3\u30d7\u30eb\u3000\u30a2\u30c3\u30b9\u3000:banana::banana::banana::banana::strawberry::banana::fried_shrimp::banana::pile_of_poo::banana::pile_of_poo:",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793316298,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Trump: no! Canadian women R drop dead ugly (fart)",
+      "commands": [
+        "trump"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793314924,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Vega: Sent you the applause SFX. Congratulations.",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793312191,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Narrator: Please stand by. Jay is very confused.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793312081,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Girlfriend: Toilet paper made out of cats?! OMG!",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793310276,
+      "username": "@rtusburritoeattingbrother",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "forest: My Zelda Special addition Switch 2 confirmed from Nintendo. Listen I'm coming in my overalls. Love that thick Canadian Cawk.",
+      "commands": [
+        "forest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793309825,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "bob: The bass loud. You feel the heat now? You ain't seen nothing baby I'm about crash out. Now touch my channel. EeEeEeEeEeEeAaAaAaAaAaAaAa.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793309623,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "What\u2019s happening? Bob: What\u2019s happening? Vega: What\u2019s happening? Girlfriend: What\u2019s happening? Trump: What\u2019s happening? Spooky: What\u2019s happening? Eeee",
+      "commands": [
+        "bob",
+        "vega",
+        "girlfriend",
+        "trump",
+        "spooky"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793309279,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Bob: Ahhhh, need thos gifted subs in all my holes.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793308400,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Girlfriend: You better not flirt with boo badies",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793308097,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Girlfriend: Need that controller in all my holes.",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793307974,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+      "message": "Vega: Patrick Stewart reached the final frontier.",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1793234689,
       "username": "@violationentertainment",
