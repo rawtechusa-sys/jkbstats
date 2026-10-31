@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1793321596,
+  "updated_ts": 1793419459,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -525,7 +525,8 @@
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
-    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
   ],
   "commands": {
     "xijinping": 229,
@@ -534,32 +535,32 @@
     "spooky": 72,
     "trickster": 103,
     "kratos": 25,
-    "asmr": 171,
+    "asmr": 178,
     "obama": 69,
     "confirmed": 2,
     "warmy": 611,
     "emoguy": 19,
     "baymax": 132,
-    "trump": 559,
-    "girlfriend": 84,
+    "trump": 562,
+    "girlfriend": 86,
     "story": 1,
-    "forrest": 199,
+    "forrest": 201,
     "point": 1,
     "kid": 1,
     "batman": 8,
     "glorious": 97,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 402,
-    "bob": 1345,
+    "dsp": 403,
+    "bob": 1352,
     "jkb": 114,
     "glados": 189,
     "king": 1,
     "pirate": 115,
     "jay": 15,
     "weeknd": 10,
-    "zerotwo": 168,
-    "grandpa": 41,
+    "zerotwo": 169,
+    "grandpa": 42,
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
@@ -572,7 +573,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 136,
+    "pooh": 137,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -580,7 +581,7 @@
     "forest": 3,
     "stewiegriffin": 4,
     "chewbacca": 9,
-    "doom": 59,
+    "doom": 60,
     "qtv": 29,
     "dream": 54,
     "alto": 14,
@@ -595,7 +596,7 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 97,
+    "alanwake": 100,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -874,19 +875,20 @@
     "yacht": 1,
     "security": 1,
     "xijnping": 1,
-    "foods": 1
+    "foods": 1,
+    "narrrator": 1
   },
   "sounds": {
-    "fart": 1146,
+    "fart": 1152,
     "burp": 62,
     "laughter": 2,
-    "boowomp": 40,
+    "boowomp": 41,
     "pants_unzip": 118,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
     "gta_mission_pass": 12,
-    "peeing": 81,
+    "peeing": 82,
     "evil_laugh": 28,
     "i_see_you": 33,
     "goofy_yell": 36,
@@ -901,7 +903,7 @@
     "ripping": 48,
     "spiderman": 11,
     "smw_stomp": 15,
-    "disgusting": 9,
+    "disgusting": 10,
     "phone_vibrate": 8,
     "uwu": 69,
     "drinking_2": 16,
@@ -6230,9 +6232,430 @@
       "segments": null,
       "source_vod_id": "GOJxGk0M66k",
       "source_platform": "youtube"
+    },
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132": {
+      "title": "LIVE PARANORMAL INVESTIGATION \ud83d\udc7bJKB X BOO BADDIES",
+      "start_ts": 1793394692,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "UXdRS9VW4BI",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1793418070,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Trump: Jay is jacking off. Proud American Gooner!",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793417530,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Goodbye. J's gonna pump big loads tonight (peeing)",
+      "commands": [],
+      "sounds": [
+        "peeing"
+      ]
+    },
+    {
+      "ts": 1793417332,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "asmr: Let the ghosts watch you sleep. Take care.",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793417023,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Bob: I have ectoplasm N my little wiener. AAaaaaa!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793414055,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "keep it open. asmr: that's what he said (boowomp)",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": [
+        "boowomp"
+      ]
+    },
+    {
+      "ts": 1793413450,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Forrest: Raw Dakota, get drunk & puke on Jay's ass",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793413296,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "zerotwo: \u30b5\u30bf\u30f3\u4e07\u6b73\u3001\u3042\u306e\u6559\u4f1a\u306b\u53d6\u308a\u6191\u3051",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793413132,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "grandpa: There are some scary ghost energies here",
+      "commands": [
+        "grandpa"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793412628,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "asmr: My inner demons are scarier than the ghosts",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793412560,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "I'm having fun. Also I just ripped a big (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793411870,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "girlfriend: Hey ghosts lets pet the kitty for Jay",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793411691,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "asmr: Ghosts are inside the cat. MeOw.",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793410831,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Forrest: My ass was torn asunder by a BBC. Oh gawd",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793409458,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "If U R nauseous its cuz J didn't wash (disgusting)",
+      "commands": [],
+      "sounds": [
+        "disgusting"
+      ]
+    },
+    {
+      "ts": 1793409200,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "bob: also, is there a micro penis ghost detected?",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793409149,
+      "username": "@ReviewLotLizardsUSA",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Bob: I'm here how did she know?!!!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793409099,
+      "username": "@PhilsLostDoorDashShrimp",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Bob: can you sense any lot lizards around the area",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793408076,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Narrrator: No need to be nervous ladies. We are a very respectable bunch that would never say anything offensive. Ever. Promise. Seriously though.",
+      "commands": [
+        "narrrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793407566,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Doom: beep beep I'm here behind you my friend",
+      "commands": [
+        "doom"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793407436,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Girlfriend: Jay! We\u2019re here! Open the door asshole",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793406884,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Alanwake: Cats are able to see things we cannot.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793406650,
+      "username": "@violationentertainment",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Pooh: :falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793406056,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "asmr: Let the demons in. Let them in. Let them in.",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793405981,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Trump: try too summon the ghost of Jeffery epstein he will exonerate me. I never knew the guy believe me.",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793405869,
+      "username": "@Ryft7",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Trump: it\u2019s me Jay iam speaking to you from beyond",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793405277,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "bob: Ghost disturbance detected! (fart)",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793404382,
+      "username": "@BansheeTK",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "(fart) Sorry, it was ghost vapist. I had to let one rip before the ghost girls came, and not in that way, didnt want to shart in front of spoosy",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793404105,
+      "username": "@WingsOfReviewTechUSA",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Bob: You have angered the ghost of my career",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793403911,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Listen ghosts you have my permission to possess Jay and make him dress up as Rich to scare off the guests. bob: Also talk about DSP and Politics",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793403555,
+      "username": "@Destruktor1111",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "dumpster fire incoming. (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793403109,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Alanwake: At that moment, Jay realized he was royally and truly screwed, but not in good way, by three hot mediums. This night would be terrifying.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793402301,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "dsp: Listen come haunt me for memberships lets go",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793396949,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Alanwake: As Jay sat in a Lot Lizard dress waiting for 3 hot mediums to show up at his house, he started to question his life choices and regrets. Aaa",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793396838,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Bob:I can\u2019t control myself if you wear that (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793396204,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "asmr: boobs boobs boobs",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793396148,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "asmr: Its my time to shine and scare :ghost::ghost::ghost::ghost::ghost::ghost:",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793395879,
+      "username": "@Generic_White_Male",
+      "platform": "youtube",
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "message": "Ghosts and hot women. Lets go (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
     {
       "ts": 1793319817,
       "username": "@Night_Breaker",
