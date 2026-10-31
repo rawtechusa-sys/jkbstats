@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793321600,
+  "updated_ts": 1793419463,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -525,7 +525,8 @@
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
-    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5766,6 +5767,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "GOJxGk0M66k",
+      "source_platform": "youtube"
+    },
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132": {
+      "title": "LIVE PARANORMAL INVESTIGATION \ud83d\udc7bJKB X BOO BADDIES",
+      "start_ts": 1793394692,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "UXdRS9VW4BI",
       "source_platform": "youtube"
     }
   },
@@ -11428,6 +11439,22 @@
     ],
     "oni5498": [
       {
+        "ts": 1793405277,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "bob: Ghost disturbance detected! (fart)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403433,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "I think you need to phuck them!!!!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793318213,
         "type": "superchat",
         "amount_usd": 2.7,
@@ -17079,6 +17106,30 @@
       }
     ],
     "DrummerCream": [
+      {
+        "ts": 1793408038,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "ignore the degens in chat. Be nice chat!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793405537,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "it's horny for the woman cumming good fucking",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793398206,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "I\u2019m poor and horny who needs woman when you got jays ass hole",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1790898839,
         "type": "superchat",
@@ -40596,6 +40647,14 @@
     ],
     "DarthOmegas": [
       {
+        "ts": 1793396416,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":camera:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1792616511,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -45077,6 +45136,54 @@
       }
     ],
     "DougSavona": [
+      {
+        "ts": 1793416863,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793416334,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "where is the beast",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411545,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "night breaker wins j",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409928,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "is Ones2cents gay",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409191,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "welcome to jays gooners corner",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793406767,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793307285,
         "type": "superchat",
@@ -51348,6 +51455,14 @@
     ],
     "Jayhooft": [
       {
+        "ts": 1793400024,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793316073,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -55605,6 +55720,30 @@
       }
     ],
     "doodystreams": [
+      {
+        "ts": 1793419270,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Tug one for ashley's pooper",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417053,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I apologize. DSP is extra boring tonight and i love giving Jay a hard time. Btw MILFs are the best! Big ups",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793416511,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Im sorry for triggering that. I was just kidding Boo-bs girl. you guys seem chill and fun. Do you make meaningful content?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1792532793,
         "type": "superchat",
@@ -63413,6 +63552,30 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1793407566,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Doom: beep beep I'm here behind you my friend",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793405981,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Trump: try too summon the ghost of Jeffery epstein he will exonerate me. I never knew the guy believe me.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404086,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Where are the women?????",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793307726,
         "type": "superchat",
@@ -77152,6 +77315,158 @@
     ],
     "SpooksterVibes": [
       {
+        "ts": 1793417332,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: Let the ghosts watch you sleep. Take care.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793413132,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "grandpa: There are some scary ghost energies here",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793412628,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: My inner demons are scarier than the ghosts",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411870,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "girlfriend: Hey ghosts lets pet the kitty for Jay",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411691,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: Ghosts are inside the cat. MeOw.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411565,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Tell the ghosts they owe me 20 dollars",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409264,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay don't forget about the attic ghosts",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409114,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "O Satana, tibi licentiam do hos hospites amabiles possidendi atque Jay cultro interficiendi; in gloriam Satanae. Amen.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793406056,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: Let the demons in. Let them in. Let them in.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404434,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "O daemones gloriosi, benedicite hanc domum in nomine Satanae, et parate culos vestros ad foramina spectrorum.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403911,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen ghosts you have my permission to possess Jay and make him dress up as Rich to scare off the guests. bob: Also talk about DSP and Politics",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403088,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Lets Jesus fuck you in the name of satan amen",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793402301,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: Listen come haunt me for memberships lets go",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793402088,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I think if those people canceling Freddy watched this stream they would die of shock LOL.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397548,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ghosts find hosts to eat toast sitting on scroats",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397239,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can I ask them to summon demons in my name?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396148,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: Its my time to shine and scare :ghost::ghost::ghost::ghost::ghost::ghost:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396090,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793395183,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I want all my ghost friends to rise up and show the demons living there a good time. They call it devils night for a reason so lets get spooky :ghost::ghost::ghost::ghost::ghost::ghost::ghost:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793317408,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -84595,6 +84910,14 @@
       }
     ],
     "Gothy_Senpai": [
+      {
+        "ts": 1793407188,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "GG gravestone",
+        "message": "sent GG gravestone",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793221543,
         "type": "superchat",
@@ -97864,6 +98187,38 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1793408187,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Welcome to the Jungle. It's all fun n games",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404382,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "(fart) Sorry, it was ghost vapist. I had to let one rip before the ghost girls came, and not in that way, didnt want to shart in front of spoosy",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396486,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Got paid today, wanted to give back a bit because I appreciate your bday gift to me, along with some other stuff as well in past. Appreciate you",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396411,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793320677,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -103217,6 +103572,14 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1793417130,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "hey siri play disco duck",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793230450,
         "type": "superchat",
@@ -111065,6 +111428,14 @@
       }
     ],
     "Generic_White_Male": [
+      {
+        "ts": 1793395879,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Ghosts and hot women. Lets go (fart)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1792704394,
         "type": "superchat",
@@ -119258,6 +119629,30 @@
     ],
     "Juicyb00ch": [
       {
+        "ts": 1793418228,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418137,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793408080,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Cats",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793320992,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -126178,6 +126573,22 @@
     ],
     "jaieroc": [
       {
+        "ts": 1793413902,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793401790,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793219607,
         "type": "membership",
         "amount_usd": 1.99,
@@ -126981,6 +127392,174 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1793418700,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "& by still hurts a bit, Murray means her feelings",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418413,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Every Ashley I've ever met was a hottie. :banana::hot_face::banana::hot_face:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418070,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: Jay is jacking off. Proud American Gooner!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417870,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Also true. I can testify! Also, Ones dik is bigger",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417736,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "It's true! I watch Ones plow Jay on the regular",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417530,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Goodbye. J's gonna pump big loads tonight (peeing)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417243,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "night, ladies. Make sure J doesn't follow you home",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417023,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: I have ectoplasm N my little wiener. AAaaaaa!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793416023,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "After yall leave, J's gonna twerk 4 2 hours for us",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793414055,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "keep it open. asmr: that's what he said (boowomp)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793413450,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: Raw Dakota, get drunk & puke on Jay's ass",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793412560,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm having fun. Also I just ripped a big (fart)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411904,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Are any of the Boo Baddies into video games?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411530,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Thank you Ladies. You all are legends! Suck it J",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793410997,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Let it rip, Jay. I'm a grown man. I can take it!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793410831,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: My ass was torn asunder by a BBC. Oh gawd",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793410652,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "6.7 millimeters. Take out the microscope. Tiny dik",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409458,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "If U R nauseous its cuz J didn't wash (disgusting)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409200,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: also, is there a micro penis ghost detected?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793408619,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "sorry to inform you ladies, but Jay is the killer",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793408279,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Hi & welcome ladies, be at ease. Also Jay is gay",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793321378,
         "type": "superchat",
@@ -153616,6 +154195,30 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1793405061,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793402211,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793395378,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "fire it up fire it up!! did you see my pumpkin?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793312612,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -170292,6 +170895,30 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1793410952,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "flap flap flap",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793410730,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793395262,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "let the flaping commence. you know what to do boys",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793223268,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -171589,6 +172216,14 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1793405694,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "just got off work and was expecting poosie tisk",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793310276,
         "type": "superchat",
@@ -173359,6 +173994,46 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1793406355,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Yo ones is a good admin",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793405932,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Oh btw iam seekfreed",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793405869,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Trump: it\u2019s me Jay iam speaking to you from beyond",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793405817,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Trump:even ghost on the island deserve a good\u2026",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403090,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 15 months",
+        "message": "Hey Jay can I message you after the stream",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1792708720,
         "type": "superchat",
@@ -176388,6 +177063,14 @@
     ],
     "confusedsiren56": [
       {
+        "ts": 1793404093,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Jay I have a 5 hour train trip up to York in a fee hours for a fur meet",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1792619273,
         "type": "superchat",
         "amount_usd": 6.75,
@@ -178653,6 +179336,38 @@
       }
     ],
     "seales8414": [
+      {
+        "ts": 1793411185,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Let's not be weird and scare off the women's",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793410611,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "tell me what kind of reading you get off of me?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793405126,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I got a two hour train ride, so it's good u are on",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404994,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can the ghosts touch my anus lol",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793316185,
         "type": "superchat",
@@ -183315,6 +184030,38 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1793409847,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Did you ask them about my missing testicle",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793399974,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793399469,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ask the women about my ball",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793399309,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Enjoy a Thanksgiving meal out of my pe niss",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1792717560,
         "type": "superchat",
@@ -191152,6 +191899,198 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1793418608,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "So boo Baddies when do us gays get the Butt Buddies?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418240,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You had 3 sets of tits on Stream RTU wont stream till new years now",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417794,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay is a Total Bottom Girls he would bore you",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417681,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Look laying down the law girls... Jays Ass is mine",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417290,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay would follow you home... but he doesnt drive",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417199,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Its so nice to see Jay finally is the gay bestie",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793416311,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay at this moment realizes hes in danger",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793415740,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Proditisque, et in Romam ad me meosque veniatis...Nostraque vobis loca, templa, sacra, urbs acceptior sit...Si ita feceritis, voveo vobis templa ludosque facturum.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793415721,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Si deus, si dea est, cui populus civitasque Carthaginiensis est in tutela...Teque veneror, veniamque a vobis peto...Ut vos populum civitatemque Carthaginiensem deseratis...",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793415495,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'll say it Baphomet",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409505,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Get comfortable... Chat is Harmless... Mostly",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409293,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "We make fun but at least for me I believe in this shit",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793408943,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Wow Jay didnt get stood up like a Cheap Prom Date",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793406209,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "salvete! Orientis princeps Belzebub, inferni ardentis monarcha, et Demogorgon, propitiamus vos, ut appareat et surgat Mephistophilis...",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793406193,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Sint mihi dei Acherontis propitii! Valeat numen triplex Jehovoe! Ignei, aerii, aquatani spiritus,",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404960,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The priest is mad the Boobies are a no Show",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403582,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Condoms? Where were going we dont need... Condoms",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403518,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ladies if he says he wants to cross streams... run",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403348,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "She wont bite me. I give treats, and the cat tree is almost to my ceiling in size. you'll be sending her to a Vacation",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403243,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "if jay says its ectoplasm ladies... Its not",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403086,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "can u check jays Dildo I heard its haunted ladies",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403029,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "As I fuck you inside and out",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793402019,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Its the Coddled Politically Correct Generation that is ruining Movies and Video games and lets be honest... You know I am right",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793398959,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Damn and to think if he hadnt bailed Vapist could have possibly got laid tonight. Also a Big ass Cat Tree just got delivered! thing is HUGE!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793317568,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -193873,6 +194812,126 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1793413296,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "zerotwo: \u30b5\u30bf\u30f3\u4e07\u6b73\u3001\u3042\u306e\u6559\u4f1a\u306b\u53d6\u308a\u6191\u3051",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793413145,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "may the satanic temple keep yall safe",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793412587,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm out of the show Hawthorne Heights was awesome",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793406794,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Where are thr baddies, Im drunk",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404338,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404173,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "if you like Gothic mental check out Creeper",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793401834,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "nvm it's a chick in a leotard.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793401695,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen here one of the opening acts is in a speedo. That's all, back to thr show.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396645,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Im kidding do a different suit",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396583,
+        "type": "superchat",
+        "amount_usd": 50.0,
+        "amount_raw": "$50.00",
+        "message": "Put on the rtu dress when they get there",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396432,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay is starting a paranormal cult full of women.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396204,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: boobs boobs boobs",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396119,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "pregaming before this concert",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793395653,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "that's how you summon him",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793395548,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793308814,
         "type": "superchat",
@@ -209310,6 +210369,62 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1793417062,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Pretty epic. Cool stream thanks",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411090,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Hi Zelda",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411002,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I think I\u2019m gunna be sick",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409955,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Maybe the ghost is one of the souls from your run in with wallet guy",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397226,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Respect the guests",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396593,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "1 50membergifted = 1 boo baddie",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793395668,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793319315,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -217140,6 +218255,14 @@
     ],
     "niallwilliamson3540": [
       {
+        "ts": 1793395966,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 8 months",
+        "message": "Yorkshire puddings up the ass \ud83c\uddec\ud83c\udde7 Mr. Awesome can eat my teabags",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793307273,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -224342,6 +225465,14 @@
     ],
     "MrHomebrew_Leonidas": [
       {
+        "ts": 1793416243,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "oh no Jay has real woman in his house, you heard that right. They are not blowup dolls but real woman. I am concerned for your safety. Are you girls being held against your will? we all love you Jay",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1792722308,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -224511,6 +225642,46 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1793408366,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay offer them some water at least J C",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793407999,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Boo Baddies, welcome to the lair",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793407710,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay DSP is crashing out and so is Rich",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793407564,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay Rich said you tried to have phone sex with him",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793407218,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793320002,
         "type": "superchat",
@@ -233238,6 +234409,14 @@
     ],
     "MikeMcc85": [
       {
+        "ts": 1793399006,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "Mate, if you don't make me a new icon... we are going to have serious issues... I will find you!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1792704741,
         "type": "superchat",
         "amount_usd": 2.7,
@@ -240423,6 +241602,14 @@
       }
     ],
     "marihdimitri7219": [
+      {
+        "ts": 1793396195,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Sorry I gotta go back to work. Have fun lmao",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793318833,
         "type": "giftmembership",
@@ -259768,6 +260955,14 @@
     ],
     "violationentertainment": [
       {
+        "ts": 1793406650,
+        "type": "superchat",
+        "amount_usd": 1.41,
+        "amount_raw": "A$2.00",
+        "message": "Pooh: :falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel::falafel:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793234689,
         "type": "superchat",
         "amount_usd": 1.41,
@@ -261778,6 +262973,14 @@
     ],
     "DemolitionDaddy": [
       {
+        "ts": 1793396838,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 19 months",
+        "message": "Bob:I can\u2019t control myself if you wear that (fart)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793223189,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -262355,6 +263558,14 @@
       }
     ],
     "sethmaynard2972": [
+      {
+        "ts": 1793415667,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "They are much better than the Ghostbusters 2016 cast by far. Not even close.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1785279286,
         "type": "superchat",
@@ -265093,6 +266304,14 @@
       }
     ],
     "KingOfLesbia": [
+      {
+        "ts": 1793396715,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "make freinds with boo & ur finger the one in chair",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793229572,
         "type": "superchat",
@@ -271202,6 +272421,14 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1793410478,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen ladies just don't let Jay put you through a table like his old co worker Jordie Jordan did his own wife live on stream. Or let him. :face_with_open_eyes_and_hand_over_mouth:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793309362,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -272733,6 +273960,110 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1793418880,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418541,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Another 2 from your friend in Bangalore",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418197,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Ketchup chips",
+        "message": "sent Ketchup chips",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418178,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Poutine",
+        "message": "sent Poutine",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418147,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "PEPERO Look at me",
+        "message": "sent PEPERO Look at me",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793418057,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Donut holes",
+        "message": "sent Donut holes",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417830,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Imagine if he just ends the stream :grinning_squinting_face:",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793417120,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Jay your offering of DSP at the giving tree did not work",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793416762,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "GG gravestone",
+        "message": "sent GG gravestone",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793416284,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "is the beast Rich? is Rich near your house Jay?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793415849,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793415760,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Here is 2 from our friend in Bangalore",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793415408,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793319867,
         "type": "superchat",
@@ -279238,6 +280569,14 @@
     ],
     "TimboSlice6590": [
       {
+        "ts": 1793408613,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You're sleeping walking at night Jay. That' why you don't remember...",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1788965297,
         "type": "membership",
         "amount_usd": 1.99,
@@ -282438,6 +283777,14 @@
     ],
     "Ian77900": [
       {
+        "ts": 1793407549,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 16 months",
+        "message": "I swear I heard that too Jay before you checked!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1790891210,
         "type": "membership",
         "amount_usd": 1.99,
@@ -282583,6 +283930,102 @@
       }
     ],
     "unclemike84": [
+      {
+        "ts": 1793408076,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Narrrator: No need to be nervous ladies. We are a very respectable bunch that would never say anything offensive. Ever. Promise. Seriously though.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793407638,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Ghosts telling u something hidden in da fireplace.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793407436,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Girlfriend: Jay! We\u2019re here! Open the door asshole",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793406884,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Alanwake: Cats are able to see things we cannot.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403949,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "We\u2019ve established your home makes creepy sounds & smells like Japanese feet and old clams. Also, Zaylens body is likely hidden somewhere in that room.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403109,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: At that moment, Jay realized he was royally and truly screwed, but not in good way, by three hot mediums. This night would be terrifying.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793402064,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Check your DMs. Left you a stream prediction\u2026",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793401497,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "That massive fart you let out followed you back.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793398366,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "It\u2019s cool. Not worried cuz I\u2019m unbannable anyway.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397896,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Hide that pocket pussy before the girls arrive.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397528,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Weird shit Weird shit Weird shit Weird shit Weird",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396949,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: As Jay sat in a Lot Lizard dress waiting for 3 hot mediums to show up at his house, he started to question his life choices and regrets. Aaa",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793317538,
         "type": "giftmembership",
@@ -285707,6 +287150,46 @@
       }
     ],
     "Gamermeetsworld": [
+      {
+        "ts": 1793397544,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "We love Ritch",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397409,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Says the guy whom is going is dressing up as Ritch",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793397223,
+        "type": "superchat",
+        "amount_usd": 9.99,
+        "amount_raw": "$9.99",
+        "message": "Bob:absolutely, I mean let\u2019s keep it real, I was going to upload a video on a mini PC but i didn\u2019t had time, Phill is a peace of shit and here is an AI picture of Bill gates and his nipples.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396803,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Fun fact Ritch dose the same thing every November, last year he came back early because DSP decided to show his calf muscles on the internet",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793396527,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "don\u2019t think all be able to stream until November",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793321070,
         "type": "superchat",
@@ -289100,6 +290583,22 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1793403628,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I'm more respectful on women, unlike everybody else's here in the chat.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793401913,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Speaking of horror movies.. I recently heard the stupidest rumor what's been going on the internet, this past week that, this generation wants to cancel Freddy Krueger. I don't understand any of that.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793310244,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -291054,6 +292553,22 @@
     ],
     "Destruktor1111": [
       {
+        "ts": 1793408210,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "not to worry we are all gay. haaaay",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793403555,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dumpster fire incoming. (fart)",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793220123,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -291329,6 +292844,14 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1793400661,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay the new RTU with that audience clap",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793231332,
         "type": "superchat",
@@ -301876,6 +303399,22 @@
     ],
     "JQR0666": [
       {
+        "ts": 1793408493,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay is The Saint Thomas Butcher.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793404477,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You damaged the house. Rent Increased 25%",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793307232,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -305770,6 +307309,14 @@
     ],
     "TwoLastNames": [
       {
+        "ts": 1793397646,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 16 months",
+        "message": "Will the ladies find the ghost of Rich\u2019s career?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1730497612,
         "type": "membership",
         "amount_usd": 1.99,
@@ -308248,6 +309795,14 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1793411926,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Jay has one of those optical illusions that makes something look bigger than it actually is tattooed on his body. It\u2019s on his cawk.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793317609,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -309257,6 +310812,22 @@
       }
     ],
     "ReviewLotLizardsUSA": [
+      {
+        "ts": 1793409149,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: I'm here how did she know?!!!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793398034,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "HEY THIEF! I Demand you return my Moo Moo back to the Truck that you got it from!!!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1793319292,
         "type": "superchat",
@@ -311858,6 +313429,38 @@
     ],
     "Crizppy": [
       {
+        "ts": 1793413483,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Even spirit Boxes deserve a good!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793411727,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "This is the least gay I\u2019ve ever seen this channel",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793410185,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "He was making wallets out of his victims. Hooft Leatherworks.",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793409843,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay have you offered your famous pickle sauce?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793236038,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -312275,6 +313878,14 @@
       }
     ],
     "mrgibb1003": [
+      {
+        "ts": 1793408610,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "Jay thats such a great ice breaker",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1791675939,
         "type": "gift",
@@ -316719,6 +318330,14 @@
       }
     ],
     "kyletech84": [
+      {
+        "ts": 1793411240,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
       {
         "ts": 1791416733,
         "type": "superchat",
@@ -327696,6 +329315,14 @@
     ],
     "PhilsLostDoorDashShrimp": [
       {
+        "ts": 1793409099,
+        "type": "superchat",
+        "amount_usd": 2.11,
+        "amount_raw": "A$2.99",
+        "message": "Bob: can you sense any lot lizards around the area",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1792706629,
         "type": "superchat",
         "amount_usd": 2.11,
@@ -332836,6 +334463,22 @@
     ],
     "WingsOfReviewTechUSA": [
       {
+        "ts": 1793404105,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: You have angered the ghost of my career",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
+        "ts": 1793394923,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "will they find the ghost of RTU's career? stick around and find out!",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      },
+      {
         "ts": 1793321312,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -332972,6 +334615,16 @@
         "amount_raw": "Garlic",
         "message": "sent Garlic",
         "stream_id": "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+      }
+    ],
+    "Mr.Awesome0513": [
+      {
+        "ts": 1793411822,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "How many teeth?",
+        "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
       }
     ]
   }
