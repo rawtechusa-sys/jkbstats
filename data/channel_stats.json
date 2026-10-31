@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793321604,
+  "updated_ts": 1793419468,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -525,7 +525,8 @@
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
-    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9958,6 +9959,24 @@
       "avg_viewers": 98.51,
       "avg_chat_mpm": 10.68,
       "avg_active_chatters": 20.91,
+      "percent_paused": null
+    },
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132": {
+      "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+      "title": "LIVE PARANORMAL INVESTIGATION \ud83d\udc7bJKB X BOO BADDIES",
+      "start_ts": 1793394692,
+      "end_ts": 1793419367,
+      "duration_sec": 24675,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 674.04,
+      "donation_count": 205,
+      "donations_per_min": 1.639,
+      "peak_viewers": 155,
+      "avg_viewers": 117.24,
+      "avg_chat_mpm": 10.82,
+      "avg_active_chatters": 21.9,
       "percent_paused": null
     }
   }
