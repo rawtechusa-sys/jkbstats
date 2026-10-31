@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793321606,
+  "updated_ts": 1793419470,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -525,7 +525,8 @@
     "ea_shuts_down_bioware_cancels_mass_effect_jkb_streams_2026-10-21_201452",
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
-    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636"
+    "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5767,6 +5768,16 @@
       "segments": null,
       "source_vod_id": "GOJxGk0M66k",
       "source_platform": "youtube"
+    },
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132": {
+      "title": "LIVE PARANORMAL INVESTIGATION \ud83d\udc7bJKB X BOO BADDIES",
+      "start_ts": 1793394692,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "UXdRS9VW4BI",
+      "source_platform": "youtube"
     }
   },
   "users": {
@@ -5802,6 +5813,100 @@
           "moderator": null,
           "reason": null,
           "stream_id": "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651"
+        }
+      ]
+    },
+    "FoilGrimTimmy": {
+      "platforms": {
+        "youtube": {
+          "status": "active",
+          "since": 1793395350.692539,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCt0Z4aVbM52hR7h7SW4Z94w"
+        }
+      },
+      "events": [
+        {
+          "ts": 1793395350,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+          "inferred": true
+        },
+        {
+          "ts": 1793395337,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+        }
+      ]
+    },
+    "MonstersBeyondTheTreeLine": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1793402633,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UChq5w7t953cz1QBFFb6pnUQ"
+        }
+      },
+      "events": [
+        {
+          "ts": 1793402633,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+        }
+      ]
+    },
+    "JackSkxllxngtxn": {
+      "platforms": {
+        "youtube": {
+          "status": "active",
+          "since": 1793418016.355108,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCGjvqtyBab8i1hMDSo3UpmA"
+        }
+      },
+      "events": [
+        {
+          "ts": 1793418016,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+          "inferred": true
+        },
+        {
+          "ts": 1793417826,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
         }
       ]
     }
