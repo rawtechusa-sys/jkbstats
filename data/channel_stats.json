@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793419468,
+  "updated_ts": 1793500512,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -526,7 +526,8 @@
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
-    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+    "happy_halloween_jkb_streams_2026-10-31_210755"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9977,6 +9978,24 @@
       "avg_viewers": 117.24,
       "avg_chat_mpm": 10.82,
       "avg_active_chatters": 21.9,
+      "percent_paused": null
+    },
+    "happy_halloween_jkb_streams_2026-10-31_210755": {
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "title": "HAPPY HALLOWEEN \ud83d\udc7b| JKB Streams",
+      "start_ts": 1793480875,
+      "end_ts": 1793500419,
+      "duration_sec": 19544,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 719.09,
+      "donation_count": 146,
+      "donations_per_min": 2.2076,
+      "peak_viewers": 121,
+      "avg_viewers": 94.68,
+      "avg_chat_mpm": 9.58,
+      "avg_active_chatters": 19.62,
       "percent_paused": null
     }
   }
