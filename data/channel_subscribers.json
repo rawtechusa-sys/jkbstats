@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793419478,
+  "updated_ts": 1793500523,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -133,6 +133,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+    },
+    {
+      "ts": 1793500419,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755"
     }
   ]
 }
