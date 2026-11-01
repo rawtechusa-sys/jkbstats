@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1793419459,
+  "updated_ts": 1793500502,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -526,37 +526,38 @@
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
-    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+    "happy_halloween_jkb_streams_2026-10-31_210755"
   ],
   "commands": {
     "xijinping": 229,
     "biden": 90,
-    "witch": 562,
-    "spooky": 72,
+    "witch": 564,
+    "spooky": 73,
     "trickster": 103,
     "kratos": 25,
-    "asmr": 178,
-    "obama": 69,
+    "asmr": 179,
+    "obama": 70,
     "confirmed": 2,
     "warmy": 611,
-    "emoguy": 19,
+    "emoguy": 20,
     "baymax": 132,
-    "trump": 562,
+    "trump": 563,
     "girlfriend": 86,
     "story": 1,
-    "forrest": 201,
+    "forrest": 203,
     "point": 1,
     "kid": 1,
     "batman": 8,
     "glorious": 97,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 403,
-    "bob": 1352,
+    "dsp": 404,
+    "bob": 1357,
     "jkb": 114,
     "glados": 189,
     "king": 1,
-    "pirate": 115,
+    "pirate": 116,
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 169,
@@ -573,7 +574,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 137,
+    "pooh": 138,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -640,7 +641,7 @@
     "wimsy": 4,
     "shapiro": 4,
     "adonis": 1,
-    "smashjt": 22,
+    "smashjt": 23,
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
@@ -651,7 +652,7 @@
     "sagiri": 3,
     "vomit": 18,
     "eminem": 11,
-    "announcer": 7,
+    "announcer": 8,
     "hal9000": 6,
     "linus": 11,
     "metaphor": 1,
@@ -879,11 +880,11 @@
     "narrrator": 1
   },
   "sounds": {
-    "fart": 1152,
+    "fart": 1153,
     "burp": 62,
     "laughter": 2,
     "boowomp": 41,
-    "pants_unzip": 118,
+    "pants_unzip": 119,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
@@ -900,7 +901,7 @@
     "fail": 56,
     "tada": 15,
     "yoda": 93,
-    "ripping": 48,
+    "ripping": 49,
     "spiderman": 11,
     "smw_stomp": 15,
     "disgusting": 10,
@@ -6242,9 +6243,233 @@
       "segments": null,
       "source_vod_id": "UXdRS9VW4BI",
       "source_platform": "youtube"
+    },
+    "happy_halloween_jkb_streams_2026-10-31_210755": {
+      "title": "HAPPY HALLOWEEN \ud83d\udc7b| JKB Streams",
+      "start_ts": 1793480875,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "SvxhzF5O0lE",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1793497608,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "J my poosy is talking to u. It said asmr: Phuck me",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793495539,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Trump: Yes Aliens do exist, & I need 2 deport them",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793493904,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Forrest: Did yo mama drop you on the head like me?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793493439,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Forrest: god damn, son! That man's thick! I'm hard",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793493044,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Announcer: Try our new product Robo's Puss 'N Coke",
+      "commands": [
+        "announcer"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793492895,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "bob: You look like a discount Wendy's meal LOL",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793492845,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Robo here (pants_unzip) open wide 4 my poosy milk",
+      "commands": [],
+      "sounds": [
+        "pants_unzip"
+      ]
+    },
+    {
+      "ts": 1793492332,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Bob: we even hav cucumber milk (ripping) OoooOoOO!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "ripping"
+      ]
+    },
+    {
+      "ts": 1793490954,
+      "username": "@DarthOmegas",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Obama: so what im hearing is ghosts in Colorado? uhhhh bring a black light for the bed Ectoplasim all around",
+      "commands": [
+        "obama"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793490761,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "spooky: The chat is now haunted",
+      "commands": [
+        "spooky"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793490700,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "emoguy: J. dig your bald head in my pussay. baybay",
+      "commands": [
+        "emoguy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793490649,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "witch: All you witches and bitches better get that good suck and fuck ready. Its Halloween and even ghost khunts deserve a good fucking.",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793490536,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "witch: I have multiple voices can you tell?",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793489211,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Bob: Don't 4 get, U hav to eat a pound of edibles",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793489034,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "DSP: I. am. Master. Bating. to. myself. right now",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793488495,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Bob: Fat suit, made with genuine Rich belly fat",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793488454,
+      "username": "@DemolitionDaddy",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Pirate: how much for a VJ ye salty lass? Bob: 40 bucks but swab your poop deck first. (Fart) Pouh wants a honey pot Mr Lizard.",
+      "commands": [
+        "pirate",
+        "bob"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793481863,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Pooh::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793481719,
+      "username": "@timmarcoux",
+      "platform": "youtube",
+      "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+      "message": "Smashjt: I knew that bisexual lighting would get to you, woke is a slippery slope confirmed",
+      "commands": [
+        "smashjt"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1793418070,
       "username": "@Night_Breaker",
