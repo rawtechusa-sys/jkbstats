@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793419470,
+  "updated_ts": 1793500514,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -526,7 +526,8 @@
     "switch_2_jailbroken_nintendo_ninjas_are_coming_jkb_streams_2026-10-22_205634",
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
-    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+    "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
+    "happy_halloween_jkb_streams_2026-10-31_210755"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5778,6 +5779,16 @@
       "segments": null,
       "source_vod_id": "UXdRS9VW4BI",
       "source_platform": "youtube"
+    },
+    "happy_halloween_jkb_streams_2026-10-31_210755": {
+      "title": "HAPPY HALLOWEEN \ud83d\udc7b| JKB Streams",
+      "start_ts": 1793480875,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "SvxhzF5O0lE",
+      "source_platform": "youtube"
     }
   },
   "users": {
@@ -5907,6 +5918,41 @@
           "moderator": null,
           "reason": null,
           "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+        }
+      ]
+    },
+    "Night_Breaker": {
+      "platforms": {
+        "youtube": {
+          "status": "active",
+          "since": 1793500314.403098,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UC84x-t3A6JOyRhtuCPO6qyA"
+        }
+      },
+      "events": [
+        {
+          "ts": 1793500314,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755",
+          "inferred": true
+        },
+        {
+          "ts": 1793500294,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "happy_halloween_jkb_streams_2026-10-31_210755"
         }
       ]
     }
