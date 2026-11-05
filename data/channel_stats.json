@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793500512,
+  "updated_ts": 1793846928,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -527,7 +527,8 @@
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
-    "happy_halloween_jkb_streams_2026-10-31_210755"
+    "happy_halloween_jkb_streams_2026-10-31_210755",
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -9996,6 +9997,24 @@
       "avg_viewers": 94.68,
       "avg_chat_mpm": 9.58,
       "avg_active_chatters": 19.62,
+      "percent_paused": null
+    },
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137": {
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "title": "I'M RUNNING FOR PRESIDENT OF THE USA IN 2028 | JKB Streams",
+      "start_ts": 1793828497,
+      "end_ts": 1793846820,
+      "duration_sec": 18323,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 511.71,
+      "donation_count": 118,
+      "donations_per_min": 1.6756,
+      "peak_viewers": 133,
+      "avg_viewers": 90.73,
+      "avg_chat_mpm": 9.9,
+      "avg_active_chatters": 19.86,
       "percent_paused": null
     }
   }
