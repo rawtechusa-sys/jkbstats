@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793500506,
+  "updated_ts": 1793846924,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -527,7 +527,8 @@
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
-    "happy_halloween_jkb_streams_2026-10-31_210755"
+    "happy_halloween_jkb_streams_2026-10-31_210755",
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5789,6 +5790,16 @@
       "segments": null,
       "source_vod_id": "SvxhzF5O0lE",
       "source_platform": "youtube"
+    },
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137": {
+      "title": "I'M RUNNING FOR PRESIDENT OF THE USA IN 2028 | JKB Streams",
+      "start_ts": 1793828497,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "8KZvhZSbfB4",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8896,6 +8907,22 @@
     ],
     "GlamerousFrog": [
       {
+        "ts": 1793839046,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Trump: Keep a porn tab handy, easier to explain",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829359,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "Trump: Good evening Mr Jaysus. I got my picture taken with Mick Foley last week. With GTA on the horizon and a week off coming up it's a lovely week.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1791925292,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -11449,6 +11476,22 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1793829331,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "trump: TremedousTremendousTremendousTremendousAss",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829176,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30c8\u30ec\u30fc\u30e1\u30f3\u30c9\u30fc\u30b9\u30a2\u30c3\u30b9\u3001\u30c8\u30ec\u30fc\u30e1\u30f3\u30c9\u30fc\u30b9:banana:\u3001\u30c8\u30ec\u30fc\u30e1\u30f3\u30c9\u30fc\u30b9\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d7\u30d7\u30d7",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793405277,
         "type": "superchat",
@@ -45180,6 +45223,30 @@
     ],
     "DougSavona": [
       {
+        "ts": 1793840600,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793836142,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": ":lizard::lizard::lizard::lizard::lizard::lizard:",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793830928,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "im in line for the midnight lunch for Zelda, I can't believe those words are coming out of my mouth in the year of 2026 on midnight launch",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793496076,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -51529,6 +51596,14 @@
       }
     ],
     "Jayhooft": [
+      {
+        "ts": 1793844480,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793400024,
         "type": "giftmembership",
@@ -63627,6 +63702,14 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1793828982,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Trump: listen Jay, look at my ass, comment how it's a wonderful piece of muscle and then slap me on it. By the way my ballroom is tremendous.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793407566,
         "type": "superchat",
@@ -77389,6 +77472,14 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1793831925,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Listen I am heading to my therapy support group so I am only stopping by to say hi. Now I want you to dress up as the president and give America a good skull fucking in our freedom holes lets go",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793496509,
         "type": "superchat",
@@ -92132,6 +92223,14 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1793845905,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "Marriage is a tax shelter masquerading as a religious institution",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1792718771,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -103775,6 +103874,14 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1793832439,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793500104,
         "type": "giftmembership",
@@ -119880,6 +119987,30 @@
     ],
     "Juicyb00ch": [
       {
+        "ts": 1793845995,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "\ud83e\udd77\ud83c\udffb",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793845345,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": ":sweat_droplets:",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793844451,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "\ud83e\udd77\ud83c\udffb",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793495814,
         "type": "superchat",
         "amount_usd": 19.99,
@@ -127667,6 +127798,142 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1793846603,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Vapist is 2 busy vaping smoke out of a hookers vaj",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793845345,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: J also had sex with me for just $2. Thank u",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793844614,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "want me 2 pump a load on ya head? Good 4 hair loss",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793844228,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Its true J. I blast a load every time I superchat",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793844109,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: I identify as gay secret service orangutan",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793842922,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "On Epstein Island, he is known as Cumming Dorf",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793841974,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "wear R all the Japanese people? Goddamn foreigners",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793840011,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I cant wait 2 play wit J's pussie wen it comes out",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793838772,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: oh yes! o phuck! oh yes! o phuck! AAa AAaaaa!",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793837310,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "and by special, Jay means we're all special needs",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793835631,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "vomit: urga urk! burp! burp! urga! ula! hurk hurk!",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834431,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Don't think about it. Just suck & swallow (burp)",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834285,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Invite RTU brother. Hav him eat Canadian burritos",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834070,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: am I invited? I forgive you for the fat suit",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829994,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "also if u hav a BBC U get bonus reparation credits",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829494,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "yuck! I'm gonna be vomit: sick! I'm gonna throw up",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829368,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Trump: Let the dems & repubs unite to annex Canada",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793500176,
         "type": "superchat",
@@ -154654,6 +154921,14 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1793830192,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793497857,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -170712,6 +170987,14 @@
     ],
     "ShanesWorld25": [
       {
+        "ts": 1793832195,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 20 months",
+        "message": "Joined!",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1790799974,
         "type": "membership",
         "amount_usd": 1.99,
@@ -171417,6 +171700,30 @@
       }
     ],
     "Mailmansson": [
+      {
+        "ts": 1793845943,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob:no relationships just Hoesssss",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793836018,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "rich said he hasn't seen the lot lizard video",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793831203,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "WTF my copy of zelda is delayed tell Friday fuck",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793499170,
         "type": "superchat",
@@ -174573,6 +174880,14 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1793831836,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Trump: oh phuck did an oppsie :fart: :piss:",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793489818,
         "type": "superchat",
@@ -179931,6 +180246,46 @@
       }
     ],
     "seales8414": [
+      {
+        "ts": 1793842166,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "All the Japanese people are at work It's thursday",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793841795,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Check your DM look at what I got for prey order",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793839807,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I dm u the video the line that I am in",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793833272,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The retro game store is up in the discord. If you wanna show it off. Also, I'll try to stream a video record. Me picking up zelda, I give my passport",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793832930,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm on my way to pick up my copy and zelder now",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793497292,
         "type": "superchat",
@@ -192502,6 +192857,22 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1793844319,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Citizenship Purposes only You can be my Side Piece",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793844228,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Sorry bro... Murray already said yes to me. too l8",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793496588,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -195439,6 +195810,22 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1793837977,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Only if you lick it's hole",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793837336,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "There are bisexual orgies at the temple",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793496106,
         "type": "superchat",
@@ -211092,6 +211479,62 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1793839191,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Drag show IRL stream when?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793838572,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Do Video game news videos dressed up like that?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793838421,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Oh my god.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834268,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I can\u2019t believe you drank that for free.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829918,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Alright now end the stream. See you in December",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829027,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Let\u2019s say a quick prayer for on time Amazon deliveries tomorrow. I. AM. HYPED.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793828609,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Free universal healthcare for all cats. Vote JKB28",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793417062,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -218294,6 +218737,14 @@
     ],
     "TheRomanVictor": [
       {
+        "ts": 1793832199,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793482694,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -219009,6 +219460,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1793830356,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Monkey turds",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793481936,
         "type": "superchat",
@@ -225794,6 +226253,22 @@
     ],
     "Webbz517": [
       {
+        "ts": 1793838703,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm harder than Elon during a space x launch",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793838580,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 27 months",
+        "message": "look at that bus ty Canadian man!",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1792717534,
         "type": "membership",
         "amount_usd": 1.99,
@@ -226405,6 +226880,110 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1793839885,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay you look like a Klingon from Canada",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793838090,
+        "type": "superchat",
+        "amount_usd": 50.0,
+        "amount_raw": "$50.00",
+        "message": "Lick the shrimp hole and think of vapist's poosy",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793836094,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Lot Lizard video please? $2",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834979,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "We tried, don't cut off our electicity please",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834727,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay hook me up with the Ginger Snaps chick",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834580,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "It's so good (cough)(burp)(cough)(burp) mmm",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793833392,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J00chy B00ch used to stream and be cool :sweat_droplets:",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793832203,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Not foking around will you bring a drone and shit?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793831904,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Rich tried to stream, then stoped..makes me sad",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793831442,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Why does pussy smell like a foot JKB like you",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793831162,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay I want to live in Canada and be free",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793830943,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I want u to be mayor of my cunt, can't we friends",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793830788,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay we are merging with Canada, lets go",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793408366,
         "type": "superchat",
@@ -243058,6 +243637,14 @@
     ],
     "Twizty360": [
       {
+        "ts": 1793829280,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "Trump: The Zeldas are late, your not just a man, your a Canadian Man, Bigly Tremendous",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793216054,
         "type": "membership",
         "amount_usd": 1.99,
@@ -244433,6 +245020,46 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1793846758,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "God bless America and no one else. oh Canada",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793846227,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "whenever you get tired of being happy get married",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793846057,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I like women. And I love pussy. oh Canada",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793845828,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "No guns in Canada? How do you divorce up there?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793845175,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Hey K Nubbs. How difficult is it trying to hang on to a greased up sex doll when you're hitting it from the back missing fingers and shit? Oh Canada",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793485265,
         "type": "superchat",
@@ -253178,6 +253805,14 @@
     ],
     "astrozombies751": [
       {
+        "ts": 1793828938,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Trump: you'd be the first ever US president with a micropenis. Believe me",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1792528985,
         "type": "membership",
         "amount_usd": 1.99,
@@ -258535,6 +259170,14 @@
       }
     ],
     "mcnasty72": [
+      {
+        "ts": 1793838661,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1788213406,
         "type": "giftmembership",
@@ -264533,6 +265176,14 @@
       }
     ],
     "ZeroPointWaveTX": [
+      {
+        "ts": 1793829228,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1791090216,
         "type": "superchat",
@@ -273280,6 +273931,14 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1793831044,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen you can only be President if you make Review Tech USA your robust First Lady.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793410478,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -274819,6 +275478,110 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1793846542,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Have him deliver some more used wings",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793846071,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Does she at least flush?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793845961,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "who is getting custody of Vapist ghost? Booch or you?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793837529,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Send one to RTU and tell him it has THC",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793836526,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You should go back to the hinsdale house house and give the KD to the giving tree",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793836361,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You sure you don't want another KD sip? I hear a sip of KD a day keeps the doctor away",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793835002,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Thank you",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834727,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Are you going to make the Boo Baddies drink it?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834694,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "you love it",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834322,
+        "type": "superchat",
+        "amount_usd": 50.0,
+        "amount_raw": "$50.00",
+        "message": "Sip it now",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834122,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Instead of inviting RTU invite his dad",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793833816,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You don't play them because you don't wanna be DSP",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793833583,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793496381,
         "type": "superchat",
@@ -284894,6 +285657,86 @@
     ],
     "unclemike84": [
       {
+        "ts": 1793838675,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m almost ashamed that I came up with this outfit",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793838569,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Girlfriend: Nice outfit Rich (gta_mission_pass)",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793837746,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "So is that a Vapist sex doll dressed as Santa?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834635,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Numnumnumnumnumnumnumnumnumnumnumnumnumnumnumnumnu",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793834523,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vega: Is it worse than licking a Switch cartridge?",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793832856,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Vega: Someone needs to make a vibe coded version of Link to the Past, where Zelda is a cat and Link is you. It will be the weirdest game of all time.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793832415,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Ironically, Google worked much better back then.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793831924,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Trump: I officially endorse JKB for president.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793830871,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: How you\u2019re feeling probably something to do with that ghost that inhabited your body on Friday. Those Boo Baddies did a number on your face.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829866,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Talking politics = immediate cancellation. Aaaaaaa",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793408076,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -291570,6 +292413,38 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1793831757,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793831540,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "I'm happy and glad my order of The Legend of Zelda: Ocarina of Time is on the way. I'm excited to play that later this week. but yeah, I refuse to buy anything from EB Games.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829987,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "I hate KD me growing up, my family were poor that's what we ate almost every damn day. I can't even imagine what the drink on the can would taste. Absolute :pile_of_poo:.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793829518,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "i refuse to buy anything from EB Games because the last time I ordered from them was Donkey Kong Bananza it then arrived in my mailbox. I have to go to a different Post Office. Other side of the town.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793482139,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -293879,6 +294754,14 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1793839410,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay Melanie Mac is still hot...id do her jay",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793488381,
         "type": "superchat",
@@ -300230,6 +301113,14 @@
     ],
     "serioussam64": [
       {
+        "ts": 1793828988,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Jammin",
+        "message": "sent Jammin",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1793217848,
         "type": "membership",
         "amount_usd": 1.99,
@@ -301963,6 +302854,14 @@
       }
     ],
     "dennis07reyes": [
+      {
+        "ts": 1793833089,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "There is a PC port of Zelda 3 on the way called Triforge (check the trailers on YT) and it will accepts mods. Maybe someone can mod you into the game.",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1766619977,
         "type": "giftmembership",
@@ -316534,6 +317433,14 @@
     ],
     "mastersh0tgun664": [
       {
+        "ts": 1793832475,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 1 month",
+        "message": "I have been upgraded haha EDP getting arrested puts the biggest smile on my face",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1792014437,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -330308,6 +331215,22 @@
     ],
     "Gamerfreak-MLP-Lover20248": [
       {
+        "ts": 1793844399,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793833874,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
         "ts": 1791930933,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -331663,6 +332586,14 @@
       }
     ],
     "gillestgrant873": [
+      {
+        "ts": 1793844538,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Here\u2019s a few bucks for some lot lizard Poontang!",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1787350805,
         "type": "superchat",
@@ -335403,6 +336334,30 @@
       }
     ],
     "FrankkCozmo": [
+      {
+        "ts": 1793839295,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793832169,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
+      {
+        "ts": 1793832128,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Gold coin",
+        "message": "sent Gold coin",
+        "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+      },
       {
         "ts": 1793499812,
         "type": "giftmembership",
