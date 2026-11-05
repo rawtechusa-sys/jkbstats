@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1793500502,
+  "updated_ts": 1793846919,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -527,7 +527,8 @@
     "jkb_has_returned_halloween_countdown_jkb_streams_2026-10-28_192651",
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
-    "happy_halloween_jkb_streams_2026-10-31_210755"
+    "happy_halloween_jkb_streams_2026-10-31_210755",
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
   ],
   "commands": {
     "xijinping": 229,
@@ -542,8 +543,8 @@
     "warmy": 611,
     "emoguy": 20,
     "baymax": 132,
-    "trump": 563,
-    "girlfriend": 86,
+    "trump": 574,
+    "girlfriend": 87,
     "story": 1,
     "forrest": 203,
     "point": 1,
@@ -553,14 +554,14 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 404,
-    "bob": 1357,
+    "bob": 1359,
     "jkb": 114,
     "glados": 189,
     "king": 1,
     "pirate": 116,
     "jay": 15,
     "weeknd": 10,
-    "zerotwo": 169,
+    "zerotwo": 170,
     "grandpa": 42,
     "dreamcast": 118,
     "membership": 1,
@@ -597,7 +598,7 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 100,
+    "alanwake": 101,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -645,12 +646,12 @@
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
-    "vega": 7,
+    "vega": 9,
     "narator": 1,
     "optimus_prime": 7,
     "request": 1,
     "sagiri": 3,
-    "vomit": 18,
+    "vomit": 20,
     "eminem": 11,
     "announcer": 8,
     "hal9000": 6,
@@ -805,7 +806,7 @@
     "politics": 1,
     "units": 1,
     "xininping": 1,
-    "zelda": 2,
+    "zelda": 3,
     "longshot": 1,
     "sonic": 2,
     "dmc": 1,
@@ -881,14 +882,14 @@
   },
   "sounds": {
     "fart": 1153,
-    "burp": 62,
+    "burp": 65,
     "laughter": 2,
     "boowomp": 41,
     "pants_unzip": 119,
     "wait_wait": 4,
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
-    "gta_mission_pass": 12,
+    "gta_mission_pass": 13,
     "peeing": 82,
     "evil_laugh": 28,
     "i_see_you": 33,
@@ -6253,9 +6254,274 @@
       "segments": null,
       "source_vod_id": "SvxhzF5O0lE",
       "source_platform": "youtube"
+    },
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137": {
+      "title": "I'M RUNNING FOR PRESIDENT OF THE USA IN 2028 | JKB Streams",
+      "start_ts": 1793828497,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "8KZvhZSbfB4",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1793845345,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: J also had sex with me for just $2. Thank u",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793844109,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: I identify as gay secret service orangutan",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793839046,
+      "username": "@GlamerousFrog",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: Keep a porn tab handy, easier to explain",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793838772,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Bob: oh yes! o phuck! oh yes! o phuck! AAa AAaaaa!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793838569,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Girlfriend: Nice outfit Rich (gta_mission_pass)",
+      "commands": [
+        "girlfriend"
+      ],
+      "sounds": [
+        "gta_mission_pass"
+      ]
+    },
+    {
+      "ts": 1793835631,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "vomit: urga urk! burp! burp! urga! ula! hurk hurk!",
+      "commands": [
+        "vomit"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793834580,
+      "username": "@FoilGrimTimmy",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "It's so good (cough)(burp)(cough)(burp) mmm",
+      "commands": [],
+      "sounds": [
+        "burp"
+      ]
+    },
+    {
+      "ts": 1793834523,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Vega: Is it worse than licking a Switch cartridge?",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793834431,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Don't think about it. Just suck & swallow (burp)",
+      "commands": [],
+      "sounds": [
+        "burp"
+      ]
+    },
+    {
+      "ts": 1793834070,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Bob: am I invited? I forgive you for the fat suit",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793832856,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Vega: Someone needs to make a vibe coded version of Link to the Past, where Zelda is a cat and Link is you. It will be the weirdest game of all time.",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793831924,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: I officially endorse JKB for president.",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793831836,
+      "username": "@Ryft7",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: oh phuck did an oppsie :fart: :piss:",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793831540,
+      "username": "@dan_evilrobot",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "I'm happy and glad my order of The Legend of Zelda: Ocarina of Time is on the way. I'm excited to play that later this week. but yeah, I refuse to buy anything from EB Games.",
+      "commands": [
+        "zelda"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793830871,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Alanwake: How you\u2019re feeling probably something to do with that ghost that inhabited your body on Friday. Those Boo Baddies did a number on your face.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793829494,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "yuck! I'm gonna be vomit: sick! I'm gonna throw up",
+      "commands": [
+        "vomit"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793829368,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: Let the dems & repubs unite to annex Canada",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793829359,
+      "username": "@GlamerousFrog",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: Good evening Mr Jaysus. I got my picture taken with Mick Foley last week. With GTA on the horizon and a week off coming up it's a lovely week.",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793829331,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "trump: TremedousTremendousTremendousTremendousAss",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793829280,
+      "username": "@Twizty360",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: The Zeldas are late, your not just a man, your a Canadian Man, Bigly Tremendous",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793829176,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "zerotwo: \u30c8\u30ec\u30fc\u30e1\u30f3\u30c9\u30fc\u30b9\u30a2\u30c3\u30b9\u3001\u30c8\u30ec\u30fc\u30e1\u30f3\u30c9\u30fc\u30b9:banana:\u3001\u30c8\u30ec\u30fc\u30e1\u30f3\u30c9\u30fc\u30b9\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9 \u30d7\u30d7\u30d7",
+      "commands": [
+        "zerotwo"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793828982,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: listen Jay, look at my ass, comment how it's a wonderful piece of muscle and then slap me on it. By the way my ballroom is tremendous.",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793828938,
+      "username": "@astrozombies751",
+      "platform": "youtube",
+      "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+      "message": "Trump: you'd be the first ever US president with a micropenis. Believe me",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1793497608,
       "username": "@Night_Breaker",
