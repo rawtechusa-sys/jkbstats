@@ -1,0 +1,2 @@
+{"ts": 1793988053, "event": "viewer_snapshot", "youtube": 7, "twitch": null, "kick": null, "active_youtube_chatters": 2, "active_twitch_chatters": null, "active_kick_chatters": null, "youtube_messages_per_minute": 3.0, "twitch_messages_per_minute": 0.0, "kick_messages_per_minute": 0.0}
+{"ts": 1793988040, "event": "donation", "platform": "youtube", "type": "superchat", "username": "@unclemike84", "amount_raw": "$1.99", "amount_usd": 1.99, "message": "What’s with the early stream? I’m barely awake…"}
