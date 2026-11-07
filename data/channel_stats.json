@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793846928,
+  "updated_ts": 1794015495,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -528,7 +528,8 @@
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
     "happy_halloween_jkb_streams_2026-10-31_210755",
-    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -10015,6 +10016,24 @@
       "avg_viewers": 90.73,
       "avg_chat_mpm": 9.9,
       "avg_active_chatters": 19.86,
+      "percent_paused": null
+    },
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945": {
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "title": "\ud83d\udd25 RETURNING TO HYRULE! | OCARINA OF TIME GAMEPLAY LIVE! | JKB Streams",
+      "start_ts": 1793987985,
+      "end_ts": 1794015398,
+      "duration_sec": 27413,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 377.71,
+      "donation_count": 98,
+      "donations_per_min": 0.8267,
+      "peak_viewers": 104,
+      "avg_viewers": 78.87,
+      "avg_chat_mpm": 6.32,
+      "avg_active_chatters": 13.14,
       "percent_paused": null
     }
   }
