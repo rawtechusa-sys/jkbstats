@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793846924,
+  "updated_ts": 1794015491,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -528,7 +528,8 @@
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
     "happy_halloween_jkb_streams_2026-10-31_210755",
-    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5799,6 +5800,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "8KZvhZSbfB4",
+      "source_platform": "youtube"
+    },
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945": {
+      "title": "\ud83d\udd25 RETURNING TO HYRULE! | OCARINA OF TIME GAMEPLAY LIVE! | JKB Streams",
+      "start_ts": 1793987985,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "xFqfKhDAhpg",
       "source_platform": "youtube"
     }
   },
@@ -11476,6 +11487,30 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1793994648,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: Listen, I'm hard (fart)",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793994428,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "bob: Listen, top my Japanese soup with pubic hair.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793994333,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: Your FACE is insanity!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793829331,
         "type": "superchat",
@@ -45223,6 +45258,22 @@
     ],
     "DougSavona": [
       {
+        "ts": 1793998240,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I turn 40 the day before gta 6 comes so I have it off",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793988397,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "So I really lucked into something I didn't pre-order until the day of and I am finding out there are 2 copies, one is white. One is gold. The gold foil is the first print edition that you cant get now",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793840600,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -55871,6 +55922,14 @@
     ],
     "doodystreams": [
       {
+        "ts": 1794013917,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793419270,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -59340,6 +59399,14 @@
       }
     ],
     "Mysterr_E": [
+      {
+        "ts": 1793988915,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Witch: Never played the original. I\u2019m lost in the Kakariko Village. How do I get to the roof to talk to that guy? Here\u2019s some dickers dollars",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1791935384,
         "type": "superchat",
@@ -77473,6 +77540,14 @@
     ],
     "SpooksterVibes": [
       {
+        "ts": 1794007167,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 32 months",
+        "message": "Listen Im late how is the Zelda remake? Fun time?",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793831925,
         "type": "superchat",
         "amount_usd": 10.0,
@@ -87086,6 +87161,14 @@
       }
     ],
     "Comrade_Biff": [
+      {
+        "ts": 1793992295,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Hi Jay I come in peace! Glad you're playing Ocarina of Time especially as it meant so much to you & your friend growing up. It's an amazing remake.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1791099780,
         "type": "superchat",
@@ -98457,6 +98540,22 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1794014638,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Don't have to ask, it's in your last sleep stream",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793989729,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Mario kart IRL, JkYoshi vs Zelda, direct shell hit",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793492886,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -103874,6 +103973,14 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1793991158,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: listen here's some money from the man in calcutta before i go to bed after having overtime again also dsp: don't be poor in chat & find my shrimp",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793832439,
         "type": "giftmembership",
@@ -118921,6 +119028,14 @@
     ],
     "ianhunter8405": [
       {
+        "ts": 1794011870,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "ill probably pick up a switch 2 and this game for christmas if I collect a lot of tip money from the gym I work at",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1792713210,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -126979,6 +127094,14 @@
     ],
     "jaieroc": [
       {
+        "ts": 1793992643,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793413902,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -127798,6 +127921,22 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1794014890,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "remember wen u phucked a Zelda blowup doll? Damn!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794014287,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "No, I didn't, but Jason is acting like the N word",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793846603,
         "type": "superchat",
@@ -154921,6 +155060,22 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1793992645,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "nico wanted this from the memories with papa",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793992000,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793830192,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -166001,6 +166156,38 @@
     ],
     "JacobstanfordOCD": [
       {
+        "ts": 1794013937,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794013870,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "JAY look listen where are Zeldas feet?",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794013164,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794013117,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jay. listen this game is a masterpiece. love me J",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1792723062,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -171701,6 +171888,14 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1794006590,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "have to leave in a minute. hoe coming over",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793845943,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -173094,6 +173289,30 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1793992284,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If you want a console. Download the Hot Stock app and you will get notified the moment it goes in stock and even has an auto buy feature. Controller 2",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990747,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'll soc your left nut for a slip case",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990102,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I recommend changing Ocarina to Classic Mode. It matches N64. Also I changed jump to B, feels more natural. Phock me",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793499593,
         "type": "superchat",
@@ -180246,6 +180465,14 @@
       }
     ],
     "seales8414": [
+      {
+        "ts": 1793994670,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 26 months",
+        "message": "This sucks tonight is my last night being here. I don't wanna go back home. the game is amazing. Isn't it also show me those controller piece lol",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793842166,
         "type": "superchat",
@@ -195810,6 +196037,14 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1793998375,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "How is the game Jay? Been here, but have been sleeping off this bronchitis.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793837977,
         "type": "superchat",
@@ -211479,6 +211714,14 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1793991431,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Just woke up after playing 9 hours last night. Fun",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793839191,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -219395,6 +219638,22 @@
     ],
     "jeffery-tucker": [
       {
+        "ts": 1794003260,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990203,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I never beat the OG when it came out. I don't remember much other than playing the ocarina. It's like I'm playing it for the first time! It's amazing",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1770157291,
         "type": "superchat",
         "amount_usd": 10.0,
@@ -219460,6 +219719,22 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1793995007,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Look here look listen appearing off-line doesn\u2019t stop it so stop giving advice you know nothing about",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793988793,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Phil: why are you dressed as a Teletubbie? Oh wait you\u2019re Yoshi! Oh damn I\u2019m a dumbass Warmy: Phil is a dumbass.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793830356,
         "type": "superchat",
@@ -235751,6 +236026,14 @@
     ],
     "MikeMcc85": [
       {
+        "ts": 1793994366,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 61 months",
+        "message": "Keep finding the in game nuts, roleplaying your passion for me",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793399006,
         "type": "superchat",
         "amount_usd": 6.75,
@@ -239330,6 +239613,14 @@
       }
     ],
     "StrandedJay": [
+      {
+        "ts": 1793997521,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "lost my grandfather and my job last month. this was a much needed game for me. I've been a little emotional playing through it.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1789083344,
         "type": "membership",
@@ -245020,6 +245311,78 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1794015108,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "This is not a damn democracy! We are in a state of emergency and my word is law! There's only one boss around in this place. & that's me, the H.N.I.C.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794014666,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "look like your hairline's allergic 2 your forehead",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794014378,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "stay out of this white boy. damn night breaker",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794014221,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Did night breaker just call me the in word?",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794013743,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "That night breaker guy has a filthy mouth.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793993036,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "next you'll say you don't live next to Super Man",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793992854,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "do you get a discount on gifts living by Santa?",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793989549,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "And I don't regret it at all. No Zelda for me.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793989447,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Spent my video game budget 4 the monrh on wet box",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793846758,
         "type": "superchat",
@@ -252026,6 +252389,22 @@
       }
     ],
     "ArcadeIntelligence": [
+      {
+        "ts": 1794001171,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 11 months",
+        "message": "Still watching,TLOZ is my favorite Game Franchise",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793998184,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I took 2 days off for this Ocarina of Time remake",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793226961,
         "type": "superchat",
@@ -259565,6 +259944,14 @@
     ],
     "Marti2003": [
       {
+        "ts": 1793992151,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1792709898,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -265176,6 +265563,14 @@
       }
     ],
     "ZeroPointWaveTX": [
+      {
+        "ts": 1794009822,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793829228,
         "type": "giftmembership",
@@ -285657,6 +286052,46 @@
     ],
     "unclemike84": [
       {
+        "ts": 1794001182,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "WTF? You still haven\u2019t beat the game yet? Wowwwwww",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793992821,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Knuckles: You haven\u2019t beat the game yet?! WTF?!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793989696,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "At least ur not electrocuting your pet on stream",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793989567,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warning! JKB will cum multiple times during stream",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793988040,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "What\u2019s with the early stream? I\u2019m barely awake\u2026",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793838675,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -292413,6 +292848,70 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1793996778,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Well, I'm having Lasagna for both lunch and dinner",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793993665,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Yeah I'm gonna remember a lot of this game because I beat this like 3 times in my life. Twice on original N64 and the 3DS. This will be my fourth time",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793992733,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793991073,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "this looks absolutely amazing. What the hell those other trolls on the internet, talking about? When after Nintendo direct showing. Amazing.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990377,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "I don't like bring this up. This was technically my first Zelda, was the original Zelda: Ocarina of Time game, I replayed from my cousin, I used to be friends with. But these days, He passed away this year, few months ago.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793989655,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Yeah, I refuse to buy any video games from online EB Games. I seeing quite a people have the exclusive pre-order slip cover? That's cool. I already own the collector's edition complete box on N64.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793988696,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "I'm excited to play this later tonight. I'll be getting my physical copy soon. Be playing this, on live stream as well. Let's go!!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793988070,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "Early Stream!!!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793831757,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -294754,6 +295253,70 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1793998434,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "how about a shout out for me having massive cock?",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793998140,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "jay ur stream in 1080p not 4K soooo your fired",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793991737,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "btw u see dream cast guy review says faces r ugly",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793991506,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I cant stay to long jay cause im at gorons and dont wanna see to much for spoilers well i cant say that since I payed it 8 times lol",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793991023,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I cant wait for Majora's mask to get remake",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990839,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "link is like hey saria come up to my tree house so I can play ocarina on those lips between those legs",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990720,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "do u think 1 day link wil pork saria in the forest",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990638,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "I also cant believe how massive my dick is",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793839410,
         "type": "superchat",
@@ -297852,6 +298415,14 @@
       }
     ],
     "Chunggy": [
+      {
+        "ts": 1793988147,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793490330,
         "type": "gift",
@@ -302829,6 +303400,14 @@
     ],
     "16BitPete": [
       {
+        "ts": 1793995621,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The graphics are truly amazing 10/10",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1766615436,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -305365,6 +305944,14 @@
     ],
     "JQR0666": [
       {
+        "ts": 1794000441,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Malon!!!!!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793408493,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -306884,6 +307471,22 @@
       }
     ],
     "apks94": [
+      {
+        "ts": 1793993611,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If you play in Japanese, they brought back the original Navi Voice Actress. Hope you feel better and enjoy the game!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793990543,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 11 months",
+        "message": "I've been loving this remake",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1791082540,
         "type": "membership",
@@ -311663,6 +312266,22 @@
     ],
     "JackOfFlames": [
       {
+        "ts": 1793992071,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793991677,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 4 months",
+        "message": "Just beat Barinade. Needs more Tsundere Ruto...",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1792533348,
         "type": "membership",
         "amount_usd": 1.99,
@@ -311776,6 +312395,46 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1794014683,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay uses shaved vapist pubes to fill in hairline",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794013795,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Listen. Play till midnight. Order a pizza and wings. Jerk yourself with the pizza and dip the wings in cum. Be a man. No homo. Let\u2019s go.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794012717,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m sad they didn\u2019t improve block sliding like GOW",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794011269,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Hope you\u2019re enjoying the game my fake friend",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793996243,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "That clip gonna get Jay so much pussy",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793489830,
         "type": "superchat",
@@ -314533,6 +315192,14 @@
     ],
     "RyuDaBurninator": [
       {
+        "ts": 1793990313,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "jay look at my discord DM.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793482212,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -316548,6 +317215,14 @@
       }
     ],
     "PutoPlatano": [
+      {
+        "ts": 1793989549,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Got Yoshi and his siamese twin Jayshi before GTA 6",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1750976827,
         "type": "membership",
@@ -326943,6 +327618,14 @@
     ],
     "ayylmaoitsbrando4912": [
       {
+        "ts": 1793993426,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "W",
+        "message": "sent W",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1710035474,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -332469,6 +333152,22 @@
     ],
     "AshxBashem": [
       {
+        "ts": 1794008362,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen forget your dinner, go to the castle & toss Impa's salad",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794007374,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1784923602,
         "type": "superchat",
         "amount_usd": 10.0,
@@ -333204,6 +333903,14 @@
       }
     ],
     "jamesspraeker2558": [
+      {
+        "ts": 1794003744,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 3 months",
+        "message": "Jay for Commander in Chief of the United States of",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1788646153,
         "type": "superchat",
@@ -336155,6 +336862,14 @@
     ],
     "Bug-Catcher-Nik": [
       {
+        "ts": 1793993513,
+        "type": "superchat",
+        "amount_usd": 7.75,
+        "amount_raw": "DKK\u00a050.00",
+        "message": "Hi J! It's good to see you finally play the game. I know that you have been looking forward to it! Hope that you're having a good time.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1792184522,
         "type": "superchat",
         "amount_usd": 3.1,
@@ -336432,6 +337147,54 @@
       }
     ],
     "harryholmes4576": [
+      {
+        "ts": 1794000561,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "one game I would play it probably gta san andreas as there so much in that open world to do in my opinion",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794000152,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "if you could only play on game in your life time what game would it be from any era of gaming",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793998097,
+        "type": "superchat",
+        "amount_usd": 6.75,
+        "amount_raw": "\u00a35.00",
+        "message": "on xbox series s yes took the day off for gta 6 work so silly they dont realise it for gta 6 I booked if off got it straight away",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793997824,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "I cant wait to see luica in gta 6 get up close a personal with that body have on girlfriend so she won't get jealous November is a amazing month zelda and gta madness",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793996371,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "jkb are you going to play gta 6 or skipping it been running back mafia 3 on the xbox having fun with it i like sandbox games give you the freedom",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1793995980,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "zelda is in action tonight the power of the green uniform plus its my favourite colour you can win feel the power of the switch",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
       {
         "ts": 1793493888,
         "type": "superchat",
@@ -336727,6 +337490,14 @@
     ],
     "penzomania4427": [
       {
+        "ts": 1793990676,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Floating heart",
+        "message": "sent Floating heart",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
         "ts": 1793320780,
         "type": "gift",
         "amount_usd": null,
@@ -336759,6 +337530,34 @@
         "amount_raw": "Member for 32 months",
         "message": "How many teeth?",
         "stream_id": "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132"
+      }
+    ],
+    "TheTenoray": [
+      {
+        "ts": 1793992376,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I wish there was switch 2 lite so it's easier to hide it when I'm at work. Beat Dodongo and having a blast. I want the new zelda to look like this.",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      }
+    ],
+    "daroldtuckfieldjr": [
+      {
+        "ts": 1794009800,
+        "type": "superchat",
+        "amount_usd": 2.02,
+        "amount_raw": "$2.02",
+        "message": "Awesome Game!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      },
+      {
+        "ts": 1794009675,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
       }
     ]
   }
