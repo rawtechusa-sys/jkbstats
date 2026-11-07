@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1793846919,
+  "updated_ts": 1794015487,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -528,19 +528,20 @@
     "jkb_crashout_halloween_edition_jkb_streams_2026-10-29_204636",
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
     "happy_halloween_jkb_streams_2026-10-31_210755",
-    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+    "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
   ],
   "commands": {
-    "xijinping": 229,
+    "xijinping": 231,
     "biden": 90,
-    "witch": 564,
+    "witch": 565,
     "spooky": 73,
     "trickster": 103,
     "kratos": 25,
     "asmr": 179,
     "obama": 70,
     "confirmed": 2,
-    "warmy": 611,
+    "warmy": 612,
     "emoguy": 20,
     "baymax": 132,
     "trump": 574,
@@ -553,8 +554,8 @@
     "glorious": 97,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 404,
-    "bob": 1359,
+    "dsp": 405,
+    "bob": 1361,
     "jkb": 114,
     "glados": 189,
     "king": 1,
@@ -566,7 +567,7 @@
     "dreamcast": 118,
     "membership": 1,
     "in": 1,
-    "knuckles": 42,
+    "knuckles": 43,
     "isabelle": 3,
     "idea": 6,
     "jingle_bells": 16,
@@ -612,7 +613,7 @@
     "plug": 1,
     "tip": 2,
     "santa": 14,
-    "phil": 12,
+    "phil": 13,
     "fact": 5,
     "berries": 1,
     "javier": 20,
@@ -806,7 +807,7 @@
     "politics": 1,
     "units": 1,
     "xininping": 1,
-    "zelda": 3,
+    "zelda": 4,
     "longshot": 1,
     "sonic": 2,
     "dmc": 1,
@@ -881,7 +882,7 @@
     "narrrator": 1
   },
   "sounds": {
-    "fart": 1153,
+    "fart": 1154,
     "burp": 65,
     "laughter": 2,
     "boowomp": 41,
@@ -6264,9 +6265,111 @@
       "segments": null,
       "source_vod_id": "8KZvhZSbfB4",
       "source_platform": "youtube"
+    },
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945": {
+      "title": "\ud83d\udd25 RETURNING TO HYRULE! | OCARINA OF TIME GAMEPLAY LIVE! | JKB Streams",
+      "start_ts": 1793987985,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "xFqfKhDAhpg",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1793994648,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "xijinping: Listen, I'm hard (fart)",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1793994428,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "bob: Listen, top my Japanese soup with pubic hair.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793994333,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "xijinping: Your FACE is insanity!",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793992821,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "Knuckles: You haven\u2019t beat the game yet?! WTF?!",
+      "commands": [
+        "knuckles"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793991158,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "bob: listen here's some money from the man in calcutta before i go to bed after having overtime again also dsp: don't be poor in chat & find my shrimp",
+      "commands": [
+        "bob",
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793990377,
+      "username": "@dan_evilrobot",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "I don't like bring this up. This was technically my first Zelda, was the original Zelda: Ocarina of Time game, I replayed from my cousin, I used to be friends with. But these days, He passed away this year, few months ago.",
+      "commands": [
+        "zelda"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793988915,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "Witch: Never played the original. I\u2019m lost in the Kakariko Village. How do I get to the roof to talk to that guy? Here\u2019s some dickers dollars",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1793988793,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+      "message": "Phil: why are you dressed as a Teletubbie? Oh wait you\u2019re Yoshi! Oh damn I\u2019m a dumbass Warmy: Phil is a dumbass.",
+      "commands": [
+        "phil",
+        "warmy"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1793845345,
       "username": "@Night_Breaker",
