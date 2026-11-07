@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1793846937,
+  "updated_ts": 1794015505,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -145,6 +145,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137"
+    },
+    {
+      "ts": 1794015398,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
     }
   ]
 }
