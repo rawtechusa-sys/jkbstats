@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1794015487,
+  "updated_ts": 1794097250,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -529,7 +529,8 @@
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
-    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
   ],
   "commands": {
     "xijinping": 231,
@@ -538,7 +539,7 @@
     "spooky": 73,
     "trickster": 103,
     "kratos": 25,
-    "asmr": 179,
+    "asmr": 180,
     "obama": 70,
     "confirmed": 2,
     "warmy": 612,
@@ -554,8 +555,8 @@
     "glorious": 97,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 405,
-    "bob": 1361,
+    "dsp": 407,
+    "bob": 1369,
     "jkb": 114,
     "glados": 189,
     "king": 1,
@@ -643,7 +644,7 @@
     "wimsy": 4,
     "shapiro": 4,
     "adonis": 1,
-    "smashjt": 23,
+    "smashjt": 24,
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
@@ -882,7 +883,7 @@
     "narrrator": 1
   },
   "sounds": {
-    "fart": 1154,
+    "fart": 1155,
     "burp": 65,
     "laughter": 2,
     "boowomp": 41,
@@ -893,7 +894,7 @@
     "gta_mission_pass": 13,
     "peeing": 82,
     "evil_laugh": 28,
-    "i_see_you": 33,
+    "i_see_you": 34,
     "goofy_yell": 36,
     "heartbeat": 6,
     "fn_shield_drink": 9,
@@ -911,7 +912,7 @@
     "uwu": 69,
     "drinking_2": 16,
     "augh": 26,
-    "quack": 19,
+    "quack": 20,
     "thwomp": 76,
     "bleep": 91,
     "badumtiss": 5,
@@ -933,14 +934,14 @@
     "kekw_laugh": 2,
     "law_and_order": 1,
     "bong": 19,
-    "gunshot": 19,
+    "gunshot": 20,
     "whipcrack": 21,
     "oof": 14,
     "fbi_open_up": 9,
-    "gun": 24,
+    "gun": 26,
     "twitch_bits": 2,
     "gaster": 17,
-    "slow_clap": 105,
+    "slow_clap": 107,
     "door_open": 5,
     "gasp_female": 10,
     "door_close": 6,
@@ -6275,9 +6276,210 @@
       "segments": null,
       "source_vod_id": "xFqfKhDAhpg",
       "source_platform": "youtube"
+    },
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004": {
+      "title": "IS THE LEGEND OF ZELDA THE GREATEST GAME SERIES OF ALL TIME?! \ud83d\udde1\ufe0f\ud83d\udd25 | JKB Streams",
+      "start_ts": 1794085804,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "Tr2H4XPoACM",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1794096986,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "(i_see_you)",
+      "commands": [],
+      "sounds": [
+        "i_see_you"
+      ]
+    },
+    {
+      "ts": 1794096888,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "bob: Kiss the ghosts good night and sleep well",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794096752,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "dsp: Lets take a bath in kraft mac and cheese :cheese_wedge::cheese_wedge::mouse::mouse:",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794096668,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "bob: did u no the Masucci micro is bigger than 6.7",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794096601,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "bob: Time for a 24 hr demon stream",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794096485,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "asmr: I have been waiting to haunt you again",
+      "commands": [
+        "asmr"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794096252,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "bob: Oh baby you dont need to ask me for a good skull fucking just say please and thank you.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794096091,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "bob: Listen I am late. Recap the entire stream for me and play Zelda naked next stream. I Watch you sleep. EeEeEeEeEeEe. AaAaAaAaAaAa.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794095447,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "Bob: Oh Ones! Stay gay Ones! I'm coming! AAa Aaaa!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794095146,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "My solution for scum like that (gun) (gunshot)",
+      "commands": [],
+      "sounds": [
+        "gun",
+        "gunshot"
+      ]
+    },
+    {
+      "ts": 1794093513,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "Bob: Final Fantasy is goat. DQ boring! AAA aAaaaa!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794093313,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "(gun) say that again, mutha phucker! mother! phuck",
+      "commands": [],
+      "sounds": [
+        "gun"
+      ]
+    },
+    {
+      "ts": 1794092942,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "2009, wen Jay stil had a full head of hair (quack)",
+      "commands": [],
+      "sounds": [
+        "quack"
+      ]
+    },
+    {
+      "ts": 1794091127,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "& once U beat that game, beat yor meat (slow_clap)",
+      "commands": [],
+      "sounds": [
+        "slow_clap"
+      ]
+    },
+    {
+      "ts": 1794089367,
+      "username": "@Generic_White_Male",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "kiss me like you miss me (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1794088703,
+      "username": "@Gamerfreak-MLP-Lover20248",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "Smashjt: Don't judge just because I like 2 dress up as Zelda. Bob: I'll wear the lot lizard outfit & have fun with u later Jeff. (slow_clap) eeeeeeeee",
+      "commands": [
+        "smashjt",
+        "bob"
+      ],
+      "sounds": [
+        "slow_clap"
+      ]
+    },
+    {
+      "ts": 1794088535,
+      "username": "@tdub2113",
+      "platform": "youtube",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "message": "dsp: now guys, please support the stream! Let\u2019s get some tips, some super chats, so kicks and some subs so we can rip some payucks! *HEHEM*",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1793994648,
       "username": "@oni5498",
