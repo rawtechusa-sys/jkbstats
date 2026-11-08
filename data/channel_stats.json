@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794015495,
+  "updated_ts": 1794097259,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -529,7 +529,8 @@
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
-    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -10034,6 +10035,24 @@
       "avg_viewers": 78.87,
       "avg_chat_mpm": 6.32,
       "avg_active_chatters": 13.14,
+      "percent_paused": null
+    },
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004": {
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+      "title": "IS THE LEGEND OF ZELDA THE GREATEST GAME SERIES OF ALL TIME?! \ud83d\udde1\ufe0f\ud83d\udd25 | JKB Streams",
+      "start_ts": 1794085804,
+      "end_ts": 1794097129,
+      "duration_sec": 11325,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 200.54,
+      "donation_count": 54,
+      "donations_per_min": 1.0625,
+      "peak_viewers": 115,
+      "avg_viewers": 90.96,
+      "avg_chat_mpm": 10.06,
+      "avg_active_chatters": 18.17,
       "percent_paused": null
     }
   }
