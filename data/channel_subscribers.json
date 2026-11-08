@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794015505,
+  "updated_ts": 1794097269,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -151,6 +151,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+    },
+    {
+      "ts": 1794097129,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
     }
   ]
 }
