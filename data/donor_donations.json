@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794015491,
+  "updated_ts": 1794097254,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -529,7 +529,8 @@
     "live_paranormal_investigation_jkb_x_boo_baddies_2026-10-30_211132",
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
-    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+    "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5810,6 +5811,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "xFqfKhDAhpg",
+      "source_platform": "youtube"
+    },
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004": {
+      "title": "IS THE LEGEND OF ZELDA THE GREATEST GAME SERIES OF ALL TIME?! \ud83d\udde1\ufe0f\ud83d\udd25 | JKB Streams",
+      "start_ts": 1794085804,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "Tr2H4XPoACM",
       "source_platform": "youtube"
     }
   },
@@ -40759,6 +40770,14 @@
       }
     ],
     "DarthOmegas": [
+      {
+        "ts": 1794087328,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "next they need to do a Glover remake, no glove no love edition",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1793490954,
         "type": "superchat",
@@ -77540,6 +77559,62 @@
     ],
     "SpooksterVibes": [
       {
+        "ts": 1794096986,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "(i_see_you)",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096888,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Kiss the ghosts good night and sleep well",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096752,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: Lets take a bath in kraft mac and cheese :cheese_wedge::cheese_wedge::mouse::mouse:",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096601,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Time for a 24 hr demon stream",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096485,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: I have been waiting to haunt you again",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096252,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: Oh baby you dont need to ask me for a good skull fucking just say please and thank you.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096091,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "bob: Listen I am late. Recap the entire stream for me and play Zelda naked next stream. I Watch you sleep. EeEeEeEeEeEe. AaAaAaAaAaAa.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1794007167,
         "type": "membership",
         "amount_usd": 1.99,
@@ -111862,6 +111937,14 @@
     ],
     "Generic_White_Male": [
       {
+        "ts": 1794089367,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "kiss me like you miss me (fart)",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1793395879,
         "type": "membership",
         "amount_usd": 1.99,
@@ -114813,6 +114896,14 @@
       }
     ],
     "Blaqk_Sheep": [
+      {
+        "ts": 1794092466,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":lizard::lizard::lizard::soft_ice_cream::pie::hole::ok_hand::water_pistol::knot::sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets::expressionless_face::party_popper::confetti_ball::soft_ice_cream::pie::hole::folded_hands::eggplant:\ud83d\udc66\ud83c\udffe",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1793486557,
         "type": "gift",
@@ -127921,6 +128012,118 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1794096940,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "1 time, J came & shot cheesy ropes out of his dik",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096668,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: did u no the Masucci micro is bigger than 6.7",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096562,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Murry Mr. Hooft promised 2 do me N the ass tonight",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794095447,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: Oh Ones! Stay gay Ones! I'm coming! AAa Aaaa!",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794095146,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "My solution for scum like that (gun) (gunshot)",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794094878,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I used to work at Cawk Buster & phuck biches there",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794094548,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Frosted come! They're mor than good! They're great",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794093513,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: Final Fantasy is goat. DQ boring! AAA aAaaaa!",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794093313,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "(gun) say that again, mutha phucker! mother! phuck",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794092942,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "2009, wen Jay stil had a full head of hair (quack)",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794092420,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'd phuck the hell out of him in that position",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794092101,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "can u take care of my sexual needs for Christmas?",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794091422,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J didn't like RE 5 cuz too many black people 4 him",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794091127,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "& once U beat that game, beat yor meat (slow_clap)",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1794014890,
         "type": "superchat",
@@ -164310,6 +164513,14 @@
     ],
     "PaulieTheAlien": [
       {
+        "ts": 1794096548,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "My probe is vibrating",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1792711016,
         "type": "membership",
         "amount_usd": 1.99,
@@ -185216,6 +185427,22 @@
     ],
     "TheJostler": [
       {
+        "ts": 1794090479,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Metroid Dread devs should dev a Zelda 2 remake",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794089113,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen I just saw Godzilla and had 8 cheat meals",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1793409847,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -196037,6 +196264,14 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1794088496,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1793998375,
         "type": "superchat",
@@ -211714,6 +211949,14 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1794095528,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "That was a 70mph fastball pie. Damn",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1793991431,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -219638,6 +219881,22 @@
     ],
     "jeffery-tucker": [
       {
+        "ts": 1794094052,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Please try and find that The Last of Us Part II clip.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794087192,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I met Zelda last night. The game is so good, my dude. Holy shit on a ballsack.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1794003260,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -219719,6 +219978,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1794086603,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "Jay don\u2019t bullshit me. You know the best video game franchise of all time is Bubsy.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1793995007,
         "type": "superchat",
@@ -222811,6 +223078,30 @@
       }
     ],
     "HillPhantom": [
+      {
+        "ts": 1794087837,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How is your female honey pot group going?",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794087652,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I missed the female stream, any law suites yet?",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794087452,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Groom yourself, your an adult, jezzzus.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1793225744,
         "type": "superchat",
@@ -239260,6 +239551,14 @@
     ],
     "tdub2113": [
       {
+        "ts": 1794088535,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 9 months",
+        "message": "dsp: now guys, please support the stream! Let\u2019s get some tips, some super chats, so kicks and some subs so we can rip some payucks! *HEHEM*",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1793229544,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -240015,6 +240314,14 @@
       }
     ],
     "TacoDan34": [
+      {
+        "ts": 1794088486,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Poutine",
+        "message": "sent Poutine",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1792723736,
         "type": "membership",
@@ -270312,6 +270619,14 @@
     ],
     "Phillippaulburnell": [
       {
+        "ts": 1794092732,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 17 months",
+        "message": "Support this God Damn stream right now!!",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1774732675,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -271781,6 +272096,14 @@
       }
     ],
     "stormtrooper421": [
+      {
+        "ts": 1794092810,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1789869594,
         "type": "giftmembership",
@@ -274325,6 +274648,14 @@
       }
     ],
     "DeportedSicilianGamer": [
+      {
+        "ts": 1794089017,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Rich is better than Jay at consuming edibles.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1793831044,
         "type": "superchat",
@@ -305944,6 +306275,14 @@
     ],
     "JQR0666": [
       {
+        "ts": 1794086649,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Its the best game from all the series because Link and Zelda Won and Lost the war against Ganondorf which the timeline was split in two.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1794000441,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -312395,6 +312734,46 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1794096566,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Show Murray my selfie to get her wet n ready",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794096413,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "If you stopped dying your beard with the leftover drippings Rich uses on his pubes would it be as gray as mine?",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794095546,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay my DM will make you and ZorkMetal cum",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794095116,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay how does it feel that your career is over now?",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794090083,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Listen RawrDeadkota donate 40 more",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1794014683,
         "type": "superchat",
@@ -331898,6 +332277,14 @@
     ],
     "Gamerfreak-MLP-Lover20248": [
       {
+        "ts": 1794088703,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Smashjt: Don't judge just because I like 2 dress up as Zelda. Bob: I'll wear the lot lizard outfit & have fun with u later Jeff. (slow_clap) eeeeeeeee",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1793844399,
         "type": "gift",
         "amount_usd": null,
@@ -336924,6 +337311,38 @@
     ],
     "DragonKnightMaux": [
       {
+        "ts": 1794095320,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "stream is low support & woke going to ones stream",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794090738,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "best moment in LTTP is master sword pull.",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794090657,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "heal my kawk",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794090564,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 1 month",
+        "message": "YES HYRULE HOOKERS",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
         "ts": 1791668604,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -337147,6 +337566,30 @@
       }
     ],
     "harryholmes4576": [
+      {
+        "ts": 1794088765,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "have you listen to Morgan wallen last thing you need its going to be in gta 6 amazing song but I love country music it is a banger up the ass in and out back and forth",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794087612,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "oh dear I left the rhubarb out on the counter at work tonight I work in a kitchen got a cover chef and he never happy it be interesting tomorrow oh shit",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
+      {
+        "ts": 1794086964,
+        "type": "superchat",
+        "amount_usd": 27.0,
+        "amount_raw": "\u00a320.00",
+        "message": "how was your experience i could see you was enjoy it at least it has been remake for today gamer finally some great games lots of trash this year as well i am picky what I play because I am posh :grinning_face:",
+        "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+      },
       {
         "ts": 1794000561,
         "type": "superchat",
