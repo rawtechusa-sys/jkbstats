@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1794097250,
+  "updated_ts": 1794365272,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -530,33 +530,34 @@
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
-    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
   ],
   "commands": {
     "xijinping": 231,
     "biden": 90,
-    "witch": 565,
+    "witch": 567,
     "spooky": 73,
     "trickster": 103,
     "kratos": 25,
     "asmr": 180,
     "obama": 70,
     "confirmed": 2,
-    "warmy": 612,
+    "warmy": 615,
     "emoguy": 20,
     "baymax": 132,
     "trump": 574,
     "girlfriend": 87,
     "story": 1,
-    "forrest": 203,
+    "forrest": 208,
     "point": 1,
     "kid": 1,
     "batman": 8,
-    "glorious": 97,
+    "glorious": 98,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 407,
-    "bob": 1369,
+    "dsp": 409,
+    "bob": 1372,
     "jkb": 114,
     "glados": 189,
     "king": 1,
@@ -577,7 +578,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 138,
+    "pooh": 142,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -600,7 +601,7 @@
     "spongebob": 22,
     "hikari": 22,
     "kanye": 2,
-    "alanwake": 101,
+    "alanwake": 102,
     "obiwan": 9,
     "hearts": 1,
     "noises": 1,
@@ -608,7 +609,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 56,
+    "narrator": 57,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -648,7 +649,7 @@
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
-    "vega": 9,
+    "vega": 10,
     "narator": 1,
     "optimus_prime": 7,
     "request": 1,
@@ -880,10 +881,12 @@
     "security": 1,
     "xijnping": 1,
     "foods": 1,
-    "narrrator": 1
+    "narrrator": 1,
+    "parody": 1,
+    "redwings": 1
   },
   "sounds": {
-    "fart": 1155,
+    "fart": 1156,
     "burp": 65,
     "laughter": 2,
     "boowomp": 41,
@@ -6286,9 +6289,296 @@
       "segments": null,
       "source_vod_id": "Tr2H4XPoACM",
       "source_platform": "youtube"
+    },
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836": {
+      "title": "GTA 6 IS ONLY 30 FPS \ud83d\udc80 IS THIS A DEALBREAKER? | JKB Streams",
+      "start_ts": 1794347316,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "LI3rQRU6Czg",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1794361754,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Narrator: so which version of Mario is that hat from? I\u2019ve been debating it for the last hour, and I\u2019m still not sure. Inquiring minds must know\u2026",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794361731,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "glorious: Praise Doody. get on yor nees & blow him",
+      "commands": [
+        "glorious"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794357487,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Forrest: If I rub 1 out, wanna rub 1 out with me?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794357171,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Forrest: Sweet baby Jay, wanna watch me rub 1 out?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794356934,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "DSP: I\u2019m poor after being in your chat. Also(fart)",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1794356831,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "bob:listen say you're streaming on Tuesday then don't stream also dsp: charge 2k to see zelda & don't be poor in chat now find my shrimp lets go",
+      "commands": [
+        "dsp"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794356742,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Warmy: Penis, Inverted Penis, Penis Inverted Penis",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794356598,
+      "username": "@rtusburritoeattingbrother",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "bob: Listen I need to fuck you. Fuck me inside now",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794354679,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Warmy: this is not a gift membership",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794354126,
+      "username": "@Enraged-Gecko",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Redwings: The Musical",
+      "commands": [
+        "redwings"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794354088,
+      "username": "@bammersvabamm822",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Bob: Listen , shoot a Japanese mocumentary as your next project. Fly with me to Japan and give me your matcha. OHHHHH YESSS GIVE IT TO MEEEEEE!!!!!!!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794353866,
+      "username": "@Enraged-Gecko",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Horror parody: a centuries old vampire prostitute that feeds on cock\u2026",
+      "commands": [
+        "parody"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794353430,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Forrest: J, I can u get me some poosy 4 Christmas?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794353421,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Bob: The Legend of Zelda - A Link to Jay\u2019s Ass",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794352361,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Warmy: My :money_bag:brings Jay to the lot",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794352239,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Alanwake: As the smell of Zelda\u2019s cat farts dissipated, Jay realized he would being playing GTA VI in less thana week while cuming non-stop on Vapist.",
+      "commands": [
+        "alanwake"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794351937,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Forrest: Dat man has his mouth wide open 4 J's dik",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794351770,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "witch: & by carpet, he means my hairy granny cooch",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794351683,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Forrest: J wood u phuck me on a giant paper plate?",
+      "commands": [
+        "forrest"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794350196,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Vega: If my XBOX Series X can handle CyberPunk at 60FPS, it can handle GTA VI at 60FPS. No excuses. Rockstar being shady twats who need 2 b called out",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794348455,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "pooh: Oh Christopher lets play GTA6 naked while covering ourselves in honey and when we die in game we fuck like the main couple likely will oh baby.",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794348275,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "pooh::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794348194,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Pooh::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::horse::horse:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794347857,
+      "username": "@towerdragon4487",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Pooh::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::ghost::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794347446,
+      "username": "@Mysterr_E",
+      "platform": "youtube",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "message": "Witch: got a Pro for this. Now its a fuckin potato",
+      "commands": [
+        "witch"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1794096986,
       "username": "@SpooksterVibes",
