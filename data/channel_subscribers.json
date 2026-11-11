@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794097269,
+  "updated_ts": 1794365294,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -157,6 +157,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+    },
+    {
+      "ts": 1794365146,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
     }
   ]
 }
