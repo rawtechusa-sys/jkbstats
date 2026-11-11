@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794097261,
+  "updated_ts": 1794365285,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -530,7 +530,8 @@
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
-    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5822,6 +5823,16 @@
       "segments": null,
       "source_vod_id": "Tr2H4XPoACM",
       "source_platform": "youtube"
+    },
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836": {
+      "title": "GTA 6 IS ONLY 30 FPS \ud83d\udc80 IS THIS A DEALBREAKER? | JKB Streams",
+      "start_ts": 1794347316,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "LI3rQRU6Czg",
+      "source_platform": "youtube"
     }
   },
   "users": {
@@ -6069,6 +6080,51 @@
           "moderator": null,
           "reason": null,
           "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+        }
+      ]
+    },
+    "KayNubbs": {
+      "platforms": {
+        "youtube": {
+          "status": "active",
+          "since": 1794347970.023734,
+          "expires_ts": null,
+          "bans": 2,
+          "timeouts": 0,
+          "user_id": "UCIMf0YmeZHcsaMoL4stBQ6w"
+        }
+      },
+      "events": [
+        {
+          "ts": 1794347970,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+          "inferred": true
+        },
+        {
+          "ts": 1794347663,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+        },
+        {
+          "ts": 1794347512,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
         }
       ]
     }
