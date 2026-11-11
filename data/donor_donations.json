@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794097254,
+  "updated_ts": 1794365278,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -530,7 +530,8 @@
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
-    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5822,6 +5823,16 @@
       "segments": null,
       "source_vod_id": "Tr2H4XPoACM",
       "source_platform": "youtube"
+    },
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836": {
+      "title": "GTA 6 IS ONLY 30 FPS \ud83d\udc80 IS THIS A DEALBREAKER? | JKB Streams",
+      "start_ts": 1794347316,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "LI3rQRU6Czg",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8928,6 +8939,14 @@
       }
     ],
     "GlamerousFrog": [
+      {
+        "ts": 1794364674,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Same sound is at the start of gangrels intro theme",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793839046,
         "type": "superchat",
@@ -17206,6 +17225,14 @@
       }
     ],
     "DrummerCream": [
+      {
+        "ts": 1794358478,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I once almost fucked the mail woman. good times.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793493335,
         "type": "superchat",
@@ -55941,6 +55968,14 @@
     ],
     "doodystreams": [
       {
+        "ts": 1794364337,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "check your dms. might have something for boo girls",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794013917,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -59418,6 +59453,22 @@
       }
     ],
     "Mysterr_E": [
+      {
+        "ts": 1794347886,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Somethings odd I feel like a god u stupid dog shit god dam mother phucker",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794347446,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Witch: got a Pro for this. Now its a fuckin potato",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793988915,
         "type": "superchat",
@@ -63788,6 +63839,38 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1794348776,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "at the moment you put it on discord. I went back and checked the live stream. it is actually there. totally creepy",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348275,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "pooh::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog::hot_dog:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348194,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pooh::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::money_mouth_face::horse::horse:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794347857,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Pooh::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::ghost::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey::banana::monkey:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793828982,
         "type": "superchat",
@@ -77558,6 +77641,22 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1794348732,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You and that banana got the ghost all hot and bothered. Horny for the jaysus body. Its time to become a ghostfucker for satan so get ready :ghost::ghost::ghost:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348455,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "pooh: Oh Christopher lets play GTA6 naked while covering ourselves in honey and when we die in game we fuck like the main couple likely will oh baby.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1794096986,
         "type": "superchat",
@@ -92381,6 +92480,78 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1794356383,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Coco is a complete motherfucker\u2026 because he apparently decided being half a motherfucker wasn\u2019t enough.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794354126,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Redwings: The Musical",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794353866,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Horror parody: a centuries old vampire prostitute that feeds on cock\u2026",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794352502,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "He left them in a woman who wasn\u2019t clean\u2026",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794349389,
+        "type": "superchat",
+        "amount_usd": 19.99,
+        "amount_raw": "$19.99",
+        "message": "30 frames is likely achieved by throttling the performance. Whether that\u2019s to prevent assets loading without textures or to maintain a stable connect to servers is the question. Story still has online assets like social media",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348922,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Sounds like that ghost discovered what it was like to chew 5 gum\u2026",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348831,
+        "type": "superchat",
+        "amount_usd": 19.99,
+        "amount_raw": "$19.99",
+        "message": "The first-gen PS5 Fatboy will probably run GTA VI better than the Xbox Series S, though I wouldn\u2019t expect the performance gain to by spectacular. Seems like Rockstar is likely settling on 30 FPS for parity of online play.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348065,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Somebody woke up on the wrong side of nobody and it was probably me\u2026",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794347664,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Hey, I wanted to be the first to not want to be here. KayNubbs, you son of a bitch!",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793845905,
         "type": "membership",
         "amount_usd": 1.99,
@@ -104048,6 +104219,22 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1794362446,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "narrator:listen i won't be here Saturday going to bed after open registration for S D C C 2027 have to stay up late as it begins at 9 a m pacific",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794356831,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 28 months",
+        "message": "bob:listen say you're streaming on Tuesday then don't stream also dsp: charge 2k to see zelda & don't be poor in chat now find my shrimp lets go",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793991158,
         "type": "superchat",
@@ -120193,6 +120380,14 @@
     ],
     "Juicyb00ch": [
       {
+        "ts": 1794355121,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 30 months",
+        "message": ":sweat_droplets:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793845995,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -128012,6 +128207,142 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1794361731,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "glorious: Praise Doody. get on yor nees & blow him",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794360945,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Let's start the Boo Baddie Ghost fund. Ghost come",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794360724,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "So is it Boo Baddies, or Broke Baddies? Ghost tits",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794360432,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "a witch!? Sum 1 quick! Bring back the witch trials",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794359332,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Mr. Nubbs mouth open. Is it ready to receive cawk?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794359211,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Gonskalasa Alaska Shalashashka Dik & cheese flavor",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794357742,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "That game sucks mor than a kohcane addicted hooker",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794357487,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: If I rub 1 out, wanna rub 1 out with me?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794357171,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: Sweet baby Jay, wanna watch me rub 1 out?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794355022,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay's pussie. Delicious hairy muffin with cream",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794354436,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "if Dino comes, u better put that man ass out 4 him",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794353430,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: J, I can u get me some poosy 4 Christmas?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794353244,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "hav u ever had a womans pelvic lips bite yor cawk?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351937,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: Dat man has his mouth wide open 4 J's dik",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351770,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "witch: & by carpet, he means my hairy granny cooch",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351683,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Forrest: J wood u phuck me on a giant paper plate?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351532,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I was mor impressed by J's 6.7. Felt good N my ass",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1794096940,
         "type": "superchat",
@@ -153101,6 +153432,14 @@
     ],
     "bonedragon7665": [
       {
+        "ts": 1794355981,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1784162231,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -155262,6 +155601,22 @@
       }
     ],
     "mist_letumgothmommy": [
+      {
+        "ts": 1794351309,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I want to send a presh to the person that suggested hot stuff app to me. I have a legend zelda console now. nico is very happy.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794350874,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793992645,
         "type": "superchat",
@@ -172099,6 +172454,22 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1794357707,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "one old, one main, one bigger, one O F girl.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794357539,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "got 4 hoes now. gotta collect them all :banana:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794006590,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -173500,6 +173871,14 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1794356598,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Listen I need to fuck you. Fuck me inside now",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793992284,
         "type": "superchat",
@@ -196265,6 +196644,62 @@
     ],
     "RawrDakota": [
       {
+        "ts": 1794360298,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The Boo Baddies are Sound Cloud Rappers",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794356113,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "2 more hours because you dissed the baret",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794356011,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351804,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Speaking of beavers, have you seen the movie Hundreds of Beavers? It's really funny",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351601,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay lacks discipline, PCMR",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794350904,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348054,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Nubblyen has returned",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794088496,
         "type": "giftmembership",
         "amount_usd": 19.9,
@@ -211949,6 +212384,14 @@
     ],
     "evanpietrone9742": [
       {
+        "ts": 1794348328,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Tinfoil hat time, the ps5 is locked at 30FPS so you will buy a ps6 at 60fps.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794095528,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -214286,6 +214729,22 @@
       }
     ],
     "AndrewMorales928": [
+      {
+        "ts": 1794355227,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Imagine GTA 6 on the switch 2? 24 fps mode :face_with_tears_of_joy:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794354981,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 17 months",
+        "message": "No surprise GTA 6 is 30 FPS on PS5 Pro. The game is heavily CPU-bound, and the Pro is held back by using the exact same processor as the base PS5.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1788956916,
         "type": "superchat",
@@ -219979,6 +220438,14 @@
     ],
     "niallwilliamson3540": [
       {
+        "ts": 1794350309,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "30 FPS is what Rich does on the toilet",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794086603,
         "type": "superchat",
         "amount_usd": 6.74,
@@ -223078,6 +223545,14 @@
       }
     ],
     "HillPhantom": [
+      {
+        "ts": 1794361108,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "We shall LVL them up. Bless Up Baddies ..DING",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1794087837,
         "type": "superchat",
@@ -226819,6 +227294,30 @@
     ],
     "Webbz517": [
       {
+        "ts": 1794354695,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jensen Huang C ums at 24FPS",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794350424,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I don't miss watching CORN at 3 FPS on my psp.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794349207,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "RTU will stream it for 30 minutes then refund it",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793838703,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -227446,6 +227945,22 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1794360251,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay drop that right shoulder strap for us u momcha",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794359393,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay hook me up with the chick from Ginger Snaps",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793839885,
         "type": "superchat",
@@ -243543,6 +244058,14 @@
     ],
     "marihdimitri7219": [
       {
+        "ts": 1794351235,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Sparkles",
+        "message": "sent Sparkles",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793396195,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -245618,6 +246141,14 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1794349608,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The whore i paid last night has a proformance mode",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1794015108,
         "type": "superchat",
@@ -250723,6 +251254,14 @@
     ],
     "My_Paradoxical_Me": [
       {
+        "ts": 1794351018,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I\u2019m gonna be too busy with OOT and the other games I have in my rotation so I won\u2019t be getting GTA 6 yet. I don\u2019t mind waiting for the pc version",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793492890,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -253326,6 +253865,22 @@
       }
     ],
     "bammersvabamm822": [
+      {
+        "ts": 1794354088,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Bob: Listen , shoot a Japanese mocumentary as your next project. Fly with me to Japan and give me your matcha. OHHHHH YESSS GIVE IT TO MEEEEEE!!!!!!!",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794353191,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Press F",
+        "message": "sent Press F",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793316363,
         "type": "membership",
@@ -260401,6 +260956,14 @@
     ],
     "djjailbreak": [
       {
+        "ts": 1794359164,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "listen I have arrived restart the stream",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1791494699,
         "type": "superchat",
         "amount_usd": 10.0,
@@ -261412,6 +261975,14 @@
       }
     ],
     "AmberHeardsDung": [
+      {
+        "ts": 1794349638,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Do you think it\u2019ll be a repeat of cyber punk? :sweat_droplets::sweat_droplets::sweat_droplets::sweat_droplets:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1792527629,
         "type": "membership",
@@ -262736,6 +263307,14 @@
       }
     ],
     "QHuffer": [
+      {
+        "ts": 1794355135,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 12 months",
+        "message": "Can I have $700 for my car and a new kidney?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1791925398,
         "type": "membership",
@@ -286383,6 +286962,102 @@
     ],
     "unclemike84": [
       {
+        "ts": 1794361754,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 9 months",
+        "message": "Narrator: so which version of Mario is that hat from? I\u2019ve been debating it for the last hour, and I\u2019m still not sure. Inquiring minds must know\u2026",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794357829,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Upgraded membership to Legend!",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794356934,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "DSP: I\u2019m poor after being in your chat. Also(fart)",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794356742,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warmy: Penis, Inverted Penis, Penis Inverted Penis",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794354747,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794353421,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Bob: The Legend of Zelda - A Link to Jay\u2019s Ass",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794352910,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Got copy of Ocarina of Time for N64 to compare to new one & it wild how many memories that brought back. I rented it from Blockbuster back in the day.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794352239,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Alanwake: As the smell of Zelda\u2019s cat farts dissipated, Jay realized he would being playing GTA VI in less thana week while cuming non-stop on Vapist.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794351530,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Not unprecedented. GTA V released on 3+ consoles.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794350196,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Vega: If my XBOX Series X can handle CyberPunk at 60FPS, it can handle GTA VI at 60FPS. No excuses. Rockstar being shady twats who need 2 b called out",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794349930,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "This generation\u2019s console were advertised heavily as the consoles that could easily play 60FPS games with decent graphical settings. WTF happened?",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794349694,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "If that\u2019s true, then Sony can eat a bag of diks.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794001182,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -293179,6 +293854,30 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1794349854,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "It's interesting everyone is complaining about GTA6 is being 30 fps. Because was it GTA5 was also 30 fps, as well Red Dead Redemption 2. Because everyone wants every game 60 fps. Which I understand.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348438,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Personally, I don't care about 30 frames per second even though it's gonna be worse on my basic first model PS5. At the end of the day, I already pre-ordered my copy of GTA6. I'll still play it.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794348165,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793996778,
         "type": "superchat",
         "amount_usd": 1.44,
@@ -295276,6 +295975,14 @@
       }
     ],
     "Destruktor1111": [
+      {
+        "ts": 1794349877,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "the way AAA games have gone, could be a bad game",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1793500415,
         "type": "gift",
@@ -312735,6 +313442,54 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1794364352,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794362958,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "NGL vapist. I\u2019ve done that too many times to admit",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794361713,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "For the boo baddies fund. You better not spend a $",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794354679,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warmy: this is not a gift membership",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794352361,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warmy: My :money_bag:brings Jay to the lot",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794352141,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Know what\u2019s more handsome than my face? My :money_bag:",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1794096566,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -319826,6 +320581,14 @@
       }
     ],
     "VintendoVaultz": [
+      {
+        "ts": 1794354731,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "u get 1.99 Jedi mind tricks",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1792015931,
         "type": "superchat",
@@ -332539,6 +333302,14 @@
     ],
     "michaelpiatkowski5010": [
       {
+        "ts": 1794361782,
+        "type": "superchat",
+        "amount_usd": 3.53,
+        "amount_raw": "A$5.00",
+        "message": "PlayStation just scammed everyone with the pro for GTA 6 30FPS and a little bit better Shadows that's why they did say anything to begin with",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793482834,
         "type": "superchat",
         "amount_usd": 3.53,
@@ -337469,6 +338240,38 @@
     ],
     "FrankkCozmo": [
       {
+        "ts": 1794355720,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794355641,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'll drop 20 if you get to 30. then u CHUG. Poll!",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794355108,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794353210,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 6 months",
+        "message": "Saw a video that claims Majoras Mask is close",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
         "ts": 1793839295,
         "type": "giftmembership",
         "amount_usd": 19.9,
@@ -337566,6 +338369,22 @@
       }
     ],
     "harryholmes4576": [
+      {
+        "ts": 1794350808,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "I just want a good open world but still to be fun and not to realise I wait a game like san andreas for things to do and the gta 4 driving back if it like that I am good best of both worlds",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
+      {
+        "ts": 1794350537,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "why did rockstar give us a 30 second trailer we didnt need 5 trailer its really to much its mental to me like we waiting 13 years on more week I can wait overkill to me",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      },
       {
         "ts": 1794088765,
         "type": "superchat",
@@ -338001,6 +338820,16 @@
         "amount_raw": "Member",
         "message": "Welcome to Basic Legend!",
         "stream_id": "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945"
+      }
+    ],
+    "adamvncent3739": [
+      {
+        "ts": 1794355277,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Thank you Jay for providing fun content and Livestreams, I Have been a follower for a long time, back since 3KB days. We love you Jay and All you do.",
+        "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
       }
     ]
   }
