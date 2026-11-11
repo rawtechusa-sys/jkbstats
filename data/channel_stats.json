@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794097259,
+  "updated_ts": 1794365282,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -530,7 +530,8 @@
     "happy_halloween_jkb_streams_2026-10-31_210755",
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
-    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004"
+    "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -10053,6 +10054,24 @@
       "avg_viewers": 90.96,
       "avg_chat_mpm": 10.06,
       "avg_active_chatters": 18.17,
+      "percent_paused": null
+    },
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836": {
+      "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+      "title": "GTA 6 IS ONLY 30 FPS \ud83d\udc80 IS THIS A DEALBREAKER? | JKB Streams",
+      "start_ts": 1794347316,
+      "end_ts": 1794365146,
+      "duration_sec": 17830,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 413.63,
+      "donation_count": 102,
+      "donations_per_min": 1.3919,
+      "peak_viewers": 164,
+      "avg_viewers": 105.65,
+      "avg_chat_mpm": 9.95,
+      "avg_active_chatters": 19.49,
       "percent_paused": null
     }
   }
