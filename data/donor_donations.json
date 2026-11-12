@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794365278,
+  "updated_ts": 1794450144,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -531,7 +531,8 @@
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
     "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
-    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5832,6 +5833,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "LI3rQRU6Czg",
+      "source_platform": "youtube"
+    },
+    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403": {
+      "title": "GAME OF THE YEAR 2026?! GTA 6 vs ZELDA vs RESIDENT EVIL 9! | JKB Streams",
+      "start_ts": 1794433443,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "0P7RxaFCaFw",
       "source_platform": "youtube"
     }
   },
@@ -11517,6 +11528,22 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1794440542,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794440212,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: Probes (fart)",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1793994648,
         "type": "superchat",
@@ -45304,6 +45331,14 @@
     ],
     "DougSavona": [
       {
+        "ts": 1794442155,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "game of the year will be my KOK",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1793998240,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -48617,6 +48652,14 @@
       }
     ],
     "PortableHamSandwich": [
+      {
+        "ts": 1794449676,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1793488805,
         "type": "giftmembership",
@@ -59453,6 +59496,22 @@
       }
     ],
     "Mysterr_E": [
+      {
+        "ts": 1794445389,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Find yourself an Asian girlfriend so you can have spy roleplay kink sex",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794437992,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Never forget Canadians liberated the Dutch in WW2",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794347886,
         "type": "superchat",
@@ -76096,6 +76155,22 @@
     ],
     "sauerballz": [
       {
+        "ts": 1794433658,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794433578,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1791676450,
         "type": "giftmembership",
         "amount_usd": 19.9,
@@ -92480,6 +92555,54 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1794437241,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Life doesn\u2019t balance unless you make it. Carve out whatever happiness you can because there\u2019s no karmic scale that\u2019s going to hand you a win.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435794,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Perhaps setting the SuperStation on a kitchen cooling tray might keep the system cooler. It\u2019d allow air to flow from underneath.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435628,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The fan was discontinued when I bought mine. Got my SuperStation a couple of months after Vapist. They were also discontinuing the black color.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435507,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "They don\u2019t sell the fan anymore.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435434,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "The Valor Pro has hall effect sticks and you can remove the faceplate to clean the buttons & sticks. Faceplate is magnetic.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435253,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I run a Scuf Valor Pro. Great controller.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794356383,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -104219,6 +104342,38 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1794443231,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Just a reminder make sure your member id for s d c c is up to date before open registration starts on Saturday this dono is for the jkb hot tub fund",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794438083,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435865,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "here's 2 from the man in bombay",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435533,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "got anything to say anout the nvidia ceo??",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794362446,
         "type": "superchat",
@@ -128207,6 +128362,94 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1794449958,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Y not? He could make you pump big JKB cummy loads",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794449846,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J, wood u accept redemption bloe job from K Nubbs?",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794449662,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "well, I think Mr. Nubbs is gonna bang Jay in a bus",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794449302,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "oh Mr. Nubbs? you have sum visitors! (fbi_open_up)",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794448727,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J wut was the most embarrassing moment N yor life?",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794447985,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Lets not forget. Clair wanted 2 ride Raymond's BBC",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794447232,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Oh sweet vagina! Oh sweet sugary pussieeeEEE!",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794446002,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: oh yes! (slap) oh phuck! (slap) eeee EeeeEEE!",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794445486,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Don't be racist. Adopt & Asian today. Good 4 math",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443880,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Actual idea. Invite Vapist over to phuck him live",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443463,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J means iPhone mini. 6.7 centimeters & pencil thin",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794361731,
         "type": "superchat",
@@ -155602,6 +155845,14 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1794442980,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794351309,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -172454,6 +172705,14 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1794437306,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "well before I become dust. going bang all the hoes",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794357707,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -175689,6 +175948,14 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1794443467,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Oh fuck oh fuck oh yesss ohhhh ahhhhhhhhhhhhhhhhhh",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1793831836,
         "type": "superchat",
@@ -193690,6 +193957,46 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1794447790,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I'm ready for GTA6 GTA Online... I cant wait for the Pride Parades Online...",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794447480,
+        "type": "superchat",
+        "amount_usd": 20.0,
+        "amount_raw": "$20.00",
+        "message": "It was me Mr. Awesome",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794447352,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Rich Crumbling... Becauase he CANT have sex",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794434669,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "A moment of silence for the SS United States. now the worlds largest Artificial reef they starting to sink her :disappointed_face:",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794434302,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 29 months",
+        "message": "Bad Dragon called Jay, they said they would sponsor you if you wanna review Cocks",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1793844319,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -196643,6 +196950,62 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1794447617,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794445284,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Not finacial advice: Nvidia stock is pretty low right now.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443288,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": ":banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794441099,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "To do anything creative requires an ego",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794437544,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Holy shit Wood didn't oversleep the stream!!!!",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435341,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If a controler doesn't have hall effect sensors it's a nope for me. Too many modern controllers have stick drift issues after a while.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794434501,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794360298,
         "type": "superchat",
@@ -227294,6 +227657,14 @@
     ],
     "Webbz517": [
       {
+        "ts": 1794444337,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Stream GTA6 from Keems S ex Shed",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794354695,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -227945,6 +228316,30 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1794449203,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794448059,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794433648,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794360251,
         "type": "superchat",
@@ -263308,6 +263703,14 @@
     ],
     "QHuffer": [
       {
+        "ts": 1794447698,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794355135,
         "type": "membership",
         "amount_usd": 1.99,
@@ -286962,6 +287365,46 @@
     ],
     "unclemike84": [
       {
+        "ts": 1794439031,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vega: Vapist is the vaporware of people. Seriously",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794437201,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Narrator: Disclaimer - This advice is not intended to be real life advice. Please question everything being said with extreme scrutiny. Thank you.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794435431,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Does your SuperStation 1 get hot when using it?",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794434238,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "People be tossing cash at u like you a stripper!",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794433757,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "OH MY GOD THE STREAM IS ON FIRE! CALL SOMEONE!",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794361754,
         "type": "membership",
         "amount_usd": 1.99,
@@ -293854,6 +294297,22 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1794435512,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Finally got myself a Evercade Nexus handheld system, I'm thinking about making a video but I need more time.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794434190,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794349854,
         "type": "superchat",
         "amount_usd": 7.18,
@@ -296291,6 +296750,14 @@
       }
     ],
     "pixelboy83": [
+      {
+        "ts": 1794446339,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "ur taking 2 long 2 get to part 2 jay so your fired",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1793998434,
         "type": "superchat",
@@ -305618,6 +306085,14 @@
     ],
     "squirrelyourbestfriend": [
       {
+        "ts": 1794447663,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 19 months",
+        "message": "Who else is excited to not play GTA 6 and just play OoT remake instead of tired open-world slop?",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1786486011,
         "type": "membership",
         "amount_usd": 1.99,
@@ -306981,6 +307456,14 @@
       }
     ],
     "JQR0666": [
+      {
+        "ts": 1794440181,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You can just name the character PHIL.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794086649,
         "type": "superchat",
@@ -313441,6 +313924,46 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1794449759,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Tip for showing my terrible content",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794448251,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "What U think each of us here would do in the olden days? Us losers who clearly have nothing better to do than hang with small group of tards n trolls",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794445946,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Zelda is chat today. No fucks given. No support",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443349,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Rumor has it Murray would confuse J and beefy Tim",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443236,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Were saving our money for Rich Lego stream tonight",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1794364352,
         "type": "giftmembership",
@@ -326956,6 +327479,22 @@
     ],
     "greenmind924": [
       {
+        "ts": 1794434019,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794433618,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Garlic",
+        "message": "sent Garlic",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1792708745,
         "type": "gift",
         "amount_usd": null,
@@ -331957,6 +332496,14 @@
       }
     ],
     "TonyThePony452": [
+      {
+        "ts": 1794434491,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Can you spam the :clapping_hands: button for GTA 6 30 fps?",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
       {
         "ts": 1786135176,
         "type": "superchat",
@@ -338240,6 +338787,14 @@
     ],
     "FrankkCozmo": [
       {
+        "ts": 1794434149,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
         "ts": 1794355720,
         "type": "giftmembership",
         "amount_usd": 39.8,
@@ -338830,6 +339385,58 @@
         "amount_raw": "$4.99",
         "message": "Thank you Jay for providing fun content and Livestreams, I Have been a follower for a long time, back since 3KB days. We love you Jay and All you do.",
         "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+      }
+    ],
+    "UncleMike84": [
+      {
+        "ts": 1794446420,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Part 2? No, just started off rails Thursday early",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794446142,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Just interrupting your voice message to Rich. Eeee",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443933,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Narrator: This stream will self destruct in 3..2..",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443637,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "U should play Wendy\u2019s Quest. It\u2019s free on Steam.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      },
+      {
+        "ts": 1794443247,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay\u2019s micro penis deserves no more than $1.99 USD.",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      }
+    ],
+    "realWillyfonsworth": [
+      {
+        "ts": 1794449113,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
       }
     ]
   }
