@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1794365272,
+  "updated_ts": 1794450140,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -531,10 +531,11 @@
     "im_running_for_president_of_the_usa_in_2028_jkb_streams_2026-11-04_214137",
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
     "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
-    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+    "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
+    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
   ],
   "commands": {
-    "xijinping": 231,
+    "xijinping": 232,
     "biden": 90,
     "witch": 567,
     "spooky": 73,
@@ -557,7 +558,7 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 409,
-    "bob": 1372,
+    "bob": 1374,
     "jkb": 114,
     "glados": 189,
     "king": 1,
@@ -609,7 +610,7 @@
     "attention": 1,
     "my": 1,
     "kermit": 8,
-    "narrator": 57,
+    "narrator": 59,
     "here": 1,
     "ps2": 1,
     "plug": 1,
@@ -649,7 +650,7 @@
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
-    "vega": 10,
+    "vega": 11,
     "narator": 1,
     "optimus_prime": 7,
     "request": 1,
@@ -726,7 +727,7 @@
     "go": 1,
     "spoiler": 1,
     "called": 1,
-    "advice": 1,
+    "advice": 2,
     "robocop": 1,
     "ascend": 11,
     "evelina": 2,
@@ -886,7 +887,7 @@
     "redwings": 1
   },
   "sounds": {
-    "fart": 1156,
+    "fart": 1157,
     "burp": 65,
     "laughter": 2,
     "boowomp": 41,
@@ -903,7 +904,7 @@
     "fn_shield_drink": 9,
     "door_knock": 20,
     "explosion": 16,
-    "slap": 131,
+    "slap": 133,
     "fail": 56,
     "tada": 15,
     "yoda": 93,
@@ -940,7 +941,7 @@
     "gunshot": 20,
     "whipcrack": 21,
     "oof": 14,
-    "fbi_open_up": 9,
+    "fbi_open_up": 10,
     "gun": 26,
     "twitch_bits": 2,
     "gaster": 17,
@@ -6299,9 +6300,111 @@
       "segments": null,
       "source_vod_id": "LI3rQRU6Czg",
       "source_platform": "youtube"
+    },
+    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403": {
+      "title": "GAME OF THE YEAR 2026?! GTA 6 vs ZELDA vs RESIDENT EVIL 9! | JKB Streams",
+      "start_ts": 1794433443,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "0P7RxaFCaFw",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1794449302,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "oh Mr. Nubbs? you have sum visitors! (fbi_open_up)",
+      "commands": [],
+      "sounds": [
+        "fbi_open_up"
+      ]
+    },
+    {
+      "ts": 1794447232,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "bob: Oh sweet vagina! Oh sweet sugary pussieeeEEE!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794446002,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "bob: oh yes! (slap) oh phuck! (slap) eeee EeeeEEE!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": [
+        "slap"
+      ]
+    },
+    {
+      "ts": 1794445284,
+      "username": "@RawrDakota",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "Not finacial advice: Nvidia stock is pretty low right now.",
+      "commands": [
+        "advice"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794443933,
+      "username": "@UncleMike84",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "Narrator: This stream will self destruct in 3..2..",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794440212,
+      "username": "@oni5498",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "xijinping: Probes (fart)",
+      "commands": [
+        "xijinping"
+      ],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1794439031,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "Vega: Vapist is the vaporware of people. Seriously",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1794437201,
+      "username": "@unclemike84",
+      "platform": "youtube",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+      "message": "Narrator: Disclaimer - This advice is not intended to be real life advice. Please question everything being said with extreme scrutiny. Thank you.",
+      "commands": [
+        "narrator"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1794361754,
       "username": "@unclemike84",
