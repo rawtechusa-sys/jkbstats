@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794365294,
+  "updated_ts": 1794450158,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -163,6 +163,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836"
+    },
+    {
+      "ts": 1794450010,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
     }
   ]
 }
