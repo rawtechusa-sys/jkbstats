@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794450158,
+  "updated_ts": 1794621885,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -169,6 +169,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+    },
+    {
+      "ts": 1794621768,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
     }
   ]
 }
