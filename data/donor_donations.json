@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794450144,
+  "updated_ts": 1794621868,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -532,7 +532,8 @@
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
     "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
     "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
-    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+    "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5844,6 +5845,16 @@
       "segments": null,
       "source_vod_id": "0P7RxaFCaFw",
       "source_platform": "youtube"
+    },
+    "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034": {
+      "title": "\u2708\ufe0f THE USA JUST GROUNDED ALL FLIGHTS?! | MARIO KART WORLD! | JKB Streams",
+      "start_ts": 1794606634,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "6pUpncKRFbM",
+      "source_platform": "youtube"
     }
   },
   "donors": {
@@ -8951,6 +8962,14 @@
     ],
     "GlamerousFrog": [
       {
+        "ts": 1794607948,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Check the latest short on Megadeth YouTube channel",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794364674,
         "type": "superchat",
         "amount_usd": 2.69,
@@ -11528,6 +11547,30 @@
       }
     ],
     "oni5498": [
+      {
+        "ts": 1794610961,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3000\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3000\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3000\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9\u3000\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610868,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "zerotwo: \u30bd\u30fc\u30e9\u30fc\u30d5\u30ec\u30a2\u3000\u30a2\u30c3\u30d7\u3000\u30a6\u30a2\u3000\u30a2\u30c3\u30b9\u3000(fart) :banana::pile_of_poo::banana::pile_of_poo::banana::pile_of_poo::alien::fried_shrimp:\u30d0\u30c3\u30c8\u30c1\u30fc\u30af\u30b9",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610606,
+        "type": "superchat",
+        "amount_usd": 2.7,
+        "amount_raw": "\u00a32.00",
+        "message": "xijinping: boobs(fart) asss (fart) bob: buttcheeks",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794440542,
         "type": "gift",
@@ -63899,6 +63942,22 @@
     ],
     "towerdragon4487": [
       {
+        "ts": 1794612820,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Trump: This is President Trump. This is an urgent announcement. AI has taken over the White House. We are all cybernetic life forms now. run run run",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794607321,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Trump: listen I won the 2026 midterms lots of voter fraud so I stopped all the planes we will all die and suffer together.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794348776,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -76155,6 +76214,14 @@
     ],
     "sauerballz": [
       {
+        "ts": 1794606918,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 21 months",
+        "message": "Listen, look at the hot models I sent you in your DMs.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794433658,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -77716,6 +77783,70 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1794621531,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Rave on a plane but ground it because aliens",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794621302,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: Listen have a good night dont crash a plane",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794620392,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "dsp: Concentratebob: Concentrateasmr: Concentrate.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794620178,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Oh yes daddy Jay let that netcode fuck you",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794619393,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "asmr: This race has been sponsored by Jays Poosay",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610777,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "warmy: Aliens are here and they are also queer",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608143,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "pooh:Funny update on my end. I got a 100 dollar check as a tax rebate from my state government and used it to buy GTA6. So I basically just got the game for free. Huge thanks to lucky money drops LOL.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794607946,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen have the aliens come on me like a ghost filled with ectoplasm. Anyway if the world is ending I would make a great ghost. Have a good stream Jay",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794348732,
         "type": "superchat",
@@ -98909,6 +99040,14 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1794617681,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794014638,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -104342,6 +104481,30 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1794620337,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "witch: somehow i got 3rd in that race",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794613854,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "wtf i took time out of my busy schedule for this?",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609949,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "glorious: ki ki ki ma ma ma dsp also (fart)",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794443231,
         "type": "superchat",
@@ -120534,6 +120697,22 @@
       }
     ],
     "Juicyb00ch": [
+      {
+        "ts": 1794621606,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794621305,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794355121,
         "type": "membership",
@@ -172705,6 +172884,14 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1794608921,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "weekend trip with the main hoe. Will miss stream",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794437306,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -174130,6 +174317,22 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1794612243,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I mean 11/24 sorry. that is all. Just Kidding lol",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794612161,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen my Birthday is on 11/14 and I WILL take my free game. Thank you!",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794356598,
         "type": "superchat",
@@ -175948,6 +176151,22 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1794613551,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "TheJkb lot files will drop if Jay dosnt win tonigh",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794612887,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "Listen have a rouge ai take over then play Mario",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794443467,
         "type": "superchat",
@@ -186072,6 +186291,22 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1794610252,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Bob: I sent keyloggers to the FAA. Listen, fuck me",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609254,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Listen, I was gonna fly up there with Dreamcastguy",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794090479,
         "type": "superchat",
@@ -196950,6 +197185,54 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1794612939,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Glados: In order to prep for the Alien probing, everyone put a butt plug in their anus. It will help with the pain.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794612683,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I blame Ones",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610746,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610461,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "This is the work of Paul the Alien's probing",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609963,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "They need to get the top programers/furries on this!!!",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608374,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I'm here, ground my ass",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794447617,
         "type": "gift",
@@ -211577,6 +211860,14 @@
     ],
     "theshinynickell": [
       {
+        "ts": 1794614824,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 15 months",
+        "message": "Thank you for the switch and the win",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1792727092,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -216817,6 +217108,30 @@
     ],
     "timmarcoux": [
       {
+        "ts": 1794609656,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "The real Game Awards cancelled? My disappointment is immeasurable and my day is ruined, thanks Jay",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608979,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "I think my previous superchat didn\u2019t play",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608462,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl::steaming_bowl:",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1793482388,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -220800,6 +221115,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1794607197,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "I need to fly to Jay\u2019s house. So I\u2019m using a pigeon.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794350309,
         "type": "superchat",
@@ -228316,6 +228639,14 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1794616555,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "1 gifted sub for every win, 1 BJ for every loss",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794449203,
         "type": "gift",
@@ -241225,6 +241556,14 @@
     ],
     "TacoDan34": [
       {
+        "ts": 1794610134,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794088486,
         "type": "gift",
         "amount_usd": null,
@@ -244453,6 +244792,14 @@
     ],
     "marihdimitri7219": [
       {
+        "ts": 1794610826,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794351235,
         "type": "gift",
         "amount_usd": null,
@@ -246536,6 +246883,22 @@
       }
     ],
     "jasonjenkins5067": [
+      {
+        "ts": 1794609874,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "They don't fly in Canada.You all rides Tauntauns",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609241,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You don't spend enough time talking about wet box",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794349608,
         "type": "superchat",
@@ -251649,6 +252012,14 @@
     ],
     "My_Paradoxical_Me": [
       {
+        "ts": 1794608383,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "US Department of Homeland Security says a \"telecommunications outage\" has led to the ground stop",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794351018,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -255440,6 +255811,30 @@
       }
     ],
     "astrozombies751": [
+      {
+        "ts": 1794609359,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "We had bad historic floods beginning of the month",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609166,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The equipment is severely outdated and has been a known issue by experts for years. No crazy conspiracy",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608998,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 23 months",
+        "message": "Idk if anyone said, but all flights are grounded due to temporary communication outage and rolling frequency outage and techs are working on it",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1793828938,
         "type": "superchat",
@@ -260807,6 +261202,14 @@
     ],
     "mcnasty72": [
       {
+        "ts": 1794612399,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "aliens are going to start probing holes",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1793838661,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -263702,6 +264105,22 @@
       }
     ],
     "QHuffer": [
+      {
+        "ts": 1794617129,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Star",
+        "message": "sent Star",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794614796,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794447698,
         "type": "gift",
@@ -272709,6 +273128,14 @@
     ],
     "adamthiry868": [
       {
+        "ts": 1794621367,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1792533342,
         "type": "membership",
         "amount_usd": 1.99,
@@ -273536,6 +273963,14 @@
       }
     ],
     "Vito_Scaletta-h6d": [
+      {
+        "ts": 1794607740,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "In 1 week Nvidia CEO resign cuz of his side pieces, Microsoft teams and outlook went down yesterday & all the flights in USA halted today.What a week?",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1792017632,
         "type": "superchat",
@@ -275631,6 +276066,14 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1794612072,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "When is your birthday again Jay? I need to know when to mail u these keyloggers and exotic popup calendar of Review Tech USA? Yes, pop-out calendar.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794089017,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -277186,6 +277629,30 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1794618876,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "2 from the man in India",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794618730,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Also good thing you didn't get the FX5. mine has some of the QC issues that caused the delay so likely have to send it back",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794618213,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1793846542,
         "type": "superchat",
@@ -293335,6 +293802,14 @@
     ],
     "Adam_W86": [
       {
+        "ts": 1794606892,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 23 months",
+        "message": "Listen here ground my ass like the US just grounded flights! It's snowing from NY, Robo might need a snowblower! Ones Stay Gay!!!!!!",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1778705759,
         "type": "membership",
         "amount_usd": 1.99,
@@ -294296,6 +294771,30 @@
       }
     ],
     "dan_evilrobot": [
+      {
+        "ts": 1794609882,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Yeah, I already quit watching Side-Scrollers several months ago and you know what, the Real Game Awards, forever goodbye. They're show sucks.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609318,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Yeah, I do have quite a decent collection of vinyl records. official music albums, movie soundtracks and video game soundtracks.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608112,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "How's it going Jay, I don't usually talk about this, heard \"The Real Game Awards\" from the minds of Side-Scrollers is officially retiring of that show. I only give them one positive. \"You had a good two year run.\" Good.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794435512,
         "type": "superchat",
@@ -307457,6 +307956,14 @@
     ],
     "JQR0666": [
       {
+        "ts": 1794610259,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "where i work at is full of Pallets of Rice and Water. this happens when something is going to happen or they predict something might happen",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794440181,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -313459,6 +313966,14 @@
     ],
     "malik_rasyid": [
       {
+        "ts": 1794611875,
+        "type": "superchat",
+        "amount_usd": 3.67,
+        "amount_raw": "MYR\u00a015.00",
+        "message": "today's my birthday dont want any steam games just wanna say i appreciate this community for helping me get through the year. 36 today",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1787869989,
         "type": "membership",
         "amount_usd": 1.99,
@@ -313924,6 +314439,38 @@
       }
     ],
     "KayNubbs": [
+      {
+        "ts": 1794618533,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "New Rule: Standardized button names 4 all controllers. I can\u2019t be the only one who gets frustrated trying to switch between Xbox, Sony, Nintendo games",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794611616,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I blame Jensen Huang\u2019s cock. He started all this",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610181,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "This is just another brick falling at the base of the American Empire. A result of profits over safety. Late stage capitalism.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794608342,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m ok with the ai sex bots going rogue on me",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794449759,
         "type": "superchat",
@@ -315519,6 +316066,14 @@
     ],
     "Phoenix12157": [
       {
+        "ts": 1794611597,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Rub your nubbles and pray twice, im going in",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1789077983,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -316848,6 +317403,14 @@
       }
     ],
     "RyuDaBurninator": [
+      {
+        "ts": 1794614891,
+        "type": "giftmembership",
+        "amount_usd": 19.9,
+        "amount_raw": "10 gifted memberships",
+        "message": "Sent 10 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1793990313,
         "type": "superchat",
@@ -334775,6 +335338,22 @@
     ],
     "technogatsby86": [
       {
+        "ts": 1794613673,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "If OoT remake sells 15 mill copies and 40-50% of that is physical sales, is that enough for Nintendo to recommit to phys games into the next decade?",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610261,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I see Mario Kart World, I'm here. When do we think MKW needs the MK8 treatment of DLC, free updates, etc? The game lacks the replayability of 8 for me",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1792623061,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -338629,6 +339208,14 @@
     ],
     "DragonKnightMaux": [
       {
+        "ts": 1794612714,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "geez a bunch of lights go out and you all going insane. its like Monsters are due on maple Street from the twilight zone. watch it on if you haven't",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794095320,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -338924,6 +339511,46 @@
       }
     ],
     "harryholmes4576": [
+      {
+        "ts": 1794615399,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "its time for the USA to wake up a smell that strong coffee someone is on that drug high or want to bring the usa down laughing to myself uk is not much better oh Canada",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794613214,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "got the gta 6 official poster its coming tomorrow i am going to put it on my back wall because I am so hype for this game :video_game:",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794612327,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "plus I was working in the kitchen at the care home today the kitchen fan have started blowing out cold air for on reason i think the fans are and the hot trolley went down as with a heating element",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794611930,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "the internet in the uk network in the south of the country has gone down from 5g back to 4g for on reason keep going inbetween crazy uk is toast today nothing working lol",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794611540,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "what going on today Microsoft system went down as well today across the world all at the same time what is going today",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794350808,
         "type": "superchat",
@@ -339361,6 +339988,14 @@
     ],
     "daroldtuckfieldjr": [
       {
+        "ts": 1794619529,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 2 months",
+        "message": "And counting....",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
         "ts": 1794009800,
         "type": "superchat",
         "amount_usd": 2.02,
@@ -339388,6 +340023,70 @@
       }
     ],
     "UncleMike84": [
+      {
+        "ts": 1794621466,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794617090,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Do u use fish because he smells like J\u2019s pussy?",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794612566,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Ah, the hilarious irony of a massive potential internet outage right before the digital only release of GTA VI. Karma is a bitch. Time for more Zelda.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794610675,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I\u2019m not surprised News agencies are overhyping this. They\u2019re ratings have been tanking the past 3-5 years and they\u2019re desperate for views and blowjobs",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794609770,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vega: We Are Legion. We are Anonymous. Aaaaaaaaaaa",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794607740,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Might preorder GTA 6 just to see how long it takes to download it to my XBOX, if DDOS attack doesn\u2019t interrupt it, since they seem 2 happen every day.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794607043,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "They\u2019re saying it from communications issues with the air traffic towers. Probably because many of them are still using Windows 95. Not even joking.",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
+      {
+        "ts": 1794606873,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I blame Vapist for the grounded flights in the USA",
+        "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+      },
       {
         "ts": 1794446420,
         "type": "superchat",
