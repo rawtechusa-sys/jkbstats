@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794450149,
+  "updated_ts": 1794621874,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -532,7 +532,8 @@
     "returning_to_hyrule_ocarina_of_time_gameplay_live_jkb_streams_2026-11-06_175945",
     "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
     "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
-    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+    "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
+    "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -10091,6 +10092,24 @@
       "avg_viewers": 85.02,
       "avg_chat_mpm": 8.95,
       "avg_active_chatters": 17.51,
+      "percent_paused": null
+    },
+    "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034": {
+      "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
+      "title": "\u2708\ufe0f THE USA JUST GROUNDED ALL FLIGHTS?! | MARIO KART WORLD! | JKB Streams",
+      "start_ts": 1794606634,
+      "end_ts": 1794621768,
+      "duration_sec": 15134,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 359.2,
+      "donation_count": 86,
+      "donations_per_min": 1.4241,
+      "peak_viewers": 155,
+      "avg_viewers": 114.04,
+      "avg_chat_mpm": 7.37,
+      "avg_active_chatters": 17.33,
       "percent_paused": null
     }
   }
