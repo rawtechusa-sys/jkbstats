@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794621885,
+  "updated_ts": 1794707448,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -175,6 +175,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+    },
+    {
+      "ts": 1794707370,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
     }
   ]
 }
