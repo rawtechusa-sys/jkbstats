@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794621868,
+  "updated_ts": 1794707435,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -533,7 +533,8 @@
     "is_the_legend_of_zelda_the_greatest_game_series_of_all_time_jkb_streams_2026-11-07_211004",
     "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
     "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
-    "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034"
+    "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
+    "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5854,6 +5855,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "6pUpncKRFbM",
+      "source_platform": "youtube"
+    },
+    "conspriacy_theory_night_jkb_streams_2026-11-14_215806": {
+      "title": "CONSPRIACY THEORY NIGHT! | JKB Streams",
+      "start_ts": 1794693486,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "SBKAeIhp8Ck",
       "source_platform": "youtube"
     }
   },
@@ -28770,6 +28781,38 @@
     ],
     "CheckmateStallioN": [
       {
+        "ts": 1794702277,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "listen Vapist you should paint Jay's portrait",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794702030,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "listen you don't wanna know what I show and telled in kindergarden. Lol I'm surprised my teacher didn't expel me :rolling_on_the_floor_laughing:",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794700427,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "listen ever herd of a human cawktipede?",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698532,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I herd rumours we might be getting Majoras Mask remake fingers crossed. I'm blown away by OoT remake. 60 fps with this fidelity on portable is nuts!",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1791667541,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -40867,6 +40910,14 @@
       }
     ],
     "DarthOmegas": [
+      {
+        "ts": 1794696578,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Mandela effect is real, its the other reality leak",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794087328,
         "type": "superchat",
@@ -59540,6 +59591,30 @@
     ],
     "Mysterr_E": [
       {
+        "ts": 1794707205,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "How about a Christmas stream where all donos go to sick kids hospital. Donate on behalf of JKB",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794705023,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Final advice. Lose some weight, in your ass",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794704237,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Vaptist is on the prowl, hunting for vaginas",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794445389,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -63941,6 +64016,14 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1794696458,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The Mandela Effect example that always drives me crazy is the Fruit of the loom logo with the cornucopia. I swear it had one.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794612820,
         "type": "superchat",
@@ -77783,6 +77866,14 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1794698483,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Howdy Jay and Vapist. Only stopping by to say hi since I am going to see Madeon & Anamanaguchi live tonight in NYC. Been years since I last saw either of them so my excitement is high. Kraft breasts.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794621531,
         "type": "superchat",
@@ -104482,6 +104573,14 @@
     ],
     "woody4077": [
       {
+        "ts": 1794695139,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "narrator: listen if had been cheating last night i did a terrible job considering how many time si finished 11th 12th 13th 14th and 15th in the racresand knockout stages also morgan: this is jkb nn",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794620337,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -112441,6 +112540,14 @@
       }
     ],
     "Generic_White_Male": [
+      {
+        "ts": 1794696778,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "the water turns the frogs gey (fart)",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794089367,
         "type": "superchat",
@@ -120698,6 +120805,14 @@
     ],
     "Juicyb00ch": [
       {
+        "ts": 1794703089,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": ":sweat_droplets:",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794621606,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -128541,6 +128656,46 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1794700114,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "This is gonna B my last dono for a good while, so hav 1 mor 5 on me. I traded N my Mazda 3 for a brand new GTI yesterday. I love this car! So much fun",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699338,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Vapist's cawk is a rooster that crows wen he comes",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698377,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "J, how much 4 Vapist to explode in yor mouth live?",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698095,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "4 mor acidity, marinate the pickle in Jay's pussie",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794697862,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Don't worry, Vapist. Jay's pussie tastes better",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794449958,
         "type": "superchat",
@@ -156024,6 +156179,38 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1794707296,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "vapist is your peter lorre and your vincent price",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794704503,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I am paying to say this vapist. Don't ever say that like that ever again",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794702333,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794696849,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The only way we will know if he had a monocle is. If we look at past artwork from games a long time ago. Also, please hug your Kitty for me.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794442980,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -172884,6 +173071,38 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1794706504,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "used all 3 holes too",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794706323,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Next banging session. Goes out to Jay",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794704132,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "won $100 usd",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698655,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "at the casino :slot_machine: wish me luck :folded_hands:",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794608921,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -186292,6 +186511,14 @@
     ],
     "TheJostler": [
       {
+        "ts": 1794698417,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "My veins are popping. I wont say which body part.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794610252,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -194192,6 +194419,54 @@
     ],
     "Ones2Cents": [
       {
+        "ts": 1794703804,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Best fighting game in history is in your DM's",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794701010,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "GTA6 Pride Parades in Online are going to be.. Fun",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699859,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "6 Needler is real Google it you can even own it",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699763,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "VAPIST IS ON THE MENU when the Food runs out",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794696788,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I think we are living in a Merged Reality Earth",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794696595,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "NASA does. can confirm thats how I got Likeminded",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794447790,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -197185,6 +197460,38 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1794702252,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How much chicken is on the floor?",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794702203,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The amount of nubbs is too damn high here",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794696508,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "NASA has a portal to the femboy universe",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794694305,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794612939,
         "type": "superchat",
@@ -217108,6 +217415,22 @@
     ],
     "timmarcoux": [
       {
+        "ts": 1794696458,
+        "type": "superchat",
+        "amount_usd": 5.02,
+        "amount_raw": "CA$6.99",
+        "message": "Trump: Listen, Mark Carney, a Liberal, is coming to take your stuff",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794694803,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "CA$2.79",
+        "message": "Pooh: :banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana::banana:",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794609656,
         "type": "superchat",
         "amount_usd": 5.02,
@@ -221018,6 +221341,22 @@
     ],
     "jeffery-tucker": [
       {
+        "ts": 1794701966,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Check discord for a link of me playing guitar.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794701636,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Check the discord channel for what my fingers look like.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794094052,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -221115,6 +221454,14 @@
       }
     ],
     "niallwilliamson3540": [
+      {
+        "ts": 1794693980,
+        "type": "superchat",
+        "amount_usd": 6.74,
+        "amount_raw": "\u00a34.99",
+        "message": "I went to Sherwood Forest today. It was a good time. I went to the tree where Robin Hood used to touch himself.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794607197,
         "type": "superchat",
@@ -228462,6 +228809,14 @@
     ],
     "MrHomebrew_Leonidas": [
       {
+        "ts": 1794703380,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 17 months",
+        "message": "JAY I HACKED MY SWITCH 2. ITS PARTY TIME. ill have more info on my YouTube channel soon enough. Playing RetroArch, Moonlight, Chiaki PS5 remote play:winking_face_with_tongue:",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1793416243,
         "type": "superchat",
         "amount_usd": 7.18,
@@ -228639,6 +228994,22 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1794700422,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen Be Insidious or the Conjouring cut my taxes",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794700287,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen The first Conjuring 2013 was good",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794616555,
         "type": "superchat",
@@ -246884,6 +247255,46 @@
     ],
     "jasonjenkins5067": [
       {
+        "ts": 1794701793,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How does he scratch his balls missing his fingers?",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794701562,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "During pride month I avoid eye contact with men.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699819,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "people eating people? So da lesbians would survive",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699349,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Question Vapiit. Is it true 7% of Canadian women have hoof & mouth disease from licking wild raindeer feet? Santa has to tie up the raindeer at night",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698890,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I have a conspiracy theory. Santa does live in Canada & Jay just say he doesn't so he can get all the leftover toys he brings back Christmas night.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794609874,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -264544,6 +264955,14 @@
     ],
     "violationentertainment": [
       {
+        "ts": 1794694692,
+        "type": "superchat",
+        "amount_usd": 1.41,
+        "amount_raw": "A$2.00",
+        "message": "Witch: A Jay ey, Jay A ey, Ey A Jay A ey Jay, ey??",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1793406650,
         "type": "superchat",
         "amount_usd": 1.41,
@@ -268177,6 +268596,14 @@
       }
     ],
     "darkknightlogician": [
+      {
+        "ts": 1794705043,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Donut holes",
+        "message": "sent Donut holes",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1789080384,
         "type": "membership",
@@ -273506,6 +273933,14 @@
     ],
     "stormtrooper421": [
       {
+        "ts": 1794704030,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794092810,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -276066,6 +276501,46 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1794701622,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "during Pride month I seek eye contact with JKB",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794701432,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen I play videogames because I weigh 530 lbs and can't leave my bed without the assistance of heavy equipment",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794701159,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen if you use any pronouns at all ur liberal",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699945,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen-sorry Jay if you invite me I'm giving DarkSydePhil your address instead. He'll show up ready for a May 1st reeactment. Vapist included.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794699635,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen: magine if the power went out and you had to share a studio apartment with Boogie2988, ReviewTech USA and Wings of Redemption. What would u do?",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794612072,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -277629,6 +278104,38 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1794699606,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "The would take you out for used wings",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698002,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Vapist, Jay only likes used wings",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794695234,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I told Jay I wouldn't gift the 5 unless he lost",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794694967,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794618876,
         "type": "superchat",
@@ -296934,6 +297441,22 @@
     ],
     "Destruktor1111": [
       {
+        "ts": 1794699286,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 8 months",
+        "message": "its mathematically impossible for there not to be aliens. the question is whether they can reach earth or not",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794695278,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "i have an area 51 by my house. apparently they do submarine training underground in the aquafer. lots of conspiracies there",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794349877,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -307904,6 +308427,14 @@
     ],
     "jaynukem1929": [
       {
+        "ts": 1794694873,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "The Pepperoni Licking grosses me out and triggers my gag reflex. I wish you'd change it.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1774212103,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -314440,6 +314971,14 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1794704567,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Vapist looks like the shooting gallery guy in OOT",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794618533,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -317404,6 +317943,30 @@
     ],
     "RyuDaBurninator": [
       {
+        "ts": 1794702465,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "You want me to pay, Vapist, what that mouth do? :winking_face:",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794701532,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Paradoxically, we live in a world where every soul screams to be seen, yet the universe remains profoundly deaf.",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794700712,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay VGP has oblivion in stock for 84.99",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
         "ts": 1794614891,
         "type": "giftmembership",
         "amount_usd": 19.9,
@@ -319813,6 +320376,14 @@
       }
     ],
     "wolflike4655": [
+      {
+        "ts": 1794703106,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Jammin",
+        "message": "sent Jammin",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1783292076,
         "type": "superchat",
@@ -323247,6 +323818,14 @@
       }
     ],
     "kyletech84": [
+      {
+        "ts": 1794706900,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1793411240,
         "type": "membership",
@@ -339511,6 +340090,54 @@
       }
     ],
     "harryholmes4576": [
+      {
+        "ts": 1794703639,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "marvel vs capcom 3 is a amazing fighting was player that early as well underrated fighting game great moves and character",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794700471,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "I watch final desitation 1 today on hbo max I am going to run them all back up to bloodline it was okay just the same old thing over in the first film in my opinion",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794700055,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "I was running back gta 5 to say farewell playing with tervor got a hoover took to sandy shores and then run her over and was running a tank around the help it was so much fun 13 years on snigle player",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794698274,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "jkb stop making me hungry after my Saturday night india this is getting very messy tonight after hours",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794697137,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "gta 6 is going to mean alot my grandfather was keeping a eye on the news about back in 2023 after the first trailer drop i hope he at peace its mean more than just a game its a event",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
+      {
+        "ts": 1794696789,
+        "type": "superchat",
+        "amount_usd": 27.0,
+        "amount_raw": "\u00a320.00",
+        "message": "could you imagine if gta 5 will still be better than gta 6 after this pointless 13 year wait also got the official gta 6 poster of the cover art hanging up on my wall",
+        "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+      },
       {
         "ts": 1794615399,
         "type": "superchat",
