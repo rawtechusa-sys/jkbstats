@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1794707430,
+  "updated_ts": 1795072405,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -534,7 +534,8 @@
     "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
     "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
     "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
-    "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+    "conspriacy_theory_night_jkb_streams_2026-11-14_215806",
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
   ],
   "commands": {
     "xijinping": 233,
@@ -546,11 +547,11 @@
     "asmr": 182,
     "obama": 70,
     "confirmed": 2,
-    "warmy": 616,
+    "warmy": 619,
     "emoguy": 20,
     "baymax": 132,
-    "trump": 577,
-    "girlfriend": 87,
+    "trump": 579,
+    "girlfriend": 88,
     "story": 1,
     "forrest": 208,
     "point": 1,
@@ -559,12 +560,12 @@
     "glorious": 99,
     "ghosthost": 2,
     "miketyson": 5,
-    "dsp": 410,
-    "bob": 1378,
+    "dsp": 411,
+    "bob": 1383,
     "jkb": 114,
     "glados": 190,
     "king": 1,
-    "pirate": 116,
+    "pirate": 117,
     "jay": 15,
     "weeknd": 10,
     "zerotwo": 172,
@@ -581,7 +582,7 @@
     "bateman": 25,
     "brok": 7,
     "tate": 2,
-    "pooh": 144,
+    "pooh": 147,
     "legends": 1,
     "dramatic": 23,
     "wings": 1,
@@ -888,10 +889,11 @@
     "parody": 1,
     "redwings": 1,
     "concentratebob": 1,
-    "concentrateasmr": 1
+    "concentrateasmr": 1,
+    "times": 1
   },
   "sounds": {
-    "fart": 1162,
+    "fart": 1163,
     "burp": 65,
     "laughter": 2,
     "boowomp": 41,
@@ -900,7 +902,7 @@
     "wilhelm_scream": 15,
     "sm64_hurt": 27,
     "gta_mission_pass": 13,
-    "peeing": 82,
+    "peeing": 83,
     "evil_laugh": 28,
     "i_see_you": 34,
     "goofy_yell": 36,
@@ -909,7 +911,7 @@
     "door_knock": 20,
     "explosion": 16,
     "slap": 133,
-    "fail": 56,
+    "fail": 57,
     "tada": 15,
     "yoda": 93,
     "ripping": 49,
@@ -6334,9 +6336,219 @@
       "segments": null,
       "source_vod_id": "SBKAeIhp8Ck",
       "source_platform": "youtube"
+    },
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940": {
+      "title": "GTA VI: IS THIS ALREADY A 10/10 GAME?! \ud83e\udd2f | JKB Streams",
+      "start_ts": 1795039180,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "h0TUg4cx9UM",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1795063003,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "You know what my human form looks like but what about my final demonic form? bob: Oh yes haunt my career Spookster but not before I haunt Jay.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795061911,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "bob: Oh yes oh fuck give me that GTA coming",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795061631,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "bob: Richie is ready to get bisexual for GTA",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795061522,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "bob: Oh Jay lets play GTA together naked. OH FUCK.",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795061375,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "pooh: Oh Christopher fill me with GTA6 in my ass",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795061196,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "pooh: Listen I am back what did I miss this stream? Its almost GTA time so get thy butthole waxed and relaxed for the main event lets go.",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795059934,
+      "username": "@GrizzlyBehr91",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Pirate: Ahoy me silly scallywags & willy waddle's!!! I've missed y\u00e8 terbly! My old man's health finally took the \"big turn\" & my time is required more",
+      "commands": [
+        "pirate"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795059015,
+      "username": "@FoilGrimTimmy",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Warmy: I have $2U.S, please afford, He was right",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795058931,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Warmy: I cried for you Heela",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795056586,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Ya know wuts fishy? (peeing) Tamara's loose pussie",
+      "commands": [],
+      "sounds": [
+        "peeing"
+      ]
+    },
+    {
+      "ts": 1795056294,
+      "username": "@Destruktor1111",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "ethan makes a new channel with tamara (fart)",
+      "commands": [],
+      "sounds": [
+        "fart"
+      ]
+    },
+    {
+      "ts": 1795054460,
+      "username": "@jeffery-tucker",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "I saw it five times: Standard digital, digital lie-max, 70mm, 70mm IMAX, and the 4k blu ray.",
+      "commands": [
+        "times"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795054091,
+      "username": "@KayNubbs",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Warmy: Every kiss begins with KayNubbs",
+      "commands": [
+        "warmy"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795049295,
+      "username": "@UncleMike84",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "This donation makes $20 total. DSP: Let\u2019s ban MrAwesome. Ban him so hard he has to band-aid his ass before coming back. Trump: It will be glorious.",
+      "commands": [
+        "dsp",
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795047938,
+      "username": "@UncleMike84",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Girlfriend: How many Nubbs can a KayNubbs nub when a KayNubbs does Nub Nubbs? That sounds hot. Trump: Who let Jay\u2019s girlfriend out of the dungeon?",
+      "commands": [
+        "girlfriend",
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795043521,
+      "username": "@UncleMike84",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "Does your hole come in 60 FPS? Bob: Absolutely!",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795042865,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "listen jay be an idiot like me buy gta 6 think you're buying standard edition & when purchase email shows see that you bought ultimate edition(fail)",
+      "commands": [],
+      "sounds": [
+        "fail"
+      ]
+    },
+    {
+      "ts": 1795042498,
+      "username": "@SpooksterVibes",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+      "message": "pooh: Listen be mean to me daddy Jay I want you to spank me and take away console privileges for getting GTA 6 early lets go. :smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns:",
+      "commands": [
+        "pooh"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1794699635,
       "username": "@DeportedSicilianGamer",
