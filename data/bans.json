@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794707441,
+  "updated_ts": 1795072416,
   "counted_streams": [
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054",
     "yesterday_was_life_changing_jkb_streams_2024-02-18_224956",
@@ -534,7 +534,8 @@
     "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
     "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
     "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
-    "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+    "conspriacy_theory_night_jkb_streams_2026-11-14_215806",
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
   ],
   "streams": {
     "i_was_fired_and_its_my_birthday_gala_stream_jkb_streams_2024-02-17_230054": {
@@ -5866,6 +5867,16 @@
       "segments": null,
       "source_vod_id": "SBKAeIhp8Ck",
       "source_platform": "youtube"
+    },
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940": {
+      "title": "GTA VI: IS THIS ALREADY A 10/10 GAME?! \ud83e\udd2f | JKB Streams",
+      "start_ts": 1795039180,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "h0TUg4cx9UM",
+      "source_platform": "youtube"
     }
   },
   "users": {
@@ -5939,14 +5950,35 @@
       "platforms": {
         "youtube": {
           "status": "active",
-          "since": 1793395350.692539,
+          "since": 1795061383.345152,
           "expires_ts": null,
-          "bans": 1,
+          "bans": 2,
           "timeouts": 0,
           "user_id": "UCt0Z4aVbM52hR7h7SW4Z94w"
         }
       },
       "events": [
+        {
+          "ts": 1795061383,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+          "inferred": true
+        },
+        {
+          "ts": 1795060726,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        },
         {
           "ts": 1793395350,
           "platform": "youtube",
@@ -6127,14 +6159,24 @@
       "platforms": {
         "youtube": {
           "status": "banned",
-          "since": 1794005287,
+          "since": 1795041092,
           "expires_ts": null,
-          "bans": 1,
+          "bans": 2,
           "timeouts": 0,
           "user_id": "UCuglbVME4GNDEcJaZCcYy9g"
         }
       },
       "events": [
+        {
+          "ts": 1795041092,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        },
         {
           "ts": 1794005287,
           "platform": "youtube",
@@ -6151,14 +6193,35 @@
       "platforms": {
         "youtube": {
           "status": "active",
-          "since": 1794621747.00679,
+          "since": 1795054537.097839,
           "expires_ts": null,
-          "bans": 3,
+          "bans": 4,
           "timeouts": 0,
           "user_id": "UCIMf0YmeZHcsaMoL4stBQ6w"
         }
       },
       "events": [
+        {
+          "ts": 1795054537,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+          "inferred": true
+        },
+        {
+          "ts": 1795054502,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        },
         {
           "ts": 1794621747,
           "platform": "youtube",
@@ -6217,14 +6280,24 @@
       "platforms": {
         "youtube": {
           "status": "banned",
-          "since": 1794617360,
+          "since": 1795041202,
           "expires_ts": null,
-          "bans": 2,
+          "bans": 3,
           "timeouts": 0,
           "user_id": "UCrBTy1myQY-IRnV6QEsVnfg"
         }
       },
       "events": [
+        {
+          "ts": 1795041202,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        },
         {
           "ts": 1794617360,
           "platform": "youtube",
@@ -6298,8 +6371,8 @@
     "realWillyfonsworth": {
       "platforms": {
         "youtube": {
-          "status": "banned",
-          "since": 1794619307,
+          "status": "active",
+          "since": 1795043849.98618,
           "expires_ts": null,
           "bans": 1,
           "timeouts": 0,
@@ -6307,6 +6380,17 @@
         }
       },
       "events": [
+        {
+          "ts": 1795043849,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+          "inferred": true
+        },
         {
           "ts": 1794619307,
           "platform": "youtube",
@@ -6361,6 +6445,312 @@
           "moderator": null,
           "reason": null,
           "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+        }
+      ]
+    },
+    "CellWatersArchive": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795041363,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCo-0oZ-Fn2o_Wa9U6gcMHqw"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795041363,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "CellWatersArchive-mj6kv": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795041604,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UC3XoNM-koRTqJBH4mPyokhg"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795041604,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "LolCow.Green.Screens": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795041844,
+          "expires_ts": null,
+          "bans": 2,
+          "timeouts": 0,
+          "user_id": "UCAfMabx7xBMkVIHQoQ3V9rg"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795041844,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        },
+        {
+          "ts": 1795041834,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "wildrelicproductions4879": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795041905,
+          "expires_ts": null,
+          "bans": 2,
+          "timeouts": 0,
+          "user_id": "UCIkZ21r0xptv8fOVDxFlz3g"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795041905,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        },
+        {
+          "ts": 1795041874,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "chipsahoy7901": {
+      "platforms": {
+        "youtube": {
+          "status": "active",
+          "since": 1795042020.061686,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UC5H6oP6OOI1EacuUqXLeggQ"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795042020,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+          "inferred": true
+        },
+        {
+          "ts": 1795041985,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "fruitcake22": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795042175,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCMuSpBg-1L1p8nQCSQLm38Q"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795042175,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "amberliard": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795042968,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCpZag_PFZschQhmvrSgCllQ"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795042968,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "1244ShenandoahCirRockHillSC": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795043038,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCrF9EYl0zeb89FVZW9LRS6A"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795043038,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "Selene_Graves": {
+      "platforms": {
+        "youtube": {
+          "status": "active",
+          "since": 1795060959.96242,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCdkWldFL6Im1VWiCVIBmp6w"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795060959,
+          "platform": "youtube",
+          "type": "unban",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+          "inferred": true
+        },
+        {
+          "ts": 1795060896,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "DetractorAN1337": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795064319,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UC5GTH4rxLaTvQvVM3mM7nAQ"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795064319,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+        }
+      ]
+    },
+    "secretaryannesarchive": {
+      "platforms": {
+        "youtube": {
+          "status": "banned",
+          "since": 1795065192,
+          "expires_ts": null,
+          "bans": 1,
+          "timeouts": 0,
+          "user_id": "UCCE9PCrJtbJquFoaOm3Q0Ag"
+        }
+      },
+      "events": [
+        {
+          "ts": 1795065192,
+          "platform": "youtube",
+          "type": "removed",
+          "duration": null,
+          "expires_ts": null,
+          "moderator": null,
+          "reason": null,
+          "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
         }
       ]
     }
