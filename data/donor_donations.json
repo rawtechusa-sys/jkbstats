@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794707435,
+  "updated_ts": 1795072409,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -534,7 +534,8 @@
     "gta_6_is_only_30_fps_is_this_a_dealbreaker_jkb_streams_2026-11-10_214836",
     "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
     "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
-    "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+    "conspriacy_theory_night_jkb_streams_2026-11-14_215806",
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -5865,6 +5866,16 @@
       "archive_start_ts": null,
       "segments": null,
       "source_vod_id": "SBKAeIhp8Ck",
+      "source_platform": "youtube"
+    },
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940": {
+      "title": "GTA VI: IS THIS ALREADY A 10/10 GAME?! \ud83e\udd2f | JKB Streams",
+      "start_ts": 1795039180,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "h0TUg4cx9UM",
       "source_platform": "youtube"
     }
   },
@@ -17306,6 +17317,30 @@
       }
     ],
     "DrummerCream": [
+      {
+        "ts": 1795042369,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I know a good psychologist for you fuck tards. lol",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039687,
+        "type": "giftmembership",
+        "amount_usd": 39.8,
+        "amount_raw": "20 gifted memberships",
+        "message": "Sent 20 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039627,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794358478,
         "type": "superchat",
@@ -28780,6 +28815,30 @@
       }
     ],
     "CheckmateStallioN": [
+      {
+        "ts": 1795061220,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "listen did you know Nintendo designed the Dead Hand boss after my J hook BTCC",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795060796,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Dude I cant believe how terrifying they made the Dead Hand boss in OOT. Getting Silent Hill vibes. Castle town when Link is adult looks like something out of Dark Souls with dark autumn gothic setting",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795060278,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "Listen I can't deal with 30 fps I'm all about fast $3xual action. I'm waiting for gta6 to drop on PC sometime next year",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794702277,
         "type": "superchat",
@@ -40911,6 +40970,30 @@
     ],
     "DarthOmegas": [
       {
+        "ts": 1795047671,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Tales was my childhood, this is Blasphemous",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795047077,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "one of them will get powers and paint him as a still life, and the subject is permanently in place, part 2 painting destoryed he comes back",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039323,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen 30 fps me down by the river",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794696578,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -42660,6 +42743,22 @@
       }
     ],
     "kyledenson1995": [
+      {
+        "ts": 1795044840,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Do u rub one out with the records?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795044376,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I\u2019m in New Zealand allegedly don\u2019t tell Microsoft",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1787782740,
         "type": "superchat",
@@ -45424,6 +45523,38 @@
       }
     ],
     "DougSavona": [
+      {
+        "ts": 1795062326,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "30 minutes liar you never invited me",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795042837,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "if thats the case how are the reviewers able to post there reviews today just curious.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795040293,
+        "type": "superchat",
+        "amount_usd": 3.59,
+        "amount_raw": "CA$5.00",
+        "message": "I've been fighting going to New Zealand for my 40th birthday today.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795040072,
+        "type": "superchat",
+        "amount_usd": 1.44,
+        "amount_raw": "CA$2.00",
+        "message": "99",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794442155,
         "type": "superchat",
@@ -48746,6 +48877,22 @@
       }
     ],
     "PortableHamSandwich": [
+      {
+        "ts": 1795054035,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "They are public figures. Not a fuck on dick island a second chance would be a good idea",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795053701,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "No one has mentioned the trauma this will have on their kids. But hey, its all about the drama, so fuck the kids, right?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794449676,
         "type": "gift",
@@ -59251,6 +59398,14 @@
     ],
     "brahman_noodles": [
       {
+        "ts": 1795042178,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Have you played Queen\u2019s Domain? Looks cool",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1791082176,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -64016,6 +64171,14 @@
       }
     ],
     "towerdragon4487": [
+      {
+        "ts": 1795043525,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 33 months",
+        "message": "The reviews don't surprise me. With GTA 6, this is Rockstar we're talking about. People are still finding amazing details in Red Dead Redemption 2.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794696458,
         "type": "superchat",
@@ -75359,6 +75522,14 @@
     ],
     "Billy-Dillinger": [
       {
+        "ts": 1795042144,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 33 months",
+        "message": "Do it!",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1793317599,
         "type": "giftmembership",
         "amount_usd": 9.95,
@@ -76296,6 +76467,14 @@
       }
     ],
     "sauerballz": [
+      {
+        "ts": 1795040149,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794606918,
         "type": "membership",
@@ -77866,6 +78045,78 @@
       }
     ],
     "SpooksterVibes": [
+      {
+        "ts": 1795063003,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "You know what my human form looks like but what about my final demonic form? bob: Oh yes haunt my career Spookster but not before I haunt Jay.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795062480,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can you pet the kitty in GTA6? I hope so.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061911,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Oh yes oh fuck give me that GTA coming",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061631,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Richie is ready to get bisexual for GTA",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061522,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "bob: Oh Jay lets play GTA together naked. OH FUCK.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061375,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "pooh: Oh Christopher fill me with GTA6 in my ass",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061196,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "pooh: Listen I am back what did I miss this stream? Its almost GTA time so get thy butthole waxed and relaxed for the main event lets go.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795042498,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "pooh: Listen be mean to me daddy Jay I want you to spank me and take away console privileges for getting GTA 6 early lets go. :smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns::smiling_face_with_horns:",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795040367,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "Listen I am going to be busy playing GTA6 so I wont be around as much until I beat the story. I think it will be a great time even though I am trying to temper my expectations. Ghosts holes all around",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794698483,
         "type": "superchat",
@@ -92777,6 +93028,46 @@
     ],
     "Enraged-Gecko": [
       {
+        "ts": 1795063892,
+        "type": "superchat",
+        "amount_usd": 19.99,
+        "amount_raw": "$19.99",
+        "message": "A developing mind being over-exposes to violent content can lead to sociopathy. Parents who buy mature games for their kids should face delinquency of a minor charges. It\u2019s a crime to give kids beer & p*rn, so why not games?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795062414,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Mildew Flavored Oreo",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795059601,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Check your discord DM. I sent you a pic of the Mr. No Legs theatrical poster.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795059326,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Watch a movie called Mr. No Legs",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795059066,
+        "type": "superchat",
+        "amount_usd": 9.99,
+        "amount_raw": "$9.99",
+        "message": "She\u2019s attempting to become the author of her own tragedy, though she has yet to say anything substantive about the affair or divorce. Hela is peddling drama-less drama.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794437241,
         "type": "superchat",
         "amount_usd": 4.99,
@@ -99131,6 +99422,14 @@
     ],
     "BansheeTK": [
       {
+        "ts": 1795063215,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794617681,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -104572,6 +104871,22 @@
       }
     ],
     "woody4077": [
+      {
+        "ts": 1795042865,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "listen jay be an idiot like me buy gta 6 think you're buying standard edition & when purchase email shows see that you bought ultimate edition(fail)",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039506,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794695139,
         "type": "superchat",
@@ -115509,6 +115824,14 @@
     ],
     "Blaqk_Sheep": [
       {
+        "ts": 1795042845,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "One thicc man playing GTA6 bro shoot ropes:water_pistol::knot: :soft_ice_cream::pie::hole::ok_hand::knot:",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794092466,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -119730,6 +120053,22 @@
       }
     ],
     "ianhunter8405": [
+      {
+        "ts": 1795051663,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I started working out at the gym. getting in shape like spawnwave",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051018,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "I didnt buy a switch 2 but i bought a Analogue 3D today with the 8bitduo controller. didnt have enough for the switch 2",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794011870,
         "type": "superchat",
@@ -127829,6 +128168,22 @@
     ],
     "jaieroc": [
       {
+        "ts": 1795056650,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795056617,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 33 months",
+        "message": "What did I just walk into?!",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1793992643,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -128656,6 +129011,14 @@
       }
     ],
     "Night_Breaker": [
+      {
+        "ts": 1795056586,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ya know wuts fishy? (peeing) Tamara's loose pussie",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794700114,
         "type": "superchat",
@@ -156179,6 +156542,38 @@
     ],
     "mist_letumgothmommy": [
       {
+        "ts": 1795061368,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Vice City heart",
+        "message": "sent Vice City heart",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795058592,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Do you think if we ask her nicely, can we have the purple cranyon. I bet it tastes like grape. nico said",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795057598,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "how has keemstar not done one video on this?? Ethan and hela both suck",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039876,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I freaking called it saying psn would be down!",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794707296,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -173071,6 +173466,14 @@
     ],
     "Mailmansson": [
       {
+        "ts": 1795040689,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "watching you at the gym. working out with main hoe",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794706504,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -174536,6 +174939,30 @@
       }
     ],
     "rtusburritoeattingbrother": [
+      {
+        "ts": 1795071817,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "this game is making me cream",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795041480,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Did you complete Zelda yet just past the sprit tpl",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795040826,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen fuck me",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794612243,
         "type": "superchat",
@@ -176370,6 +176797,14 @@
       }
     ],
     "Ryft7": [
+      {
+        "ts": 1795042103,
+        "type": "superchat",
+        "amount_usd": 2.69,
+        "amount_raw": "\u00a31.99",
+        "message": "GTA6 looks like unreal engine slop",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794613551,
         "type": "superchat",
@@ -181761,6 +182196,14 @@
     ],
     "seales8414": [
       {
+        "ts": 1795056646,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "y are you not playing GTA6?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1793994670,
         "type": "membership",
         "amount_usd": 1.99,
@@ -186510,6 +186953,14 @@
       }
     ],
     "TheJostler": [
+      {
+        "ts": 1795051721,
+        "type": "giftmembership",
+        "amount_usd": 1.99,
+        "amount_raw": "1 gifted memberships",
+        "message": "Sent 1 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794698417,
         "type": "superchat",
@@ -197460,6 +197911,22 @@
       }
     ],
     "RawrDakota": [
+      {
+        "ts": 1795044772,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 33 months",
+        "message": "Listen Jay, find Vapist in GTA6 and eat chicken wings with him.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039577,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794702252,
         "type": "superchat",
@@ -212167,6 +212634,14 @@
     ],
     "theshinynickell": [
       {
+        "ts": 1795058359,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "This is what H3H3 is now? They\u2019re hanging on for dear life. Yikes",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794614824,
         "type": "membership",
         "amount_usd": 1.99,
@@ -220683,6 +221158,14 @@
     ],
     "TheRomanVictor": [
       {
+        "ts": 1795039744,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 27 months",
+        "message": "gay 4 jay",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1793832199,
         "type": "giftmembership",
         "amount_usd": 1.99,
@@ -221340,6 +221823,14 @@
       }
     ],
     "jeffery-tucker": [
+      {
+        "ts": 1795054460,
+        "type": "superchat",
+        "amount_usd": 10.0,
+        "amount_raw": "$10.00",
+        "message": "I saw it five times: Standard digital, digital lie-max, 70mm, 70mm IMAX, and the 4k blu ray.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794701966,
         "type": "superchat",
@@ -225949,6 +226440,14 @@
     ],
     "Dino_Spumonii": [
       {
+        "ts": 1795052289,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 17 months",
+        "message": "Translate bag one ten happiness in French",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1792013767,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -228327,6 +228826,14 @@
     ],
     "Webbz517": [
       {
+        "ts": 1795061624,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "with a bod like that. how couldn't I donate?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794444337,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -228994,6 +229501,182 @@
       }
     ],
     "FoilGrimTimmy": [
+      {
+        "ts": 1795059489,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay unlike you I have to work tomorrow, good night",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795059255,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ones wanted to start a civil war in the US",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795059015,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Warmy: I have $2U.S, please afford, He was right",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795058358,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Going to sleep need to rest to actually work night",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795057598,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay, your pickle rolling out the PS2 DK oldies",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795055859,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "How does an editor and director interact?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795055539,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Ones made a joke too, it broke up my marriage",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795055348,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay admit you fok to white snake you 80's mo fo",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795055165,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay you promised multiple camera angels and bubble",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795054957,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen do react vids instead of Wack-off Wednesday",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795054667,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can I be honest, make your show a DSP reacts show",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795054429,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen she broke my heart, be nice",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795053945,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Can we watch DSP next for 5 hours thanks",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795053852,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I like the JTU version, it honestly cool",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795053144,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "She looks like she ages 90 years",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795052899,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen phone his ass",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795052723,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "His problem is the he is a grifter, not her fault",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051977,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay you made me stop going to the gym",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051850,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Jay im going to the gym, you inspired me",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051505,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "I don't get how im scared about a toy",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051429,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Listen RGB85 made a cool horror movie check it",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795047817,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Wait Kay Nubbs is here? Yo whats up Kay",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794700422,
         "type": "superchat",
@@ -234324,6 +235007,14 @@
       }
     ],
     "GrizzlyBehr91": [
+      {
+        "ts": 1795059934,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 31 months",
+        "message": "Pirate: Ahoy me silly scallywags & willy waddle's!!! I've missed y\u00e8 terbly! My old man's health finally took the \"big turn\" & my time is required more",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1791928185,
         "type": "membership",
@@ -247255,6 +247946,14 @@
     ],
     "jasonjenkins5067": [
       {
+        "ts": 1795042258,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Its ok. U can play G T A I'll just think less of U",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794701793,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -252422,6 +253121,14 @@
       }
     ],
     "My_Paradoxical_Me": [
+      {
+        "ts": 1795045809,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "Crazy to think it\u2019s been a year and a half. Hopefully I\u2019ll be getting my flight tomorrow for Dec 27th but regardless of where I live I\u2019ll always be a fan and viewer :_JKBJaysus:",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794608383,
         "type": "superchat",
@@ -263185,6 +263892,14 @@
     ],
     "AmberHeardsDung": [
       {
+        "ts": 1795040794,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Jay I sent you a message on discord. I\u2019m really struggling financially this year but GTA6 would mean the world to me.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794349638,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -264516,6 +265231,14 @@
       }
     ],
     "QHuffer": [
+      {
+        "ts": 1795054934,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Vice City heart",
+        "message": "sent Vice City heart",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794617129,
         "type": "gift",
@@ -266667,6 +267390,14 @@
     ],
     "Ratboi": [
       {
+        "ts": 1795062521,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 22 months",
+        "message": "have fun with GTA Jay",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1788956800,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -267966,6 +268697,14 @@
       }
     ],
     "MatoNoir": [
+      {
+        "ts": 1795039667,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1784335806,
         "type": "giftmembership",
@@ -273057,6 +273796,14 @@
     ],
     "ScottWoodford76": [
       {
+        "ts": 1795049324,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 33 months",
+        "message": "Did you see the new Gretel movie? It was awesome. We need a tattoo in my red leg which is a distance.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1792530149,
         "type": "membership",
         "amount_usd": 1.99,
@@ -273554,6 +274301,14 @@
       }
     ],
     "adamthiry868": [
+      {
+        "ts": 1795041906,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 20 months",
+        "message": "There is no crash out like an RTU crash out",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794621367,
         "type": "membership",
@@ -276501,6 +277256,22 @@
     ],
     "DeportedSicilianGamer": [
       {
+        "ts": 1795042413,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Listen--Just go through the immigration process, fly out there, become a citizen of New Zealand then it's ok to play GTA6 a few hours earlier.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795040862,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "Why did Jay Hooft also provide a 10 out of 10 review of Rich's shirtless unshaven body? Isnt that more controversial? Did it exceed your expectations?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794701622,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -278104,6 +278875,38 @@
       }
     ],
     "DamienGuyton": [
+      {
+        "ts": 1795063266,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Zelda is just trying to get the mood set for GTA",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795062843,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795062333,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Let\u2019s go Marty McFly",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795042600,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "2 from the man in India who is playing GTA already",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794699606,
         "type": "superchat",
@@ -284926,6 +285729,14 @@
       }
     ],
     "SignalRegulus": [
+      {
+        "ts": 1795056587,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1758221371,
         "type": "giftmembership",
@@ -295279,6 +296090,30 @@
     ],
     "dan_evilrobot": [
       {
+        "ts": 1795042694,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Yeah, same here, I'll be playing GTA6. Wish I have early review copy.. like everybody else, wait till midnight stream.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039897,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "Very excited to play Grand Theft Auto 6 tonight. Possibly I'll be a live streaming that game.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039537,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794609882,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -297440,6 +298275,14 @@
       }
     ],
     "Destruktor1111": [
+      {
+        "ts": 1795056294,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "ethan makes a new channel with tamara (fart)",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794699286,
         "type": "membership",
@@ -314971,6 +315814,86 @@
     ],
     "KayNubbs": [
       {
+        "ts": 1795061723,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Smash JT will refuse to play GTA6 when sunrise or sunset colors are bisexual.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061454,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "GTA 6 pre installed and I\u2019m pre cumming. Let\u2019s go.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795058931,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warmy: I cried for you Heela",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795054091,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Warmy: Every kiss begins with KayNubbs",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795052978,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "She would be better fit for new crypt keeper",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051690,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "BrokeBreaker",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795051246,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "That RGT short movie as serious as a heart attack",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795042109,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Jay you said you weren\u2019t playing GTA 6 you grifter",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039856,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Listen I ain\u2019t goin out doin shit for a month. I can afford 5 members and a superchat. Just can\u2019t afford 10 fingers.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039727,
+        "type": "giftmembership",
+        "amount_usd": 9.95,
+        "amount_raw": "5 gifted memberships",
+        "message": "Sent 5 JKB gift memberships",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794704567,
         "type": "superchat",
         "amount_usd": 1.99,
@@ -316605,6 +317528,14 @@
     ],
     "Phoenix12157": [
       {
+        "ts": 1795049135,
+        "type": "superchat",
+        "amount_usd": 2.0,
+        "amount_raw": "$2.00",
+        "message": "Get a tattoo of Rich getting a Tattoo of DSP",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794611597,
         "type": "superchat",
         "amount_usd": 2.0,
@@ -317909,6 +318840,14 @@
     ],
     "seamonkey8435": [
       {
+        "ts": 1795041715,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member",
+        "message": "Welcome to Basic Legend!",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1791406835,
         "type": "membership",
         "amount_usd": 1.99,
@@ -317942,6 +318881,14 @@
       }
     ],
     "RyuDaBurninator": [
+      {
+        "ts": 1795047764,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 5 months",
+        "message": "He looks like as if One of Kay Nubbs severed fingers became sentient.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794702465,
         "type": "superchat",
@@ -318352,6 +319299,14 @@
       }
     ],
     "PirateCanvas": [
+      {
+        "ts": 1795054811,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 18 months",
+        "message": "Something doesn\u2019t make sense.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1792529430,
         "type": "membership",
@@ -321304,6 +322259,30 @@
       }
     ],
     "ReelResj": [
+      {
+        "ts": 1795061358,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "W",
+        "message": "sent W",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061318,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Vice City heart",
+        "message": "sent Vice City heart",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795061237,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Donut holes",
+        "message": "sent Donut holes",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1716585358,
         "type": "membership",
@@ -331407,6 +332386,14 @@
     ],
     "Mr.Substantial": [
       {
+        "ts": 1795047956,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Sparkles",
+        "message": "sent Sparkles",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1792713259,
         "type": "gift",
         "amount_usd": null,
@@ -335917,6 +336904,14 @@
     ],
     "technogatsby86": [
       {
+        "ts": 1795040060,
+        "type": "superchat",
+        "amount_usd": 5.0,
+        "amount_raw": "$5.00",
+        "message": "A week away from Thanksgiving, Jay. Best Turkey Day food item for you? Worst? Cheers sir. Enjoy GTA6 until midnight.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794613673,
         "type": "superchat",
         "amount_usd": 5.0,
@@ -336148,6 +337143,14 @@
       }
     ],
     "gillestgrant873": [
+      {
+        "ts": 1795052226,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "I'm joining the gym now. Let's hit the shower boys",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1793844538,
         "type": "superchat",
@@ -339557,6 +340560,22 @@
     ],
     "gmania1": [
       {
+        "ts": 1795042488,
+        "type": "superchat",
+        "amount_usd": 7.18,
+        "amount_raw": "CA$10.00",
+        "message": "most streamers are switching to New Zealand on Xbox because there ok with it. the official Xbox page even said we welcome everyone who moved to New Zealand.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795042162,
+        "type": "superchat",
+        "amount_usd": 14.36,
+        "amount_raw": "CA$20.00",
+        "message": "my buddy played GTA6 early on ps5 with a VPN after an hour he got kicked out went to sign back in and got your account has been terminated for Sony license infringement. which sucks he has over 60 digital games he bought",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1786133534,
         "type": "superchat",
         "amount_usd": 3.59,
@@ -340091,6 +341110,14 @@
     ],
     "harryholmes4576": [
       {
+        "ts": 1795069130,
+        "type": "superchat",
+        "amount_usd": 13.5,
+        "amount_raw": "\u00a310.00",
+        "message": "just got to chapter 2 having a break played all night with the new Zealand trick on xbox amazing game glad i got the poster now 10 out 10 for me",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1794703639,
         "type": "superchat",
         "amount_usd": 13.5,
@@ -340595,6 +341622,14 @@
     ],
     "Mr.Awesome0513": [
       {
+        "ts": 1795051524,
+        "type": "membership",
+        "amount_usd": 1.99,
+        "amount_raw": "Member for 33 months",
+        "message": "How many dicks are in the intro? No dick no buy",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
         "ts": 1793411822,
         "type": "membership",
         "amount_usd": 1.99,
@@ -340650,6 +341685,54 @@
       }
     ],
     "UncleMike84": [
+      {
+        "ts": 1795062156,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Played GTA 6 for a few hours. Now bored with it.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795049295,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "This donation makes $20 total. DSP: Let\u2019s ban MrAwesome. Ban him so hard he has to band-aid his ass before coming back. Trump: It will be glorious.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795047938,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Girlfriend: How many Nubbs can a KayNubbs nub when a KayNubbs does Nub Nubbs? That sounds hot. Trump: Who let Jay\u2019s girlfriend out of the dungeon?",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795043521,
+        "type": "superchat",
+        "amount_usd": 1.99,
+        "amount_raw": "$1.99",
+        "message": "Does your hole come in 60 FPS? Bob: Absolutely!",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795043164,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Just played intro in GTA 6, which involves gunfight. Frame rate definitely hurting experience 4 me. May wait until perf mode update (hopefully) drops",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
+      {
+        "ts": 1795039699,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "I temporarily \u201crelocated to New Zealand\u201d and have been trying out GTA 6. It\u2019s mid so far and he 30 FPS thing is annoying but manageable. On Xbox SX.",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      },
       {
         "ts": 1794621466,
         "type": "giftmembership",
@@ -340763,6 +341846,36 @@
         "amount_raw": "1 gifted memberships",
         "message": "Sent 1 JKB gift memberships",
         "stream_id": "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403"
+      }
+    ],
+    "JonCHardwickTX": [
+      {
+        "ts": 1795058074,
+        "type": "superchat",
+        "amount_usd": 4.99,
+        "amount_raw": "$4.99",
+        "message": "Legend Of Zelda is a awesome series it\u2019s hard to choose the best game, but I say it\u2019s a tossup between Wand of Gamelon and Link The Faces of Evil. JK",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      }
+    ],
+    "CopeAndSeething": [
+      {
+        "ts": 1795061850,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "W",
+        "message": "sent W",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+      }
+    ],
+    "BareMetalGamer": [
+      {
+        "ts": 1795071845,
+        "type": "gift",
+        "amount_usd": null,
+        "amount_raw": "Vice City heart",
+        "message": "sent Vice City heart",
+        "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
       }
     ]
   }
