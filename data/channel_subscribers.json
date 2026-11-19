@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1794707448,
+  "updated_ts": 1795072423,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -181,6 +181,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "conspriacy_theory_night_jkb_streams_2026-11-14_215806"
+    },
+    {
+      "ts": 1795072300,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
     }
   ]
 }
