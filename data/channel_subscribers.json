@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1795072423,
+  "updated_ts": 1795137681,
   "snapshots": [
     {
       "ts": 1789872452,
@@ -187,6 +187,12 @@
       "count": 62300,
       "source": "snapshot",
       "stream_id": "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+    },
+    {
+      "ts": 1795137528,
+      "count": 62300,
+      "source": "snapshot",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811"
     }
   ]
 }
