@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_ts": 1795072405,
+  "updated_ts": 1795137662,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -535,7 +535,8 @@
     "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
     "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
     "conspriacy_theory_night_jkb_streams_2026-11-14_215806",
-    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+    "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811"
   ],
   "commands": {
     "xijinping": 233,
@@ -550,7 +551,7 @@
     "warmy": 619,
     "emoguy": 20,
     "baymax": 132,
-    "trump": 579,
+    "trump": 580,
     "girlfriend": 88,
     "story": 1,
     "forrest": 208,
@@ -561,12 +562,12 @@
     "ghosthost": 2,
     "miketyson": 5,
     "dsp": 411,
-    "bob": 1383,
+    "bob": 1385,
     "jkb": 114,
     "glados": 190,
     "king": 1,
     "pirate": 117,
-    "jay": 15,
+    "jay": 16,
     "weeknd": 10,
     "zerotwo": 172,
     "grandpa": 42,
@@ -653,7 +654,7 @@
     "terrifyingbob": 1,
     "chloe": 1,
     "katie": 1,
-    "vega": 12,
+    "vega": 14,
     "narator": 1,
     "optimus_prime": 7,
     "request": 1,
@@ -719,7 +720,7 @@
     "soon": 1,
     "question": 4,
     "emio": 1,
-    "morgan": 7,
+    "morgan": 8,
     "this": 2,
     "persia": 1,
     "to": 1,
@@ -6346,9 +6347,96 @@
       "segments": null,
       "source_vod_id": "h0TUg4cx9UM",
       "source_platform": "youtube"
+    },
+    "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811": {
+      "title": "GTA VI IS INSANE! MORE GAMEPLAY! \ud83d\ude31 | JKB Streams",
+      "start_ts": 1795124291,
+      "youtube_archive_id": null,
+      "archive_org_id": null,
+      "archive_start_ts": null,
+      "segments": null,
+      "source_vod_id": "QeGBNwoNbXE",
+      "source_platform": "youtube"
     }
   },
   "messages": [
+    {
+      "ts": 1795135525,
+      "username": "@Vito_Scaletta-h6d",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "Bob: Imma wait till GTA 6 comes out on Switch 2",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795135335,
+      "username": "@UncleMike84",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "Vega: Consensus online seems to be that XBOX Series X is slightly better than PS5 and PS5 Pro is slightly better than XBOX Series X. Also, J is insane",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795134601,
+      "username": "@Ryft7",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "Trump: listen ice get this man robo tuberculosis",
+      "commands": [
+        "trump"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795132152,
+      "username": "@Night_Breaker",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "is he talking about Rich? Bob: Shut the phuck up",
+      "commands": [
+        "bob"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795131718,
+      "username": "@UncleMike84",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "Vega: WTF? U haven\u2019t beat the game yet? O MY GAWD!",
+      "commands": [
+        "vega"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795129406,
+      "username": "@woody4077",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "morgan: i'm awake now so you can start the stream",
+      "commands": [
+        "morgan"
+      ],
+      "sounds": []
+    },
+    {
+      "ts": 1795126475,
+      "username": "@niallwilliamson3540",
+      "platform": "youtube",
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "message": "Fun fact Jay: the GTA games are made in Scotland",
+      "commands": [
+        "jay"
+      ],
+      "sounds": []
+    },
     {
       "ts": 1795063003,
       "username": "@SpooksterVibes",
