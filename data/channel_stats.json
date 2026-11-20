@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_ts": 1795072414,
+  "updated_ts": 1795137671,
   "counted_streams": [
     "007_first_light_night_jkb_streams_2026-05-27_204622",
     "12_hour_halloween_stream_jkb_streams_2024-10-31_161933",
@@ -535,7 +535,8 @@
     "game_of_the_year_2026_gta_6_vs_zelda_vs_resident_evil_9_jkb_streams_2026-11-11_214403",
     "the_usa_just_grounded_all_flights_mario_kart_world_jkb_streams_2026-11-13_215034",
     "conspriacy_theory_night_jkb_streams_2026-11-14_215806",
-    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940"
+    "gta_vi_is_this_already_a_1010_game_jkb_streams_2026-11-18_215940",
+    "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811"
   ],
   "streams": {
     "007_first_light_night_jkb_streams_2026-05-27_204622": {
@@ -10148,6 +10149,24 @@
       "avg_viewers": 116.23,
       "avg_chat_mpm": 9.03,
       "avg_active_chatters": 18.14,
+      "percent_paused": null
+    },
+    "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811": {
+      "stream_id": "gta_vi_is_insane_more_gameplay_jkb_streams_2026-11-19_213811",
+      "title": "GTA VI IS INSANE! MORE GAMEPLAY! \ud83d\ude31 | JKB Streams",
+      "start_ts": 1795124291,
+      "end_ts": 1795137528,
+      "duration_sec": 13237,
+      "youtube_archive_id": null,
+      "source_platform": "youtube",
+      "chat_recorded": true,
+      "total_donations_usd": 113.12,
+      "donation_count": 41,
+      "donations_per_min": 0.5127,
+      "peak_viewers": 108,
+      "avg_viewers": 84.95,
+      "avg_chat_mpm": 6.06,
+      "avg_active_chatters": 13.03,
       "percent_paused": null
     }
   }
